@@ -1,21 +1,280 @@
 {
   "brands": [
     {
-      "id": "parfums-de-marly",
-      "name": "Parfums de Marly"
+      "id": "akro",
+      "name": "Akro",
+      "url": "https://amarisbeauty.com/collections/akro",
+      "directoryCheckedAt": "2026-09-26"
     },
     {
-      "id": "initio",
-      "name": "Initio"
+      "id": "alexandre-j",
+      "name": "Alexandre J",
+      "url": "https://amarisbeauty.com/collections/alexandre-j",
+      "directoryCheckedAt": "2026-09-26"
     },
     {
-      "id": "goldfield-banks",
-      "name": "Goldfield & Banks"
+      "id": "anti-parfum",
+      "name": "ānti Parfum",
+      "url": "https://amarisbeauty.com/collections/anti-parfum",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "atelier-cologne",
+      "name": "Atelier Cologne",
+      "url": "https://amarisbeauty.com/collections/atelier-cologne",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "atelier-des-ors",
+      "name": "Atelier Des Ors",
+      "url": "https://amarisbeauty.com/collections/atelier-des-ors",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "atelier-materi",
+      "name": "Atelier Materi",
+      "url": "https://amarisbeauty.com/collections/atelier-materi",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "bdk-parfums",
+      "name": "BDK Parfums",
+      "url": "https://amarisbeauty.com/collections/bdk",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "birkholz",
+      "name": "Birkholz",
+      "url": "https://amarisbeauty.com/collections/birkholz",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "bon-parfumeur",
+      "name": "Bon Parfumeur",
+      "url": "https://amarisbeauty.com/collections/bon-parfumeur",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "bond-no-9",
+      "name": "Bond No. 9",
+      "url": "https://amarisbeauty.com/collections/bond-no-9",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "byron",
+      "name": "Byron",
+      "url": "https://amarisbeauty.com/collections/byron",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "casamorati",
+      "name": "Casamorati",
+      "url": "https://amarisbeauty.com/collections/casamorati",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "compagnie-de-provence",
+      "name": "Compagnie de Provence",
+      "url": "https://amarisbeauty.com/collections/compagnie-de-provence",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "escentric-molecules",
+      "name": "Escentric Molecules",
+      "url": "https://amarisbeauty.com/collections/escentric-molecules",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "ex-nihilo",
+      "name": "EX NIHILO",
+      "url": "https://amarisbeauty.com/collections/ex-nihilo",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "fabbrica-della-musa",
+      "name": "Fabbrica Della Musa",
+      "url": "https://amarisbeauty.com/collections/fabbrica-della-musa",
+      "directoryCheckedAt": "2026-09-26"
     },
     {
       "id": "fragrance-du-bois",
       "name": "Fragrance Du Bois",
-      "url": "https://amarisbeauty.com/collections/fragrance-du-bois"
+      "url": "https://amarisbeauty.com/collections/fragrance-du-bois",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "giardino-benessere",
+      "name": "Giardino Benessere",
+      "url": "https://amarisbeauty.com/collections/giardino-benessere-1",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "goldfield-banks",
+      "name": "Goldfield & Banks",
+      "url": "https://amarisbeauty.com/collections/goldfield-banks",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "histoires-de-parfums",
+      "name": "Histoires de Parfums",
+      "url": "https://amarisbeauty.com/collections/histoires-de-parfums",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "initio",
+      "name": "Initio",
+      "url": "https://amarisbeauty.com/collections/initio",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "jeroboam",
+      "name": "Jeroboam",
+      "url": "https://amarisbeauty.com/collections/jeroboam",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "jovoy",
+      "name": "JOVOY Paris",
+      "url": "https://amarisbeauty.com/collections/jovoy",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "juliette-has-a-gun",
+      "name": "Juliette Has A Gun",
+      "url": "https://amarisbeauty.com/collections/juliette-has-a-gun",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "liquides-imaginaires",
+      "name": "Liquides Imaginaires",
+      "url": "https://amarisbeauty.com/collections/liquides-imaginaires",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "jus-parfums",
+      "name": "J.U.S Parfums",
+      "url": "https://amarisbeauty.com/collections/j-u-s-parfums",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "maison-margiela",
+      "name": "Maison Margiela",
+      "url": "https://amarisbeauty.com/collections/maison-margiela",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "mancera",
+      "name": "Mancera Paris",
+      "url": "https://amarisbeauty.com/collections/mancera",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "marc-antoine-barrois",
+      "name": "Marc-Antoine Barrois",
+      "url": "https://amarisbeauty.com/collections/marc-antoine-barrois",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "montale",
+      "name": "Montale Paris",
+      "url": "https://amarisbeauty.com/collections/montale",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "nicolai",
+      "name": "Nicolaï",
+      "url": "https://amarisbeauty.com/collections/nicolai",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "nishane",
+      "name": "Nishane",
+      "url": "https://amarisbeauty.com/collections/nishane",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "ojar",
+      "name": "OJAR",
+      "url": "https://amarisbeauty.com/collections/ojar",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "olibanum",
+      "name": "Olibanum",
+      "url": "https://amarisbeauty.com/collections/olibanum",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "ormonde-jayne",
+      "name": "Ormonde Jayne",
+      "url": "https://amarisbeauty.com/collections/ormonde-jayne",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "pana-dora",
+      "name": "Pana Dora",
+      "url": "https://amarisbeauty.com/collections/pana-dora",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "parfums-de-marly",
+      "name": "Parfums de Marly",
+      "url": "https://amarisbeauty.com/collections/parfums-de-marly",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "perris-monte-carlo",
+      "name": "Perris Monte Carlo",
+      "url": "https://amarisbeauty.com/collections/perris-monte-carlo",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "rahasya",
+      "name": "Rahasya",
+      "url": "https://amarisbeauty.com/collections/rahasya",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "ramon-monegal",
+      "name": "Ramon Monegal",
+      "url": "https://amarisbeauty.com/collections/ramon-monegal-1",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "roja",
+      "name": "ROJA London",
+      "url": "https://amarisbeauty.com/collections/roja",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "tiziana-terenzi",
+      "name": "Tiziana Terenzi",
+      "url": "https://amarisbeauty.com/collections/tiziana-terenzi",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "une-nuit-nomade",
+      "name": "Une Nuit Nomade",
+      "url": "https://amarisbeauty.com/collections/une-nuit-nomade",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "v-canto",
+      "name": "V Canto",
+      "url": "https://amarisbeauty.com/collections/v-canto",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "xerjoff",
+      "name": "Xerjoff",
+      "url": "https://amarisbeauty.com/collections/xerjoff",
+      "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "ramon-monegal",
+      "name": "Ramon Monegal",
+      "url": "https://amarisbeauty.com/collections/ramon-monegal-1",
+      "directoryCheckedAt": "2026-09-26"
     }
   ],
   "stores": [
@@ -45,7 +304,8 @@
         "parfums-de-marly",
         "initio",
         "goldfield-banks",
-        "fragrance-du-bois"
+        "fragrance-du-bois",
+        "ramon-monegal"
       ]
     },
     {

@@ -124,7 +124,20 @@
       "id": "initio",
       "name": "Initio",
       "url": "https://amarisbeauty.com/collections/initio",
-      "directoryCheckedAt": "2026-09-26"
+      "directoryCheckedAt": "2026-09-26",
+      "description": "INITIO presents perfume as a powerful sensory experience. Its collection spans woody oud fragrances, ambery blends and floral compositions.",
+      "featuredPerfumes": [
+        {
+          "name": "Oud for Greatness",
+          "image": "https://amarisbeauty.com/cdn/shop/products/Initio_OudforG_1_large.jpg?v=1670585804",
+          "url": "https://amarisbeauty.com/collections/initio/products/oud-for-greatness"
+        },
+        {
+          "name": "Side Effect",
+          "image": "https://amarisbeauty.com/cdn/shop/products/Initio_SideEffect_1_large.jpg?v=1670588450",
+          "url": "https://amarisbeauty.com/collections/initio/products/side-effect"
+        }
+      ]
     },
     {
       "id": "jeroboam",

@@ -89,7 +89,7 @@ function renderStore(id) {
 }
 
 window.addEventListener("hashchange", render);
-fetch("./data.json").then(response => {
+fetch("./data.json", { cache: "no-cache" }).then(response => {
   if (!response.ok) throw new Error("Unable to load site data");
   return response.json();
 }).then(siteData => { data = siteData; render(); }).catch(() => {

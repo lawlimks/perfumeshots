@@ -385,10 +385,38 @@
         "state-of-mind",
         "tiziana-terenzi",
         "une-nuit-nomade",
-        "viliv"
+        "viliv",
+        "alexandre-j",
+        "anti-parfum",
+        "atelier-des-ors",
+        "atelier-materi",
+        "birkholz",
+        "byron",
+        "casamorati",
+        "escentric-molecules",
+        "fabbrica-della-musa",
+        "fragrance-du-bois",
+        "giardino-benessere",
+        "goldfield-banks",
+        "initio",
+        "jeroboam",
+        "jovoy",
+        "jus-parfums",
+        "mancera",
+        "marc-antoine-barrois",
+        "montale",
+        "nicolai",
+        "ojar",
+        "olibanum",
+        "pana-dora",
+        "rahasya",
+        "ramon-monegal",
+        "v-canto",
+        "xerjoff"
       ],
       "assortmentSource": "https://amarisbeauty.com/pages/stores",
-      "availabilityCheckedAt": "2026-09-26"
+      "availabilityCheckedAt": "2026-09-26",
+      "availabilityRule": "Assume every brand listed on Amaris website is available at Paragon"
     },
     {
       "id": "amaris-vivocity",
@@ -421,23 +449,29 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/new-Althair-exclusif_large.png?v=1790068843",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/althair-exclusif",
       "stockists": [
-        "amaris-paragon",
-        "amaris-vivocity"
-      ]
+        "amaris-paragon"
+      ],
+      "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     },
     {
       "brandId": "initio",
       "perfume": "Oud for Grace",
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-OUD-FOR-GRACE_large.png?v=1789467190",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/oud-for-grace",
-      "stockists": []
+      "stockists": [
+        "amaris-paragon"
+      ],
+      "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     },
     {
       "brandId": "goldfield-banks",
       "perfume": "Sunset Hour Dark Peach",
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-SUSNT-DP_large.png?v=1789618695",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/sunset-hour-dark-peach",
-      "stockists": []
+      "stockists": [
+        "amaris-paragon"
+      ],
+      "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     }
   ]
 }

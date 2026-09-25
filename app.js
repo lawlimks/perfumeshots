@@ -31,6 +31,15 @@ function launchCard(item) {
     ${productUrl ? `<p><a href="${productUrl}" target="_blank" rel="noopener noreferrer">View at retailer</a></p>` : ""}
   </article>`;
 }
+function featuredCard(item, brand) {
+  const url = safeExternalUrl(item.url);
+  const image = safeExternalUrl(item.image);
+  return `<article class="card featured-card">
+    ${image ? `<img src="${image}" alt="${esc(item.name)} by ${esc(brand.name)}" loading="lazy">` : ""}
+    <h3>${esc(item.name)}</h3>
+    ${url ? `<a href="${url}" target="_blank" rel="noopener noreferrer">View at Amaris</a>` : ""}
+  </article>`;
+}
 function empty(message) { return `<p class="notice">${esc(message)}</p>`; }
 
 function render() {
@@ -67,10 +76,20 @@ function renderBrand(id) {
   const launches = data.launches.filter(item => item.brandId === brand.id);
   const stores = data.stores.filter(store => (store.brands || []).includes(brand.id));
   const brandUrl = safeExternalUrl(brand.url);
-  app.innerHTML = `<p><a href="#/brands">All brands</a></p><h1>${esc(brand.name)}</h1>
-    ${brandUrl ? `<p><a href="${brandUrl}" target="_blank" rel="noopener noreferrer">View brand collection</a></p>` : ""}
-    <h2>Stores carrying this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stores", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
-    <h2>Recent launches</h2><section class="grid">${launches.length ? launches.map(launchCard).join("") : empty("No recent launches are listed for this brand yet.")}</section>`;
+  const logo = safeExternalUrl(brand.logoImage);
+  const hero = safeExternalUrl(brand.heroImage);
+  const featured = brand.featuredPerfumes || [];
+  app.innerHTML = `<p><a href="#/brands">All brands</a></p>
+    <section class="brand-heading">
+      ${logo ? `<img class="brand-logo" src="${logo}" alt="${esc(brand.name)} logo">` : ""}
+      <div><h1>${esc(brand.name)}</h1>${brand.description ? `<p class="brand-description">${esc(brand.description)}</p>` : ""}</div>
+    </section>
+    ${hero ? `<img class="brand-hero" src="${hero}" alt="${esc(brand.name)} campaign image" loading="lazy">` : ""}
+    ${brandUrl ? `<p><a href="${brandUrl}" target="_blank" rel="noopener noreferrer">View brand collection at Amaris</a></p>` : ""}
+    <h2>Find this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stores", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
+    ${launches.length ? `<h2>Recent launches</h2><section class="grid">${launches.map(launchCard).join("")}</section>` : ""}
+    ${featured.length ? `<h2>Featured fragrances</h2><section class="grid">${featured.map(item => featuredCard(item, brand)).join("")}</section>` : ""}
+    ${!launches.length && !featured.length ? `<h2>Recent launches</h2>${empty("No recent launches are listed for this brand yet.")}` : ""}`;
 }
 function renderStores() {
   const stores = [...data.stores].sort((a, b) => a.name.localeCompare(b.name));

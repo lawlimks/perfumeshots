@@ -351,23 +351,6 @@
   ],
   "stores": [
     {
-      "id": "pdm-takashimaya",
-      "name": "Parfums de Marly Space at Takashimaya S.C. #B1-12",
-      "brands": [
-        "parfums-de-marly"
-      ],
-      "assortmentStatus": "user-provided"
-    },
-    {
-      "id": "amaris-jewel",
-      "name": "Amaris Jewel Changi",
-      "url": "https://amarisbeauty.com/pages/stores",
-      "brands": [],
-      "assortmentStatus": "not-listed-in-Amaris-current-store-matrix",
-      "assortmentSource": "https://amarisbeauty.com/pages/stores",
-      "availabilityCheckedAt": "2026-09-26"
-    },
-    {
       "id": "amaris-paragon",
       "name": "Amaris Paragon",
       "url": "https://amarisbeauty.com/pages/stores",
@@ -401,8 +384,7 @@
         "roja",
         "state-of-mind",
         "tiziana-terenzi",
-        "une-nuit-nomade",
-        "viliv"
+        "une-nuit-nomade"
       ],
       "assortmentSource": "https://amarisbeauty.com/pages/stores",
       "availabilityCheckedAt": "2026-09-26"
@@ -438,8 +420,6 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/new-Althair-exclusif_large.png?v=1790068843",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/althair-exclusif",
       "stockists": [
-        "pdm-takashimaya",
-        "amaris-jewel",
         "amaris-paragon",
         "amaris-vivocity"
       ]
@@ -449,24 +429,14 @@
       "perfume": "Oud for Grace",
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-OUD-FOR-GRACE_large.png?v=1789467190",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/oud-for-grace",
-      "stockists": [
-        "pdm-takashimaya",
-        "amaris-jewel",
-        "amaris-paragon",
-        "amaris-vivocity"
-      ]
+      "stockists": []
     },
     {
       "brandId": "goldfield-banks",
       "perfume": "Sunset Hour Dark Peach",
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-SUSNT-DP_large.png?v=1789618695",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/sunset-hour-dark-peach",
-      "stockists": [
-        "pdm-takashimaya",
-        "amaris-jewel",
-        "amaris-paragon",
-        "amaris-vivocity"
-      ]
+      "stockists": []
     }
   ]
 }

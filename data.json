@@ -269,6 +269,84 @@
       "name": "Xerjoff",
       "url": "https://amarisbeauty.com/collections/xerjoff",
       "directoryCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "aesop",
+      "name": "Aesop",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "aether",
+      "name": "Aether",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "carven",
+      "name": "Carven",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "czech-speake",
+      "name": "Czech & Speake",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "eight-bob",
+      "name": "Eight & Bob",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "floris",
+      "name": "Floris",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "graff",
+      "name": "Graff",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "les-eaux-primordiales",
+      "name": "Les Eaux Primordiales",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "micallef",
+      "name": "Micallef",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "miller-harris",
+      "name": "Miller Harris",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "molinard",
+      "name": "Molinard",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "state-of-mind",
+      "name": "State of Mind",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "viliv",
+      "name": "Viliv",
+      "assortmentOnly": true,
+      "availabilityCheckedAt": "2026-09-26"
     }
   ],
   "stores": [
@@ -277,41 +355,80 @@
       "name": "Parfums de Marly Space at Takashimaya S.C. #B1-12",
       "brands": [
         "parfums-de-marly"
-      ]
+      ],
+      "assortmentStatus": "user-provided"
     },
     {
       "id": "amaris-jewel",
       "name": "Amaris Jewel Changi",
-      "url": "https://amarisbeauty.com/",
-      "brands": [
-        "parfums-de-marly",
-        "initio",
-        "goldfield-banks",
-        "fragrance-du-bois"
-      ]
+      "url": "https://amarisbeauty.com/pages/stores",
+      "brands": [],
+      "assortmentStatus": "not-listed-in-Amaris-current-store-matrix",
+      "assortmentSource": "https://amarisbeauty.com/pages/stores",
+      "availabilityCheckedAt": "2026-09-26"
     },
     {
       "id": "amaris-paragon",
       "name": "Amaris Paragon",
-      "url": "https://amarisbeauty.com/",
+      "url": "https://amarisbeauty.com/pages/stores",
       "brands": [
+        "aesop",
+        "aether",
+        "akro",
+        "atelier-cologne",
+        "bdk-parfums",
+        "bon-parfumeur",
+        "bond-no-9",
+        "carven",
+        "compagnie-de-provence",
+        "czech-speake",
+        "eight-bob",
+        "ex-nihilo",
+        "floris",
+        "graff",
+        "histoires-de-parfums",
+        "juliette-has-a-gun",
+        "les-eaux-primordiales",
+        "liquides-imaginaires",
+        "maison-margiela",
+        "micallef",
+        "miller-harris",
+        "molinard",
+        "nishane",
+        "ormonde-jayne",
         "parfums-de-marly",
-        "initio",
-        "goldfield-banks",
-        "fragrance-du-bois",
-        "ramon-monegal"
-      ]
+        "perris-monte-carlo",
+        "roja",
+        "state-of-mind",
+        "tiziana-terenzi",
+        "une-nuit-nomade",
+        "viliv"
+      ],
+      "assortmentSource": "https://amarisbeauty.com/pages/stores",
+      "availabilityCheckedAt": "2026-09-26"
     },
     {
       "id": "amaris-vivocity",
       "name": "Amaris VivoCity",
-      "url": "https://amarisbeauty.com/",
+      "url": "https://amarisbeauty.com/pages/stores",
       "brands": [
+        "atelier-cologne",
+        "bon-parfumeur",
+        "compagnie-de-provence",
+        "ex-nihilo",
+        "histoires-de-parfums",
+        "juliette-has-a-gun",
+        "maison-margiela",
+        "miller-harris",
+        "molinard",
+        "nishane",
+        "ormonde-jayne",
         "parfums-de-marly",
-        "initio",
-        "goldfield-banks",
-        "fragrance-du-bois"
-      ]
+        "roja",
+        "une-nuit-nomade"
+      ],
+      "assortmentSource": "https://amarisbeauty.com/pages/stores",
+      "availabilityCheckedAt": "2026-09-26"
     }
   ],
   "launches": [

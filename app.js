@@ -36,7 +36,11 @@ function launchCard(item) {
 }
 function featuredCard(item) {
   const url = safeExternalUrl(item.url);
-  return `<li class="featured-fragrance">${url ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${esc(item.name)}</a>` : esc(item.name)}</li>`;
+  const image = safeExternalUrl(item.image);
+  return `<li class="featured-fragrance">
+    ${image ? `<img src="${image}" alt="${esc(item.name)} by Initio" loading="lazy">` : ""}
+    ${url ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${esc(item.name)}</a>` : esc(item.name)}
+  </li>`;
 }
 function empty(message) { return `<p class="notice">${esc(message)}</p>`; }
 

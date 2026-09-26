@@ -623,6 +623,14 @@
       "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     },
     {
+      "brandId": "maison-francis-kurkdjian",
+      "perfume": "Oud Velvet Mood",
+      "stockists": [
+        "escentials"
+      ],
+      "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified"
+    },
+    {
       "brandId": "initio",
       "perfume": "Oud for Grace",
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-OUD-FOR-GRACE_large.png?v=1789467190",
@@ -633,6 +641,14 @@
       "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     },
     {
+      "brandId": "maison-crivelli",
+      "perfume": "Tobacco Carnaval",
+      "stockists": [
+        "escentials"
+      ],
+      "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified"
+    },
+    {
       "brandId": "goldfield-banks",
       "perfume": "Sunset Hour Dark Peach",
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-SUSNT-DP_large.png?v=1789618695",
@@ -641,6 +657,14 @@
         "amaris-paragon"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user"
+    },
+    {
+      "brandId": "creed",
+      "perfume": "Iris Debonair",
+      "stockists": [
+        "escentials"
+      ],
+      "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified"
     }
   ],
   "articles": [

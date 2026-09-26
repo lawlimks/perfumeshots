@@ -706,20 +706,6 @@
       "directoryGroup": "DORS at Design Orchard"
     },
     {
-      "id": "avenue-on-3",
-      "name": "Avenue on 3 (Paragon)",
-      "url": "https://avenueon3.com/",
-      "locations": [
-        "290 Orchard Road #03-48/56, Paragon Shopping Centre, Singapore 238859"
-      ],
-      "brands": [
-        "maison-de-lasie"
-      ],
-      "assortmentSource": "https://maisondelasie.sg/stores",
-      "availabilityCheckedAt": "2026-09-26",
-      "directoryGroup": "Avenue on 3"
-    },
-    {
       "id": "jo-malone-boutique",
       "name": "Jo Malone London",
       "url": "https://www.jomalone.com/store-locator",

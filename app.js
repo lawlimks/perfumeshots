@@ -51,18 +51,36 @@ function render() {
   if (section === "articles") return id ? renderArticle(id) : renderArticles();
   app.innerHTML = `<h1>Page not found</h1><p><a href="/">Back to new launches</a></p>`;
 }
+function pastLaunchRow(item) {
+  const name = brandName(item);
+  const stores = (item.stockists || []).map(id => data.stores.find(store => store.id === id)).filter(Boolean);
+  const productUrl = safeExternalUrl(item.productUrl);
+  return `<li class="past-launch">
+    ${item.image ? `<img src="${esc(item.image)}" alt="${esc(name)} ${esc(item.perfume)}" loading="lazy">` : ""}
+    <div class="past-launch-info">
+      <p class="past-launch-title"><a href="${href("brands", name)}">${esc(name)}</a> — ${esc(item.perfume)}</p>
+      <p>Available at ${stores.length ? stores.map((store, index) => `${index ? ", " : ""}<a href="${productUrl || safeExternalUrl(store.url)}" target="_blank" rel="noopener noreferrer">${esc(store.name)}</a>`).join("") : "Singapore stockist to be confirmed."}</p>
+    </div>
+  </li>`;
+}
 function renderLaunches() {
-  const sorted = [...data.launches];
+  const featured = data.launches.filter(item => item.section !== "past");
+  const past = data.launches.filter(item => item.section === "past");
   app.innerHTML = `<h1>New in Singapore</h1>
     <p>Recent perfume launches and the Singapore stores that carry them.</p>
     <div class="controls"><label>Search launches <input id="search" type="search" placeholder="Brand or perfume name"></label></div>
-    <section id="results" class="grid" aria-live="polite"></section>`;
+    <section id="latest-results" class="grid" aria-live="polite"></section>
+    ${past.length ? `<section class="past-releases"><h2>Past releases</h2><ul id="past-results" class="past-launch-list" aria-live="polite"></ul></section>` : ""}`;
   const input = document.querySelector("#search");
-  const results = document.querySelector("#results");
+  const latestResults = document.querySelector("#latest-results");
+  const pastResults = document.querySelector("#past-results");
   const update = () => {
     const query = input.value.trim().toLowerCase();
-    const matches = sorted.filter(item => `${brandName(item)} ${item.perfume} ${stockistNames(item).join(" ")}`.toLowerCase().includes(query));
-    results.innerHTML = matches.length ? matches.map(launchCard).join("") : empty(sorted.length ? "No launches match that search." : "No launches have been added yet.");
+    const matches = data.launches.filter(item => `${brandName(item)} ${item.perfume} ${stockistNames(item).join(" ")}`.toLowerCase().includes(query));
+    const latestMatches = matches.filter(item => item.section !== "past");
+    const pastMatches = matches.filter(item => item.section === "past");
+    latestResults.innerHTML = latestMatches.length ? latestMatches.map(launchCard).join("") : empty(featured.length ? "No launches match that search." : "No launches have been added yet.");
+    if (pastResults) pastResults.innerHTML = pastMatches.length ? pastMatches.map(pastLaunchRow).join("") : empty("No past releases match that search.");
   };
   input.addEventListener("input", update);
   update();

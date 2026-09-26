@@ -42,3 +42,12 @@ footer { padding-block: 1rem; border-top: 1px solid #ddd; color: #555; font-size
 .article-retailer { margin-block: 2rem; }
 .article-retailer a { display: inline-block; padding: .75rem 1rem; border: 1px solid currentColor; border-radius: .25rem; text-decoration: none; }
 .article-retailer a:hover { background: #f5f5f5; }
+
+.past-releases { margin-top: 3rem; }
+.past-releases > h2 { margin-bottom: 1rem; }
+.past-launch-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid #ddd; }
+.past-launch { display: flex; align-items: center; gap: 1rem; padding: .75rem 0; border-bottom: 1px solid #ddd; }
+.past-launch img { width: 4.5rem; height: 4.5rem; flex: 0 0 4.5rem; object-fit: cover; background: #f1f1f1; }
+.past-launch-info p { margin: .1rem 0; }
+.past-launch-title { font-weight: 700; }
+.past-launch-info p:last-child { color: #666; font-size: .95em; }

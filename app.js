@@ -1,5 +1,5 @@
 const app = document.querySelector("#app");
-let data = { launches: [], brands: [], stores: [] };
+let data = { launches: [], brands: [], stores: [], articles: [] };
 
 const esc = (value = "") => String(value).replace(/[&<>"']/g, ch => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -48,6 +48,7 @@ function render() {
   if (!section) return renderLaunches();
   if (section === "brands") return id ? renderBrand(id) : renderBrands();
   if (section === "stores") return id ? renderStore(id) : renderStores();
+  if (section === "articles") return id ? renderArticle(id) : renderArticles();
   app.innerHTML = `<h1>Page not found</h1><p><a href="#/">Back to new launches</a></p>`;
 }
 function renderLaunches() {
@@ -91,6 +92,38 @@ function renderBrand(id) {
     ${featured.length ? `<h2>Featured fragrances</h2><section class="grid">${featured.map(item => featuredCard(item, brand)).join("")}</section>` : ""}
     ${!launches.length && !featured.length ? `<h2>Recent launches</h2>${empty("No recent launches are listed for this brand yet.")}` : ""}`;
 }
+
+function renderArticles() {
+  const articles = [...(data.articles || [])].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  app.innerHTML = `<h1>Articles</h1>
+    <p>Perfume notes, reviews and stories from Singapore.</p>
+    ${articles.length ? `<section class="grid">${articles.map(article => {
+      const brand = data.brands.find(item => item.id === article.brandId);
+      return `<article class="card article-card">
+        <h2><a href="${href("articles", article.slug || article.id)}">${esc(article.title)}</a></h2>
+        ${article.date ? `<p class="article-date"><time datetime="${esc(article.date)}">${esc(article.date)}</time></p>` : ""}
+        <p>${esc(article.excerpt || "")}</p>
+        ${brand ? `<p><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></p>` : ""}
+      </article>`;
+    }).join("")}</section>` : empty("Articles will appear here as they are added.")}`;
+}
+function renderArticle(slugValue) {
+  const article = (data.articles || []).find(item => (item.slug || item.id) === slugValue);
+  if (!article) { app.innerHTML = `<h1>Article not found</h1><p><a href="#/articles">Browse articles</a></p>`; return; }
+  const brand = data.brands.find(item => item.id === article.brandId);
+  const stores = (article.storeIds || []).map(id => data.stores.find(store => store.id === id)).filter(Boolean);
+  const productUrl = safeExternalUrl(article.productUrl);
+  app.innerHTML = `<p><a href="#/articles">All articles</a></p>
+    <article class="article">
+      <h1>${esc(article.title)}</h1>
+      ${article.date ? `<p class="article-date"><time datetime="${esc(article.date)}">${esc(article.date)}</time></p>` : ""}
+      ${brand ? `<p class="article-brand">About <a href="${href("brands", brand.name)}">${esc(brand.name)}</a></p>` : ""}
+      <div class="article-body">${(article.body || []).map(paragraph => `<p>${esc(paragraph)}</p>`).join("")}</div>
+      ${stores.length ? `<h2>Find it in Singapore</h2><ul>${stores.map(store => `<li><a href="${href("stores", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : ""}
+      ${productUrl ? `<p class="article-retailer"><a href="${productUrl}" target="_blank" rel="noopener noreferrer">View ${esc(article.perfume || "this perfume")} at Amaris</a></p>` : ""}
+    </article>`;
+}
+
 function renderStores() {
   const stores = [...data.stores].sort((a, b) => a.name.localeCompare(b.name));
   app.innerHTML = `<h1>Stores</h1><p>Find Singapore stores and the brands they carry.</p>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stores", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : empty("Store listings will appear here as they are added.")}`;

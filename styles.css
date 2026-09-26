@@ -44,15 +44,22 @@ footer { padding-block: 1rem; border-top: 1px solid #ddd; color: #555; font-size
 .article-retailer a:hover { background: #f5f5f5; }
 
 
+
+.launch-card { text-align: center; }
+.launch-card h2 { font-family: Arial, sans-serif; font-size: 13px; line-height: 1.4; font-weight: 700; letter-spacing: 0; color: #444; }
+.launch-card p { margin: .2rem 0; }
+.launch-brand { font-size: .95rem; }
+.launch-available { margin-top: .65rem !important; color: #666; font-size: .9rem; }
+.launch-stockists { font-weight: 600; }
+.launch-retailer { margin-top: .65rem !important; }
+.launch-retailer a { text-decoration: none; border-bottom: 1px solid currentColor; }
+
 .past-releases { margin-top: 3rem; }
 .past-releases > h2 { margin-bottom: 1rem; }
 .past-launch-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid #ddd; }
 .past-launch { display: flex; align-items: center; gap: 1rem; padding: .75rem 0; border-bottom: 1px solid #ddd; }
 .past-launch img { width: 4.5rem; height: 4.5rem; flex: 0 0 4.5rem; object-fit: cover; background: #f1f1f1; }
-.past-launch-info { flex: 1; text-align: center; }
+.past-launch-info { flex: 1; text-align: left; }
 .past-launch-info p { margin: .1rem 0; }
-.past-launch-perfume { margin: 0; font: 600 1rem/1.35 Arial, sans-serif; color: #333; }
-.past-launch-brand { font-size: .9rem; }
-.past-launch-available { margin-top: .4rem !important; color: #666; font-size: .85rem; }
-.past-launch-stockist { font-weight: 600; }
-.past-launch-retailer { margin-top: .35rem !important; font-size: .9rem; }
+.past-launch-title { font-weight: 700; }
+.past-launch-info p:last-child { color: #666; font-size: .95em; }

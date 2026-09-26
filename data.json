@@ -799,13 +799,14 @@
     },
     {
       "id": "frederic-malle-boutique",
-      "name": "Frédéric Malle",
+      "name": "Frédéric Malle & Kilian Paris",
       "url": "https://www.fredericmalle.com/stores",
       "brands": [
-        "frederic-malle"
+        "frederic-malle",
+        "kilian-paris"
       ],
       "locations": [
-        "Raffles City Shopping Centre, Level 1, 252 North Bridge Road, Singapore 179103"
+        "252 North Bridge Road, #01-23, Raffles City Shopping Centre, Singapore 179103"
       ],
       "type": "brand-boutique",
       "directoryGroups": [

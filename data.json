@@ -520,6 +520,26 @@
     {
       "id": "panpuri",
       "name": "PAÑPURI"
+    },
+    {
+      "id": "clean-folks-club",
+      "name": "CLEAN FOLKS CLUB"
+    },
+    {
+      "id": "postcard",
+      "name": "POSTCARD"
+    },
+    {
+      "id": "scent-journer",
+      "name": "SCENT JOURNER"
+    },
+    {
+      "id": "singapore-memories",
+      "name": "SINGAPORE MEMORIES"
+    },
+    {
+      "id": "the-lab-fragrances",
+      "name": "THE LAB FRAGRANCES"
     }
   ],
   "stores": [
@@ -699,10 +719,15 @@
         "250 Orchard Road #01-01, Design Orchard, Singapore 238905"
       ],
       "brands": [
-        "epilogue"
+        "epilogue",
+        "clean-folks-club",
+        "postcard",
+        "scent-journer",
+        "singapore-memories",
+        "the-lab-fragrances"
       ],
-      "assortmentSource": "https://epilogue.sg/en-sg/pages/find-us",
-      "availabilityCheckedAt": "2026-09-26",
+      "assortmentSource": "https://dors.com.sg/collections/perfume?filter.p.t.category=hb-3-2-8&sort_by=created-descending",
+      "availabilityCheckedAt": "2026-09-27",
       "directoryGroup": "DORS at Design Orchard"
     },
     {

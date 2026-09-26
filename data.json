@@ -1022,6 +1022,61 @@
         "amaris-paragon"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user"
+    },
+    {
+      "brandId": "parfums-de-marly",
+      "perfume": "Athénaïs",
+      "image": "https://amarisbeauty.com/cdn/shop/files/NEW_ATHENAIS_NEWSST_large.png?v=1780557581",
+      "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/athenais",
+      "stockists": [
+        "amaris-paragon"
+      ],
+      "availabilityBasis": "Amaris product listing; Paragon assumed by user",
+      "section": "past"
+    },
+    {
+      "brandId": "initio",
+      "perfume": "Wild Rush",
+      "image": "https://amarisbeauty.com/cdn/shop/files/LAST_ONE_large.png?v=1778834036",
+      "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/wild-rush",
+      "stockists": [
+        "amaris-paragon"
+      ],
+      "availabilityBasis": "Amaris product listing; Paragon assumed by user",
+      "section": "past"
+    },
+    {
+      "brandId": "initio",
+      "perfume": "Sugar Blast",
+      "image": "https://amarisbeauty.com/cdn/shop/files/NEW-SUGARBLAST_large.png?v=1778829678",
+      "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/sugar-blast",
+      "stockists": [
+        "amaris-paragon"
+      ],
+      "availabilityBasis": "Amaris product listing; Paragon assumed by user",
+      "section": "past"
+    },
+    {
+      "brandId": "escentric-molecules",
+      "perfume": "Cologne 01",
+      "image": "https://amarisbeauty.com/cdn/shop/files/NEWNEWEWCOGLONE_large.png?v=1778827119",
+      "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/cologne-01",
+      "stockists": [
+        "amaris-paragon"
+      ],
+      "availabilityBasis": "Amaris product listing; Paragon assumed by user",
+      "section": "past"
+    },
+    {
+      "brandId": "juliette-has-a-gun",
+      "perfume": "Banana Rush",
+      "image": "https://amarisbeauty.com/cdn/shop/files/NEW-BANANARUSH_large.png?v=1778474668",
+      "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/banana-rush",
+      "stockists": [
+        "amaris-paragon"
+      ],
+      "availabilityBasis": "Amaris product listing; Paragon assumed by user",
+      "section": "past"
     }
   ],
   "articles": [

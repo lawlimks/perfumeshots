@@ -131,6 +131,7 @@ function renderBrand(id) {
   const launches = data.launches.filter(item => item.brandId === brand.id);
   const stores = data.stores.filter(store => (store.brands || []).includes(brand.id));
   const brandUrl = safeExternalUrl(brand.url);
+  const officialWebsite = safeExternalUrl(brand.website);
   const logo = safeExternalUrl(brand.logoImage);
   const hero = safeExternalUrl(brand.heroImage);
   const featured = brand.featuredPerfumes || [];
@@ -140,6 +141,7 @@ function renderBrand(id) {
       <div><h1>${esc(brand.name)}</h1>${brand.description ? `<p class="brand-description">${esc(brand.description)}</p>` : ""}</div>
     </section>
     ${hero ? `<img class="brand-hero" src="${hero}" alt="${esc(brand.name)} campaign image" loading="lazy">` : ""}
+    ${officialWebsite ? `<p><a href="${officialWebsite}" target="_blank" rel="noopener noreferrer">Official website</a></p>` : ""}
     ${brandUrl ? `<p><a href="${brandUrl}" target="_blank" rel="noopener noreferrer">View brand collection at Amaris</a></p>` : ""}
     <h2>Find this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
     ${launches.length ? `<h2>Recent launches</h2><section class="grid">${launches.map(launchCard).join("")}</section>` : ""}

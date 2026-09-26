@@ -7,7 +7,7 @@ const esc = (value = "") => String(value).replace(/[&<>"']/g, ch => ({
 const slug = value => String(value || "").toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const href = (type, name) => name ? `/${type}/${encodeURIComponent(slug(name))}/` : `/${type}/`;
 const findBySlug = (items, key, value) => items.find(item => slug(item[key]) === value);
-const stockistNames = launch => (launch.stockists || []).map(id => data.stores.find(store => store.id === id)?.name).filter(Boolean);
+const stockistNames = launch => [...new Set((launch.stockists || []).map(id => data.stores.find(store => store.id === id)).filter(Boolean).map(store => store.id.startsWith("amaris-") ? "Amaris" : store.name))];
 function safeExternalUrl(value) {
   try {
     const url = new URL(value);
@@ -21,7 +21,7 @@ function brandName(launch) {
 }
 
 function launchCard(item) {
-  const stores = (item.stockists || []).map(id => data.stores.find(store => store.id === id)).filter(Boolean);
+  const stores = stockistNames(item);
   const name = brandName(item);
   const brand = data.brands.find(entry => entry.id === item.brandId);
   const productUrl = safeExternalUrl(item.productUrl);
@@ -30,14 +30,10 @@ function launchCard(item) {
     <h2>${esc(item.perfume)}</h2>
     <p class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(brand.name)}</a>` : esc(name)}</p>
     <p class="launch-available">Available at</p>
-    <p class="launch-stockists">${stores.length ? stores.map((store, index) => {
-      const storeUrl = safeExternalUrl(store.url);
-      return `${index ? ", " : ""}<a href="${storeUrl || href("stockists", store.name)}"${storeUrl ? ' target="_blank" rel="noopener noreferrer"' : ""}>${esc(store.name)}</a>`;
-    }).join("") : "Singapore availability to be confirmed."}</p>
+    <p class="launch-stockists">${stores.length ? stores.map(esc).join(", ") : "Singapore availability to be confirmed."}</p>
     ${productUrl ? `<p class="launch-retailer"><a href="${productUrl}" target="_blank" rel="noopener noreferrer">View at retailer</a></p>` : ""}
   </article>`;
 }
-
 function featuredCard(item, brand) {
   const url = safeExternalUrl(item.url);
   const image = safeExternalUrl(item.image);
@@ -60,20 +56,15 @@ function render() {
 }
 function pastLaunchRow(item) {
   const name = brandName(item);
-  const stores = (item.stockists || []).map(id => data.stores.find(store => store.id === id)).filter(Boolean);
-  const productUrl = safeExternalUrl(item.productUrl);
+  const stores = stockistNames(item);
   return `<li class="past-launch">
     ${item.image ? `<img src="${esc(item.image)}" alt="${esc(name)} ${esc(item.perfume)}" loading="lazy">` : ""}
     <div class="past-launch-info">
       <p class="past-launch-title"><a href="${href("brands", name)}">${esc(name)}</a> — ${esc(item.perfume)}</p>
-      <p>Available at ${stores.length ? stores.map((store, index) => {
-        const storeUrl = safeExternalUrl(store.url);
-        return `${index ? ", " : ""}<a href="${storeUrl || productUrl || href("stockists", store.name)}"${storeUrl || productUrl ? ' target="_blank" rel="noopener noreferrer"' : ""}>${esc(store.name)}</a>`;
-      }).join("") : "Singapore stockist to be confirmed."}</p>
+      <p>Available at ${stores.length ? stores.map(esc).join(", ") : "Singapore stockist to be confirmed."}</p>
     </div>
   </li>`;
 }
-
 function renderLaunches() {
   const featured = data.launches.filter(item => item.section !== "past");
   const past = data.launches.filter(item => item.section === "past");

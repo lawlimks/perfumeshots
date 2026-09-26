@@ -34,11 +34,11 @@ function launchCard(item) {
     ${productUrl ? `<p class="launch-retailer"><a href="${productUrl}" target="_blank" rel="noopener noreferrer">View at retailer</a></p>` : ""}
   </article>`;
 }
-function featuredCard(item) {
+function featuredCard(item, brand) {
   const url = safeExternalUrl(item.url);
   const image = safeExternalUrl(item.image);
   return `<li class="featured-fragrance">
-    ${image ? `<img src="${image}" alt="${esc(item.name)} by Initio" loading="lazy">` : ""}
+    ${image ? `<img src="${image}" alt="${esc(item.name)} by ${esc(brand.name)}" loading="lazy">` : ""}
     ${url ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${esc(item.name)}</a>` : esc(item.name)}
   </li>`;
 }
@@ -143,7 +143,7 @@ function renderBrand(id) {
     ${brandUrl ? `<p><a href="${brandUrl}" target="_blank" rel="noopener noreferrer">View brand collection at Amaris</a></p>` : ""}
     <h2>Find this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
     ${launches.length ? `<h2>Recent launches</h2><ul class="past-launch-list brand-launch-list">${launches.map(brandLaunchRow).join("")}</ul>` : ""}
-    ${featured.length ? `<h2>Featured fragrances</h2><ul class="featured-fragrance-list">${featured.map(featuredCard).join("")}</ul>` : ""}
+    ${featured.length ? `<h2>Featured fragrances</h2><ul class="featured-fragrance-list">${featured.map(item => featuredCard(item, brand)).join("")}</ul>` : ""}
     ${!launches.length && !featured.length ? `<h2>Recent launches</h2>${empty("No recent launches are listed for this brand yet.")}` : ""}`;
 }
 

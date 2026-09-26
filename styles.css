@@ -63,3 +63,13 @@ footer { padding-block: 1rem; border-top: 1px solid #ddd; color: #555; font-size
 .past-launch-info p { margin: .1rem 0; }
 .past-launch-title { font-weight: 700; }
 .past-launch-info p:last-child { color: #666; font-size: .95em; }
+
+.brand-filter-section { margin-block: 1.5rem; }
+.brand-filter-section h2 { margin-bottom: .75rem; }
+.brand-filters { display: flex; flex-wrap: wrap; gap: .5rem; }
+.brand-filter { padding: .45rem .75rem; border: 1px solid #bbb; border-radius: 999px; background: #fff; color: inherit; font: inherit; cursor: pointer; }
+.brand-filter:hover, .brand-filter.is-active { border-color: #444; background: #444; color: #fff; }
+.brand-list { columns: 2; column-gap: 2rem; }
+.brand-list li { break-inside: avoid; padding-block: .15rem; }
+.brand-list li[hidden] { display: none; }
+@media (max-width: 36rem) { .brand-list { columns: 1; } }

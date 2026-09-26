@@ -581,7 +581,10 @@
       ],
       "assortmentSource": "https://amarisbeauty.com/pages/stores",
       "availabilityCheckedAt": "2026-09-26",
-      "availabilityRule": "Assume every brand listed on Amaris website is available at Paragon"
+      "availabilityRule": "Assume every brand listed on Amaris website is available at Paragon",
+      "locations": [
+        "290 Orchard Road #03-11, Paragon Shopping Centre, Singapore 238859"
+      ]
     },
     {
       "id": "amaris-vivocity",
@@ -604,16 +607,19 @@
         "une-nuit-nomade"
       ],
       "assortmentSource": "https://amarisbeauty.com/pages/stores",
-      "availabilityCheckedAt": "2026-09-26"
+      "availabilityCheckedAt": "2026-09-26",
+      "locations": [
+        "1 HarbourFront Walk #01-02, VivoCity, Singapore 098585"
+      ]
     },
     {
       "id": "escentials",
       "name": "Escentials",
       "url": "https://escentials.com/",
       "locations": [
-        "Paragon",
-        "ION",
-        "Tangs"
+        "Paragon: 290 Orchard Road #03-02/05, Singapore 238859",
+        "ION Orchard: 2 Orchard Turn #B2-29, Singapore 238801",
+        "TANGS Plaza: 310 & 320 Orchard Road, Beauty Hall Level 1, Singapore 238864"
       ],
       "brands": [
         "acqua-di-parma",
@@ -670,7 +676,7 @@
       "assortmentSource": "https://thescentparlor.com/",
       "availabilityCheckedAt": "2026-09-26",
       "locations": [
-        "67 Circular Road, Level 3"
+        "67 Circular Road #03-01, Singapore 049421"
       ]
     },
     {
@@ -678,7 +684,7 @@
       "name": "DORS at Design Orchard",
       "url": "https://dors.com.sg/collections/perfume",
       "locations": [
-        "250 Orchard Road, #01-01, Design Orchard"
+        "250 Orchard Road #01-01, Design Orchard, Singapore 238905"
       ],
       "brands": [
         "epilogue"
@@ -691,7 +697,7 @@
       "name": "Avenue on 3 (Paragon)",
       "url": "https://avenueon3.com/",
       "locations": [
-        "Paragon Shopping Centre"
+        "290 Orchard Road #03-48/56, Paragon Shopping Centre, Singapore 238859"
       ],
       "brands": [
         "maison-de-lasie"

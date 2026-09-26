@@ -134,8 +134,11 @@ function renderStore(id) {
   const brands = (store.brands || []).map(id => data.brands.find(brand => brand.id === id)).filter(Boolean);
   const launches = data.launches.filter(item => (item.stockists || []).includes(store.id));
   const storeUrl = safeExternalUrl(store.url);
+  const locations = store.locations || [];
   app.innerHTML = `<p><a href="/stores/">All stores</a></p><h1>${esc(store.name)}</h1>
     ${storeUrl ? `<p><a href="${storeUrl}" target="_blank" rel="noopener noreferrer">Visit store website</a></p>` : ""}
+    ${locations.length ? `<h2>Locations</h2><ul>${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}
+    ${store.availabilityNote ? `<p class="notice">${esc(store.availabilityNote)}</p>` : ""}
     <h2>Brands carried</h2>${brands.length ? `<ul>${brands.map(brand => `<li><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("No brands are listed for this store yet.")}
     <h2>Recent launches</h2><section class="grid">${launches.length ? launches.map(launchCard).join("") : empty("No recent launches are listed for this store yet.")}</section>`;
 }

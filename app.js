@@ -27,7 +27,7 @@ function launchCard(item) {
   return `<article class="card">
     ${item.image ? `<img src="${esc(item.image)}" alt="${esc(name)} ${esc(item.perfume)}" loading="lazy">` : ""}
     <h2><a href="${href("brands", name)}">${esc(name)}</a> — ${esc(item.perfume)}</h2>
-    <p>${stores.length ? `Available at ${stores.map((storeName, i) => `${i ? ", " : ""}<a href="${href("stores", storeName)}">${esc(storeName)}</a>`).join("")}` : "Singapore availability to be confirmed."}</p>
+    <p>${stores.length ? `Available at ${stores.map((storeName, i) => `${i ? ", " : ""}<a href="${href("stockists", storeName)}">${esc(storeName)}</a>`).join("")}` : "Singapore availability to be confirmed."}</p>
     ${productUrl ? `<p><a href="${productUrl}" target="_blank" rel="noopener noreferrer">View at retailer</a></p>` : ""}
   </article>`;
 }
@@ -47,7 +47,7 @@ function render() {
   const [section, id] = parts;
   if (!section) return renderLaunches();
   if (section === "brands") return id ? renderBrand(id) : renderBrands();
-  if (section === "stores") return id ? renderStore(id) : renderStores();
+  if (section === "stores" || section === "stockists") return id ? renderStore(id) : renderStores();
   if (section === "articles") return id ? renderArticle(id) : renderArticles();
   app.innerHTML = `<h1>Page not found</h1><p><a href="/">Back to new launches</a></p>`;
 }
@@ -87,7 +87,7 @@ function renderBrand(id) {
     </section>
     ${hero ? `<img class="brand-hero" src="${hero}" alt="${esc(brand.name)} campaign image" loading="lazy">` : ""}
     ${brandUrl ? `<p><a href="${brandUrl}" target="_blank" rel="noopener noreferrer">View brand collection at Amaris</a></p>` : ""}
-    <h2>Find this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stores", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
+    <h2>Find this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
     ${launches.length ? `<h2>Recent launches</h2><section class="grid">${launches.map(launchCard).join("")}</section>` : ""}
     ${featured.length ? `<h2>Featured fragrances</h2><section class="grid">${featured.map(item => featuredCard(item, brand)).join("")}</section>` : ""}
     ${!launches.length && !featured.length ? `<h2>Recent launches</h2>${empty("No recent launches are listed for this brand yet.")}` : ""}`;
@@ -119,25 +119,28 @@ function renderArticle(slugValue) {
       ${article.date ? `<p class="article-date"><time datetime="${esc(article.date)}">${esc(article.date)}</time></p>` : ""}
       ${brand ? `<p class="article-brand">About <a href="${href("brands", brand.name)}">${esc(brand.name)}</a></p>` : ""}
       <div class="article-body">${(article.body || []).map(paragraph => `<p>${esc(paragraph)}</p>`).join("")}</div>
-      ${stores.length ? `<h2>Find it in Singapore</h2><ul>${stores.map(store => `<li><a href="${href("stores", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : ""}
+      ${stores.length ? `<h2>Find it in Singapore</h2><ul>${stores.map(store => `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : ""}
       ${productUrl ? `<p class="article-retailer"><a href="${productUrl}" target="_blank" rel="noopener noreferrer">View ${esc(article.perfume || "this perfume")} at Amaris</a></p>` : ""}
     </article>`;
 }
 
 function renderStores() {
   const stores = [...data.stores].sort((a, b) => a.name.localeCompare(b.name));
-  app.innerHTML = `<h1>Stores</h1><p>Find Singapore stores and the brands they carry.</p>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stores", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : empty("Store listings will appear here as they are added.")}`;
+  app.innerHTML = `<h1>Stockists</h1><p>Find Singapore retailers, boutiques and the fragrance brands they carry.</p>${stores.length ? `<ul>${stores.map(store => {
+    const locations = store.locations || [];
+    return `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a>${locations.length ? `<ul class="stockist-addresses">${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}</li>`;
+  }).join("")}</ul>` : empty("Stockist listings will appear here as they are added.")}`;
 }
 function renderStore(id) {
   const store = findBySlug(data.stores, "name", id);
-  if (!store) { app.innerHTML = `<h1>Store not found</h1><p><a href="/stores/">Browse all stores</a></p>`; return; }
+  if (!store) { app.innerHTML = `<h1>Stockist not found</h1><p><a href="/stockists/">Browse all stockists</a></p>`; return; }
   const brands = (store.brands || []).map(id => data.brands.find(brand => brand.id === id)).filter(Boolean);
   const launches = data.launches.filter(item => (item.stockists || []).includes(store.id));
   const storeUrl = safeExternalUrl(store.url);
   const locations = store.locations || [];
-  app.innerHTML = `<p><a href="/stores/">All stores</a></p><h1>${esc(store.name)}</h1>
-    ${storeUrl ? `<p><a href="${storeUrl}" target="_blank" rel="noopener noreferrer">Visit store website</a></p>` : ""}
-    ${locations.length ? `<h2>Locations</h2><ul>${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}
+  app.innerHTML = `<p><a href="/stockists/">All stockists</a></p><h1>${esc(store.name)}</h1>
+    ${storeUrl ? `<p><a href="${storeUrl}" target="_blank" rel="noopener noreferrer">Visit stockist website</a></p>` : ""}
+    ${locations.length ? `<h2>${locations.length === 1 ? "Address" : "Locations"}</h2><ul>${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}
     ${store.availabilityNote ? `<p class="notice">${esc(store.availabilityNote)}</p>` : ""}
     <h2>Brands carried</h2>${brands.length ? `<ul>${brands.map(brand => `<li><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("No brands are listed for this store yet.")}
     <h2>Recent launches</h2><section class="grid">${launches.length ? launches.map(launchCard).join("") : empty("No recent launches are listed for this store yet.")}</section>`;

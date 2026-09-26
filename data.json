@@ -129,19 +129,23 @@
       "featuredPerfumes": [
         {
           "name": "Oud for Greatness",
+          "image": "https://amarisbeauty.com/cdn/shop/products/Initio_OudforG_1_large.jpg?v=1670585804",
           "url": "https://amarisbeauty.com/products/oud-for-greatness"
         },
         {
-          "name": "Musk Therapy",
-          "url": "https://amarisbeauty.com/products/musk-therapy"
-        },
-        {
           "name": "Atomic Rose",
+          "image": "https://amarisbeauty.com/cdn/shop/products/Initio_AtomicRose_1_800x.jpg?v=1681875916",
           "url": "https://amarisbeauty.com/products/atomic-rose"
         },
         {
           "name": "Paragon",
+          "image": "https://amarisbeauty.com/cdn/shop/products/SHOPIFY-RESIZE-TEMPLATE--6_800x.png?v=1710493840",
           "url": "https://amarisbeauty.com/products/paragon-extrait-de-parfum"
+        },
+        {
+          "name": "Narcotic Delight",
+          "image": "https://amarisbeauty.com/cdn/shop/files/SHOPIFY-RESIZE-TEMPLATE--12_ffe3ec8f-c39f-46d1-9c41-bd9ca4622d6d_800x.png?v=1725436689",
+          "url": "https://amarisbeauty.com/products/narcotic-delight"
         }
       ]
     },

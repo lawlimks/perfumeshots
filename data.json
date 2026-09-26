@@ -944,6 +944,28 @@
   ],
   "launches": [
     {
+      "brandId": "juliette-has-a-gun",
+      "perfume": "Liquid Illusion",
+      "image": "https://amarisbeauty.com/cdn/shop/files/NEW-LIQUID-ILLUSION_large.png?v=1781683814",
+      "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/liquid-illusion-1",
+      "stockists": [
+        "amaris-paragon"
+      ],
+      "availabilityBasis": "Amaris website listing; Paragon assumed by user",
+      "addedAt": "2026-09-26"
+    },
+    {
+      "brandId": "ex-nihilo",
+      "perfume": "Demon Dancer",
+      "image": "https://amarisbeauty.com/cdn/shop/files/NEW-DEMON-DANCER_large.png?v=1785843361",
+      "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/demon-dancer",
+      "stockists": [
+        "amaris-paragon"
+      ],
+      "availabilityBasis": "Amaris website listing; Paragon assumed by user",
+      "addedAt": "2026-09-26"
+    },
+    {
       "brandId": "parfums-de-marly",
       "perfume": "Althair Exclusif",
       "image": "https://amarisbeauty.com/cdn/shop/files/new-Althair-exclusif_large.png?v=1790068843",

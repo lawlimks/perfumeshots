@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <a class="site-name" href="/">PerfumeShots</a>
+    <a class="site-name" href="/" aria-label="PerfumeShots home"><img src="/assets/logos/perfumeshots-logo-transparent.png" alt="PerfumeShots"></a>
     <nav aria-label="Main navigation">
       <a href="/">New in Singapore</a>
       <a href="/brands/">Brands</a>
@@ -18,7 +18,13 @@
     </nav>
   </header>
   <main id="app" tabindex="-1"></main>
-  <footer><p>Availability may change. Please check with the store before visiting.</p></footer>
+  <footer class="site-footer">
+    <div class="footer-identity">
+      <img class="footer-logo" src="/assets/logos/perfumeshots-logo-square.png" alt="" loading="lazy">
+      <p class="footer-copyright">PERFUMESHOTS © 2014–2026<br><span lang="zh">香の藝 by L</span></p>
+    </div>
+    <p class="footer-note">Availability may change. Please check with the store before visiting.</p>
+  </footer>
   <script type="module" src="/app.js"></script>
 </body>
 </html>

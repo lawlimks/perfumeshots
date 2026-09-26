@@ -89,7 +89,39 @@ function renderLaunches() {
 }
 function renderBrands() {
   const brands = [...data.brands].sort((a, b) => a.name.localeCompare(b.name));
-  app.innerHTML = `<h1>Brands</h1><p>Browse brands available in Singapore.</p>${brands.length ? `<ul>${brands.map(brand => `<li><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("Brand listings will appear here as they are added.")}`;
+  const groups = new Map();
+  data.stores.forEach(store => {
+    const label = store.directoryGroup || store.name;
+    const brandIds = store.brands || [];
+    if (!brandIds.length) return;
+    if (!groups.has(label)) groups.set(label, new Set());
+    brandIds.forEach(id => groups.get(label).add(id));
+  });
+  const filters = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+  app.innerHTML = `<h1>Brands</h1>
+    <p>Browse brands available in Singapore.</p>
+    ${filters.length ? `<section class="brand-filter-section"><h2>Filter by stockist</h2>
+      <div class="brand-filters" role="group" aria-label="Filter brands by stockist">
+        <button type="button" class="brand-filter is-active" data-filter="all" aria-pressed="true">All</button>
+        ${filters.map(([label]) => `<button type="button" class="brand-filter" data-filter="${esc(label)}" aria-pressed="false">${esc(label)}</button>`).join("")}
+      </div>
+    </section>` : ""}
+    ${brands.length ? `<ul id="brand-results" class="brand-list">${brands.map(brand => `<li data-brand-id="${esc(brand.id)}"><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("Brand listings will appear here as they are added.")}`;
+  const buttons = [...document.querySelectorAll(".brand-filter")];
+  const list = document.querySelector("#brand-results");
+  if (!list || !buttons.length) return;
+  const setFilter = label => {
+    const allowed = label === "all" ? null : groups.get(label);
+    list.querySelectorAll("[data-brand-id]").forEach(row => {
+      row.hidden = allowed ? !allowed.has(row.dataset.brandId) : false;
+    });
+    buttons.forEach(button => {
+      const active = button.dataset.filter === label;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+  };
+  buttons.forEach(button => button.addEventListener("click", () => setFilter(button.dataset.filter)));
 }
 function renderBrand(id) {
   const brand = findBySlug(data.brands, "name", id);

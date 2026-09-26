@@ -723,8 +723,7 @@
       "locations": [
         "The Shoppes at Marina Bay Sands, #B2-61, 10 Bayfront Avenue, Singapore 018956"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "mfk-raffles-city",
@@ -736,8 +735,7 @@
       "locations": [
         "Raffles City Shopping Centre #01-39B, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "creed-raffles-city",
@@ -749,21 +747,19 @@
       "locations": [
         "Raffles City Shopping Centre #01-39C, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "acqua-di-parma-raffles-city",
       "name": "Acqua di Parma — Raffles City",
-      "url": "https://www.capitaland.com/sg/malls/rafflescity/en/stores/acqua-di-parma.html",
+      "url": "https://www.acquadiparma.com/",
       "brands": [
         "acqua-di-parma"
       ],
       "locations": [
         "Raffles City Shopping Centre #01-07, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "frederic-malle-raffles-city",
@@ -775,8 +771,7 @@
       "locations": [
         "Raffles City Shopping Centre, Level 1, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "lartisan-takashimaya",
@@ -788,8 +783,7 @@
       "locations": [
         "Takashimaya Shopping Centre #B1-33A, 391 Orchard Road, Singapore 238872"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "byredo-takashimaya",
@@ -801,8 +795,7 @@
       "locations": [
         "Takashimaya S.C., Ngee Ann City #B1-34, 391 Orchard Road, Singapore 238873"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "panpuri-takashimaya",
@@ -814,8 +807,7 @@
       "locations": [
         "Takashimaya Shopping Centre #B1-51, 391 Orchard Road, Singapore 238872"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "diptyque-ion",
@@ -827,8 +819,7 @@
       "locations": [
         "ION Orchard #B2-30, 2 Orchard Turn, Singapore 238801"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "diptyque-raffles",
@@ -840,8 +831,7 @@
       "locations": [
         "Raffles City Shopping Centre #01-05, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "diptyque-mbs",
@@ -853,8 +843,7 @@
       "locations": [
         "The Shoppes at Marina Bay Sands #01-35, 10 Bayfront Avenue, Singapore 018956"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "diptyque-ngee-ann",
@@ -866,8 +855,7 @@
       "locations": [
         "Ngee Ann City #B1-32, 391 Orchard Road, Singapore 238872"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "aesop-ion",
@@ -879,8 +867,7 @@
       "locations": [
         "ION Orchard #B1-22, 2 Orchard Turn, Singapore 238801"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "aesop-mbs",
@@ -892,8 +879,7 @@
       "locations": [
         "The Shoppes at Marina Bay Sands #B2-90A, 2 Bayfront Avenue, Singapore 018972"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "aesop-raffles",
@@ -905,8 +891,7 @@
       "locations": [
         "Raffles City #01-44A, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "aesop-takashimaya",
@@ -918,8 +903,7 @@
       "locations": [
         "Takashimaya Shopping Centre #B1-54/55, Ngee Ann City, 391 Orchard Road, Singapore 238872"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "aesop-vivocity",
@@ -931,8 +915,7 @@
       "locations": [
         "VivoCity #01-13/14, 1 HarbourFront Walk, Singapore 098585"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "aesop-westgate",
@@ -944,8 +927,7 @@
       "locations": [
         "Westgate #01-27, 3 Gateway Drive, Singapore 608532"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     },
     {
       "id": "aesop-tampines",
@@ -957,8 +939,7 @@
       "locations": [
         "Tampines Mall #01-08/09, 4 Tampines Central 5, Singapore 529510"
       ],
-      "type": "brand-boutique",
-      "availabilityNote": "Standalone brand boutique. Confirm opening status and hours with the brand before visiting."
+      "type": "brand-boutique"
     }
   ],
   "launches": [

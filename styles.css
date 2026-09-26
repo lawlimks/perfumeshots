@@ -23,3 +23,12 @@ input { min-width: min(100%, 18rem); }
 .muted { color: #555; }
 .notice { padding: 1rem; background: #f5f5f5; }
 footer { padding-block: 1rem; border-top: 1px solid #ddd; color: #555; font-size: .9rem; }
+
+.article { max-width: 48rem; }
+.article h1 { max-width: 42rem; }
+.article-body { font-size: 1.08rem; line-height: 1.75; }
+.article-body p { margin-block: 1.1rem; }
+.article-date, .article-brand { color: #555; }
+.article-retailer { margin-block: 2rem; }
+.article-retailer a { display: inline-block; padding: .75rem 1rem; border: 1px solid currentColor; border-radius: .25rem; text-decoration: none; }
+.article-retailer a:hover { background: #f5f5f5; }

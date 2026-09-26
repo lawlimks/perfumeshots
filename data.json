@@ -722,16 +722,22 @@
     {
       "id": "jo-malone-boutique",
       "name": "Jo Malone London",
-      "url": "https://www.marinabaysands.com/shopping/jo-malone-london.html",
+      "url": "https://www.jomalone.com/store-locator",
       "brands": [
         "jo-malone"
       ],
       "locations": [
-        "The Shoppes at Marina Bay Sands, #B2-61, 10 Bayfront Avenue, Singapore 018956"
+        "Raffles City Shopping Centre #01-44, 252 North Bridge Road, Singapore 179103",
+        "ION Orchard #B2-31, 2 Orchard Turn, Singapore 238801",
+        "The Shoppes at Marina Bay Sands #B2-61, 10 Bayfront Avenue, Singapore 018956",
+        "TANGS at Tang Plaza, 310 Orchard Road, Singapore 238864"
       ],
       "type": "brand-boutique",
       "directoryGroups": [
-        "Marina Bay Sands"
+        "Raffles City",
+        "ION Orchard",
+        "Marina Bay Sands",
+        "TANGS"
       ]
     },
     {

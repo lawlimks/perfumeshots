@@ -1,4 +1,4 @@
-:root { color-scheme: light; font: 16px/1.5 system-ui, sans-serif; color: #171717; background: #fff; }
+:root { color-scheme: light; font: 13px/1.65 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #444; background: #fff; }
 * { box-sizing: border-box; }
 body { margin: 0; }
 header, main, footer { width: min(100% - 2rem, 64rem); margin-inline: auto; }
@@ -7,7 +7,12 @@ header { display: flex; align-items: center; justify-content: space-between; gap
 nav { display: flex; flex-wrap: wrap; gap: 1rem; }
 a { color: inherit; }
 main { min-height: 70vh; padding-block: 2rem; }
-h1 { line-height: 1.15; }
+h1, h2, h3, h4 { font-family: Comfortaa, Helvetica, Arial, sans-serif; font-weight: 300; letter-spacing: 1px; }
+h1 { font-size: 40px; line-height: 1.1; color: #222; }
+h2 { font-size: 28px; line-height: 1.1; color: #919191; }
+h3 { font-size: 21px; line-height: 1.2; color: #444; }
+nav a { font-size: 14px; font-weight: 600; }
+.card h2 { font-size: 18px; line-height: 1.3; letter-spacing: .35px; }
 .controls { display: flex; gap: .75rem; flex-wrap: wrap; margin-block: 1.5rem; }
 input, select { font: inherit; padding: .65rem; border: 1px solid #aaa; border-radius: .25rem; }
 input { min-width: min(100%, 18rem); }
@@ -26,8 +31,8 @@ footer { padding-block: 1rem; border-top: 1px solid #ddd; color: #555; font-size
 
 .article { max-width: 48rem; }
 .article h1 { max-width: 42rem; }
-.article-body { font-size: 1.08rem; line-height: 1.75; }
-.article-body p { margin-block: 1.1rem; }
+.article-body { font-size: 13px; line-height: 1.65; }
+.article-body p { margin-block: 11px; }
 .article-date, .article-brand { color: #555; }
 .article-retailer { margin-block: 2rem; }
 .article-retailer a { display: inline-block; padding: .75rem 1rem; border: 1px solid currentColor; border-radius: .25rem; text-decoration: none; }

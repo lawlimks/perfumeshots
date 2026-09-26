@@ -1,5 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&display=auto");
-:root { color-scheme: light; font: 13px/1.65 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #444; background: #fff; }
+:root {
+  color-scheme: light;
+  font: 14px/1.65 ArizonaFlareRegular, Arial, sans-serif;
+  color: #444;
+  background: #fff;
+}
 * { box-sizing: border-box; }
 body { margin: 0; }
 header, main, footer { width: min(100% - 2rem, 64rem); margin-inline: auto; }
@@ -8,12 +12,12 @@ header { display: flex; align-items: center; justify-content: space-between; gap
 nav { display: flex; flex-wrap: wrap; gap: 1rem; }
 a { color: inherit; }
 main { min-height: 70vh; padding-block: 2rem; }
-h1, h2, h3, h4 { font-family: Comfortaa, Helvetica, Arial, sans-serif; font-weight: 300; letter-spacing: 1px; }
-h1 { font-size: 40px; line-height: 1.1; color: #222; }
-h2 { font-size: 18px; line-height: 1.3; color: #919191; }
-h3 { font-size: 21px; line-height: 1.2; color: #444; }
-nav a { font-size: 14px; font-weight: 600; }
-.launch-card h2 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 13px; line-height: 1.65; font-weight: 400; letter-spacing: 0; color: #444; }
+h1, h2, h3, h4 { font-family: ArizonaSansRegular, Arial, sans-serif; font-weight: 400; letter-spacing: 0; }
+h1 { font-size: 30px; line-height: 1.2; color: #222; }
+h2 { font-size: 18px; line-height: 1.3; color: #777; }
+h3, h4 { font-size: 18px; line-height: 1.3; color: #444; }
+nav a { font-family: ArizonaFlareBold, Arial, sans-serif; font-size: 14px; font-weight: 600; }
+.launch-card h2 { font-family: ArizonaFlareBold, Arial, sans-serif; font-size: 13px; line-height: 1.65; font-weight: 700; letter-spacing: 0; color: #444; }
 .controls { display: flex; gap: .75rem; flex-wrap: wrap; margin-block: 1.5rem; }
 input, select { font: inherit; padding: .65rem; border: 1px solid #aaa; border-radius: .25rem; }
 input { min-width: min(100%, 18rem); }
@@ -32,7 +36,7 @@ footer { padding-block: 1rem; border-top: 1px solid #ddd; color: #555; font-size
 
 .article { max-width: 48rem; }
 .article h1 { max-width: 42rem; }
-.article-body { font-size: 13px; line-height: 1.65; }
+.article-body { font-size: 14px; line-height: 1.65; }
 .article-body p { margin-block: 11px; }
 .article-date, .article-brand { color: #555; }
 .article-retailer { margin-block: 2rem; }

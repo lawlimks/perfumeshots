@@ -91,11 +91,13 @@ function renderBrands() {
   const brands = [...data.brands].sort((a, b) => a.name.localeCompare(b.name));
   const groups = new Map();
   data.stores.forEach(store => {
-    const label = store.directoryGroup || store.name;
+    const labels = store.directoryGroups || [store.directoryGroup || store.name];
     const brandIds = store.brands || [];
     if (!brandIds.length) return;
-    if (!groups.has(label)) groups.set(label, new Set());
-    brandIds.forEach(id => groups.get(label).add(id));
+    labels.forEach(label => {
+      if (!groups.has(label)) groups.set(label, new Set());
+      brandIds.forEach(id => groups.get(label).add(id));
+    });
   });
   const filters = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
   app.innerHTML = `<h1>Brands</h1>

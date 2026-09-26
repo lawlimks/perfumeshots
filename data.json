@@ -486,5 +486,28 @@
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     }
+  ],
+  "articles": [
+    {
+      "id": "ganymede-extrait-review",
+      "slug": "ganymede-extrait-marc-antoine-barrois",
+      "title": "Ganymede Extrait by Marc-Antoine Barrois",
+      "excerpt": "A darker, louder take on Ganymede: incense, myrrh, immortelle and serious staying power.",
+      "brandId": "marc-antoine-barrois",
+      "perfume": "Ganymede Extrait",
+      "productUrl": "https://amarisbeauty.com/products/ganymede-extrait",
+      "storeIds": [
+        "amaris-paragon"
+      ],
+      "body": [
+        "I finally got around to digging into Ganymede Extrait, the louder sibling of the already loud original, and damn, this thing comes in swinging. People online weren’t exaggerating. This juice is a tank.",
+        "I get hit with incense first. Dense. Smoky. Zero subtlety. The mandarin peeks through for a few seconds before it gets buried by myrrh. The immortelle kicks in fast and brings that unmistakable herbal spice. Some people call it curry. I get why. It doesn’t smell like food, but it has that same sharpness that makes your brain go, ok, this is going to be a ride.",
+        "The whole thing feels darker than the original. Less spacey. More ritual chamber. You lose the airy mineral sparkle that made Ganymede famous. Instead, you get weight. Heat. Wood that feels almost metallic. It’s not pretty. It’s compelling.",
+        "Performance is wild. Two sprays and it clings to your shirt like it paid rent. I get why some people hate it. This is not office friendly. Not MRT friendly. Definitely not lift friendly. Wear this in crowded spaces and you’ll collect dirty looks.",
+        "But if you enjoy scents that make a statement, you’ll probably enjoy this one. It has presence. It has attitude. It doesn’t care if you like it. It just sits on your skin and does its thing.",
+        "Would I blind buy it? Maybe. But as a spice-and-incense monster with real personality, it hits the brief.",
+        "TL;DR: Ganymede Extrait feels like Ganymede after it joined a cult, meditated too long, and decided subtlety is for the weak."
+      ]
+    }
   ]
 }

@@ -126,10 +126,13 @@ function renderArticle(slugValue) {
 
 function renderStores() {
   const stores = [...data.stores].sort((a, b) => a.name.localeCompare(b.name));
-  app.innerHTML = `<h1>Stockists</h1><p>Find Singapore retailers, boutiques and the fragrance brands they carry.</p>${stores.length ? `<ul>${stores.map(store => {
+  const group = (items, title) => items.length ? `<section class="stockist-group"><h2>${title}</h2><ul>${items.map(store => {
     const locations = store.locations || [];
     return `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a>${locations.length ? `<ul class="stockist-addresses">${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}</li>`;
-  }).join("")}</ul>` : empty("Stockist listings will appear here as they are added.")}`;
+  }).join("")}</ul></section>` : "";
+  const boutiques = stores.filter(store => store.type === "brand-boutique");
+  const multiBrand = stores.filter(store => store.type !== "brand-boutique");
+  app.innerHTML = `<h1>Stockists</h1><p>Find multi-brand retailers and brand boutiques in Singapore.</p>${stores.length ? `${group(multiBrand, "Multi-brand stockists")}${group(boutiques, "Brand boutiques")}` : empty("Stockist listings will appear here as they are added.")}`;
 }
 function renderStore(id) {
   const store = findBySlug(data.stores, "name", id);

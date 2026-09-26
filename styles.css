@@ -8,7 +8,8 @@
 body { margin: 0; }
 header, main, footer { width: min(100% - 2rem, 64rem); margin-inline: auto; }
 header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1.25rem; border-bottom: 1px solid #ddd; }
-.site-name { font-weight: 700; font-size: 1.2rem; }
+.site-name { display: inline-flex; align-items: center; flex: 0 0 auto; }
+.site-name img { display: block; width: 9rem; max-height: 4rem; object-fit: contain; }
 nav { display: flex; flex-wrap: wrap; gap: 1rem; }
 a { color: inherit; }
 main { min-height: 70vh; padding-block: 2rem; }
@@ -33,6 +34,12 @@ input { min-width: min(100%, 18rem); }
 .muted { color: #555; }
 .notice { padding: 1rem; background: #f5f5f5; }
 footer { padding-block: 1rem; border-top: 1px solid #ddd; color: #555; font-size: .9rem; }
+.site-footer { text-align: center; }
+.footer-identity { display: flex; flex-direction: column; align-items: center; gap: .4rem; }
+.footer-logo { display: block; width: 4.5rem; height: 4.5rem; object-fit: contain; }
+.footer-copyright, .footer-note { margin: 0; }
+.footer-copyright { line-height: 1.5; }
+.footer-note { margin-top: .8rem; color: #777; }
 
 .article { max-width: 48rem; }
 .article h1 { max-width: 42rem; }

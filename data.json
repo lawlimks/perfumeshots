@@ -926,45 +926,6 @@
       ],
       "type": "brand-boutique",
       "directoryGroup": "Takashimaya"
-    },
-    {
-      "id": "aesop-vivocity",
-      "name": "Aesop — VivoCity",
-      "url": "https://www.aesop.com.sg/pages/stores",
-      "brands": [
-        "aesop"
-      ],
-      "locations": [
-        "VivoCity #01-13/14, 1 HarbourFront Walk, Singapore 098585"
-      ],
-      "type": "brand-boutique",
-      "directoryGroup": "VivoCity"
-    },
-    {
-      "id": "aesop-westgate",
-      "name": "Aesop — Westgate",
-      "url": "https://www.aesop.com.sg/pages/stores",
-      "brands": [
-        "aesop"
-      ],
-      "locations": [
-        "Westgate #01-27, 3 Gateway Drive, Singapore 608532"
-      ],
-      "type": "brand-boutique",
-      "directoryGroup": "Westgate"
-    },
-    {
-      "id": "aesop-tampines",
-      "name": "Aesop — Tampines Mall",
-      "url": "https://www.aesop.com.sg/pages/stores",
-      "brands": [
-        "aesop"
-      ],
-      "locations": [
-        "Tampines Mall #01-08/09, 4 Tampines Central 5, Singapore 529510"
-      ],
-      "type": "brand-boutique",
-      "directoryGroup": "Tampines Mall"
     }
   ],
   "launches": [

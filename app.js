@@ -70,22 +70,8 @@ function renderLaunches() {
   const past = data.launches.filter(item => item.section === "past");
   app.innerHTML = `<h1>New in Singapore</h1>
     <p>Recent perfume launches and the Singapore stores that carry them.</p>
-    <div class="controls"><label>Search launches <input id="search" type="search" placeholder="Brand or perfume name"></label></div>
-    <section id="latest-results" class="grid" aria-live="polite"></section>
-    ${past.length ? `<section class="past-releases"><h2>Past releases</h2><ul id="past-results" class="past-launch-list" aria-live="polite"></ul></section>` : ""}`;
-  const input = document.querySelector("#search");
-  const latestResults = document.querySelector("#latest-results");
-  const pastResults = document.querySelector("#past-results");
-  const update = () => {
-    const query = input.value.trim().toLowerCase();
-    const matches = data.launches.filter(item => `${brandName(item)} ${item.perfume} ${stockistNames(item).join(" ")}`.toLowerCase().includes(query));
-    const latestMatches = matches.filter(item => item.section !== "past");
-    const pastMatches = matches.filter(item => item.section === "past");
-    latestResults.innerHTML = latestMatches.length ? latestMatches.map(launchCard).join("") : empty(featured.length ? "No launches match that search." : "No launches have been added yet.");
-    if (pastResults) pastResults.innerHTML = pastMatches.length ? pastMatches.map(pastLaunchRow).join("") : empty("No past releases match that search.");
-  };
-  input.addEventListener("input", update);
-  update();
+    <section class="grid">${featured.length ? featured.map(launchCard).join("") : empty("No launches have been added yet.")}</section>
+    ${past.length ? `<section class="past-releases"><h2>Past releases</h2><ul class="past-launch-list">${past.map(item => pastLaunchRow(item)).join("")}</ul></section>` : ""}`;
 }
 function renderBrands() {
   const brands = [...data.brands].sort((a, b) => a.name.localeCompare(b.name));

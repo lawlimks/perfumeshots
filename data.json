@@ -652,7 +652,7 @@
     },
     {
       "id": "the-scented-parlor",
-      "name": "The Scented Parlor",
+      "name": "The Scent Parlor",
       "url": "https://thescentparlor.com/",
       "brands": [
         "oddity",
@@ -668,6 +668,35 @@
         "maison-matine"
       ],
       "assortmentSource": "https://thescentparlor.com/",
+      "availabilityCheckedAt": "2026-09-26",
+      "locations": [
+        "67 Circular Road, Level 3"
+      ]
+    },
+    {
+      "id": "dors-design-orchard",
+      "name": "DORS at Design Orchard",
+      "url": "https://dors.com.sg/collections/perfume",
+      "locations": [
+        "250 Orchard Road, #01-01, Design Orchard"
+      ],
+      "brands": [
+        "epilogue"
+      ],
+      "assortmentSource": "https://epilogue.sg/en-sg/pages/find-us",
+      "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "avenue-on-3",
+      "name": "Avenue on 3 (Paragon)",
+      "url": "https://avenueon3.com/",
+      "locations": [
+        "Paragon Shopping Centre"
+      ],
+      "brands": [
+        "maison-de-lasie"
+      ],
+      "assortmentSource": "https://maisondelasie.sg/stores",
       "availabilityCheckedAt": "2026-09-26"
     }
   ],

@@ -720,8 +720,8 @@
       "directoryGroup": "Avenue on 3"
     },
     {
-      "id": "jo-malone-mbs",
-      "name": "Jo Malone London — Marina Bay Sands",
+      "id": "jo-malone-boutique",
+      "name": "Jo Malone London",
       "url": "https://www.marinabaysands.com/shopping/jo-malone-london.html",
       "brands": [
         "jo-malone"
@@ -730,11 +730,13 @@
         "The Shoppes at Marina Bay Sands, #B2-61, 10 Bayfront Avenue, Singapore 018956"
       ],
       "type": "brand-boutique",
-      "directoryGroup": "Marina Bay Sands"
+      "directoryGroups": [
+        "Marina Bay Sands"
+      ]
     },
     {
-      "id": "mfk-raffles-city",
-      "name": "Maison Francis Kurkdjian — Raffles City",
+      "id": "maison-francis-kurkdjian-boutique",
+      "name": "Maison Francis Kurkdjian",
       "url": "https://www.franciskurkdjian.com/eu-fr/storelocator",
       "brands": [
         "maison-francis-kurkdjian"
@@ -743,11 +745,13 @@
         "Raffles City Shopping Centre #01-39B, 252 North Bridge Road, Singapore 179103"
       ],
       "type": "brand-boutique",
-      "directoryGroup": "Raffles City"
+      "directoryGroups": [
+        "Raffles City"
+      ]
     },
     {
-      "id": "creed-raffles-city",
-      "name": "Creed — Raffles City",
+      "id": "creed-boutique",
+      "name": "Creed",
       "url": "https://www.capitaland.com/sg/malls/rafflescity/en/stores/creed.html",
       "brands": [
         "creed"
@@ -756,11 +760,13 @@
         "Raffles City Shopping Centre #01-39C, 252 North Bridge Road, Singapore 179103"
       ],
       "type": "brand-boutique",
-      "directoryGroup": "Raffles City"
+      "directoryGroups": [
+        "Raffles City"
+      ]
     },
     {
-      "id": "acqua-di-parma-raffles-city",
-      "name": "Acqua di Parma — Raffles City",
+      "id": "acqua-di-parma-boutique",
+      "name": "Acqua di Parma",
       "url": "https://www.acquadiparma.com/",
       "brands": [
         "acqua-di-parma"
@@ -769,11 +775,13 @@
         "Raffles City Shopping Centre #01-07, 252 North Bridge Road, Singapore 179103"
       ],
       "type": "brand-boutique",
-      "directoryGroup": "Raffles City"
+      "directoryGroups": [
+        "Raffles City"
+      ]
     },
     {
-      "id": "frederic-malle-raffles-city",
-      "name": "Frédéric Malle — Raffles City",
+      "id": "frederic-malle-boutique",
+      "name": "Frédéric Malle",
       "url": "https://www.fredericmalle.com/stores",
       "brands": [
         "frederic-malle"
@@ -782,11 +790,13 @@
         "Raffles City Shopping Centre, Level 1, 252 North Bridge Road, Singapore 179103"
       ],
       "type": "brand-boutique",
-      "directoryGroup": "Raffles City"
+      "directoryGroups": [
+        "Raffles City"
+      ]
     },
     {
-      "id": "lartisan-takashimaya",
-      "name": "L'Artisan Parfumeur — Takashimaya",
+      "id": "lartisan-parfumeur-boutique",
+      "name": "L'Artisan Parfumeur",
       "url": "https://www.artisanparfumeur.com/",
       "brands": [
         "lartisan-parfumeur"
@@ -795,11 +805,13 @@
         "Takashimaya Shopping Centre #B1-33A, 391 Orchard Road, Singapore 238872"
       ],
       "type": "brand-boutique",
-      "directoryGroup": "Takashimaya"
+      "directoryGroups": [
+        "Takashimaya"
+      ]
     },
     {
-      "id": "byredo-takashimaya",
-      "name": "BYREDO — Takashimaya",
+      "id": "byredo-boutique",
+      "name": "BYREDO",
       "url": "https://stores.byredo.com/en/byredo-singapore-ngee-ann-city",
       "brands": [
         "byredo"
@@ -808,11 +820,13 @@
         "Takashimaya S.C., Ngee Ann City #B1-34, 391 Orchard Road, Singapore 238873"
       ],
       "type": "brand-boutique",
-      "directoryGroup": "Takashimaya"
+      "directoryGroups": [
+        "Takashimaya"
+      ]
     },
     {
-      "id": "panpuri-takashimaya",
-      "name": "PAÑPURI — Takashimaya",
+      "id": "panpuri-boutique",
+      "name": "PAÑPURI",
       "url": "https://panpuri.com/about-us/our-stores/discover-our-stores/",
       "brands": [
         "panpuri"
@@ -821,111 +835,51 @@
         "Takashimaya Shopping Centre #B1-51, 391 Orchard Road, Singapore 238872"
       ],
       "type": "brand-boutique",
-      "directoryGroup": "Takashimaya"
+      "directoryGroups": [
+        "Takashimaya"
+      ]
     },
     {
-      "id": "diptyque-ion",
-      "name": "Diptyque — ION Orchard",
-      "url": "https://stores.diptyqueparis.com/en_eu/diptyque-ion-orchard",
+      "id": "diptyque-boutiques",
+      "name": "Diptyque",
+      "url": "https://stores.diptyqueparis.com/en_eu/asia/sg",
       "brands": [
         "diptyque"
       ],
       "locations": [
-        "ION Orchard #B2-30, 2 Orchard Turn, Singapore 238801"
-      ],
-      "type": "brand-boutique",
-      "directoryGroup": "ION Orchard"
-    },
-    {
-      "id": "diptyque-raffles",
-      "name": "Diptyque — Raffles City",
-      "url": "https://stores.diptyqueparis.com/en_uk/diptyque-raffles-city",
-      "brands": [
-        "diptyque"
-      ],
-      "locations": [
+        "ION Orchard #B2-30, 2 Orchard Turn, Singapore 238801",
+        "The Shoppes at Marina Bay Sands #01-35, 10 Bayfront Avenue, Singapore 018956",
+        "Ngee Ann City #B1-32, 391 Orchard Road, Singapore 238872",
         "Raffles City Shopping Centre #01-05, 252 North Bridge Road, Singapore 179103"
       ],
       "type": "brand-boutique",
-      "directoryGroup": "Raffles City"
+      "directoryGroups": [
+        "ION Orchard",
+        "Marina Bay Sands",
+        "Takashimaya",
+        "Raffles City"
+      ]
     },
     {
-      "id": "diptyque-mbs",
-      "name": "Diptyque — Marina Bay Sands",
-      "url": "https://stores.diptyqueparis.com/en_eu/asia/sg",
-      "brands": [
-        "diptyque"
-      ],
-      "locations": [
-        "The Shoppes at Marina Bay Sands #01-35, 10 Bayfront Avenue, Singapore 018956"
-      ],
-      "type": "brand-boutique",
-      "directoryGroup": "Marina Bay Sands"
-    },
-    {
-      "id": "diptyque-ngee-ann",
-      "name": "Diptyque — Ngee Ann City",
-      "url": "https://stores.diptyqueparis.com/en_eu/asia/sg",
-      "brands": [
-        "diptyque"
-      ],
-      "locations": [
-        "Ngee Ann City #B1-32, 391 Orchard Road, Singapore 238872"
-      ],
-      "type": "brand-boutique",
-      "directoryGroup": "Takashimaya"
-    },
-    {
-      "id": "aesop-ion",
-      "name": "Aesop — ION Orchard",
+      "id": "aesop-boutiques",
+      "name": "Aesop",
       "url": "https://www.aesop.com.sg/pages/stores",
       "brands": [
         "aesop"
       ],
       "locations": [
-        "ION Orchard #B1-22, 2 Orchard Turn, Singapore 238801"
-      ],
-      "type": "brand-boutique",
-      "directoryGroup": "ION Orchard"
-    },
-    {
-      "id": "aesop-mbs",
-      "name": "Aesop — Marina Bay Sands",
-      "url": "https://www.aesop.com.sg/pages/stores",
-      "brands": [
-        "aesop"
-      ],
-      "locations": [
-        "The Shoppes at Marina Bay Sands #B2-90A, 2 Bayfront Avenue, Singapore 018972"
-      ],
-      "type": "brand-boutique",
-      "directoryGroup": "Marina Bay Sands"
-    },
-    {
-      "id": "aesop-raffles",
-      "name": "Aesop — Raffles City",
-      "url": "https://www.aesop.com.sg/pages/stores",
-      "brands": [
-        "aesop"
-      ],
-      "locations": [
-        "Raffles City #01-44A, 252 North Bridge Road, Singapore 179103"
-      ],
-      "type": "brand-boutique",
-      "directoryGroup": "Raffles City"
-    },
-    {
-      "id": "aesop-takashimaya",
-      "name": "Aesop — Takashimaya",
-      "url": "https://www.aesop.com.sg/pages/stores",
-      "brands": [
-        "aesop"
-      ],
-      "locations": [
+        "ION Orchard #B1-22, 2 Orchard Turn, Singapore 238801",
+        "The Shoppes at Marina Bay Sands #B2-90A, 2 Bayfront Avenue, Singapore 018972",
+        "Raffles City #01-44A, 252 North Bridge Road, Singapore 179103",
         "Takashimaya Shopping Centre #B1-54/55, Ngee Ann City, 391 Orchard Road, Singapore 238872"
       ],
       "type": "brand-boutique",
-      "directoryGroup": "Takashimaya"
+      "directoryGroups": [
+        "ION Orchard",
+        "Marina Bay Sands",
+        "Raffles City",
+        "Takashimaya"
+      ]
     }
   ],
   "launches": [

@@ -53,6 +53,7 @@ footer { padding-block: 1rem; border-top: 1px solid #ddd; color: #555; font-size
 
 
 .launch-card { text-align: center; }
+.launch-card img { aspect-ratio: 1 / 1; object-fit: contain; padding: .35rem; }
 .launch-card h2 { font-family: "Urbanist", sans-serif; font-size: 13px; line-height: 1.4; font-weight: 700; letter-spacing: 0; color: #444; }
 .launch-card p { margin: .2rem 0; }
 .launch-brand { font-size: .95rem; }

@@ -897,6 +897,26 @@
         "Raffles City",
         "Takashimaya"
       ]
+    },
+    {
+      "id": "penhaligons-boutiques",
+      "name": "Penhaligon's",
+      "brands": [
+        "penhaligons"
+      ],
+      "type": "brand-boutique",
+      "locations": [
+        "Raffles City Shopping Centre #01-08A, 252 North Bridge Road, Singapore 179103",
+        "Ngee Ann City #B1-31A, 391 Orchard Road, Singapore 238872",
+        "The Shoppes at Marina Bay Sands #01-33, 10 Bayfront Avenue, Singapore 018956",
+        "TANGS Beauty Hall counter, Level 1, Tang Plaza, 310 Orchard Road, Singapore 238864"
+      ],
+      "directoryGroups": [
+        "Raffles City",
+        "Takashimaya",
+        "Marina Bay Sands",
+        "TANGS"
+      ]
     }
   ],
   "launches": [

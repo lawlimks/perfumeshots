@@ -592,7 +592,8 @@
       "availabilityRule": "Assume every brand listed on Amaris website is available at Paragon",
       "locations": [
         "290 Orchard Road #03-11, Paragon Shopping Centre, Singapore 238859"
-      ]
+      ],
+      "directoryGroup": "Amaris"
     },
     {
       "id": "amaris-vivocity",
@@ -618,7 +619,8 @@
       "availabilityCheckedAt": "2026-09-26",
       "locations": [
         "1 HarbourFront Walk #01-02, VivoCity, Singapore 098585"
-      ]
+      ],
+      "directoryGroup": "Amaris"
     },
     {
       "id": "escentials",
@@ -662,7 +664,8 @@
       ],
       "assortmentSource": "https://escentials.com/",
       "availabilityCheckedAt": "2026-09-26",
-      "availabilityNote": "Escentials lists these brands overall; branch-level availability is not specified."
+      "availabilityNote": "Escentials lists these brands overall; branch-level availability is not specified.",
+      "directoryGroup": "Escentials"
     },
     {
       "id": "the-scented-parlor",
@@ -685,7 +688,8 @@
       "availabilityCheckedAt": "2026-09-26",
       "locations": [
         "67 Circular Road #03-01, Singapore 049421"
-      ]
+      ],
+      "directoryGroup": "The Scent Parlor"
     },
     {
       "id": "dors-design-orchard",
@@ -698,7 +702,8 @@
         "epilogue"
       ],
       "assortmentSource": "https://epilogue.sg/en-sg/pages/find-us",
-      "availabilityCheckedAt": "2026-09-26"
+      "availabilityCheckedAt": "2026-09-26",
+      "directoryGroup": "DORS at Design Orchard"
     },
     {
       "id": "avenue-on-3",
@@ -711,7 +716,8 @@
         "maison-de-lasie"
       ],
       "assortmentSource": "https://maisondelasie.sg/stores",
-      "availabilityCheckedAt": "2026-09-26"
+      "availabilityCheckedAt": "2026-09-26",
+      "directoryGroup": "Avenue on 3"
     },
     {
       "id": "jo-malone-mbs",
@@ -723,7 +729,8 @@
       "locations": [
         "The Shoppes at Marina Bay Sands, #B2-61, 10 Bayfront Avenue, Singapore 018956"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Marina Bay Sands"
     },
     {
       "id": "mfk-raffles-city",
@@ -735,7 +742,8 @@
       "locations": [
         "Raffles City Shopping Centre #01-39B, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Raffles City"
     },
     {
       "id": "creed-raffles-city",
@@ -747,7 +755,8 @@
       "locations": [
         "Raffles City Shopping Centre #01-39C, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Raffles City"
     },
     {
       "id": "acqua-di-parma-raffles-city",
@@ -759,7 +768,8 @@
       "locations": [
         "Raffles City Shopping Centre #01-07, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Raffles City"
     },
     {
       "id": "frederic-malle-raffles-city",
@@ -771,7 +781,8 @@
       "locations": [
         "Raffles City Shopping Centre, Level 1, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Raffles City"
     },
     {
       "id": "lartisan-takashimaya",
@@ -783,7 +794,8 @@
       "locations": [
         "Takashimaya Shopping Centre #B1-33A, 391 Orchard Road, Singapore 238872"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Takashimaya"
     },
     {
       "id": "byredo-takashimaya",
@@ -795,7 +807,8 @@
       "locations": [
         "Takashimaya S.C., Ngee Ann City #B1-34, 391 Orchard Road, Singapore 238873"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Takashimaya"
     },
     {
       "id": "panpuri-takashimaya",
@@ -807,7 +820,8 @@
       "locations": [
         "Takashimaya Shopping Centre #B1-51, 391 Orchard Road, Singapore 238872"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Takashimaya"
     },
     {
       "id": "diptyque-ion",
@@ -819,7 +833,8 @@
       "locations": [
         "ION Orchard #B2-30, 2 Orchard Turn, Singapore 238801"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "ION Orchard"
     },
     {
       "id": "diptyque-raffles",
@@ -831,7 +846,8 @@
       "locations": [
         "Raffles City Shopping Centre #01-05, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Raffles City"
     },
     {
       "id": "diptyque-mbs",
@@ -843,7 +859,8 @@
       "locations": [
         "The Shoppes at Marina Bay Sands #01-35, 10 Bayfront Avenue, Singapore 018956"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Marina Bay Sands"
     },
     {
       "id": "diptyque-ngee-ann",
@@ -855,7 +872,8 @@
       "locations": [
         "Ngee Ann City #B1-32, 391 Orchard Road, Singapore 238872"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Takashimaya"
     },
     {
       "id": "aesop-ion",
@@ -867,7 +885,8 @@
       "locations": [
         "ION Orchard #B1-22, 2 Orchard Turn, Singapore 238801"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "ION Orchard"
     },
     {
       "id": "aesop-mbs",
@@ -879,7 +898,8 @@
       "locations": [
         "The Shoppes at Marina Bay Sands #B2-90A, 2 Bayfront Avenue, Singapore 018972"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Marina Bay Sands"
     },
     {
       "id": "aesop-raffles",
@@ -891,7 +911,8 @@
       "locations": [
         "Raffles City #01-44A, 252 North Bridge Road, Singapore 179103"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Raffles City"
     },
     {
       "id": "aesop-takashimaya",
@@ -903,7 +924,8 @@
       "locations": [
         "Takashimaya Shopping Centre #B1-54/55, Ngee Ann City, 391 Orchard Road, Singapore 238872"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Takashimaya"
     },
     {
       "id": "aesop-vivocity",
@@ -915,7 +937,8 @@
       "locations": [
         "VivoCity #01-13/14, 1 HarbourFront Walk, Singapore 098585"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "VivoCity"
     },
     {
       "id": "aesop-westgate",
@@ -927,7 +950,8 @@
       "locations": [
         "Westgate #01-27, 3 Gateway Drive, Singapore 608532"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Westgate"
     },
     {
       "id": "aesop-tampines",
@@ -939,7 +963,8 @@
       "locations": [
         "Tampines Mall #01-08/09, 4 Tampines Central 5, Singapore 529510"
       ],
-      "type": "brand-boutique"
+      "type": "brand-boutique",
+      "directoryGroup": "Tampines Mall"
     }
   ],
   "launches": [

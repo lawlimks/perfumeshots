@@ -24,7 +24,7 @@ function launchCard(item) {
   const stores = stockistNames(item);
   const name = brandName(item);
   const productUrl = safeExternalUrl(item.productUrl);
-  return `<article class="card">
+  return `<article class="card launch-card">
     ${item.image ? `<img src="${esc(item.image)}" alt="${esc(name)} ${esc(item.perfume)}" loading="lazy">` : ""}
     <h2><a href="${href("brands", name)}">${esc(name)}</a> — ${esc(item.perfume)}</h2>
     <p>${stores.length ? `Available at ${stores.map((storeName, i) => `${i ? ", " : ""}<a href="${href("stockists", storeName)}">${esc(storeName)}</a>`).join("")}` : "Singapore availability to be confirmed."}</p>

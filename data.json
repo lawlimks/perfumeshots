@@ -360,6 +360,118 @@
       "name": "Viliv",
       "assortmentOnly": true,
       "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "acqua-di-parma",
+      "name": "Acqua di Parma"
+    },
+    {
+      "id": "amouage",
+      "name": "Amouage"
+    },
+    {
+      "id": "bjork-and-berries",
+      "name": "Björk and Berries"
+    },
+    {
+      "id": "bvlgari",
+      "name": "BVLGARI"
+    },
+    {
+      "id": "byredo",
+      "name": "BYREDO"
+    },
+    {
+      "id": "chopard",
+      "name": "Chopard"
+    },
+    {
+      "id": "creed",
+      "name": "CREED"
+    },
+    {
+      "id": "ds-durga",
+      "name": "D.S. & DURGA"
+    },
+    {
+      "id": "diptyque",
+      "name": "DIPTYQUE"
+    },
+    {
+      "id": "frederic-malle",
+      "name": "Editions De Parfums Frédéric Malle"
+    },
+    {
+      "id": "essential-parfums",
+      "name": "Essential Parfums"
+    },
+    {
+      "id": "ginori-1735",
+      "name": "Ginori 1735"
+    },
+    {
+      "id": "hermes",
+      "name": "HERMÈS"
+    },
+    {
+      "id": "kilian-paris",
+      "name": "Kilian Paris"
+    },
+    {
+      "id": "lartisan-parfumeur",
+      "name": "L'Artisan Parfumeur"
+    },
+    {
+      "id": "loewe",
+      "name": "LOEWE"
+    },
+    {
+      "id": "maison-crivelli",
+      "name": "Maison Crivelli"
+    },
+    {
+      "id": "maison-de-lasie",
+      "name": "Maison de L'Asie"
+    },
+    {
+      "id": "maison-francis-kurkdjian",
+      "name": "Maison Francis Kurkdjian"
+    },
+    {
+      "id": "matiere-premiere",
+      "name": "Matiere Premiere"
+    },
+    {
+      "id": "memo-paris",
+      "name": "Memo Paris"
+    },
+    {
+      "id": "moncler",
+      "name": "MONCLER"
+    },
+    {
+      "id": "ormaie",
+      "name": "ORMAIE"
+    },
+    {
+      "id": "penhaligons",
+      "name": "Penhaligon's"
+    },
+    {
+      "id": "serge-lutens",
+      "name": "SERGE LUTENS"
+    },
+    {
+      "id": "solferino-paris",
+      "name": "Solférino Paris"
+    },
+    {
+      "id": "trudon",
+      "name": "Trudon"
+    },
+    {
+      "id": "van-cleef-and-arpels",
+      "name": "Van Cleef & Arpels"
     }
   ],
   "stores": [
@@ -453,6 +565,50 @@
       ],
       "assortmentSource": "https://amarisbeauty.com/pages/stores",
       "availabilityCheckedAt": "2026-09-26"
+    },
+    {
+      "id": "escentials",
+      "name": "Escentials",
+      "url": "https://escentials.com/",
+      "locations": [
+        "Paragon",
+        "ION",
+        "Tangs"
+      ],
+      "brands": [
+        "acqua-di-parma",
+        "amouage",
+        "bjork-and-berries",
+        "bvlgari",
+        "byredo",
+        "chopard",
+        "creed",
+        "ds-durga",
+        "diptyque",
+        "frederic-malle",
+        "essential-parfums",
+        "ginori-1735",
+        "hermes",
+        "kilian-paris",
+        "lartisan-parfumeur",
+        "loewe",
+        "maison-crivelli",
+        "maison-de-lasie",
+        "maison-francis-kurkdjian",
+        "matiere-premiere",
+        "memo-paris",
+        "miller-harris",
+        "moncler",
+        "ormaie",
+        "penhaligons",
+        "serge-lutens",
+        "solferino-paris",
+        "trudon",
+        "van-cleef-and-arpels"
+      ],
+      "assortmentSource": "https://escentials.com/",
+      "availabilityCheckedAt": "2026-09-26",
+      "availabilityNote": "Escentials lists these brands overall; branch-level availability is not specified."
     }
   ],
   "launches": [

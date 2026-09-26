@@ -5,7 +5,7 @@ const esc = (value = "") => String(value).replace(/[&<>"']/g, ch => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
 }[ch]));
 const slug = value => String(value || "").toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-const href = (type, name) => `#/${type}/${encodeURIComponent(slug(name))}`;
+const href = (type, name) => name ? `/${type}/${encodeURIComponent(slug(name))}/` : `/${type}/`;
 const findBySlug = (items, key, value) => items.find(item => slug(item[key]) === value);
 const stockistNames = launch => (launch.stockists || []).map(id => data.stores.find(store => store.id === id)?.name).filter(Boolean);
 function safeExternalUrl(value) {
@@ -43,13 +43,13 @@ function featuredCard(item, brand) {
 function empty(message) { return `<p class="notice">${esc(message)}</p>`; }
 
 function render() {
-  const parts = decodeURIComponent(location.hash.slice(1) || "/").split("/").filter(Boolean);
+  const parts = location.pathname.split("/").filter(Boolean);
   const [section, id] = parts;
   if (!section) return renderLaunches();
   if (section === "brands") return id ? renderBrand(id) : renderBrands();
   if (section === "stores") return id ? renderStore(id) : renderStores();
   if (section === "articles") return id ? renderArticle(id) : renderArticles();
-  app.innerHTML = `<h1>Page not found</h1><p><a href="#/">Back to new launches</a></p>`;
+  app.innerHTML = `<h1>Page not found</h1><p><a href="/">Back to new launches</a></p>`;
 }
 function renderLaunches() {
   const sorted = [...data.launches].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
@@ -73,14 +73,14 @@ function renderBrands() {
 }
 function renderBrand(id) {
   const brand = findBySlug(data.brands, "name", id);
-  if (!brand) { app.innerHTML = `<h1>Brand not found</h1><p><a href="#/brands">Browse all brands</a></p>`; return; }
+  if (!brand) { app.innerHTML = `<h1>Brand not found</h1><p><a href="/brands/">Browse all brands</a></p>`; return; }
   const launches = data.launches.filter(item => item.brandId === brand.id);
   const stores = data.stores.filter(store => (store.brands || []).includes(brand.id));
   const brandUrl = safeExternalUrl(brand.url);
   const logo = safeExternalUrl(brand.logoImage);
   const hero = safeExternalUrl(brand.heroImage);
   const featured = brand.featuredPerfumes || [];
-  app.innerHTML = `<p><a href="#/brands">All brands</a></p>
+  app.innerHTML = `<p><a href="/brands/">All brands</a></p>
     <section class="brand-heading">
       ${logo ? `<img class="brand-logo" src="${logo}" alt="${esc(brand.name)} logo">` : ""}
       <div><h1>${esc(brand.name)}</h1>${brand.description ? `<p class="brand-description">${esc(brand.description)}</p>` : ""}</div>
@@ -109,11 +109,11 @@ function renderArticles() {
 }
 function renderArticle(slugValue) {
   const article = (data.articles || []).find(item => (item.slug || item.id) === slugValue);
-  if (!article) { app.innerHTML = `<h1>Article not found</h1><p><a href="#/articles">Browse articles</a></p>`; return; }
+  if (!article) { app.innerHTML = `<h1>Article not found</h1><p><a href="/articles/">Browse articles</a></p>`; return; }
   const brand = data.brands.find(item => item.id === article.brandId);
   const stores = (article.storeIds || []).map(id => data.stores.find(store => store.id === id)).filter(Boolean);
   const productUrl = safeExternalUrl(article.productUrl);
-  app.innerHTML = `<p><a href="#/articles">All articles</a></p>
+  app.innerHTML = `<p><a href="/articles/">All articles</a></p>
     <article class="article">
       <h1>${esc(article.title)}</h1>
       ${article.date ? `<p class="article-date"><time datetime="${esc(article.date)}">${esc(article.date)}</time></p>` : ""}
@@ -130,18 +130,18 @@ function renderStores() {
 }
 function renderStore(id) {
   const store = findBySlug(data.stores, "name", id);
-  if (!store) { app.innerHTML = `<h1>Store not found</h1><p><a href="#/stores">Browse all stores</a></p>`; return; }
+  if (!store) { app.innerHTML = `<h1>Store not found</h1><p><a href="/stores/">Browse all stores</a></p>`; return; }
   const brands = (store.brands || []).map(id => data.brands.find(brand => brand.id === id)).filter(Boolean);
   const launches = data.launches.filter(item => (item.stockists || []).includes(store.id));
   const storeUrl = safeExternalUrl(store.url);
-  app.innerHTML = `<p><a href="#/stores">All stores</a></p><h1>${esc(store.name)}</h1>
+  app.innerHTML = `<p><a href="/stores/">All stores</a></p><h1>${esc(store.name)}</h1>
     ${storeUrl ? `<p><a href="${storeUrl}" target="_blank" rel="noopener noreferrer">Visit store website</a></p>` : ""}
     <h2>Brands carried</h2>${brands.length ? `<ul>${brands.map(brand => `<li><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("No brands are listed for this store yet.")}
     <h2>Recent launches</h2><section class="grid">${launches.length ? launches.map(launchCard).join("") : empty("No recent launches are listed for this store yet.")}</section>`;
 }
 
-window.addEventListener("hashchange", render);
-fetch("./data.json", { cache: "no-cache" }).then(response => {
+window.addEventListener("popstate", render);
+fetch("/data.json", { cache: "no-cache" }).then(response => {
   if (!response.ok) throw new Error("Unable to load site data");
   return response.json();
 }).then(siteData => { data = siteData; render(); }).catch(() => {

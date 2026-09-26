@@ -52,7 +52,7 @@ function render() {
   app.innerHTML = `<h1>Page not found</h1><p><a href="/">Back to new launches</a></p>`;
 }
 function renderLaunches() {
-  const sorted = [...data.launches].sort((a, b) => (b.date || b.addedAt || "").localeCompare(a.date || a.addedAt || ""));
+  const sorted = [...data.launches];
   app.innerHTML = `<h1>New in Singapore</h1>
     <p>Recent perfume launches and the Singapore stores that carry them.</p>
     <div class="controls"><label>Search launches <input id="search" type="search" placeholder="Brand or perfume name"></label></div>

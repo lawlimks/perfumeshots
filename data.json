@@ -628,7 +628,9 @@
       "stockists": [
         "escentials"
       ],
-      "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified"
+      "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified",
+      "image": "https://escentials.com/cdn/shop/files/OudVelvetMoodEXP_70ml_1_1296x.png?v=1788399949",
+      "productUrl": "https://escentials.com/collections/new-arrivals/products/maison-francis-kurkdjian-oud-velvet-mood-exp"
     },
     {
       "brandId": "initio",
@@ -646,7 +648,9 @@
       "stockists": [
         "escentials"
       ],
-      "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified"
+      "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified",
+      "image": "https://escentials.com/cdn/shop/files/escentials_MVFMC02400400_300x.jpg?v=1788399805",
+      "productUrl": "https://escentials.com/collections/new-arrivals/products/tobacco-carnaval-extrait-de-parfum"
     },
     {
       "brandId": "goldfield-banks",
@@ -664,7 +668,9 @@
       "stockists": [
         "escentials"
       ],
-      "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified"
+      "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified",
+      "image": "https://escentials.com/cdn/shop/files/escentials_1110023_1_300x.jpg?v=1788321528",
+      "productUrl": "https://escentials.com/collections/new-arrivals/products/creed-iris-debonair"
     }
   ],
   "articles": [

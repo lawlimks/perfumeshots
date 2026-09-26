@@ -472,6 +472,46 @@
     {
       "id": "van-cleef-and-arpels",
       "name": "Van Cleef & Arpels"
+    },
+    {
+      "id": "oddity",
+      "name": "ODDITY"
+    },
+    {
+      "id": "epilogue",
+      "name": "Epilogue"
+    },
+    {
+      "id": "d-annam",
+      "name": "d'Annam"
+    },
+    {
+      "id": "mad-et-len",
+      "name": "MAD et LEN"
+    },
+    {
+      "id": "cottee-travelers-perfume",
+      "name": "COTTEE Traveler's Perfume"
+    },
+    {
+      "id": "nasomatto",
+      "name": "NASOMATTO"
+    },
+    {
+      "id": "ordiolab",
+      "name": "OrDioLab"
+    },
+    {
+      "id": "scent-chant",
+      "name": "SCENT CHANT"
+    },
+    {
+      "id": "borntostandout",
+      "name": "BORNTOSTANDOUT"
+    },
+    {
+      "id": "maison-matine",
+      "name": "MAISON MATINE"
     }
   ],
   "stores": [
@@ -609,6 +649,26 @@
       "assortmentSource": "https://escentials.com/",
       "availabilityCheckedAt": "2026-09-26",
       "availabilityNote": "Escentials lists these brands overall; branch-level availability is not specified."
+    },
+    {
+      "id": "the-scented-parlor",
+      "name": "The Scented Parlor",
+      "url": "https://thescentparlor.com/",
+      "brands": [
+        "oddity",
+        "epilogue",
+        "d-annam",
+        "mad-et-len",
+        "cottee-travelers-perfume",
+        "rahasya",
+        "nasomatto",
+        "ordiolab",
+        "scent-chant",
+        "borntostandout",
+        "maison-matine"
+      ],
+      "assortmentSource": "https://thescentparlor.com/",
+      "availabilityCheckedAt": "2026-09-26"
     }
   ],
   "launches": [

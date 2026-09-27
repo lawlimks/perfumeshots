@@ -142,7 +142,7 @@ function renderBrands() {
     });
   });
   const filters = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
-  app.innerHTML = `<h1>Brands</h1>
+  app.innerHTML = `<h1>Fragrance Directory</h1>
     <p>Browse brands available in Singapore.</p>
     ${filters.length ? `<section class="brand-filter-section"><h2>Filter by stockist</h2>
       <div class="brand-filters" role="group" aria-label="Filter brands by stockist">

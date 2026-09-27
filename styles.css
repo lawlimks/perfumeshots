@@ -47,12 +47,12 @@ body.home .home-hero img { display: block; width: 100%; height: auto; object-fit
   .logo-container { padding: 0; }
   .site-header.is-scrolled { padding-inline: 1rem; }
   .site-header.is-scrolled .logo-container { padding: 0; }
-  .site-header.is-scrolled .site-name { width: 3.5rem; height: 3.5rem; }
+  .site-header.is-scrolled .site-name { width: 4.2rem; height: 4.2rem; }
   body.home header { align-items: flex-start; flex-direction: row; gap: .5rem; padding: 0 1rem 0 0; }
   body.home nav { gap: .65rem; transform: translateY(1rem); }
   body.home nav a { text-shadow: 0 1px 6px rgba(255,255,255,.8); }
 }
-.site-name { position: relative; display: block; width: 9rem; height: 4rem; flex: 0 0 auto; }
+.site-name { position: relative; display: block; width: 10.8rem; height: 4.8rem; flex: 0 0 auto; }
 .site-name img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; }
 .logo-default { opacity: 1; }
 nav { display: flex; flex-wrap: wrap; gap: 1rem; }

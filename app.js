@@ -49,6 +49,7 @@ function empty(message) { return `<p class="notice">${esc(message)}</p>`; }
 function render() {
   const parts = location.pathname.split("/").filter(Boolean);
   const [section, id] = parts;
+  document.body.classList.toggle("home", !section);
   if (!section) return renderLaunches();
   if (section === "brands") return id ? renderBrand(id) : renderBrands();
   if (section === "stores" || section === "stockists") return id ? renderStore(id) : renderStores();

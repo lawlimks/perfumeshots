@@ -226,7 +226,8 @@ footer { padding-block: 2.5rem; border-top: 1px solid #ddd; color: #555; font-si
     width: 1.5rem;
     height: 2px;
   }
-  .site-header.menu-open {
+  .site-header.menu-open,
+  body.home .site-header.menu-open {
     position: fixed;
     inset: 0;
     z-index: 100;

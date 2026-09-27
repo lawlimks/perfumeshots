@@ -366,12 +366,6 @@
       "availabilityCheckedAt": "2026-09-26"
     },
     {
-      "id": "viliv",
-      "name": "Viliv",
-      "assortmentOnly": true,
-      "availabilityCheckedAt": "2026-09-26"
-    },
-    {
       "id": "acqua-di-parma",
       "name": "Acqua di Parma"
     },
@@ -589,7 +583,6 @@
         "state-of-mind",
         "tiziana-terenzi",
         "une-nuit-nomade",
-        "viliv",
         "alexandre-j",
         "anti-parfum",
         "atelier-des-ors",

@@ -73,12 +73,6 @@
       "directoryCheckedAt": "2026-09-26"
     },
     {
-      "id": "compagnie-de-provence",
-      "name": "Compagnie de Provence",
-      "url": "https://amarisbeauty.com/collections/compagnie-de-provence",
-      "directoryCheckedAt": "2026-09-26"
-    },
-    {
       "id": "escentric-molecules",
       "name": "Escentric Molecules",
       "url": "https://amarisbeauty.com/collections/escentric-molecules",
@@ -205,7 +199,7 @@
     },
     {
       "id": "nicolai",
-      "name": "Nicolaï",
+      "name": "Nicolai Parfumeur Createur",
       "url": "https://amarisbeauty.com/collections/nicolai",
       "directoryCheckedAt": "2026-09-26"
     },
@@ -561,7 +555,6 @@
         "bon-parfumeur",
         "bond-no-9",
         "carven",
-        "compagnie-de-provence",
         "czech-speake",
         "eight-bob",
         "ex-nihilo",

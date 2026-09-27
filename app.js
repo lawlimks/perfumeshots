@@ -203,7 +203,7 @@ function renderStores() {
 function renderStore(id) {
   const store = findBySlug(data.stores, "name", id);
   if (!store) { app.innerHTML = `<h1>Stockist not found</h1><p><a href="/stockists/">Browse all stockists</a></p>`; return; }
-  const brands = (store.brands || []).map(id => data.brands.find(brand => brand.id === id)).filter(Boolean);
+  const brands = (store.brands || []).map(id => data.brands.find(brand => brand.id === id)).filter(Boolean).sort((a, b) => a.name.localeCompare(b.name));
   const launches = data.launches.filter(item => (item.stockists || []).includes(store.id));
   const storeUrl = safeExternalUrl(store.url);
   const locations = store.locations || [];

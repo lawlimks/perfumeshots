@@ -8,7 +8,7 @@
 body { margin: 0; }
 header, main, footer { width: min(100% - 2rem, 64rem); margin-inline: auto; }
 header { display: flex; align-items: stretch; justify-content: space-between; gap: 1rem; padding: 0 3rem 0 0; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #ddd; }
-.logo-container { align-self: flex-start; padding: 12px 16px; background-color: #fff; box-shadow: 0 3px 12px rgba(0, 0, 0, .14); }
+.logo-container { align-self: flex-start; padding: 0; background: transparent; box-shadow: none; }
 body.home { position: relative; }
 body.home header { position: absolute; top: 0; left: 50%; right: auto; z-index: 10; transform: translateX(-50%); background: transparent; border-top-color: rgba(255, 255, 255, .35); border-bottom: 0; color: #111; }
 body.home .logo-container { border-top: 0; }
@@ -44,7 +44,7 @@ body.home .home-hero { display: block; width: 100%; height: auto; margin: 0 auto
 body.home .home-hero img { display: block; width: 100%; height: auto; object-fit: cover; }
 @media (max-width: 48rem) {
   header { align-items: center; padding-right: 1rem; }
-  .logo-container { padding: 10px 12px; }
+  .logo-container { padding: 0; }
   .site-header.is-scrolled { padding-inline: 1rem; }
   .site-header.is-scrolled .logo-container { padding: 0; }
   .site-header.is-scrolled .site-name { width: 3.5rem; height: 3.5rem; }

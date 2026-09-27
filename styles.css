@@ -293,3 +293,8 @@ footer { padding-block: 2.5rem; border-top: 1px solid #ddd; color: #555; font-si
 }
 
 @media (max-width: 48rem) { body.menu-is-open { overflow: hidden; } }
+
+@media (max-width: 48rem) {
+  .site-header:not(.menu-open) .logo-default { opacity: 0; }
+  .site-header:not(.menu-open) .logo-scrolled { opacity: 1; }
+}

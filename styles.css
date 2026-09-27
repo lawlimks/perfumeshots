@@ -6,22 +6,21 @@
 }
 * { box-sizing: border-box; }
 body { margin: 0; }
-header { width: 100%; margin: 0; border-top: 1px solid #d1d5db; border-bottom: 1px solid #ddd; }
-.header-inner { display: flex; align-items: stretch; justify-content: space-between; gap: 1rem; width: min(100% - 2rem, 64rem); min-height: 100%; margin-inline: auto; padding-right: 2.5rem; }
-.logo-container { align-self: flex-start; width: 90px; margin: 0; padding: 6px 10px; background-color: #fff; box-shadow: 0 3px 12px rgba(0, 0, 0, .14); }
-.site-name { display: flex; width: 100%; align-items: center; }
-.site-name img { display: block; width: 100%; height: auto; max-height: none; object-fit: contain; }
+header, main, footer { width: min(100% - 2rem, 64rem); margin-inline: auto; }
+header { display: flex; align-items: stretch; justify-content: space-between; gap: 1rem; padding: 0 3rem 0 0; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #ddd; }
+.logo-container { align-self: flex-start; padding: 12px 16px; background-color: #fff; box-shadow: 0 3px 12px rgba(0, 0, 0, .14); }
 body.home { position: relative; }
-body.home header { position: absolute; top: 0; left: 0; right: 0; z-index: 10; background: transparent; border-top-color: #d1d5db; border-bottom: 0; color: #111; }
+body.home header { position: absolute; top: 0; left: 50%; right: auto; z-index: 10; transform: translateX(-50%); background: transparent; border-top-color: rgba(255, 255, 255, .35); border-bottom: 0; color: #111; }
 body.home .logo-container { border-top: 0; }
+
 body.home nav a { color: #111; }
 body.home main { padding-top: 0; }
 body.home .home-hero { display: block; width: 100%; height: auto; margin: 0 auto 2rem; overflow: hidden; }
 body.home .home-hero img { display: block; width: 100%; height: auto; object-fit: cover; }
 @media (max-width: 48rem) {
-  .header-inner { align-items: center; width: min(100% - 2rem, 64rem); padding-right: 1rem; }
-  .logo-container { width: 78px; padding: 5px 8px; }
-  body.home .header-inner { align-items: flex-start; gap: .5rem; padding-right: 1rem; }
+  header { align-items: center; padding-right: 1rem; }
+  .logo-container { padding: 10px 12px; }
+  body.home header { align-items: flex-start; flex-direction: row; gap: .5rem; padding: 0 1rem 0 0; }
   body.home nav { gap: .65rem; }
   body.home nav a { text-shadow: 0 1px 6px rgba(255,255,255,.8); }
 }

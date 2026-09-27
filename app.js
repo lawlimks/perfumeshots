@@ -1,6 +1,6 @@
 const app = document.querySelector("#app");
 let data = { launches: [], brands: [], stores: [], articles: [] };
-const homeHeroImage = "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/BYREDO_FUTURE_MEMORIES_HERO_STILLS_6_HOMEPAGE_UNBRANDED_1080x1350.jpg";
+const homeHeroImage = "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/9a137614-bdac-4c36-8cd7-f5483fcdc6d6.jpg";
 const homeHeroLink = "https://escentials.com/products/byredo-future-memories-eau-de-parfum";
 const siteHeader = document.querySelector(".site-header");
 function updateHeaderOnScroll() {

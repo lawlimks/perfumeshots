@@ -14,6 +14,7 @@ body.home header { position: absolute; top: 0; left: 50%; right: auto; z-index: 
 body.home .logo-container { border-top: 0; }
 
 body.home nav a { color: #111; }
+body.home nav { align-self: center; transform: translateY(2rem); }
 body.home main { padding-top: 0; }
 body.home .home-hero { display: block; width: 100%; height: auto; margin: 0 auto 2rem; overflow: hidden; }
 body.home .home-hero img { display: block; width: 100%; height: auto; object-fit: cover; }
@@ -21,7 +22,7 @@ body.home .home-hero img { display: block; width: 100%; height: auto; object-fit
   header { align-items: center; padding-right: 1rem; }
   .logo-container { padding: 10px 12px; }
   body.home header { align-items: flex-start; flex-direction: row; gap: .5rem; padding: 0 1rem 0 0; }
-  body.home nav { gap: .65rem; }
+  body.home nav { gap: .65rem; transform: translateY(1rem); }
   body.home nav a { text-shadow: 0 1px 6px rgba(255,255,255,.8); }
 }
 .site-name { display: inline-flex; align-items: center; flex: 0 0 auto; }

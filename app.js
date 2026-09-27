@@ -141,6 +141,9 @@ function renderBrands() {
       brandIds.forEach(id => groups.get(label).add(id));
     });
   });
+  (data.brandGroups || []).forEach(group => {
+    groups.set(group.name, new Set(group.brandIds || []));
+  });
   const filters = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
   app.innerHTML = `<h1>Fragrance Directory</h1>
     <p>Browse brands available in Singapore.</p>

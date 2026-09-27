@@ -2,6 +2,12 @@ const app = document.querySelector("#app");
 let data = { launches: [], brands: [], stores: [], articles: [] };
 const homeHeroImage = "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/BYREDO_FUTURE_MEMORIES_HERO_STILLS_6_HOMEPAGE_UNBRANDED_1080x1350.jpg";
 const homeHeroLink = "https://escentials.com/products/byredo-future-memories-eau-de-parfum";
+const siteHeader = document.querySelector(".site-header");
+function updateHeaderOnScroll() {
+  siteHeader.classList.toggle("is-scrolled", window.scrollY > 60);
+}
+window.addEventListener("scroll", updateHeaderOnScroll, { passive: true });
+updateHeaderOnScroll();
 
 const esc = (value = "") => String(value).replace(/[&<>"']/g, ch => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"

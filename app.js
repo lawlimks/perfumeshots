@@ -9,6 +9,29 @@ function updateHeaderOnScroll() {
 window.addEventListener("scroll", updateHeaderOnScroll, { passive: true });
 updateHeaderOnScroll();
 
+const footerParallax = document.querySelector(".footer-parallax-banner");
+const mobileParallaxQuery = window.matchMedia("(max-width: 48rem)");
+let parallaxFrame = 0;
+function updateMobileParallax() {
+  if (!footerParallax || !mobileParallaxQuery.matches) {
+    footerParallax?.style.removeProperty("--parallax-offset");
+    return;
+  }
+  const rect = footerParallax.getBoundingClientRect();
+  const offset = (window.innerHeight / 2 - rect.top - rect.height / 2) * 0.18;
+  footerParallax.style.setProperty("--parallax-offset", `${offset.toFixed(1)}px`);
+}
+function scheduleMobileParallax() {
+  if (parallaxFrame) return;
+  parallaxFrame = window.requestAnimationFrame(() => {
+    updateMobileParallax();
+    parallaxFrame = 0;
+  });
+}
+window.addEventListener("scroll", scheduleMobileParallax, { passive: true });
+window.addEventListener("resize", scheduleMobileParallax, { passive: true });
+updateMobileParallax();
+
 const menuToggle = document.querySelector(".menu-toggle");
 const primaryNavigation = document.querySelector("#primary-navigation");
 function closeMenu() {

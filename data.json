@@ -555,8 +555,8 @@
   ],
   "stores": [
     {
-      "id": "amaris-paragon",
-      "name": "Amaris Paragon",
+      "id": "amaris",
+      "name": "Amaris",
       "url": "https://amarisbeauty.com/pages/stores",
       "brands": [
         "aesop",
@@ -620,36 +620,12 @@
       ],
       "assortmentSource": "https://amarisbeauty.com/pages/stores",
       "availabilityCheckedAt": "2026-09-26",
-      "availabilityRule": "Assume every brand listed on Amaris website is available at Paragon",
+      "availabilityNote": "Amaris is listed as one stockist with four branches. Brand and product availability can vary by branch.",
       "locations": [
-        "290 Orchard Road #03-11, Paragon Shopping Centre, Singapore 238859"
-      ],
-      "directoryGroup": "Amaris"
-    },
-    {
-      "id": "amaris-vivocity",
-      "name": "Amaris VivoCity",
-      "url": "https://amarisbeauty.com/pages/stores",
-      "brands": [
-        "atelier-cologne",
-        "bon-parfumeur",
-        "compagnie-de-provence",
-        "ex-nihilo",
-        "histoires-de-parfums",
-        "juliette-has-a-gun",
-        "maison-margiela",
-        "miller-harris",
-        "molinard",
-        "nishane",
-        "ormonde-jayne",
-        "parfums-de-marly",
-        "roja",
-        "une-nuit-nomade"
-      ],
-      "assortmentSource": "https://amarisbeauty.com/pages/stores",
-      "availabilityCheckedAt": "2026-09-26",
-      "locations": [
-        "1 HarbourFront Walk #01-02, VivoCity, Singapore 098585"
+        "Paragon: 290 Orchard Road #03-11, Paragon Shopping Centre, Singapore 238859",
+        "VivoCity: 1 HarbourFront Walk #01-02, VivoCity, Singapore 098585",
+        "Jewel Changi Airport: 78 Airport Boulevard #01-257, Singapore 819666",
+        "Takashimaya Niche Fragrance Multi-Concept Store #B1-1"
       ],
       "directoryGroup": "Amaris"
     },
@@ -938,7 +914,7 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/new-Althair-exclusif_large.png?v=1790068843",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/althair-exclusif",
       "stockists": [
-        "amaris-paragon"
+        "amaris"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     },
@@ -958,7 +934,7 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-OUD-FOR-GRACE_large.png?v=1789467190",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/oud-for-grace",
       "stockists": [
-        "amaris-paragon"
+        "amaris"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     },
@@ -978,7 +954,7 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-SUSNT-DP_large.png?v=1789618695",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/sunset-hour-dark-peach",
       "stockists": [
-        "amaris-paragon"
+        "amaris"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     },
@@ -998,7 +974,7 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-LIQUID-ILLUSION_large.png?v=1781683814",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/liquid-illusion-1",
       "stockists": [
-        "amaris-paragon"
+        "amaris"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     },
@@ -1008,7 +984,7 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-DEMON-DANCER_large.png?v=1785843361",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/demon-dancer",
       "stockists": [
-        "amaris-paragon"
+        "amaris"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user"
     },
@@ -1018,7 +994,7 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW_ATHENAIS_NEWSST_large.png?v=1780557581",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/athenais",
       "stockists": [
-        "amaris-paragon"
+        "amaris"
       ],
       "availabilityBasis": "Amaris product listing; Paragon assumed by user",
       "section": "past"
@@ -1029,7 +1005,7 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/LAST_ONE_large.png?v=1778834036",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/wild-rush",
       "stockists": [
-        "amaris-paragon"
+        "amaris"
       ],
       "availabilityBasis": "Amaris product listing; Paragon assumed by user",
       "section": "past"
@@ -1040,7 +1016,7 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-SUGARBLAST_large.png?v=1778829678",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/sugar-blast",
       "stockists": [
-        "amaris-paragon"
+        "amaris"
       ],
       "availabilityBasis": "Amaris product listing; Paragon assumed by user",
       "section": "past"
@@ -1051,7 +1027,7 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/NEWNEWEWCOGLONE_large.png?v=1778827119",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/cologne-01",
       "stockists": [
-        "amaris-paragon"
+        "amaris"
       ],
       "availabilityBasis": "Amaris product listing; Paragon assumed by user",
       "section": "past"
@@ -1062,7 +1038,7 @@
       "image": "https://amarisbeauty.com/cdn/shop/files/NEW-BANANARUSH_large.png?v=1778474668",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/banana-rush",
       "stockists": [
-        "amaris-paragon"
+        "amaris"
       ],
       "availabilityBasis": "Amaris product listing; Paragon assumed by user",
       "section": "past"
@@ -1078,7 +1054,7 @@
       "perfume": "Ganymede Extrait",
       "productUrl": "https://amarisbeauty.com/products/ganymede-extrait",
       "storeIds": [
-        "amaris-paragon"
+        "amaris"
       ],
       "body": [
         "I finally got around to digging into Ganymede Extrait, the louder sibling of the already loud original, and damn, this thing comes in swinging. People online weren’t exaggerating. This juice is a tank.",

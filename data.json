@@ -733,8 +733,6 @@
       "type": "brand-boutique",
       "directoryGroups": [
         "Raffles City",
-        "ION Orchard",
-        "Marina Bay Sands",
         "TANGS"
       ]
     },
@@ -859,8 +857,6 @@
       ],
       "type": "brand-boutique",
       "directoryGroups": [
-        "ION Orchard",
-        "Marina Bay Sands",
         "Ngee Ann City",
         "Raffles City"
       ]
@@ -880,8 +876,6 @@
       ],
       "type": "brand-boutique",
       "directoryGroups": [
-        "ION Orchard",
-        "Marina Bay Sands",
         "Raffles City",
         "Ngee Ann City"
       ]
@@ -902,7 +896,6 @@
       "directoryGroups": [
         "Raffles City",
         "Ngee Ann City",
-        "Marina Bay Sands",
         "TANGS"
       ]
     }

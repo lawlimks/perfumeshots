@@ -48,16 +48,54 @@ body.home .home-hero img { display: block; width: 100%; height: auto; object-fit
 @media (max-width: 48rem) {
   header { align-items: center; padding-right: 1rem; }
   .logo-container { padding: 0; }
+  .site-name { width: 6.4rem; height: 2.9rem; }
   .site-header.is-scrolled { padding-inline: 1rem; }
   .site-header.is-scrolled .logo-container { padding: 0; }
   .site-header.is-scrolled .site-name { width: 4.2rem; height: 4.2rem; }
+  .menu-toggle {
+    display: flex;
+    width: 2.75rem;
+    height: 2.75rem;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: .2rem 0;
+    padding: .5rem;
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 2px;
+    background: rgba(255, 255, 255, .82);
+    color: #111;
+    cursor: pointer;
+  }
+  .menu-toggle span { display: block; width: 1.1rem; height: 1px; background: currentColor; }
+  .site-header nav {
+    display: none;
+    position: absolute;
+    top: calc(100% + 1px);
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    gap: .15rem;
+    padding: .6rem 1rem;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #111;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .12);
+    transform: none;
+  }
+  .site-header.menu-open nav { display: flex; }
+  .site-header nav a { display: block; padding: .6rem 0; text-decoration: none; }
+  .site-header nav a + a { border-top: 1px solid #eee; }
   body.home header { align-items: flex-start; flex-direction: row; gap: .5rem; padding: 0 1rem 0 0; }
-  body.home nav { gap: .65rem; transform: translateY(1rem); }
-  body.home nav a { text-shadow: 0 1px 6px rgba(255,255,255,.8); }
+  body.home nav { gap: .15rem; transform: none; }
+  body.home nav a { text-shadow: none; }
 }
 .site-name { position: relative; display: block; width: 10.8rem; height: 4.8rem; flex: 0 0 auto; }
 .site-name img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; }
 .logo-default { opacity: 1; transform: scale(1.2); }
+.menu-toggle { display: none; }
 nav { display: flex; flex-wrap: wrap; gap: 1rem; }
 a { color: inherit; }
 main { min-height: 70vh; padding-block: 2rem; }

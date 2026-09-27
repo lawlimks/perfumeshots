@@ -142,7 +142,8 @@ footer { padding-block: 2.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .brand-filters { display: flex; flex-wrap: wrap; gap: .5rem; }
 .brand-filter { padding: .45rem .75rem; border: 1px solid #bbb; border-radius: 999px; background: #fff; color: inherit; font: inherit; cursor: pointer; }
 .brand-filter:hover, .brand-filter.is-active { border-color: #444; background: #444; color: #fff; }
-.brand-list { columns: 2; column-gap: 2rem; }
+.brand-list { columns: 3; column-gap: 2rem; }
 .brand-list li { break-inside: avoid; padding-block: .15rem; }
 .brand-list li[hidden] { display: none; }
+@media (max-width: 48rem) { .brand-list { columns: 2; } }
 @media (max-width: 36rem) { .brand-list { columns: 1; } }

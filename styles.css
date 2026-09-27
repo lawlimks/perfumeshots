@@ -10,6 +10,9 @@ header, main, footer { width: min(100% - 2rem, 64rem); margin-inline: auto; }
 header { display: flex; align-items: stretch; justify-content: space-between; gap: 1rem; padding: 0 3rem 0 0; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #ddd; }
 .logo-container { align-self: flex-start; padding: 0; background: transparent; box-shadow: none; }
 body.home { position: relative; }
+body:not(.home) .site-header { margin-top: 12px; border-top-color: rgba(0, 0, 0, .15); }
+body:not(.home) .site-header .logo-default { opacity: 0; }
+body:not(.home) .site-header .logo-scrolled { opacity: 1; }
 body.home header { position: absolute; top: 12px; left: 50%; right: auto; z-index: 10; transform: translateX(-50%); background: transparent; border-top: 1px solid rgba(0, 0, 0, .15); border-bottom: 0; color: #111; }
 body.home .logo-container { position: relative; z-index: 1; margin-top: -1px; padding: 0; border-top: 0; background: transparent; }
 

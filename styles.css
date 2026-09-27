@@ -85,6 +85,7 @@ input { min-width: min(100%, 18rem); }
 @media (max-width: 36rem) { .featured-fragrance-list { grid-template-columns: 1fr; } }
 .muted { color: #555; }
 .notice { padding: 1rem; background: #f5f5f5; }
+body:not(.home) .footer-parallax-banner { display: none; }
 .footer-parallax-banner {
   width: 100%;
   height: clamp(10rem, 14vw, 12rem);

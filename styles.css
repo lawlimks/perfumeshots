@@ -11,7 +11,7 @@ header { display: flex; align-items: stretch; justify-content: space-between; ga
 .logo-container { align-self: flex-start; padding: 0; background: transparent; box-shadow: none; }
 body.home { position: relative; }
 body.home header { position: absolute; top: 0; left: 50%; right: auto; z-index: 10; transform: translateX(-50%); background: transparent; border-top-color: rgba(255, 255, 255, .35); border-bottom: 0; color: #111; }
-body.home .logo-container { border-top: 0; }
+body.home .logo-container { border-top: 1px solid rgba(17, 17, 17, .55); }
 
 body.home nav a { color: #111; }
 body.home nav { align-self: center; transform: translateY(2rem); }
@@ -32,7 +32,7 @@ body.home nav { align-self: center; transform: translateY(2rem); }
   color: #111;
   box-shadow: 0 2px 12px rgba(0, 0, 0, .08);
 }
-.site-header.is-scrolled .logo-container { padding: 0; background: transparent; box-shadow: none; }
+.site-header.is-scrolled .logo-container { padding: 0; border-top: 0; background: transparent; box-shadow: none; }
 .logo-default, .logo-scrolled { transition: opacity .25s ease; }
 .logo-scrolled { opacity: 0; }
 .site-header.is-scrolled .logo-default { opacity: 0; }

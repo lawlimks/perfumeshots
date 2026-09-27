@@ -539,6 +539,26 @@
     {
       "id": "the-lab-fragrances",
       "name": "THE LAB FRAGRANCES"
+    },
+    {
+      "id": "maison-21g",
+      "name": "Maison 21G"
+    },
+    {
+      "id": "scent-by-six",
+      "name": "Scent by SIX"
+    },
+    {
+      "id": "sifr-aromatics",
+      "name": "Sifr Aromatics"
+    },
+    {
+      "id": "nefertum-fragrances",
+      "name": "Nefertum Fragrances"
+    },
+    {
+      "id": "frmytd",
+      "name": "frmytd"
     }
   ],
   "stores": [
@@ -1041,6 +1061,25 @@
         "But if you enjoy scents that make a statement, you’ll probably enjoy this one. It has presence. It has attitude. It doesn’t care if you like it. It just sits on your skin and does its thing.",
         "Would I blind buy it? Maybe. But as a spice-and-incense monster with real personality, it hits the brief.",
         "TL;DR: Ganymede Extrait feels like Ganymede after it joined a cult, meditated too long, and decided subtlety is for the weak."
+      ]
+    }
+  ],
+  "brandGroups": [
+    {
+      "id": "singapore-brands",
+      "name": "Singapore Brands",
+      "brandIds": [
+        "maison-21g",
+        "rahasya",
+        "maison-de-lasie",
+        "the-lab-fragrances",
+        "scent-journer",
+        "scent-by-six",
+        "singapore-memories",
+        "sifr-aromatics",
+        "nefertum-fragrances",
+        "frmytd",
+        "epilogue"
       ]
     }
   ]

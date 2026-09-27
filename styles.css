@@ -291,3 +291,5 @@ footer { padding-block: 2.5rem; border-top: 1px solid #ddd; color: #555; font-si
     text-transform: uppercase;
   }
 }
+
+@media (max-width: 48rem) { body.menu-is-open { overflow: hidden; } }

@@ -1,22 +1,30 @@
-# Backend configuration
 backend:
   name: github
-  repo: owner-name/repo-name # Replace with your GitHub username/repo-name
-  branch: main               # The branch you want the CMS to update (defaults to master)
+  repo: lawlimks/perfumeshots
+  branch: main
+  site_domain: perfumeshots.lawlimks.workers.dev
 
-# Media and Public folders
-media_folder: "static/images" # Where media files will be saved in the repo
-public_folder: "/images"       # The web path to those media files
+# Where uploaded images will be saved
+media_folder: "assets/logos"
+public_folder: "/assets/logos"
 
-# Collections define your content types
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog" # Path to where files will be created
-    create: true           # Allows users to create new files
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
+  - name: "site_data"
+    label: "Site Data"
+    delete: false
+    files:
+      - file: "data.json"
+        label: "Perfumeshots Data"
+        name: "data"
+        file_kind: "json"
+        fields:
+          - label: "Brands"
+            name: "brands"
+            widget: "list"
+            allow_add: true
+            fields:
+              - { label: "ID / Slug", name: "id", widget: "string" }
+              - { label: "Brand Name", name: "name", widget: "string" }
+              - { label: "Directory Checked Date", name: "directoryCheckedAt", widget: "string", required: false }
+              - { label: "Website URL", name: "url", widget: "string", required: false }
+              - { label: "Official Website", name: "website", widget: "string", required: false }

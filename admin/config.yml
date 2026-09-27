@@ -1,1 +1,22 @@
+# Backend configuration
+backend:
+  name: github
+  repo: owner-name/repo-name # Replace with your GitHub username/repo-name
+  branch: main               # The branch you want the CMS to update (defaults to master)
+
+# Media and Public folders
+media_folder: "static/images" # Where media files will be saved in the repo
+public_folder: "/images"       # The web path to those media files
+
+# Collections define your content types
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog" # Path to where files will be created
+    create: true           # Allows users to create new files
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
 

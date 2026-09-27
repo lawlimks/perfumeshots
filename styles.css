@@ -131,7 +131,7 @@ body:not(.home) .footer-parallax-banner { display: none; }
   width: 100%;
   height: clamp(10rem, 14vw, 12rem);
   background-image: url("https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/born_to_stand_out.webp");
-  background-position: center;
+  background-position: center calc(50% + var(--parallax-offset, 0px));
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

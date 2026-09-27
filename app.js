@@ -211,7 +211,7 @@ function renderStore(id) {
     ${storeUrl ? `<p><a href="${storeUrl}" target="_blank" rel="noopener noreferrer">Visit stockist website</a></p>` : ""}
     ${locations.length ? `<h2>${locations.length === 1 ? "Address" : "Locations"}</h2><ul>${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}
     ${store.availabilityNote ? `<p class="notice">${esc(store.availabilityNote)}</p>` : ""}
-    <h2>Brands carried</h2>${brands.length ? `<ul>${brands.map(brand => `<li><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("No brands are listed for this store yet.")}
+    <h2>Brands carried</h2>${brands.length ? `<ul class="brand-list stockist-brand-list">${brands.map(brand => `<li><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("No brands are listed for this store yet.")}
     <h2>Recent launches</h2><section class="grid">${launches.length ? launches.map(launchCard).join("") : empty("No recent launches are listed for this store yet.")}</section>`;
 }
 

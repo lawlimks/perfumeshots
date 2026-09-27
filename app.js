@@ -1,5 +1,7 @@
 const app = document.querySelector("#app");
 let data = { launches: [], brands: [], stores: [], articles: [] };
+const homeHeroImage = "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/BYREDO_FUTURE_MEMORIES_HERO_STILLS_6_HOMEPAGE_UNBRANDED_1080x1350.jpg";
+const homeHeroLink = "https://escentials.com/products/byredo-future-memories-eau-de-parfum";
 
 const esc = (value = "") => String(value).replace(/[&<>"']/g, ch => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -67,7 +69,10 @@ function pastLaunchRow(item) {
 function renderLaunches() {
   const featured = data.launches.filter(item => item.section !== "past");
   const past = data.launches.filter(item => item.section === "past");
-  app.innerHTML = `<h1>New in Singapore</h1>
+  app.innerHTML = `<a class="home-hero" href="${homeHeroLink}" target="_blank" rel="noopener noreferrer" aria-label="View BYREDO Future Memories at Escentials">
+      <img src="${homeHeroImage}" alt="BYREDO Future Memories campaign image">
+    </a>
+    <h1>New in Singapore</h1>
     <p>Recent perfume launches and the Singapore stores that carry them.</p>
     <section class="grid">${featured.length ? featured.map(launchCard).join("") : empty("No launches have been added yet.")}</section>
     ${past.length ? `<section class="past-releases"><h2>Past releases</h2><ul class="past-launch-list">${past.map(item => pastLaunchRow(item)).join("")}</ul></section>` : ""}`;

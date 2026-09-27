@@ -13,11 +13,13 @@ const menuToggle = document.querySelector(".menu-toggle");
 const primaryNavigation = document.querySelector("#primary-navigation");
 function closeMenu() {
   siteHeader.classList.remove("menu-open");
+  document.body.classList.remove("menu-is-open");
   menuToggle.setAttribute("aria-expanded", "false");
   menuToggle.setAttribute("aria-label", "Open menu");
 }
 menuToggle.addEventListener("click", () => {
   const isOpen = siteHeader.classList.toggle("menu-open");
+  document.body.classList.toggle("menu-is-open", isOpen);
   menuToggle.setAttribute("aria-expanded", String(isOpen));
   menuToggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
 });

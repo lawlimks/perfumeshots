@@ -39,7 +39,7 @@ collections:
                 collapsed: true
                 fields:
                   - { label: Perfume Name, name: name, widget: string }
-                  - { label: Image URL, name: image, widget: string, required: false }
+                  - { label: Image, name: image, widget: image, choose_url: true, required: false }
                   - { label: Retailer URL, name: url, widget: string, required: false }
           - label: Stockists and Boutiques
             name: stores
@@ -78,7 +78,7 @@ collections:
             fields:
               - { label: Brand ID, name: brandId, widget: string }
               - { label: Perfume Name, name: perfume, widget: string }
-              - { label: Image URL, name: image, widget: string, required: false }
+              - { label: Image, name: image, widget: image, choose_url: true, required: false }
               - { label: Retailer Product URL, name: productUrl, widget: string, required: false }
               - label: Stockist IDs
                 name: stockists

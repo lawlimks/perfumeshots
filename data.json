@@ -526,12 +526,13 @@
     },
     {
       "id": "postcard",
-      "name": "POSTCARD"
+      "name": "POSTCARD",
+      "website": "https://www.wearepostcard.com/"
     },
     {
       "id": "scent-journer",
       "name": "Scent Journer",
-       "website": "https://scentjourner.com/"
+      "website": "https://scentjourner.com/"
     },
     {
       "id": "singapore-memories",
@@ -543,7 +544,8 @@
     },
     {
       "id": "maison-21g",
-      "name": "Maison 21G"
+      "name": "Maison 21G",
+      "website": "https://www.maison21g.com/"
     },
     {
       "id": "scent-by-six",
@@ -564,9 +566,8 @@
   ],
   "stores": [
     {
-      "id": "amaris",
+      "assortmentSource": "https://amarisbeauty.com/pages/stores",
       "name": "Amaris",
-      "url": "https://amarisbeauty.com/",
       "brands": [
         "aesop",
         "aether",
@@ -625,26 +626,21 @@
         "v-canto",
         "xerjoff"
       ],
-      "assortmentSource": "https://amarisbeauty.com/pages/stores",
-      "availabilityCheckedAt": "2026-09-26",
       "availabilityNote": "Amaris is listed as one stockist with four branches. Brand and product availability can vary by branch.",
+      "url": "https://amarisbeauty.com/",
+      "directoryGroup": "Amaris",
+      "id": "amaris",
       "locations": [
         "Paragon: 290 Orchard Road #03-11, Paragon Shopping Centre, Singapore 238859",
         "VivoCity: 1 HarbourFront Walk #01-02, VivoCity, Singapore 098585",
         "Jewel Changi Airport: 78 Airport Boulevard #01-257, Singapore 819666",
         "Takashimaya Niche Fragrance Multi-Concept Store: 391 Orchard Road #B1-12, Singapore 238872"
       ],
-      "directoryGroup": "Amaris"
+      "availabilityCheckedAt": "2026-09-26"
     },
     {
-      "id": "escentials",
+      "assortmentSource": "https://escentials.com/",
       "name": "Escentials",
-      "url": "https://escentials.com/",
-      "locations": [
-        "Paragon: 290 Orchard Road #03-02/05, Singapore 238859",
-        "ION Orchard: 2 Orchard Turn #B2-29, Singapore 238801",
-        "Escentials at TANGS Beauty Hall, Level 1: 310 & 320 Orchard Road, Singapore 238864"
-      ],
       "brands": [
         "acqua-di-parma",
         "amouage",
@@ -676,10 +672,16 @@
         "trudon",
         "van-cleef-and-arpels"
       ],
-      "assortmentSource": "https://escentials.com/",
-      "availabilityCheckedAt": "2026-09-26",
       "availabilityNote": "Escentials lists these brands overall; branch-level availability is not specified.",
-      "directoryGroup": "Escentials"
+      "url": "https://escentials.com/",
+      "directoryGroup": "Escentials",
+      "id": "escentials",
+      "locations": [
+        "Paragon: 290 Orchard Road #03-02/05, Singapore 238859",
+        "ION Orchard: 2 Orchard Turn #B2-29, Singapore 238801",
+        "Escentials at TANGS Beauty Hall, Level 1: 310 & 320 Orchard Road, Singapore 238864"
+      ],
+      "availabilityCheckedAt": "2026-09-26"
     },
     {
       "id": "the-scented-parlor",
@@ -1044,16 +1046,8 @@
   ],
   "articles": [
     {
-      "id": "ganymede-extrait-review",
-      "slug": "ganymede-extrait-marc-antoine-barrois",
-      "title": "Ganymede Extrait by Marc-Antoine Barrois",
-      "excerpt": "A darker, louder take on Ganymede: incense, myrrh, immortelle and serious staying power.",
-      "brandId": "marc-antoine-barrois",
-      "perfume": "Ganymede Extrait",
       "productUrl": "https://amarisbeauty.com/products/ganymede-extrait",
-      "storeIds": [
-        "amaris"
-      ],
+      "excerpt": "A darker, louder take on Ganymede: incense, myrrh, immortelle and serious staying power.",
       "body": [
         "I finally got around to digging into Ganymede Extrait, the louder sibling of the already loud original, and damn, this thing comes in swinging. People online weren’t exaggerating. This juice is a tank.",
         "I get hit with incense first. Dense. Smoky. Zero subtlety. The mandarin peeks through for a few seconds before it gets buried by myrrh. The immortelle kicks in fast and brings that unmistakable herbal spice. Some people call it curry. I get why. It doesn’t smell like food, but it has that same sharpness that makes your brain go, ok, this is going to be a ride.",
@@ -1062,7 +1056,15 @@
         "But if you enjoy scents that make a statement, you’ll probably enjoy this one. It has presence. It has attitude. It doesn’t care if you like it. It just sits on your skin and does its thing.",
         "Would I blind buy it? Maybe. But as a spice-and-incense monster with real personality, it hits the brief.",
         "TL;DR: Ganymede Extrait feels like Ganymede after it joined a cult, meditated too long, and decided subtlety is for the weak."
-      ]
+      ],
+      "brandId": "marc-antoine-barrois",
+      "perfume": "Ganymede Extrait",
+      "slug": "ganymede-extrait-marc-antoine-barrois",
+      "storeIds": [
+        "amaris"
+      ],
+      "title": "Ganymede Extrait by Marc-Antoine Barrois",
+      "id": "ganymede-extrait-review"
     }
   ],
   "brandGroups": [

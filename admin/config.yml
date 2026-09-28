@@ -3,7 +3,8 @@ backend:
   repo: lawlimks/perfumeshots
   branch: main
   site_domain: perfumeshots.lawlimks.workers.dev
-
+  auth_type: implicit
+  
 # Where uploaded images will be saved
 media_folder: "assets/logos"
 public_folder: "/assets/logos"

@@ -477,7 +477,8 @@
     },
     {
       "id": "epilogue",
-      "name": "Epilogue"
+      "name": "Epilogue",
+      "website": "https://epilogue.sg/"
     },
     {
       "id": "d-annam",
@@ -521,12 +522,12 @@
     },
     {
       "id": "clean-folks-club",
-      "name": "CLEAN FOLKS CLUB",
+      "name": "Clean Folks Club",
       "website": "https://cleanfolksclub.com/"
     },
     {
       "id": "postcard",
-      "name": "POSTCARD",
+      "name": "Postcard",
       "website": "https://www.wearepostcard.com/"
     },
     {
@@ -536,11 +537,13 @@
     },
     {
       "id": "singapore-memories",
-      "name": "SINGAPORE MEMORIES"
+      "name": "Singapore Memories",
+      "website": "https://singapore-memories.com/"
     },
     {
       "id": "the-lab-fragrances",
-      "name": "The LAB Fragrances"
+      "name": "The LAB Fragrances",
+      "website": "https://www.thelabfragrances.com/"
     },
     {
       "id": "maison-21g",
@@ -559,11 +562,13 @@
     },
     {
       "id": "nefertum-fragrances",
-      "name": "Nefertum Fragrances"
+      "name": "Nefertum Fragrances",
+      "website": "https://nefertumfragrances.com/"
     },
     {
       "id": "frmytd",
-      "name": "frmytd"
+      "name": "frmytd",
+      "website": "https://frmytd.com/"
     }
   ],
   "stores": [

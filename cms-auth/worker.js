@@ -7,14 +7,20 @@ function randomState() {
 
 function page(status, token = "") {
   const tokenLiteral = JSON.stringify(token).replaceAll("<", "\\u003c");
-  const state = JSON.stringify(status);
+  const statusLiteral = JSON.stringify(status);
   return new Response(`<!doctype html><meta charset="utf-8"><title>Decap sign-in</title>
 <script>
   if (window.opener) {
-    const status = ${state};
+    const status = ${statusLiteral};
     const token = ${tokenLiteral};
-    window.opener.postMessage("authorization:github:" + status + ":" + JSON.stringify({ token }), "*");
-    window.close();
+    const sendAuthorization = () => {
+      window.opener.postMessage("authorization:github:" + status + ":" + JSON.stringify({ token }), "*");
+    };
+    window.addEventListener("message", function receiveMessage() {
+      window.removeEventListener("message", receiveMessage, false);
+      sendAuthorization();
+    }, false);
+    window.opener.postMessage("authorizing:github", "*");
   }
 </script>
 <p>${status === "success" ? "Signed in. You can close this window." : "Sign-in failed. Close this window and try again."}</p>`, {

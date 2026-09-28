@@ -2,7 +2,6 @@ backend:
   name: github
   repo: lawlimks/perfumeshots
   branch: main
-  site_domain: perfumeshots.lawlimks.workers.dev
   auth_type: implicit
   
 # Where uploaded images will be saved

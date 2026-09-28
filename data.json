@@ -569,6 +569,11 @@
       "id": "frmytd",
       "name": "frmytd",
       "website": "https://frmytd.com/"
+    },
+    {
+      "id": "code-deco",
+      "name": "Code Deco",
+      "website": "https://www.codedeco.com.sg/"
     }
   ],
   "stores": [
@@ -1090,7 +1095,8 @@
         "nefertum-fragrances",
         "frmytd",
         "epilogue",
-        "postcard"
+        "postcard",
+        "code-deco"
       ]
     }
   ]

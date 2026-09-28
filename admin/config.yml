@@ -73,10 +73,11 @@ collections:
           - label: New and Past Launches
             name: launches
             widget: list
+            add_to_top: true
             collapsed: true
             summary: "{{fields.perfume}}"
             fields:
-              - { label: Brand ID, name: brandId, widget: string }
+              - { label: Brand ID, name: brandId, widget: string, hint: "Use the brand ID shown in the Brands section." }
               - { label: Perfume Name, name: perfume, widget: string }
               - { label: Image, name: image, widget: image, choose_url: true, required: false }
               - { label: Retailer Product URL, name: productUrl, widget: string, required: false }

@@ -2,29 +2,122 @@ backend:
   name: github
   repo: lawlimks/perfumeshots
   branch: main
-  auth_type: implicit
-  
-# Where uploaded images will be saved
-media_folder: "assets/logos"
-public_folder: "/assets/logos"
+  base_url: https://perfumeshots-cms-auth.lawlimks.workers.dev
+  auth_endpoint: /auth
+
+media_folder: "assets/gallery"
+public_folder: "/assets/gallery"
 
 collections:
-  - name: "site_data"
-    label: "Site Data"
+  - name: site_data
+    label: Site Data
     delete: false
     files:
-      - file: "data.json"
-        label: "Perfumeshots Data"
-        name: "data"
-        file_kind: "json"
+      - name: data
+        label: PerfumeShots Data
+        file: data.json
+        format: json
         fields:
-          - label: "Brands"
-            name: "brands"
-            widget: "list"
-            allow_add: true
+          - label: Brands
+            name: brands
+            widget: list
+            collapsed: true
+            summary: "{{fields.name}}"
             fields:
-              - { label: "ID / Slug", name: "id", widget: "string" }
-              - { label: "Brand Name", name: "name", widget: "string" }
-              - { label: "Directory Checked Date", name: "directoryCheckedAt", widget: "string", required: false }
-              - { label: "Website URL", name: "url", widget: "string", required: false }
-              - { label: "Official Website", name: "website", widget: "string", required: false }
+              - { label: ID / Slug, name: id, widget: string }
+              - { label: Brand Name, name: name, widget: string }
+              - { label: Stockist Collection URL, name: url, widget: string, required: false }
+              - { label: Official Website, name: website, widget: string, required: false }
+              - { label: Introduction, name: description, widget: text, required: false }
+              - { label: Directory Checked Date, name: directoryCheckedAt, widget: string, required: false }
+              - { label: Availability Checked Date, name: availabilityCheckedAt, widget: string, required: false }
+              - { label: Assortment Only, name: assortmentOnly, widget: boolean, required: false }
+              - label: Featured Perfumes
+                name: featuredPerfumes
+                widget: list
+                required: false
+                collapsed: true
+                fields:
+                  - { label: Perfume Name, name: name, widget: string }
+                  - { label: Image URL, name: image, widget: string, required: false }
+                  - { label: Retailer URL, name: url, widget: string, required: false }
+          - label: Stockists and Boutiques
+            name: stores
+            widget: list
+            collapsed: true
+            summary: "{{fields.name}}"
+            fields:
+              - { label: ID / Slug, name: id, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Website, name: url, widget: string, required: false }
+              - { label: Type, name: type, widget: string, required: false }
+              - label: Location Addresses
+                name: locations
+                widget: list
+                required: false
+                field: { label: Address, name: address, widget: string }
+              - label: Brands Carried (brand IDs)
+                name: brands
+                widget: list
+                required: false
+                field: { label: Brand ID, name: brandId, widget: string }
+              - { label: Directory Group, name: directoryGroup, widget: string, required: false }
+              - label: Directory Groups
+                name: directoryGroups
+                widget: list
+                required: false
+                field: { label: Group, name: group, widget: string }
+              - { label: Assortment Source, name: assortmentSource, widget: string, required: false }
+              - { label: Availability Checked Date, name: availabilityCheckedAt, widget: string, required: false }
+              - { label: Availability Note, name: availabilityNote, widget: text, required: false }
+          - label: New and Past Launches
+            name: launches
+            widget: list
+            collapsed: true
+            summary: "{{fields.perfume}}"
+            fields:
+              - { label: Brand ID, name: brandId, widget: string }
+              - { label: Perfume Name, name: perfume, widget: string }
+              - { label: Image URL, name: image, widget: string, required: false }
+              - { label: Retailer Product URL, name: productUrl, widget: string, required: false }
+              - label: Stockist IDs
+                name: stockists
+                widget: list
+                field: { label: Stockist ID, name: stockistId, widget: string }
+              - { label: Availability Basis, name: availabilityBasis, widget: text, required: false }
+              - { label: Section, name: section, widget: string, required: false, hint: "Use past for archived launches; leave empty for current launches." }
+          - label: Articles
+            name: articles
+            widget: list
+            collapsed: true
+            summary: "{{fields.title}}"
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: URL Slug, name: slug, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Excerpt, name: excerpt, widget: text, required: false }
+              - { label: Brand ID, name: brandId, widget: string, required: false }
+              - { label: Perfume, name: perfume, widget: string, required: false }
+              - { label: Product URL, name: productUrl, widget: string, required: false }
+              - label: Stockist IDs
+                name: storeIds
+                widget: list
+                required: false
+                field: { label: Stockist ID, name: storeId, widget: string }
+              - label: Article Paragraphs
+                name: body
+                widget: list
+                field: { label: Paragraph, name: paragraph, widget: text }
+          - label: Brand Groups
+            name: brandGroups
+            widget: list
+            required: false
+            collapsed: true
+            summary: "{{fields.name}}"
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Name, name: name, widget: string }
+              - label: Brand IDs
+                name: brandIds
+                widget: list
+                field: { label: Brand ID, name: brandId, widget: string }

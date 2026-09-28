@@ -2,15 +2,19 @@
 
 A small, data-driven guide to perfume launches and stockists in Singapore.
 
-## First working slice
+## Site content
 
-- New launch feed with search across perfume, brand, and store names.
+- New launch feed with search across perfume, brand, and stockist names.
 - Brand pages show known stockists and recent launches.
-- Store pages show their website, brands carried, and recent launches.
-- Launches can have multiple stockists; each stockist is a specific store/location.
+- Stockist pages show their website, brands carried, and locations.
+- Launches can have multiple stockists.
 - The site reads structured content from `data.json`.
 
-This is the visitor-facing prototype. It has no admin editor or database yet. We will use a few real entries to decide how the content should be entered before adding more infrastructure.
+## Content editor
+
+Decap CMS is available at `/admin/`. It edits the structured content in `data.json` and saves changes to the GitHub repository. The connected Cloudflare deployment publishes those commits automatically.
+
+The first sign-in requires a GitHub OAuth App and a separate Cloudflare OAuth Worker. Follow the setup steps in [`cms-auth/README.md`](cms-auth/README.md). Image uploads from the editor are stored in `assets/gallery` in GitHub; the built-in Decap uploader does not send files to R2.
 
 ## Local preview
 

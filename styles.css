@@ -139,7 +139,7 @@ body:not(.home) .footer-parallax-banner { display: none; }
 @media (max-width: 48rem) {
   .footer-parallax-banner { height: 11rem; background-attachment: scroll; }
 }
-footer { padding-block: 2.5rem; border-top: 1px solid #ddd; color: #555; font-size: .9rem; }
+footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-size: .9rem; }
 .site-footer { text-align: center; }
 .footer-identity { display: flex; flex-direction: column; align-items: center; gap: .4rem; }
 .footer-logo { display: block; width: 4.5rem; height: 4.5rem; object-fit: contain; }

@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "perfumeshots-cms-auth",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-26",
+  "workers_dev": true
+}

@@ -1270,7 +1270,9 @@
         "xerjoff"
       ],
       "directoryGroup": "Amaris",
-      "directoryGroups": [],
+      "directoryGroups": [
+        "Amaris"
+      ],
       "assortmentSource": "https://amarisbeauty.com/pages/stores",
       "availabilityCheckedAt": "2026-09-26",
       "availabilityNote": "Amaris is listed as one stockist with four branches. Brand and product availability can vary by branch."
@@ -1317,7 +1319,9 @@
         "van-cleef-and-arpels"
       ],
       "directoryGroup": "Escentials",
-      "directoryGroups": [],
+      "directoryGroups": [
+        "Escentials"
+      ],
       "assortmentSource": "https://escentials.com/",
       "availabilityCheckedAt": "2026-09-26",
       "availabilityNote": "Escentials lists these brands overall; branch-level availability is not specified."
@@ -1344,7 +1348,9 @@
         "maison-matine"
       ],
       "directoryGroup": "The Scent Parlor",
-      "directoryGroups": [],
+      "directoryGroups": [
+        "The Scent Parlor"
+      ],
       "assortmentSource": "https://thescentparlor.com/",
       "availabilityCheckedAt": "2026-09-26",
       "availabilityNote": ""
@@ -1366,7 +1372,9 @@
         "the-lab-fragrances"
       ],
       "directoryGroup": "Singapore Brands",
-      "directoryGroups": [],
+      "directoryGroups": [
+        "Singapore Brands"
+      ],
       "assortmentSource": "https://dors.com.sg/collections/perfume?filter.p.t.category=hb-3-2-8&sort_by=created-descending",
       "availabilityCheckedAt": "2026-09-27",
       "availabilityNote": ""

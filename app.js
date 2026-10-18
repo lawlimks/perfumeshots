@@ -133,7 +133,7 @@ function renderBrands() {
   const brands = [...data.brands].sort((a, b) => a.name.localeCompare(b.name));
   const groups = new Map();
   data.stores.forEach(store => {
-    const labels = store.directoryGroups || [store.directoryGroup || store.name];
+    const labels = (Array.isArray(store.directoryGroups) && store.directoryGroups.length ? store.directoryGroups : [store.directoryGroup || store.name]).filter(Boolean);
     const brandIds = store.brands || [];
     if (!brandIds.length) return;
     labels.forEach(label => {

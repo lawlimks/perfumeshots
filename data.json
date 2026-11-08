@@ -1609,145 +1609,145 @@
     {
       "brandId": "parfums-de-marly",
       "perfume": "Althair Exclusif",
-      "image": "https://amarisbeauty.com/cdn/shop/files/new-Althair-exclusif_large.png?v=1790068843",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/althair-exclusif",
       "stockists": [
         "amaris"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user",
-      "section": ""
+      "section": "",
+      "date": ""
     },
     {
       "brandId": "maison-francis-kurkdjian",
       "perfume": "Oud Velvet Mood",
-      "image": "https://escentials.com/cdn/shop/files/OudVelvetMoodEXP_70ml_1_1296x.png?v=1788399949",
       "productUrl": "https://escentials.com/collections/new-arrivals/products/maison-francis-kurkdjian-oud-velvet-mood-exp",
       "stockists": [
         "escentials"
       ],
       "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified",
-      "section": ""
+      "section": "",
+      "date": ""
     },
     {
       "brandId": "initio",
       "perfume": "Oud for Grace",
-      "image": "https://amarisbeauty.com/cdn/shop/files/NEW-OUD-FOR-GRACE_large.png?v=1789467190",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/oud-for-grace",
       "stockists": [
         "amaris"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user",
-      "section": ""
+      "section": "",
+      "date": ""
     },
     {
       "brandId": "maison-crivelli",
       "perfume": "Tobacco Carnaval",
-      "image": "https://escentials.com/cdn/shop/files/escentials_MVFMC02400400_300x.jpg?v=1788399805",
       "productUrl": "https://escentials.com/collections/new-arrivals/products/tobacco-carnaval-extrait-de-parfum",
       "stockists": [
         "escentials"
       ],
       "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified",
-      "section": ""
+      "section": "",
+      "date": ""
     },
     {
       "brandId": "goldfield-banks",
       "perfume": "Sunset Hour Dark Peach",
-      "image": "https://amarisbeauty.com/cdn/shop/files/NEW-SUSNT-DP_large.png?v=1789618695",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/sunset-hour-dark-peach",
       "stockists": [
         "amaris"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user",
-      "section": ""
+      "section": "",
+      "date": ""
     },
     {
       "brandId": "creed",
       "perfume": "Iris Debonair",
-      "image": "https://escentials.com/cdn/shop/files/escentials_1110023_1_300x.jpg?v=1788321528",
       "productUrl": "https://escentials.com/collections/new-arrivals/products/creed-iris-debonair",
       "stockists": [
         "escentials"
       ],
       "availabilityBasis": "Provided by user as an Escentials new arrival; branch not specified",
-      "section": ""
+      "section": "",
+      "date": ""
     },
     {
       "brandId": "juliette-has-a-gun",
       "perfume": "Liquid Illusion",
-      "image": "https://amarisbeauty.com/cdn/shop/files/NEW-LIQUID-ILLUSION_large.png?v=1781683814",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/liquid-illusion-1",
       "stockists": [
         "amaris"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user",
-      "section": ""
+      "section": "",
+      "date": ""
     },
     {
       "brandId": "ex-nihilo",
       "perfume": "Demon Dancer",
-      "image": "https://amarisbeauty.com/cdn/shop/files/NEW-DEMON-DANCER_large.png?v=1785843361",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/demon-dancer",
       "stockists": [
         "amaris"
       ],
       "availabilityBasis": "Amaris website listing; Paragon assumed by user",
-      "section": ""
+      "section": "",
+      "date": ""
     },
     {
       "brandId": "parfums-de-marly",
       "perfume": "Athénaïs",
-      "image": "https://amarisbeauty.com/cdn/shop/files/NEW_ATHENAIS_NEWSST_large.png?v=1780557581",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/athenais",
       "stockists": [
         "amaris"
       ],
       "availabilityBasis": "Amaris product listing; Paragon assumed by user",
-      "section": "past"
+      "section": "past",
+      "date": ""
     },
     {
       "brandId": "initio",
       "perfume": "Wild Rush",
-      "image": "https://amarisbeauty.com/cdn/shop/files/LAST_ONE_large.png?v=1778834036",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/wild-rush",
       "stockists": [
         "amaris"
       ],
       "availabilityBasis": "Amaris product listing; Paragon assumed by user",
-      "section": "past"
+      "section": "past",
+      "date": ""
     },
     {
       "brandId": "initio",
       "perfume": "Sugar Blast",
-      "image": "https://amarisbeauty.com/cdn/shop/files/NEW-SUGARBLAST_large.png?v=1778829678",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/sugar-blast",
       "stockists": [
         "amaris"
       ],
       "availabilityBasis": "Amaris product listing; Paragon assumed by user",
-      "section": "past"
+      "section": "past",
+      "date": ""
     },
     {
       "brandId": "escentric-molecules",
       "perfume": "Cologne 01",
-      "image": "https://amarisbeauty.com/cdn/shop/files/NEWNEWEWCOGLONE_large.png?v=1778827119",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/cologne-01",
       "stockists": [
         "amaris"
       ],
       "availabilityBasis": "Amaris product listing; Paragon assumed by user",
-      "section": "past"
+      "section": "past",
+      "date": ""
     },
     {
       "brandId": "juliette-has-a-gun",
       "perfume": "Banana Rush",
-      "image": "https://amarisbeauty.com/cdn/shop/files/NEW-BANANARUSH_large.png?v=1778474668",
       "productUrl": "https://amarisbeauty.com/collections/new-arrivals/products/banana-rush",
       "stockists": [
         "amaris"
       ],
       "availabilityBasis": "Amaris product listing; Paragon assumed by user",
-      "section": "past"
+      "section": "past",
+      "date": ""
     }
   ],
   "articles": [

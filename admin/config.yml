@@ -79,7 +79,7 @@ collections:
             fields:
               - { label: Brand ID, name: brandId, widget: string, hint: "Use the brand ID shown in the Brands section." }
               - { label: Perfume Name, name: perfume, widget: string }
-              - { label: Image, name: image, widget: image, choose_url: true, required: false }
+              - { label: Date available in Singapore, name: date, widget: date, format: "YYYY-MM-DD", required: false, hint: "Enter the date confirmed available in Singapore. Older entries may leave this blank if the date is unknown." }
               - { label: Retailer Product URL, name: productUrl, widget: string, required: false }
               - label: Stockist IDs
                 name: stockists

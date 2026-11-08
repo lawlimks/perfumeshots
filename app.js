@@ -86,12 +86,12 @@ function launchRow(item) {
   return `<li class="launch-row">
     <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
     <span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>
-    <span class="launch-name">${esc(item.perfume)}</span>
+    <span class="launch-name">${esc(item.perfume || "Not specified")}</span>
     <span class="launch-retailer">${stores.length ? stores.map(esc).join(", ") : "To be confirmed"}</span>
   </li>`;
 }
 function launchHeading() {
-  return `<li class="launch-row launch-heading" aria-hidden="true"><span>Date</span><span>Brand</span><span>Name</span><span>Retailer</span></li>`;
+  return `<li class="launch-row launch-heading" aria-hidden="true"><span>Date spotted</span><span>Brand</span><span>Name</span><span>Retailer</span></li>`;
 }
 function featuredCard(item, brand) {
   const url = safeExternalUrl(item.url);
@@ -117,16 +117,15 @@ function renderLaunches() {
   const launches = [...data.launches].sort((a, b) => {
     const dateOrder = (b.date || "").localeCompare(a.date || "");
     if (dateOrder) return dateOrder;
-    return (a.section === "past") - (b.section === "past");
   });
   const rows = launches.map(launchRow);
   app.innerHTML = `<a class="home-hero" href="${homeHeroLink}" target="_blank" rel="noopener noreferrer" aria-label="View BYREDO Future Memories at Escentials">
       <img src="${homeHeroImage}" alt="BYREDO Future Memories campaign image">
     </a>
-    <h1>New in Singapore</h1>
-    <p>Recent perfume launches and the Singapore stores that carry them.</p>
-    ${rows.length ? `<div class="launch-list-scroll"><ul class="launch-list">${launchHeading()}${rows.map((row, index) => index >= 10 ? row.replace('<li class="launch-row">', '<li class="launch-row" hidden>') : row).join("")}</ul></div>` : empty("No launches have been added yet.")}
-    ${rows.length > 10 ? `<button class="load-more-launches" type="button">Load more launches</button>` : ""}`;
+    <h1>New discoveries in Singapore</h1>
+    <p>Perfumes recently spotted, shared or confirmed in Singapore.</p>
+    ${rows.length ? `<div class="launch-list-scroll"><ul class="launch-list">${launchHeading()}${rows.map((row, index) => index >= 10 ? row.replace('<li class="launch-row">', '<li class="launch-row" hidden>') : row).join("")}</ul></div>` : empty("No discoveries have been added yet.")}
+    ${rows.length > 10 ? `<button class="load-more-launches" type="button">Load more discoveries</button>` : ""}`;
   const moreButton = document.querySelector(".load-more-launches");
   if (moreButton) {
     let visibleCount = 10;
@@ -198,9 +197,9 @@ function renderBrand(id) {
     ${officialWebsite ? `<p><a href="${officialWebsite}" target="_blank" rel="noopener noreferrer">Official website</a></p>` : ""}
     ${brandUrl ? `<p><a href="${brandUrl}" target="_blank" rel="noopener noreferrer">View brand collection at Amaris</a></p>` : ""}
     <h2>Find this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
-    ${launches.length ? `<h2>Recent launches</h2><ul class="launch-list brand-launch-list">${launches.map(item => launchRow(item)).join("")}</ul>` : ""}
+    ${launches.length ? `<h2>Recent discoveries</h2><ul class="launch-list brand-launch-list">${launches.map(item => launchRow(item)).join("")}</ul>` : ""}
     ${featured.length ? `<h2>Featured fragrances</h2><ul class="featured-fragrance-list">${featured.map(item => featuredCard(item, brand)).join("")}</ul>` : ""}
-    ${!launches.length && !featured.length ? `<h2>Recent launches</h2>${empty("No recent launches are listed for this brand yet.")}` : ""}`;
+    ${!launches.length && !featured.length ? `<h2>Recent discoveries</h2>${empty("No recent discoveries are listed for this brand yet.")}` : ""}`;
 }
 
 function renderArticles() {
@@ -256,7 +255,7 @@ function renderStore(id) {
     ${locations.length ? `<h2>${locations.length === 1 ? "Address" : "Locations"}</h2><ul>${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}
     ${store.availabilityNote ? `<p class="notice">${esc(store.availabilityNote)}</p>` : ""}
     <h2>Brands carried</h2>${brands.length ? `<ul class="brand-list stockist-brand-list">${brands.map(brand => `<li><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("No brands are listed for this store yet.")}
-    <h2>Recent launches</h2>${launches.length ? `<div class="launch-list-scroll"><ul class="launch-list">${launchHeading()}${launches.map(launchRow).join("")}</ul></div>` : empty("No recent launches are listed for this store yet.")}`;
+    <h2>Recent discoveries</h2>${launches.length ? `<div class="launch-list-scroll"><ul class="launch-list">${launchHeading()}${launches.map(launchRow).join("")}</ul></div>` : empty("No recent discoveries are listed for this store yet.")}`;
 }
 
 window.addEventListener("popstate", render);

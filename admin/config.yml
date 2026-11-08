@@ -70,7 +70,7 @@ collections:
               - { label: Assortment Source, name: assortmentSource, widget: string, required: false }
               - { label: Availability Checked Date, name: availabilityCheckedAt, widget: string, required: false }
               - { label: Availability Note, name: availabilityNote, widget: text, required: false }
-          - label: New and Past Launches
+          - label: Perfume Discoveries
             name: launches
             widget: list
             add_to_top: true
@@ -79,14 +79,13 @@ collections:
             fields:
               - { label: Brand ID, name: brandId, widget: string, hint: "Use the brand ID shown in the Brands section." }
               - { label: Perfume Name, name: perfume, widget: string }
-              - { label: Date available in Singapore, name: date, widget: date, format: "YYYY-MM-DD", required: false, hint: "Enter the date confirmed available in Singapore. Older entries may leave this blank if the date is unknown." }
+              - { label: Date spotted, name: date, widget: date, format: "YYYY-MM-DD", required: false, hint: "Enter the date you first spotted or heard about this in Singapore." }
               - { label: Retailer Product URL, name: productUrl, widget: string, required: false }
               - label: Stockist IDs
                 name: stockists
                 widget: list
                 field: { label: Stockist ID, name: stockistId, widget: string }
-              - { label: Availability Basis, name: availabilityBasis, widget: text, required: false }
-              - { label: Section, name: section, widget: string, required: false, hint: "Use past for archived launches; leave empty for current launches." }
+              - { label: Source / notes, name: availabilityBasis, widget: text, required: false }
           - label: Articles
             name: articles
             widget: list

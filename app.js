@@ -86,12 +86,12 @@ function launchRow(item) {
   return `<li class="launch-row">
     <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
     <span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>
-    <span class="launch-name">${esc(item.perfume || "Not specified")}</span>
+    <span class="launch-name">${item.discoveryType === "brand" ? "Brand arrival" : esc(item.perfume || "Not specified")}</span>
     <span class="launch-retailer">${stores.length ? stores.map(esc).join(", ") : "To be confirmed"}</span>
   </li>`;
 }
 function launchHeading() {
-  return `<li class="launch-row launch-heading" aria-hidden="true"><span>Date spotted</span><span>Brand</span><span>Name</span><span>Retailer</span></li>`;
+  return `<li class="launch-row launch-heading" aria-hidden="true"><span>Date spotted</span><span>Brand</span><span>Name / event</span><span>Retailer</span></li>`;
 }
 function featuredCard(item, brand) {
   const url = safeExternalUrl(item.url);

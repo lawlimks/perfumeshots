@@ -77,7 +77,7 @@ function launchRow(item) {
   const stores = stockistNames(item);
   const name = brandName(item);
   const brand = data.brands.find(entry => entry.id === item.brandId);
-  const date = item.date && /^\\d{4}-\\d{2}-\\d{2}$/.test(item.date)
+  const date = item.date && /^\d{4}-\d{2}-\d{2}$/.test(item.date)
     ? new Date(`${item.date}T00:00:00`)
     : null;
   const dateLabel = date && !Number.isNaN(date.getTime())

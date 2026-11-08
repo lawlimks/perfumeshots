@@ -77,6 +77,14 @@ collections:
             collapsed: true
             summary: "{{fields.perfume}}"
             fields:
+              - label: Discovery type
+                name: discoveryType
+                widget: select
+                options:
+                  - { label: Perfume, value: perfume }
+                  - { label: Brand arrival, value: brand }
+                default: perfume
+                required: false
               - { label: Brand ID, name: brandId, widget: string, hint: "Use the brand ID shown in the Brands section." }
               - { label: Perfume Name, name: perfume, widget: string }
               - { label: Date spotted, name: date, widget: date, format: "YYYY-MM-DD", required: false, hint: "Enter the date you first spotted or heard about this in Singapore." }

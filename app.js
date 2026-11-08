@@ -73,19 +73,25 @@ function brandName(launch) {
   return data.brands.find(brand => brand.id === launch.brandId)?.name || launch.brand || "";
 }
 
-function launchCard(item) {
+function launchRow(item) {
   const stores = stockistNames(item);
   const name = brandName(item);
   const brand = data.brands.find(entry => entry.id === item.brandId);
   const productUrl = safeExternalUrl(item.productUrl);
-  return `<article class="card launch-card">
-    ${item.image ? `<img src="${esc(item.image)}" alt="${esc(name)} ${esc(item.perfume)}" loading="lazy">` : ""}
-    <h2>${esc(item.perfume)}</h2>
-    <p class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(brand.name)}</a>` : esc(name)}</p>
-    <p class="launch-available">Available at</p>
-    <p class="launch-stockists">${stores.length ? stores.map(esc).join(", ") : "Singapore availability to be confirmed."}</p>
-    ${productUrl ? `<p class="launch-retailer"><a href="${productUrl}" target="_blank" rel="noopener noreferrer">View at retailer</a></p>` : ""}
-  </article>`;
+  const date = item.date && /^\\d{4}-\\d{2}-\\d{2}$/.test(item.date)
+    ? new Date(`${item.date}T00:00:00`)
+    : null;
+  const dateLabel = date && !Number.isNaN(date.getTime())
+    ? `${String(date.getDate()).padStart(2, "0")}/${String(date.getMonth() + 1).padStart(2, "0")}/${date.getFullYear()}`
+    : "Date not recorded";
+  return `<li class="launch-row">
+    <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
+    <div class="launch-info">
+      <p class="launch-title">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)} — ${esc(item.perfume)}</p>
+      <p class="launch-availability">Available at ${stores.length ? stores.map(esc).join(", ") : "Singapore stockist to be confirmed."}</p>
+      ${productUrl ? `<p class="launch-retailer"><a href="${productUrl}" target="_blank" rel="noopener noreferrer">View at retailer</a></p>` : ""}
+    </div>
+  </li>`;
 }
 function featuredCard(item, brand) {
   const url = safeExternalUrl(item.url);
@@ -107,27 +113,30 @@ function render() {
   if (section === "articles") return id ? renderArticle(id) : renderArticles();
   app.innerHTML = `<h1>Page not found</h1><p><a href="/">Back to new launches</a></p>`;
 }
-function pastLaunchRow(item) {
-  const name = brandName(item);
-  const stores = stockistNames(item);
-  return `<li class="past-launch">
-    ${item.image ? `<img src="${esc(item.image)}" alt="${esc(name)} ${esc(item.perfume)}" loading="lazy">` : ""}
-    <div class="past-launch-info">
-      <p class="past-launch-title"><a href="${href("brands", name)}">${esc(name)}</a> — ${esc(item.perfume)}</p>
-      <p>Available at ${stores.length ? stores.map(esc).join(", ") : "Singapore stockist to be confirmed."}</p>
-    </div>
-  </li>`;
-}
 function renderLaunches() {
-  const featured = data.launches.filter(item => item.section !== "past");
-  const past = data.launches.filter(item => item.section === "past");
+  const launches = [...data.launches].sort((a, b) => {
+    const dateOrder = (b.date || "").localeCompare(a.date || "");
+    if (dateOrder) return dateOrder;
+    return (a.section === "past") - (b.section === "past");
+  });
+  const rows = launches.map(launchRow);
   app.innerHTML = `<a class="home-hero" href="${homeHeroLink}" target="_blank" rel="noopener noreferrer" aria-label="View BYREDO Future Memories at Escentials">
       <img src="${homeHeroImage}" alt="BYREDO Future Memories campaign image">
     </a>
     <h1>New in Singapore</h1>
     <p>Recent perfume launches and the Singapore stores that carry them.</p>
-    <section class="grid">${featured.length ? featured.map(launchCard).join("") : empty("No launches have been added yet.")}</section>
-    ${past.length ? `<section class="past-releases"><h2>Past releases</h2><ul class="past-launch-list">${past.map(item => pastLaunchRow(item)).join("")}</ul></section>` : ""}`;
+    ${rows.length ? `<ul class="launch-list">${rows.map((row, index) => index >= 10 ? row.replace('<li class="launch-row">', '<li class="launch-row" hidden>') : row).join("")}</ul>` : empty("No launches have been added yet.")}
+    ${rows.length > 10 ? `<button class="load-more-launches" type="button">Load more launches</button>` : ""}`;
+  const moreButton = document.querySelector(".load-more-launches");
+  if (moreButton) {
+    let visibleCount = 10;
+    moreButton.addEventListener("click", () => {
+      const wrappers = [...document.querySelectorAll(".launch-list .launch-row[hidden]")];
+      wrappers.slice(0, 10).forEach(wrapper => wrapper.hidden = false);
+      visibleCount += wrappers.length > 10 ? 10 : wrappers.length;
+      if (visibleCount >= rows.length) moreButton.remove();
+    });
+  }
 }
 function renderBrands() {
   const brands = [...data.brands].sort((a, b) => a.name.localeCompare(b.name));
@@ -170,19 +179,6 @@ function renderBrands() {
   };
   buttons.forEach(button => button.addEventListener("click", () => setFilter(button.dataset.filter)));
 }
-function brandLaunchRow(item) {
-  const stores = stockistNames(item);
-  const retailerUrl = safeExternalUrl(item.productUrl);
-  return `<li class="past-launch brand-launch-row">
-    ${item.image ? `<img src="${esc(item.image)}" alt="${esc(brandName(item))} ${esc(item.perfume)}" loading="lazy">` : ""}
-    <div class="past-launch-info">
-      <p class="past-launch-title">${esc(item.perfume)}</p>
-      <p>Available at ${stores.length ? stores.map(esc).join(", ") : "Singapore stockist to be confirmed."}</p>
-      ${retailerUrl ? `<p><a href="${retailerUrl}" target="_blank" rel="noopener noreferrer">View at retailer</a></p>` : ""}
-    </div>
-  </li>`;
-}
-
 function renderBrand(id) {
   const brand = findBySlug(data.brands, "name", id);
   if (!brand) { app.innerHTML = `<h1>Brand not found</h1><p><a href="/brands/">Browse all brands</a></p>`; return; }
@@ -202,7 +198,7 @@ function renderBrand(id) {
     ${officialWebsite ? `<p><a href="${officialWebsite}" target="_blank" rel="noopener noreferrer">Official website</a></p>` : ""}
     ${brandUrl ? `<p><a href="${brandUrl}" target="_blank" rel="noopener noreferrer">View brand collection at Amaris</a></p>` : ""}
     <h2>Find this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a></li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
-    ${launches.length ? `<h2>Recent launches</h2><ul class="past-launch-list brand-launch-list">${launches.map(brandLaunchRow).join("")}</ul>` : ""}
+    ${launches.length ? `<h2>Recent launches</h2><ul class="launch-list brand-launch-list">${launches.map(item => launchRow(item)).join("")}</ul>` : ""}
     ${featured.length ? `<h2>Featured fragrances</h2><ul class="featured-fragrance-list">${featured.map(item => featuredCard(item, brand)).join("")}</ul>` : ""}
     ${!launches.length && !featured.length ? `<h2>Recent launches</h2>${empty("No recent launches are listed for this brand yet.")}` : ""}`;
 }
@@ -260,7 +256,7 @@ function renderStore(id) {
     ${locations.length ? `<h2>${locations.length === 1 ? "Address" : "Locations"}</h2><ul>${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}
     ${store.availabilityNote ? `<p class="notice">${esc(store.availabilityNote)}</p>` : ""}
     <h2>Brands carried</h2>${brands.length ? `<ul class="brand-list stockist-brand-list">${brands.map(brand => `<li><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("No brands are listed for this store yet.")}
-    <h2>Recent launches</h2><section class="grid">${launches.length ? launches.map(launchCard).join("") : empty("No recent launches are listed for this store yet.")}</section>`;
+    <h2>Recent launches</h2>${launches.length ? `<ul class="launch-list">${launches.map(launchRow).join("")}</ul>` : empty("No recent launches are listed for this store yet.")}`;
 }
 
 window.addEventListener("popstate", render);

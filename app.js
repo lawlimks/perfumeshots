@@ -77,7 +77,6 @@ function launchRow(item) {
   const stores = stockistNames(item);
   const name = brandName(item);
   const brand = data.brands.find(entry => entry.id === item.brandId);
-  const productUrl = safeExternalUrl(item.productUrl);
   const date = item.date && /^\\d{4}-\\d{2}-\\d{2}$/.test(item.date)
     ? new Date(`${item.date}T00:00:00`)
     : null;
@@ -86,12 +85,13 @@ function launchRow(item) {
     : "Date not recorded";
   return `<li class="launch-row">
     <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
-    <div class="launch-info">
-      <p class="launch-title">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)} — ${esc(item.perfume)}</p>
-      <p class="launch-availability">Available at ${stores.length ? stores.map(esc).join(", ") : "Singapore stockist to be confirmed."}</p>
-      ${productUrl ? `<p class="launch-retailer"><a href="${productUrl}" target="_blank" rel="noopener noreferrer">View at retailer</a></p>` : ""}
-    </div>
+    <span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>
+    <span class="launch-name">${esc(item.perfume)}</span>
+    <span class="launch-retailer">${stores.length ? stores.map(esc).join(", ") : "To be confirmed"}</span>
   </li>`;
+}
+function launchHeading() {
+  return `<li class="launch-row launch-heading" aria-hidden="true"><span>Date</span><span>Brand</span><span>Name</span><span>Retailer</span></li>`;
 }
 function featuredCard(item, brand) {
   const url = safeExternalUrl(item.url);
@@ -125,7 +125,7 @@ function renderLaunches() {
     </a>
     <h1>New in Singapore</h1>
     <p>Recent perfume launches and the Singapore stores that carry them.</p>
-    ${rows.length ? `<ul class="launch-list">${rows.map((row, index) => index >= 10 ? row.replace('<li class="launch-row">', '<li class="launch-row" hidden>') : row).join("")}</ul>` : empty("No launches have been added yet.")}
+    ${rows.length ? `<div class="launch-list-scroll"><ul class="launch-list">${launchHeading()}${rows.map((row, index) => index >= 10 ? row.replace('<li class="launch-row">', '<li class="launch-row" hidden>') : row).join("")}</ul></div>` : empty("No launches have been added yet.")}
     ${rows.length > 10 ? `<button class="load-more-launches" type="button">Load more launches</button>` : ""}`;
   const moreButton = document.querySelector(".load-more-launches");
   if (moreButton) {
@@ -256,7 +256,7 @@ function renderStore(id) {
     ${locations.length ? `<h2>${locations.length === 1 ? "Address" : "Locations"}</h2><ul>${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}
     ${store.availabilityNote ? `<p class="notice">${esc(store.availabilityNote)}</p>` : ""}
     <h2>Brands carried</h2>${brands.length ? `<ul class="brand-list stockist-brand-list">${brands.map(brand => `<li><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("No brands are listed for this store yet.")}
-    <h2>Recent launches</h2>${launches.length ? `<ul class="launch-list">${launches.map(launchRow).join("")}</ul>` : empty("No recent launches are listed for this store yet.")}`;
+    <h2>Recent launches</h2>${launches.length ? `<div class="launch-list-scroll"><ul class="launch-list">${launchHeading()}${launches.map(launchRow).join("")}</ul></div>` : empty("No recent launches are listed for this store yet.")}`;
 }
 
 window.addEventListener("popstate", render);

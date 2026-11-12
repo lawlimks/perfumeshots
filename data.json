@@ -1619,6 +1619,14 @@
   ],
   "launches": [
     {
+      "date": "2026-11-11",
+      "brandId": "juliette-has-a-gun",
+      "perfume": "Purple Trouble",
+      "stockists": [
+        "amaris"
+      ]
+    },
+    {
       "date": "2026-11-06",
       "brandId": "pana-dora",
       "perfume": "Nordhaven",
@@ -1668,6 +1676,14 @@
       ]
     },
     {
+      "date": "2026-10-01",
+      "brandId": "maison-francis-kurkdjian",
+      "perfume": "Oud Velvet Mood",
+      "stockists": [
+        "escentials"
+      ]
+    },
+    {
       "date": "2026-09-25",
       "brandId": "parfums-de-marly",
       "perfume": "Althair Exclusif",
@@ -1687,6 +1703,38 @@
       "date": "2026-09-17",
       "brandId": "initio",
       "perfume": "Oud for Grace",
+      "stockists": [
+        "amaris"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "brandId": "maison-crivelli",
+      "perfume": "Tobacco Carnaval",
+      "stockists": [
+        "escentials"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "brandId": "goldfield-banks",
+      "perfume": "Sunset Hour Dark Peach",
+      "stockists": [
+        "amaris"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "brandId": "creed",
+      "perfume": "Iris Debonair",
+      "stockists": [
+        "escentials"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "brandId": "juliette-has-a-gun",
+      "perfume": "Liquid Illusion",
       "stockists": [
         "amaris"
       ]

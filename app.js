@@ -86,12 +86,12 @@ function launchRow(item) {
   return `<li class="launch-row">
     <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
     <span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>
-    <span class="launch-name">${item.discoveryType === "brand" ? "Brand arrival" : esc(item.perfume || "Not specified")}</span>
+    <span class="launch-name">${esc(item.perfume || "—")}</span>
     <span class="launch-retailer">${stores.length ? stores.map(esc).join(", ") : "To be confirmed"}</span>
   </li>`;
 }
 function launchHeading() {
-  return `<li class="launch-row launch-heading" aria-hidden="true"><span>Date spotted</span><span>Brand</span><span>Name / event</span><span>Retailer</span></li>`;
+  return `<li class="launch-row launch-heading" aria-hidden="true"><span>Date spotted</span><span>Brand</span><span>Name</span><span>Retailer</span></li>`;
 }
 function featuredCard(item, brand) {
   const url = safeExternalUrl(item.url);
@@ -128,11 +128,11 @@ function renderLaunches() {
     ${rows.length > 10 ? `<button class="load-more-launches" type="button">Load more discoveries</button>` : ""}`;
   const moreButton = document.querySelector(".load-more-launches");
   if (moreButton) {
-    let visibleCount = 10;
+    let visibleCount = 8;
     moreButton.addEventListener("click", () => {
       const wrappers = [...document.querySelectorAll(".launch-list .launch-row[hidden]")];
-      wrappers.slice(0, 10).forEach(wrapper => wrapper.hidden = false);
-      visibleCount += wrappers.length > 10 ? 10 : wrappers.length;
+      wrappers.slice(0, 8).forEach(wrapper => wrapper.hidden = false);
+      visibleCount += wrappers.length > 8 ? 8 : wrappers.length;
       if (visibleCount >= rows.length) moreButton.remove();
     });
   }

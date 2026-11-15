@@ -1619,6 +1619,14 @@
   ],
   "launches": [
     {
+      "date": "2026-11-15",
+      "brandId": "atelier-des-ors",
+      "perfume": "Novae Vanilla",
+      "stockists": [
+        "amaris"
+      ]
+    },
+    {
       "date": "2026-11-11",
       "brandId": "juliette-has-a-gun",
       "perfume": "Purple Trouble",

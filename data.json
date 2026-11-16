@@ -1629,8 +1629,10 @@
       "brands": [
         "scent-by-six"
       ],
-      "directoryGroup": "",
-      "directoryGroups": [],
+      "directoryGroup": "Singapore Brands",
+      "directoryGroups": [
+        "Singapore Brands"
+      ],
       "assortmentSource": "https://scentbysix.com/pages/contact-stores-stockist",
       "availabilityCheckedAt": "2026-11-16",
       "availabilityNote": ""

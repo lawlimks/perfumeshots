@@ -84,16 +84,16 @@ function launchRow(item) {
     ? `${String(date.getDate()).padStart(2, "0")}/${String(date.getMonth() + 1).padStart(2, "0")}/${date.getFullYear()}`
     : "Date not recorded";
   return `<li class="launch-row">
-    <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
-    <span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>
     <div class="launch-name">${Array.isArray(item.perfumes) && item.perfumes.length
       ? `<ul class="discovery-perfumes">${item.perfumes.map(perfume => `<li><strong>${esc(perfume.name)}</strong>${perfume.description ? `<span class="launch-scent-notes">${esc(perfume.description)}</span>` : ""}</li>`).join("")}</ul>`
       : `<strong>${esc(item.perfume || "—")}</strong>${item.scentNotes ? `<span class="launch-scent-notes">${esc(item.scentNotes)}</span>` : ""}`}</div>
+    <span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>
+    <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
     <span class="launch-retailer">${esc(item.retailerLabel || (stores.length ? stores.join(", ") : "To be confirmed"))}</span>
   </li>`;
 }
 function launchHeading() {
-  return `<li class="launch-row launch-heading" aria-hidden="true"><span>Date spotted</span><span>Brand</span><span>Name</span><span>Retailer</span></li>`;
+  return `<li class="launch-row launch-heading" aria-hidden="true"><span>Perfume</span><span>Brand</span><span>Date</span><span>Retailer</span></li>`;
 }
 function featuredCard(item, brand) {
   const url = safeExternalUrl(item.url);

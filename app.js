@@ -77,7 +77,7 @@ function launchRow(item) {
   const stores = stockistNames(item);
   const name = brandName(item);
   const brand = data.brands.find(entry => entry.id === item.brandId);
-  const date = item.date && /^\d{4}-\d{2}-\d{2}$/.test(item.date)
+  const date = item.date && /^\\d{4}-\\d{2}-\\d{2}$/.test(item.date)
     ? new Date(`${item.date}T00:00:00`)
     : null;
   const dateLabel = date && !Number.isNaN(date.getTime())
@@ -113,7 +113,27 @@ function render() {
   if (section === "brands") return id ? renderBrand(id) : renderBrands();
   if (section === "stores" || section === "stockists") return id ? renderStore(id) : renderStores();
   if (section === "articles") return id ? renderArticle(id) : renderArticles();
+  if (section === "contact") return renderContact();
   app.innerHTML = `<h1>Page not found</h1><p><a href="/">Back to new launches</a></p>`;
+}
+function renderContact() {
+  app.innerHTML = `<section class="contact-page">
+    <h1>Contact</h1>
+    <p>Have a question, correction or fragrance discovery to share?</p>
+    <form class="contact-form" aria-describedby="contact-form-note">
+      <label for="contact-name">Name</label>
+      <input id="contact-name" name="name" type="text" autocomplete="name" required>
+
+      <label for="contact-email">Email</label>
+      <input id="contact-email" name="email" type="email" autocomplete="email" required>
+
+      <label for="contact-message">Message</label>
+      <textarea id="contact-message" name="message" rows="7" required></textarea>
+
+      <p id="contact-form-note" class="contact-form-note">Message sending will be enabled once the destination inbox is set.</p>
+      <button type="submit" disabled>Send message</button>
+    </form>
+  </section>`;
 }
 function renderLaunches() {
   const launches = [...data.launches].sort((a, b) => {

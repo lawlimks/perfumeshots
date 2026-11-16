@@ -75,7 +75,7 @@ collections:
             widget: list
             add_to_top: true
             collapsed: true
-            summary: "{{fields.perfume}}"
+            summary: "{{fields.date}} — {{fields.brandId}} — {{fields.discoveryType}}"
             fields:
               - label: Discovery type
                 name: discoveryType
@@ -83,10 +83,20 @@ collections:
                 options:
                   - { label: Perfume, value: perfume }
                   - { label: Brand arrival, value: brand }
+                  - { label: Multiple perfumes, value: collection }
                 default: perfume
                 required: false
               - { label: Brand ID, name: brandId, widget: string, hint: "Use the brand ID shown in the Brands section." }
-              - { label: Perfume Name, name: perfume, widget: string }
+              - { label: Perfume Name, name: perfume, widget: string, required: false }
+              - label: Perfumes in collection
+                name: perfumes
+                widget: list
+                required: false
+                collapsed: true
+                fields:
+                  - { label: Perfume Name, name: name, widget: string }
+                  - { label: Scent description, name: description, widget: string, required: false }
+              - { label: Retailer Display Name, name: retailerLabel, widget: string, required: false }
               - { label: Date spotted, name: date, widget: date, format: "YYYY-MM-DD", required: false, hint: "Enter the date you first spotted or heard about this in Singapore." }
               - { label: Retailer Product URL, name: productUrl, widget: string, required: false }
               - label: Stockist IDs

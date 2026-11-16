@@ -44,7 +44,8 @@ function renderResults() {
     const text = entryText(entry);
     const letter = String(entry.letter || text.charAt(0)).toUpperCase();
     const state = entryStatus(entry);
-    const searchableText = [text, state?.label || "", state?.description || ""].join(" ").toLocaleLowerCase();
+    const format = String(entry.format || "");
+    const searchableText = [text, state?.label || "", state?.description || "", format].join(" ").toLocaleLowerCase();
     return (selectedLetter === "all" || letter === selectedLetter) &&
       (!query || searchableText.includes(query));
   });
@@ -57,14 +58,23 @@ function renderResults() {
     text.textContent = entryText(entry);
     item.append(text);
 
+    const labels = [];
     const entryState = entryStatus(entry);
-    if (entryState) {
-      const status = document.createElement("span");
-      status.className = "collection-status";
-      status.textContent = entryState.label;
-      status.setAttribute("aria-label", entryState.description);
-      item.append(status);
+    if (entryState) labels.push({ label: entryState.label, description: entryState.description });
+    if (entry.format) {
+      const format = String(entry.format);
+      labels.push({
+        label: format.replace(/\\b\\w/g, character => character.toUpperCase()),
+        description: format
+      });
     }
+    labels.forEach(entryLabel => {
+      const badge = document.createElement("span");
+      badge.className = "collection-status";
+      badge.textContent = entryLabel.label;
+      badge.setAttribute("aria-label", entryLabel.description);
+      item.append(badge);
+    });
 
     return item;
   }));

@@ -1619,6 +1619,56 @@
   ],
   "launches": [
     {
+      "date": "2026-11-10",
+      "brandId": "panpuri",
+      "perfume": "",
+      "discoveryType": "collection",
+      "perfumes": [
+        {
+          "name": "The Quiet Between",
+          "description": "Green: Tomato Leaf & Galbanum"
+        },
+        {
+          "name": "Whisper of Sun",
+          "description": "Citrus: Yuzu & Basil"
+        },
+        {
+          "name": "No One Is Watching",
+          "description": "Citrus: Lemon & Neroli"
+        },
+        {
+          "name": "Not the End Yet",
+          "description": "Floral: Lily of the Valley & Coriander"
+        },
+        {
+          "name": "What the Wind Forgot",
+          "description": "Floral: Rose & Cherry Blossom"
+        },
+        {
+          "name": "Blue Hour Letters",
+          "description": "Floral Woody: Juniper Berry & Jasmine"
+        },
+        {
+          "name": "The Soft Within",
+          "description": "Green: White Tea & Fig"
+        },
+        {
+          "name": "I'll Stay Until You Sleep",
+          "description": "Tuberose & Vanilla"
+        },
+        {
+          "name": "Little Light Still Burning",
+          "description": "Pink Pepper & Guaiac Wood"
+        },
+        {
+          "name": "The Ground Remembers",
+          "description": "Hinoki & Labdanum"
+        }
+      ],
+      "stockists": [],
+      "retailerLabel": "Tangs Panpuri"
+    },
+    {
       "date": "2026-11-15",
       "brandId": "atelier-des-ors",
       "perfume": "Novae Vanilla",

@@ -87,10 +87,10 @@ export default {
 
     if (url.pathname === "/collection/login" && request.method === "POST") {
       if (request.headers.get("Origin") && request.headers.get("Origin") !== url.origin) return html("Request rejected.", 403);
-      if (!env.COLLECTION_PASSWORD || !env.COLLECTION_SESSION_SECRET) return loginPage();
+      if (!env.COLLECTION_PASSWORD || !env.COLLECTION_SESSION_SECRET) return loginPage(env);
       const form = await request.formData();
       const candidate = String(form.get("password") || "");
-      if (!await passwordsMatch(candidate, env.COLLECTION_PASSWORD)) return loginPage("That password did not match. Please try again.");
+      if (!await passwordsMatch(candidate, env.COLLECTION_PASSWORD)) return loginPage(env, "That password did not match. Please try again.");
       const expires = String(Math.floor(Date.now() / 1000) + SESSION_SECONDS);
       const signed = await signature(expires, env.COLLECTION_SESSION_SECRET);
       return new Response(null, {
@@ -112,7 +112,7 @@ export default {
       });
     }
 
-    if (!env.COLLECTION_PASSWORD || !env.COLLECTION_SESSION_SECRET) return loginPage();
+    if (!env.COLLECTION_PASSWORD || !env.COLLECTION_SESSION_SECRET) return loginPage(env);
     if (!await isAuthorized(request, env.COLLECTION_SESSION_SECRET)) return loginPage();
     if (url.pathname === "/collection/api/data" && request.method === "GET") {
       if (!env.PRIVATE_COLLECTION) return new Response(JSON.stringify({ error: "Private collection storage is not connected yet." }), {

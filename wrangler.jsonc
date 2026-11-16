@@ -13,8 +13,5 @@
       "binding": "PRIVATE_COLLECTION",
       "bucket_name": "perfumeshots-collection-private"
     }
-  ],
-  "secrets": {
-    "required": ["COLLECTION_PASSWORD", "COLLECTION_SESSION_SECRET"]
-  }
+  ]
 }

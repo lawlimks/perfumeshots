@@ -87,8 +87,8 @@ function launchRow(item) {
     <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
     <span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>
     <div class="launch-name">${Array.isArray(item.perfumes) && item.perfumes.length
-      ? `<ul class="discovery-perfumes">${item.perfumes.map(perfume => `<li><strong>${esc(perfume.name)}</strong>${perfume.description ? ` <span>(${esc(perfume.description)})</span>` : ""}</li>`).join("")}</ul>`
-      : `${esc(item.perfume || "—")}${item.scentNotes ? `<span class="launch-scent-notes">${esc(item.scentNotes)}</span>` : ""}`}</div>
+      ? `<ul class="discovery-perfumes">${item.perfumes.map(perfume => `<li><strong>${esc(perfume.name)}</strong>${perfume.description ? `<span class="launch-scent-notes">${esc(perfume.description)}</span>` : ""}</li>`).join("")}</ul>`
+      : `<strong>${esc(item.perfume || "—")}</strong>${item.scentNotes ? `<span class="launch-scent-notes">${esc(item.scentNotes)}</span>` : ""}`}</div>
     <span class="launch-retailer">${esc(item.retailerLabel || (stores.length ? stores.join(", ") : "To be confirmed"))}</span>
   </li>`;
 }

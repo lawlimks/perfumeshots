@@ -1,7 +1,7 @@
 const app = document.querySelector("#app");
 let data = { launches: [], brands: [], stores: [], articles: [] };
-const homeHeroImage = "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/9a137614-bdac-4c36-8cd7-f5483fcdc6d6.jpg";
-const homeHeroLink = "https://escentials.com/products/byredo-future-memories-eau-de-parfum";
+const homeHeroImage = "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/mindgames.webp";
+const homeHeroLink = "/brands/mind-games/";
 const siteHeader = document.querySelector(".site-header");
 function updateHeaderOnScroll() {
   siteHeader.classList.toggle("is-scrolled", window.scrollY > 60);
@@ -121,8 +121,8 @@ function renderLaunches() {
     if (dateOrder) return dateOrder;
   });
   const rows = launches.map(launchRow);
-  app.innerHTML = `<a class="home-hero" href="${homeHeroLink}" target="_blank" rel="noopener noreferrer" aria-label="View BYREDO Future Memories at Escentials">
-      <img src="${homeHeroImage}" alt="BYREDO Future Memories campaign image">
+  app.innerHTML = `<a class="home-hero" href="${homeHeroLink}" target="_blank" rel="noopener noreferrer" aria-label="Explore Mind Games fragrances">
+      <img src="${homeHeroImage}" alt="Mind Games fragrance campaign image">
     </a>
     <h1>New discoveries in Singapore</h1>
     <p>Perfumes recently spotted, shared or confirmed in Singapore.</p>

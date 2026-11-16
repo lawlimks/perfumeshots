@@ -6,6 +6,16 @@ const empty = document.querySelector("#empty-state");
 let entries = [];
 let selectedLetter = "all";
 
+function entryText(entry) {
+  const text = String(entry.text || "");
+  // The legacy lowercase x means a fragrance is no longer owned.
+  return text.replace(/^x(?=[A-Z])/, "");
+}
+
+function isNoLongerOwned(entry) {
+  return entry.status === "used" || /^x(?=[A-Z])/.test(String(entry.text || ""));
+}
+
 function renderFilters() {
   const letters = ["all", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
   filters.replaceChildren(...letters.map(letter => {
@@ -27,15 +37,28 @@ function renderFilters() {
 function renderResults() {
   const query = search.value.trim().toLocaleLowerCase();
   const shown = entries.filter(entry => {
-    const text = String(entry.text || "");
-    const letter = String(entry.letter || text.replace(/^x(?=[A-Z])/i, "").charAt(0)).toUpperCase();
+    const text = entryText(entry);
+    const letter = String(entry.letter || text.charAt(0)).toUpperCase();
     return (selectedLetter === "all" || letter === selectedLetter) &&
       (!query || text.toLocaleLowerCase().includes(query));
   });
   results.replaceChildren(...shown.map(entry => {
     const item = document.createElement("li");
     item.className = "collection-item";
-    item.textContent = entry.text;
+
+    const text = document.createElement("span");
+    text.className = "collection-text";
+    text.textContent = entryText(entry);
+    item.append(text);
+
+    if (isNoLongerOwned(entry)) {
+      const status = document.createElement("span");
+      status.className = "collection-status";
+      status.textContent = "No longer owned";
+      status.setAttribute("aria-label", "Used up or given away");
+      item.append(status);
+    }
+
     return item;
   }));
   count.textContent = `${shown.length} ${shown.length === 1 ? "fragrance" : "fragrances"}`;

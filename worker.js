@@ -22,8 +22,8 @@ function html(body, status = 200) {
   });
 }
 
-function loginPage(message = "") {
-  if (!message && (!globalThis.__collectionEnv?.COLLECTION_PASSWORD || !globalThis.__collectionEnv?.COLLECTION_SESSION_SECRET)) {
+function loginPage(env, message = "") {
+  if (!message && (!env.COLLECTION_PASSWORD || !env.COLLECTION_SESSION_SECRET)) {
     return html(`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Collection setup required — PerfumeShots</title><style>body{margin:0;background:#f7f6f3;color:#222;font:16px/1.6 Arial,sans-serif;display:grid;min-height:100vh;place-items:center}.box{max-width:28rem;padding:2rem;text-align:center}h1{font-weight:400}</style></head><body><main class="box"><h1>Private collection</h1><p>This page is waiting for its Cloudflare password settings.</p></main></body></html>`, 503);
   }
   const error = message ? `<p class="error" role="alert">${message}</p>` : "";
@@ -79,7 +79,6 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname !== "/collection" && !url.pathname.startsWith("/collection/")) return env.ASSETS.fetch(request);
-    globalThis.__collectionEnv = env;
 
     if (url.pathname === "/collection") {
       return new Response(null, { status: 301, headers: headers({ Location: "/collection/" }) });
@@ -113,7 +112,7 @@ export default {
     }
 
     if (!env.COLLECTION_PASSWORD || !env.COLLECTION_SESSION_SECRET) return loginPage(env);
-    if (!await isAuthorized(request, env.COLLECTION_SESSION_SECRET)) return loginPage();
+    if (!await isAuthorized(request, env.COLLECTION_SESSION_SECRET)) return loginPage(env);
     if (url.pathname === "/collection/api/data" && request.method === "GET") {
       if (!env.PRIVATE_COLLECTION) return new Response(JSON.stringify({ error: "Private collection storage is not connected yet." }), {
         status: 503,

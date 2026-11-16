@@ -75,9 +75,74 @@ function withNoIndex(response) {
   return new Response(response.body, { status: response.status, statusText: response.statusText, headers: responseHeaders });
 }
 
+function contactJson(body, status = 200) {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: headers({ "Content-Type": "application/json; charset=utf-8" })
+  });
+}
+
+async function handleContact(request, env, url) {
+  if (request.method !== "POST") return contactJson({ error: "Method not allowed." }, 405);
+  const origin = request.headers.get("Origin");
+  if (origin && origin !== url.origin) return contactJson({ error: "Request rejected." }, 403);
+  const length = Number(request.headers.get("Content-Length") || 0);
+  if (length > 12000) return contactJson({ error: "Message is too long." }, 413);
+  if (!request.headers.get("Content-Type")?.includes("application/json")) {
+    return contactJson({ error: "Unsupported request format." }, 415);
+  }
+
+  let form;
+  try {
+    form = await request.json();
+  } catch {
+    return contactJson({ error: "Invalid form submission." }, 400);
+  }
+
+  // Quietly accept automated submissions caught by the hidden honeypot.
+  if (String(form.website || "").trim()) return contactJson({ ok: true });
+
+  const name = String(form.name || "").trim();
+  const email = String(form.email || "").trim();
+  const message = String(form.message || "").trim();
+  if (!name || name.length > 120) return contactJson({ error: "Please enter a name under 120 characters." }, 400);
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 254) {
+    return contactJson({ error: "Please enter a valid email address." }, 400);
+  }
+  if (!message || message.length > 5000) {
+    return contactJson({ error: "Please enter a message under 5,000 characters." }, 400);
+  }
+  if (!env.RESEND_API_KEY || !env.CONTACT_TO || !env.RESEND_FROM) {
+    return contactJson({ error: "The contact form is not fully configured yet. Please try again later." }, 503);
+  }
+
+  const delivery = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${env.RESEND_API_KEY}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      from: env.RESEND_FROM,
+      to: [env.CONTACT_TO],
+      reply_to: email,
+      subject: "New PerfumeShots contact message",
+      text: `Name: ${name}\nEmail: ${email}\n\n${message}`
+    })
+  });
+
+  if (!delivery.ok) {
+    const details = await delivery.text();
+    console.error("Resend contact delivery failed", delivery.status, details);
+    return contactJson({ error: "Your message could not be sent. Please try again later." }, 502);
+  }
+  return contactJson({ ok: true });
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === "/api/contact") return handleContact(request, env, url);
     if (url.pathname !== "/collection" && !url.pathname.startsWith("/collection/")) return env.ASSETS.fetch(request);
 
     if (url.pathname === "/collection") {

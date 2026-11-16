@@ -2,6 +2,7 @@
   "name": "perfumeshots",
   "main": "./worker.js",
   "compatibility_date": "2026-09-26",
+  "keep_vars": true,
   "assets": {
     "directory": "./",
     "binding": "ASSETS",

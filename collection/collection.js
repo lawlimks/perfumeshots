@@ -14,6 +14,7 @@ function entryText(entry) {
 
 function entryStatus(entry) {
   if (entry.status === "backup") return { label: "Backup", description: "Backup bottle" };
+  if (entry.status === "sold") return { label: "Sold", description: "Sold" };
   if (entry.status === "used" || /^x(?=[A-Z])/.test(String(entry.text || ""))) {
     return { label: "No longer owned", description: "Used up or given away" };
   }

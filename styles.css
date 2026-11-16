@@ -44,6 +44,7 @@ body.home nav { align-self: center; transform: translateY(2rem); }
 .site-header.is-scrolled nav { transform: none; }
 
 body.home main { padding-top: 0; }
+@media (min-width: 48.001rem) { body.home main { padding-top: 6rem; } }
 body.home .home-hero { display: block; width: 100%; height: auto; margin: 0 auto 2rem; overflow: hidden; }
 body.home .home-hero img { display: block; width: 100%; height: auto; object-fit: cover; }
 @media (max-width: 48rem) {

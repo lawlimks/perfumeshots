@@ -12,8 +12,12 @@ function entryText(entry) {
   return text.replace(/^x(?=[A-Z])/, "");
 }
 
-function isNoLongerOwned(entry) {
-  return entry.status === "used" || /^x(?=[A-Z])/.test(String(entry.text || ""));
+function entryStatus(entry) {
+  if (entry.status === "backup") return { label: "Backup", description: "Backup bottle" };
+  if (entry.status === "used" || /^x(?=[A-Z])/.test(String(entry.text || ""))) {
+    return { label: "No longer owned", description: "Used up or given away" };
+  }
+  return null;
 }
 
 function renderFilters() {
@@ -51,11 +55,12 @@ function renderResults() {
     text.textContent = entryText(entry);
     item.append(text);
 
-    if (isNoLongerOwned(entry)) {
+    const entryState = entryStatus(entry);
+    if (entryState) {
       const status = document.createElement("span");
       status.className = "collection-status";
-      status.textContent = "No longer owned";
-      status.setAttribute("aria-label", "Used up or given away");
+      status.textContent = entryState.label;
+      status.setAttribute("aria-label", entryState.description);
       item.append(status);
     }
 

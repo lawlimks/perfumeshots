@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="googlebot" content="noindex,nofollow">
+  <title>My Collection — PerfumeShots</title>
+  <link rel="stylesheet" href="/collection/collection.css">
+  <script src="/collection/collection.js" defer></script>
+</head>
+<body>
+  <main class="collection-shell">
+    <header class="collection-header">
+      <a class="wordmark" href="/" aria-label="PerfumeShots home">PERFUMESHOTS</a>
+      <p class="eyebrow">Private reference</p>
+      <h1>My Collection</h1>
+      <p class="intro">A personal fragrance index.</p>
+    </header>
+    <section class="collection-controls" aria-label="Search and filter collection">
+      <label class="search-label" for="collection-search">Search this collection</label>
+      <input id="collection-search" type="search" autocomplete="off" placeholder="Try a brand or perfume name">
+      <div id="letter-filters" class="letter-filters" role="group" aria-label="Filter by first letter"></div>
+      <p id="result-count" class="result-count" aria-live="polite"></p>
+    </section>
+    <section aria-label="Collection results">
+      <ul id="collection-results" class="collection-results"></ul>
+      <p id="empty-state" class="empty-state" hidden>No fragrances match that search.</p>
+    </section>
+    <footer class="collection-footer">
+      <form method="post" action="/collection/logout"><button type="submit">Lock collection</button></form>
+      <a href="/">Back to PerfumeShots</a>
+    </footer>
+  </main>
+</body>
+</html>

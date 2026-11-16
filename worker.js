@@ -23,7 +23,7 @@ function html(body, status = 200) {
 }
 
 function loginPage(env, message = "") {
-  if (!message && (!env.COLLECTION_PASSWORD || !env.COLLECTION_SESSION_SECRET)) {
+  if (!message && (!env.COLLECTION_PASSWORD || !env.COLLECTION_PASSWORD)) {
     return html(`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Collection setup required — PerfumeShots</title><style>body{margin:0;background:#f7f6f3;color:#222;font:16px/1.6 Arial,sans-serif;display:grid;min-height:100vh;place-items:center}.box{max-width:28rem;padding:2rem;text-align:center}h1{font-weight:400}</style></head><body><main class="box"><h1>Private collection</h1><p>This page is waiting for its Cloudflare password settings.</p></main></body></html>`, 503);
   }
   const error = message ? `<p class="error" role="alert">${message}</p>` : "";
@@ -86,12 +86,12 @@ export default {
 
     if (url.pathname === "/collection/login" && request.method === "POST") {
       if (request.headers.get("Origin") && request.headers.get("Origin") !== url.origin) return html("Request rejected.", 403);
-      if (!env.COLLECTION_PASSWORD || !env.COLLECTION_SESSION_SECRET) return loginPage(env);
+      if (!env.COLLECTION_PASSWORD || !env.COLLECTION_PASSWORD) return loginPage(env);
       const form = await request.formData();
       const candidate = String(form.get("password") || "");
       if (!await passwordsMatch(candidate, env.COLLECTION_PASSWORD)) return loginPage(env, "That password did not match. Please try again.");
       const expires = String(Math.floor(Date.now() / 1000) + SESSION_SECONDS);
-      const signed = await signature(expires, env.COLLECTION_SESSION_SECRET);
+      const signed = await signature(expires, env.COLLECTION_PASSWORD);
       return new Response(null, {
         status: 303,
         headers: headers({
@@ -111,8 +111,8 @@ export default {
       });
     }
 
-    if (!env.COLLECTION_PASSWORD || !env.COLLECTION_SESSION_SECRET) return loginPage(env);
-    if (!await isAuthorized(request, env.COLLECTION_SESSION_SECRET)) return loginPage(env);
+    if (!env.COLLECTION_PASSWORD || !env.COLLECTION_PASSWORD) return loginPage(env);
+    if (!await isAuthorized(request, env.COLLECTION_PASSWORD)) return loginPage(env);
     if (url.pathname === "/collection/api/data" && request.method === "GET") {
       if (!env.PRIVATE_COLLECTION) return new Response(JSON.stringify({ error: "Private collection storage is not connected yet." }), {
         status: 503,

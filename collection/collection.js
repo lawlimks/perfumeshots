@@ -45,8 +45,8 @@ function renderResults() {
     const text = entryText(entry);
     const letter = String(entry.letter || text.charAt(0)).toUpperCase();
     const state = entryStatus(entry);
-    const format = String(entry.format || "");
-    const searchableText = [text, state?.label || "", state?.description || "", format].join(" ").toLocaleLowerCase();
+    const formats = Array.isArray(entry.format) ? entry.format.map(String) : entry.format ? [String(entry.format)] : [];
+    const searchableText = [text, state?.label || "", state?.description || "", ...formats].join(" ").toLocaleLowerCase();
     return (selectedLetter === "all" || letter === selectedLetter) &&
       (!query || searchableText.includes(query));
   });

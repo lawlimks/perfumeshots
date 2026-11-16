@@ -1634,6 +1634,158 @@
       "assortmentSource": "https://scentbysix.com/pages/contact-stores-stockist",
       "availabilityCheckedAt": "2026-11-16",
       "availabilityNote": ""
+    },
+    {
+      "id": "postcard-orchard",
+      "name": "Postcard (Orchard)",
+      "url": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
+      "type": "brand-boutique",
+      "locations": [
+        "Takashimaya Shopping Centre #B2-11A, 391 Orchard Road, Singapore 238872"
+      ],
+      "brands": [
+        "postcard"
+      ],
+      "directoryGroup": "Singapore Brands",
+      "directoryGroups": [
+        "Singapore Brands"
+      ],
+      "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
+      "availabilityCheckedAt": "2026-11-16",
+      "availabilityNote": ""
+    },
+    {
+      "id": "green-collective-funan",
+      "name": "The Green Collective (Funan)",
+      "url": "",
+      "type": "",
+      "locations": [
+        "Funan #02-18, 109 North Bridge Road, Singapore 179097"
+      ],
+      "brands": [
+        "postcard"
+      ],
+      "directoryGroup": "Singapore Brands",
+      "directoryGroups": [
+        "Singapore Brands"
+      ],
+      "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
+      "availabilityCheckedAt": "2026-11-16",
+      "availabilityNote": ""
+    },
+    {
+      "id": "hideaway-new-bahru",
+      "name": "Hideaway (New Bahru)",
+      "url": "",
+      "type": "",
+      "locations": [
+        "New Bahru #05-07/08, 46 Kim Yam Road, Singapore 239351"
+      ],
+      "brands": [
+        "postcard"
+      ],
+      "directoryGroup": "Singapore Brands",
+      "directoryGroups": [
+        "Singapore Brands"
+      ],
+      "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
+      "availabilityCheckedAt": "2026-11-16",
+      "availabilityNote": ""
+    },
+    {
+      "id": "sunday-bedding-joo-chiat",
+      "name": "Sunday Bedding (Joo Chiat)",
+      "url": "",
+      "type": "",
+      "locations": [
+        "479 Joo Chiat Road, Level 1, Singapore 427684"
+      ],
+      "brands": [
+        "postcard"
+      ],
+      "directoryGroup": "Singapore Brands",
+      "directoryGroups": [
+        "Singapore Brands"
+      ],
+      "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
+      "availabilityCheckedAt": "2026-11-16",
+      "availabilityNote": ""
+    },
+    {
+      "id": "sojao-joo-chiat",
+      "name": "SOJAO (Joo Chiat)",
+      "url": "",
+      "type": "",
+      "locations": [
+        "251 Joo Chiat Road, Singapore 427505"
+      ],
+      "brands": [
+        "postcard"
+      ],
+      "directoryGroup": "Singapore Brands",
+      "directoryGroups": [
+        "Singapore Brands"
+      ],
+      "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
+      "availabilityCheckedAt": "2026-11-16",
+      "availabilityNote": ""
+    },
+    {
+      "id": "sunday-bedding-holland-village",
+      "name": "Sunday Bedding (Holland Village)",
+      "url": "",
+      "type": "",
+      "locations": [
+        "Holland Road Shopping Centre #01-K4, 211 Holland Avenue, Singapore 278967"
+      ],
+      "brands": [
+        "postcard"
+      ],
+      "directoryGroup": "Singapore Brands",
+      "directoryGroups": [
+        "Singapore Brands"
+      ],
+      "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
+      "availabilityCheckedAt": "2026-11-16",
+      "availabilityNote": ""
+    },
+    {
+      "id": "sojao-new-bahru",
+      "name": "SOJAO (New Bahru)",
+      "url": "",
+      "type": "",
+      "locations": [
+        "New Bahru #03-05, 46 Kim Yam Road, Singapore 239351"
+      ],
+      "brands": [
+        "postcard"
+      ],
+      "directoryGroup": "Singapore Brands",
+      "directoryGroups": [
+        "Singapore Brands"
+      ],
+      "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
+      "availabilityCheckedAt": "2026-11-16",
+      "availabilityNote": ""
+    },
+    {
+      "id": "tangs-vivocity",
+      "name": "TANGS VivoCity",
+      "url": "",
+      "type": "",
+      "locations": [
+        "VivoCity #02-189, 1 HarbourFront Walk, Singapore 098585"
+      ],
+      "brands": [
+        "postcard"
+      ],
+      "directoryGroup": "Singapore Brands",
+      "directoryGroups": [
+        "Singapore Brands"
+      ],
+      "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
+      "availabilityCheckedAt": "2026-11-16",
+      "availabilityNote": ""
     }
   ],
   "launches": [

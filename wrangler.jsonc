@@ -1,8 +1,20 @@
 {
   "name": "perfumeshots",
+  "main": "./worker.js",
   "compatibility_date": "2026-09-26",
   "assets": {
     "directory": "./",
-    "not_found_handling": "single-page-application"
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/collection", "/collection/*"]
+  },
+  "r2_buckets": [
+    {
+      "binding": "PRIVATE_COLLECTION",
+      "bucket_name": "perfumeshots-collection-private"
+    }
+  ],
+  "secrets": {
+    "required": ["COLLECTION_PASSWORD", "COLLECTION_SESSION_SECRET"]
   }
 }

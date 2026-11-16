@@ -1619,6 +1619,15 @@
   ],
   "launches": [
     {
+      "date": "2026-11-11",
+      "brandId": "juliette-has-a-gun",
+      "perfume": "Purple Trouble",
+      "stockists": [
+        "amaris"
+      ],
+      "scentNotes": "Spicy Fruity: Blackberry & Chili Pepper"
+    },
+    {
       "date": "2026-11-10",
       "brandId": "panpuri",
       "perfume": "",
@@ -1654,35 +1663,19 @@
         },
         {
           "name": "I'll Stay Until You Sleep",
-          "description": "Tuberose & Vanilla"
+          "description": "Floral: Tuberose & Vanilla"
         },
         {
           "name": "Little Light Still Burning",
-          "description": "Pink Pepper & Guaiac Wood"
+          "description": "Woody: Pink Pepper & Guaiac Wood"
         },
         {
           "name": "The Ground Remembers",
-          "description": "Hinoki & Labdanum"
+          "description": "Woody: Hinoki & Labdanum"
         }
       ],
       "stockists": [],
-      "retailerLabel": "Tangs Panpuri"
-    },
-    {
-      "date": "2026-11-15",
-      "brandId": "atelier-des-ors",
-      "perfume": "Novae Vanilla",
-      "stockists": [
-        "amaris"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "brandId": "juliette-has-a-gun",
-      "perfume": "Purple Trouble",
-      "stockists": [
-        "amaris"
-      ]
+      "retailerLabel": "Panpuri"
     },
     {
       "date": "2026-11-06",
@@ -1690,7 +1683,8 @@
       "perfume": "Nordhaven",
       "stockists": [
         "amaris"
-      ]
+      ],
+      "scentNotes": "Fruity Floral: Pineapple & Tuberose"
     },
     {
       "date": "2026-11-03",
@@ -1698,16 +1692,8 @@
       "perfume": "Heat",
       "stockists": [
         "amaris"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "brandId": "mind-games",
-      "perfume": "",
-      "stockists": [
-        "amaris"
       ],
-      "discoveryType": "brand"
+      "scentNotes": "Spicy Woody: Red Chili Pepper & Cedarwood"
     },
     {
       "date": "2026-10-21",
@@ -1715,7 +1701,8 @@
       "perfume": "Velvet Tonka",
       "stockists": [
         "amaris"
-      ]
+      ],
+      "scentNotes": "Amber Gourmand: Almond & Tonka Bean"
     },
     {
       "date": "2026-10-15",
@@ -1723,7 +1710,8 @@
       "perfume": "Aswan",
       "stockists": [
         "amaris"
-      ]
+      ],
+      "scentNotes": "Oriental Spicy: Warm Spices & Dark Resins"
     },
     {
       "date": "2026-10-10",
@@ -1731,7 +1719,8 @@
       "perfume": "Morning Star",
       "stockists": [
         "amaris"
-      ]
+      ],
+      "scentNotes": "Smoky Woody: Incense & Vetiver"
     },
     {
       "date": "2026-10-01",
@@ -1739,7 +1728,8 @@
       "perfume": "Oud Velvet Mood",
       "stockists": [
         "escentials"
-      ]
+      ],
+      "scentNotes": "Oriental Woody: Saffron & Oud"
     },
     {
       "date": "2026-09-25",
@@ -1747,7 +1737,8 @@
       "perfume": "Althair Exclusif",
       "stockists": [
         "amaris"
-      ]
+      ],
+      "scentNotes": "Amber Gourmand: Bourbon Vanilla & Cinnamon"
     },
     {
       "date": "2026-09-19",
@@ -1755,7 +1746,8 @@
       "perfume": "Future Memories",
       "stockists": [
         "escentials"
-      ]
+      ],
+      "scentNotes": "Sweet Warm: Bourbon Vanilla & Iris"
     },
     {
       "date": "2026-09-17",
@@ -1763,7 +1755,8 @@
       "perfume": "Oud for Grace",
       "stockists": [
         "amaris"
-      ]
+      ],
+      "scentNotes": "Woody Spicy: Oud & Black Pepper"
     },
     {
       "date": "2026-09-13",
@@ -1771,7 +1764,8 @@
       "perfume": "Tobacco Carnaval",
       "stockists": [
         "escentials"
-      ]
+      ],
+      "scentNotes": "Woody Liqueur: Tobacco Leaves & Infused Rum"
     },
     {
       "date": "2026-09-10",
@@ -1779,7 +1773,8 @@
       "perfume": "Sunset Hour Dark Peach",
       "stockists": [
         "amaris"
-      ]
+      ],
+      "scentNotes": "Fruity Amber: Desert Peach & Vanilla"
     },
     {
       "date": "2026-09-05",
@@ -1787,7 +1782,8 @@
       "perfume": "Iris Debonair",
       "stockists": [
         "escentials"
-      ]
+      ],
+      "scentNotes": "Powdery Floral: French Iris & Absinthe"
     },
     {
       "date": "2026-09-03",
@@ -1795,7 +1791,8 @@
       "perfume": "Liquid Illusion",
       "stockists": [
         "amaris"
-      ]
+      ],
+      "scentNotes": "Powdery Floral: Orris Butter & Heliotrope"
     },
     {
       "date": "2026-09-01",
@@ -1803,7 +1800,8 @@
       "perfume": "Demon Dancer",
       "stockists": [
         "amaris"
-      ]
+      ],
+      "scentNotes": "Fresh Fruity: Rhubarb & Peppermint"
     }
   ],
   "articles": [

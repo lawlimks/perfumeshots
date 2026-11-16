@@ -21,8 +21,8 @@ h1 { margin: 0; font-family: "Syne", Georgia, serif; font-size: clamp(2rem, 5vw,
 .letter-filter { min-width: 2.35rem; padding: .35rem .55rem; border: 1px solid #d2cfc8; background: transparent; color: #33312d; font: inherit; line-height: 1.3; cursor: pointer; }
 .letter-filter[aria-pressed="true"], .letter-filter:hover { border-color: #33312d; background: #33312d; color: #fff; }
 .result-count { margin: .8rem 0 0; color: #77736c; font-size: .9rem; }
-.collection-results { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem 1rem; margin: 0; padding: 0; list-style: none; }
-.collection-item { min-height: 3.4rem; padding: .8rem .9rem; border: 1px solid #e2dfd9; background: rgba(255,255,255,.72); overflow-wrap: anywhere; }
+.collection-results { columns: 2; column-gap: 1rem; margin: 0; padding: 0; list-style: none; }
+.collection-item { display: block; min-height: 3.4rem; margin: 0 0 .65rem; padding: .8rem .9rem; border: 1px solid #e2dfd9; background: rgba(255,255,255,.72); break-inside: avoid; overflow-wrap: anywhere; }
 .empty-state { padding: 1rem; border: 1px solid #e2dfd9; color: #69665f; }
 .collection-footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #d9d6d0; }
 .collection-footer a { color: #555149; }
@@ -31,6 +31,6 @@ h1 { margin: 0; font-family: "Syne", Georgia, serif; font-size: clamp(2rem, 5vw,
   .collection-shell { width: min(100% - 1.5rem, 76rem); padding-top: .6rem; }
   .collection-header { padding-bottom: 1.4rem; }
   .eyebrow { margin-top: 1.8rem; }
-  .collection-results { grid-template-columns: 1fr; gap: .5rem; }
+  .collection-results { columns: 1; }
   .collection-footer { align-items: flex-start; flex-direction: column; }
 }

@@ -43,8 +43,10 @@ function renderResults() {
   const shown = entries.filter(entry => {
     const text = entryText(entry);
     const letter = String(entry.letter || text.charAt(0)).toUpperCase();
+    const state = entryStatus(entry);
+    const searchableText = [text, state?.label || "", state?.description || ""].join(" ").toLocaleLowerCase();
     return (selectedLetter === "all" || letter === selectedLetter) &&
-      (!query || text.toLocaleLowerCase().includes(query));
+      (!query || searchableText.includes(query));
   });
   results.replaceChildren(...shown.map(entry => {
     const item = document.createElement("li");

@@ -64,7 +64,7 @@ function renderResults() {
     if (entry.format) {
       const format = String(entry.format);
       labels.push({
-        label: format.replace(/\\b\\w/g, character => character.toUpperCase()),
+        label: format.replace(/\b\w/g, character => character.toUpperCase()),
         description: format
       });
     }

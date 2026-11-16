@@ -62,13 +62,11 @@ function renderResults() {
     const labels = [];
     const entryState = entryStatus(entry);
     if (entryState) labels.push({ label: entryState.label, description: entryState.description });
-    if (entry.format) {
-      const format = String(entry.format);
-      labels.push({
-        label: format.replace(/\b\w/g, character => character.toUpperCase()),
-        description: format
-      });
-    }
+    const formats = Array.isArray(entry.format) ? entry.format.map(String) : entry.format ? [String(entry.format)] : [];
+    formats.forEach(format => labels.push({
+      label: format.replace(/\b\w/g, character => character.toUpperCase()),
+      description: format
+    }));
     labels.forEach(entryLabel => {
       const badge = document.createElement("span");
       badge.className = "collection-status";

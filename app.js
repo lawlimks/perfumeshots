@@ -130,12 +130,10 @@ function renderLaunches() {
     ${rows.length > 10 ? `<button class="load-more-launches" type="button">Load more discoveries</button>` : ""}`;
   const moreButton = document.querySelector(".load-more-launches");
   if (moreButton) {
-    let visibleCount = 8;
     moreButton.addEventListener("click", () => {
-      const wrappers = [...document.querySelectorAll(".launch-list .launch-row[hidden]")];
-      wrappers.slice(0, 8).forEach(wrapper => wrapper.hidden = false);
-      visibleCount += wrappers.length > 8 ? 8 : wrappers.length;
-      if (visibleCount >= rows.length) moreButton.remove();
+      const hiddenRows = [...document.querySelectorAll(".launch-list .launch-row[hidden]")];
+      hiddenRows.slice(0, 8).forEach(row => row.hidden = false);
+      if (!document.querySelector(".launch-list .launch-row[hidden]")) moreButton.remove();
     });
   }
 }

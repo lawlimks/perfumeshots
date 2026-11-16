@@ -122,18 +122,44 @@ function renderContact() {
     <p>Have a question, correction or fragrance discovery to share?</p>
     <form class="contact-form" aria-describedby="contact-form-note">
       <label for="contact-name">Name</label>
-      <input id="contact-name" name="name" type="text" autocomplete="name" required>
+      <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="120" required>
 
       <label for="contact-email">Email</label>
-      <input id="contact-email" name="email" type="email" autocomplete="email" required>
+      <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required>
 
       <label for="contact-message">Message</label>
-      <textarea id="contact-message" name="message" rows="7" required></textarea>
+      <textarea id="contact-message" name="message" rows="7" maxlength="5000" required></textarea>
 
-      <p id="contact-form-note" class="contact-form-note">Message sending will be enabled once the destination inbox is set.</p>
-      <button type="submit" disabled>Send message</button>
+      <label class="contact-honeypot" aria-hidden="true">Leave this field empty
+        <input name="website" type="text" tabindex="-1" autocomplete="off">
+      </label>
+      <p id="contact-form-note" class="contact-form-note" aria-live="polite">Your message will be sent directly to PerfumeShots.</p>
+      <button type="submit">Send message</button>
     </form>
   </section>`;
+  const form = document.querySelector(".contact-form");
+  const note = document.querySelector("#contact-form-note");
+  const submit = form.querySelector('button[type="submit"]');
+  form.addEventListener("submit", async event => {
+    event.preventDefault();
+    submit.disabled = true;
+    note.textContent = "Sending your message…";
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(Object.fromEntries(new FormData(form)))
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(result.error || "Your message could not be sent. Please try again.");
+      form.reset();
+      note.textContent = "Thank you. Your message has been sent.";
+    } catch (error) {
+      note.textContent = error.message || "Your message could not be sent. Please try again.";
+    } finally {
+      submit.disabled = false;
+    }
+  });
 }
 function renderLaunches() {
   const launches = [...data.launches].sort((a, b) => {

@@ -1615,6 +1615,25 @@
       "assortmentSource": "",
       "availabilityCheckedAt": "",
       "availabilityNote": ""
+    },
+    {
+      "id": "scent-by-six-boutiques",
+      "name": "Scent by SIX",
+      "url": "https://scentbysix.com/pages/contact-stores-stockist",
+      "type": "brand-boutique",
+      "locations": [
+        "Bugis Junction #L1-KIO-06, 200 Victoria Street, Singapore 188021",
+        "JEM #01-K01, 50 Jurong Gateway Road, Singapore 608549",
+        "313@Somerset #B2-30, 313 Orchard Road, Singapore 238895"
+      ],
+      "brands": [
+        "scent-by-six"
+      ],
+      "directoryGroup": "",
+      "directoryGroups": [],
+      "assortmentSource": "https://scentbysix.com/pages/contact-stores-stockist",
+      "availabilityCheckedAt": "2026-11-16",
+      "availabilityNote": ""
     }
   ],
   "launches": [

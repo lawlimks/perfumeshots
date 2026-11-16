@@ -86,8 +86,10 @@ function launchRow(item) {
   return `<li class="launch-row">
     <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
     <span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>
-    <span class="launch-name">${esc(item.perfume || "—")}</span>
-    <span class="launch-retailer">${stores.length ? stores.map(esc).join(", ") : "To be confirmed"}</span>
+    <div class="launch-name">${Array.isArray(item.perfumes) && item.perfumes.length
+      ? `<ul class="discovery-perfumes">${item.perfumes.map(perfume => `<li><strong>${esc(perfume.name)}</strong>${perfume.description ? ` <span>(${esc(perfume.description)})</span>` : ""}</li>`).join("")}</ul>`
+      : esc(item.perfume || "—")}</div>
+    <span class="launch-retailer">${esc(item.retailerLabel || (stores.length ? stores.join(", ") : "To be confirmed"))}</span>
   </li>`;
 }
 function launchHeading() {

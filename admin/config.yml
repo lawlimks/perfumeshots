@@ -89,6 +89,7 @@ collections:
                 required: false
               - { label: Brand ID, name: brandId, widget: string, hint: "Use the brand ID shown in the Brands section." }
               - { label: Perfume Name, name: perfume, widget: string, required: false }
+              - { label: Collection Banner Image URL, name: bannerImage, widget: string, required: false, hint: "Use the full public R2 URL for a wide banner image." }
               - { label: Scent notes / quick smell description, name: scentNotes, widget: text, required: false, hint: "A brief, factual scent hint. Leave blank if unknown." }
               - label: Perfumes in collection
                 name: perfumes

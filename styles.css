@@ -168,7 +168,7 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .launch-row { display: grid; grid-template-columns: minmax(15rem, 1fr) 13rem 8.5rem 12rem; align-items: center; gap: 1rem; min-height: 3.4rem; padding: .7rem .5rem; border-bottom: 1px solid #ddd; }
 .launch-row[hidden] { display: none; }
 .launch-row.has-banner { display: block; padding: 0; }
-.launch-banner { display: block; width: 100%; height: clamp(12rem, 28vw, 20rem); object-fit: cover; object-position: center; }
+.launch-banner { display: block; width: 100%; height: auto; object-fit: contain; object-position: center; }
 .launch-row-content { display: grid; grid-template-columns: minmax(15rem, 1fr) 13rem 8.5rem 12rem; align-items: center; gap: 1rem; padding: .7rem .5rem; }
 .launch-date { color: #777; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .launch-brand, .launch-name, .launch-retailer { overflow-wrap: anywhere; }

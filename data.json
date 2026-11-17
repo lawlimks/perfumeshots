@@ -1431,14 +1431,16 @@
       "url": "https://www.franciskurkdjian.com/eu-fr/storelocator",
       "type": "brand-boutique",
       "locations": [
-        "Raffles City Shopping Centre #01-39B, 252 North Bridge Road, Singapore 179103"
+        "Raffles City Shopping Centre #01-39B, 252 North Bridge Road, Singapore 179103",
+        "Takashimaya Shopping Centre #B1-35, 391 Orchard Road, Singapore 238872 · +65 6235 0593"
       ],
       "brands": [
         "maison-francis-kurkdjian"
       ],
       "directoryGroup": "",
       "directoryGroups": [
-        "Raffles City"
+        "Raffles City",
+        "Ngee Ann City"
       ],
       "assortmentSource": "",
       "availabilityCheckedAt": "",

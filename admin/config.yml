@@ -32,6 +32,7 @@ collections:
               - { label: Directory Checked Date, name: directoryCheckedAt, widget: string, required: false }
               - { label: Availability Checked Date, name: availabilityCheckedAt, widget: string, required: false }
               - { label: Assortment Only, name: assortmentOnly, widget: boolean, required: false }
+              - { label: Featured Perfumes Section Heading, name: featuredPerfumesHeading, widget: string, required: false }
               - label: Featured Perfumes
                 name: featuredPerfumes
                 widget: list
@@ -39,6 +40,7 @@ collections:
                 collapsed: true
                 fields:
                   - { label: Perfume Name, name: name, widget: string }
+                  - { label: Size, name: size, widget: string, required: false }
                   - { label: Image, name: image, widget: image, choose_url: true, required: false }
                   - { label: Retailer URL, name: url, widget: string, required: false }
           - label: Stockists and Boutiques

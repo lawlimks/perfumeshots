@@ -1877,7 +1877,8 @@
         }
       ],
       "stockists": [],
-      "retailerLabel": "Panpuri"
+      "retailerLabel": "Panpuri",
+      "bannerImage": "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/panpuri_care.jpg"
     },
     {
       "date": "2026-11-10",
@@ -1901,7 +1902,8 @@
       "stockists": [
         "escentials"
       ],
-      "retailerLabel": "Escentials"
+      "retailerLabel": "Escentials",
+      "bannerImage": "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/kilian_paris_cocktails.jpg"
     },
     {
       "date": "2026-11-07",
@@ -1937,7 +1939,8 @@
       "stockists": [
         "escentials"
       ],
-      "retailerLabel": "Escentials"
+      "retailerLabel": "Escentials",
+      "bannerImage": "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/zegna.webp"
     },
     {
       "date": "2026-11-06",

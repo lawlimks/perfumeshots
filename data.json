@@ -2067,6 +2067,31 @@
         "amaris"
       ],
       "scentNotes": "Fresh Fruity: Rhubarb & Peppermint"
+    },
+    {
+      "date": "2026-08-14",
+      "brandId": "bdk-parfums",
+      "perfume": "",
+      "discoveryType": "collection",
+      "perfumes": [
+        {
+          "name": "Stellar Silk",
+          "description": "Spicy Woody: Ginger & Sandalwood"
+        },
+        {
+          "name": "Silver Ceremony",
+          "description": "Woody Citrus: Cedar & Citrus"
+        },
+        {
+          "name": "Oud Paradisio",
+          "description": "Fruity Oud: Pineapple & Oud"
+        }
+      ],
+      "stockists": [
+        "amaris"
+      ],
+      "retailerLabel": "Amaris",
+      "bannerImage": "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/bdk_collection_studio.jpeg"
     }
   ],
   "articles": [

@@ -167,6 +167,7 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .launch-list { min-width: 54rem; list-style: none; margin: 2rem 0 0; padding: 0; border-top: 1px solid #ddd; }
 .launch-row { display: grid; grid-template-columns: minmax(15rem, 1fr) 13rem 8.5rem 12rem; align-items: center; gap: 1rem; min-height: 3.4rem; padding: .7rem .5rem; border-bottom: 1px solid #ddd; }
 .launch-row[hidden] { display: none; }
+.launch-banner { grid-column: 1 / -1; display: block; width: 100%; height: clamp(12rem, 28vw, 20rem); object-fit: cover; object-position: center; }
 .launch-date { color: #777; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .launch-brand, .launch-name, .launch-retailer { overflow-wrap: anywhere; }
 .launch-name { line-height: 1.45; }
@@ -199,6 +200,9 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
   .launch-list { min-width: 0; }
   .launch-row { grid-template-columns: minmax(0, 1fr) auto; gap: .35rem .75rem; padding-inline: .25rem; }
   .launch-name { grid-column: 1 / -1; grid-row: 1; }
+  .launch-row.has-banner .launch-name { grid-row: 2; }
+  .launch-row.has-banner .launch-brand, .launch-row.has-banner .launch-retailer { grid-row: 3; }
+  .launch-row.has-banner .launch-banner { grid-row: 1; height: clamp(8rem, 38vw, 13rem); }
   .launch-brand { grid-column: 1; grid-row: 2; }
   .launch-retailer { grid-column: 2; grid-row: 2; text-align: right; }
   .launch-date, .launch-heading span:nth-child(3) { display: none; }

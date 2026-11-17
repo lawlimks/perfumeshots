@@ -116,6 +116,7 @@ collections:
               - { label: ID, name: id, widget: string }
               - { label: URL Slug, name: slug, widget: string }
               - { label: Title, name: title, widget: string }
+              - { label: Category, name: category, widget: string, default: "Perfume Reviews", hint: "Reuse consistent category names such as Perfume Reviews, Events, or Sales." }
               - { label: Excerpt, name: excerpt, widget: text, required: false }
               - { label: Brand ID, name: brandId, widget: string, required: false }
               - { label: Perfume, name: perfume, widget: string, required: false }

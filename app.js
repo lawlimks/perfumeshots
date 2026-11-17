@@ -280,7 +280,7 @@ function renderArticle(slugValue) {
 }
 
 function renderStores() {
-  const stores = [...data.stores].sort((a, b) => a.name.localeCompare(b.name));
+  const stores = data.stores.filter(store => store.showInStockistDirectory !== false).sort((a, b) => a.name.localeCompare(b.name));
   const group = (items, title) => items.length ? `<section class="stockist-group"><h2>${title}</h2><ul>${items.map(store => {
     const locations = store.locations || [];
     return `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a>${locations.length ? `<ul class="stockist-addresses">${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}</li>`;

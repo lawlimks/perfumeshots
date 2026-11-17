@@ -84,7 +84,7 @@ function launchRow(item) {
   const dateLabel = date && !Number.isNaN(date.getTime())
     ? `${String(date.getDate()).padStart(2, "0")}/${String(date.getMonth() + 1).padStart(2, "0")}/${date.getFullYear()}`
     : "Date not recorded";
-  return `<li class="launch-row">
+  return `<li class="launch-row${bannerImage ? " has-banner" : ""}">
     ${bannerImage ? `<img class="launch-banner" src="${bannerImage}" alt="${esc(name)} fragrance collection" loading="lazy">` : ""}
     <div class="launch-name">${Array.isArray(item.perfumes) && item.perfumes.length
       ? `<ul class="discovery-perfumes">${item.perfumes.map(perfume => `<li><strong>${esc(perfume.name)}</strong>${perfume.description ? `<span class="launch-scent-notes">${esc(perfume.description)}</span>` : ""}</li>`).join("")}</ul>`

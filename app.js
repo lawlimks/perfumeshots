@@ -254,17 +254,36 @@ function renderBrand(id) {
 
 function renderArticles() {
   const articles = [...(data.articles || [])].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  const categories = [...new Set(articles.map(article => article.category).filter(Boolean))].sort((a, b) => a.localeCompare(b));
   app.innerHTML = `<h1>Articles</h1>
     <p>Perfume notes, reviews and stories from Singapore.</p>
-    ${articles.length ? `<section class="grid">${articles.map(article => {
+    ${categories.length ? `<section class="brand-filter-section"><h2>Filter by category</h2>
+      <div class="brand-filters" role="group" aria-label="Filter articles by category">
+        <button type="button" class="brand-filter is-active" data-category-filter="all" aria-pressed="true">All</button>
+        ${categories.map(category => `<button type="button" class="brand-filter" data-category-filter="${esc(category)}" aria-pressed="false">${esc(category)}</button>`).join("")}
+      </div>
+    </section>` : ""}
+    ${articles.length ? `<section class="grid article-grid">${articles.map(article => {
       const brand = data.brands.find(item => item.id === article.brandId);
-      return `<article class="card article-card">
+      return `<article class="card article-card" data-category="${esc(article.category || "")}">
+        ${article.category ? `<p class="article-category">${esc(article.category)}</p>` : ""}
         <h2><a href="${href("articles", article.slug || article.id)}">${esc(article.title)}</a></h2>
         ${article.date ? `<p class="article-date"><time datetime="${esc(article.date)}">${esc(article.date)}</time></p>` : ""}
         <p>${esc(article.excerpt || "")}</p>
         ${brand ? `<p><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></p>` : ""}
       </article>`;
     }).join("")}</section>` : empty("Articles will appear here as they are added.")}`;
+  const buttons = [...document.querySelectorAll("[data-category-filter]")];
+  const cards = [...document.querySelectorAll(".article-card")];
+  buttons.forEach(button => button.addEventListener("click", () => {
+    const category = button.dataset.categoryFilter;
+    cards.forEach(card => { card.hidden = category !== "all" && card.dataset.category !== category; });
+    buttons.forEach(item => {
+      const active = item === button;
+      item.classList.toggle("is-active", active);
+      item.setAttribute("aria-pressed", String(active));
+    });
+  }));
 }
 function renderArticle(slugValue) {
   const article = (data.articles || []).find(item => (item.slug || item.id) === slugValue);
@@ -275,6 +294,7 @@ function renderArticle(slugValue) {
   app.innerHTML = `<p><a href="/articles/">All articles</a></p>
     <article class="article">
       <h1>${esc(article.title)}</h1>
+      ${article.category ? `<p class="article-category">${esc(article.category)}</p>` : ""}
       ${article.date ? `<p class="article-date"><time datetime="${esc(article.date)}">${esc(article.date)}</time></p>` : ""}
       ${brand ? `<p class="article-brand">About <a href="${href("brands", brand.name)}">${esc(brand.name)}</a></p>` : ""}
       <div class="article-body">${(article.body || []).map(paragraph => `<p>${esc(paragraph)}</p>`).join("")}</div>

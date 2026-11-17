@@ -1809,7 +1809,8 @@
       ],
       "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
       "availabilityCheckedAt": "2026-11-16",
-      "availabilityNote": ""
+      "availabilityNote": "",
+      "showInStockistDirectory": false
     }
   ],
   "launches": [

@@ -1874,13 +1874,16 @@
       "discoveryType": "collection",
       "perfumes": [
         {
-          "name": "Midnight Espresso"
+          "name": "Midnight Espresso",
+          "description": "Amber Gourmand: Coffee & Hazelnut"
         },
         {
-          "name": "Sparkling Royal"
+          "name": "Sparkling Royal",
+          "description": "Fresh Floral Fruity: Mint & Blackcurrant"
         },
         {
-          "name": "Pina Paraiso"
+          "name": "Pina Paraiso",
+          "description": "Tropical Floral Fruity: Pineapple & Coconut"
         }
       ],
       "stockists": [

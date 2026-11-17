@@ -1692,7 +1692,8 @@
       ],
       "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
       "availabilityCheckedAt": "2026-11-16",
-      "availabilityNote": ""
+      "availabilityNote": "",
+      "showInStockistDirectory": false
     },
     {
       "id": "sunday-bedding-joo-chiat",
@@ -1711,7 +1712,8 @@
       ],
       "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
       "availabilityCheckedAt": "2026-11-16",
-      "availabilityNote": ""
+      "availabilityNote": "",
+      "showInStockistDirectory": false
     },
     {
       "id": "sojao-joo-chiat",
@@ -1730,7 +1732,8 @@
       ],
       "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
       "availabilityCheckedAt": "2026-11-16",
-      "availabilityNote": ""
+      "availabilityNote": "",
+      "showInStockistDirectory": false
     },
     {
       "id": "sunday-bedding-holland-village",
@@ -1749,7 +1752,8 @@
       ],
       "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
       "availabilityCheckedAt": "2026-11-16",
-      "availabilityNote": ""
+      "availabilityNote": "",
+      "showInStockistDirectory": false
     },
     {
       "id": "sojao-new-bahru",
@@ -1768,7 +1772,8 @@
       ],
       "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
       "availabilityCheckedAt": "2026-11-16",
-      "availabilityNote": ""
+      "availabilityNote": "",
+      "showInStockistDirectory": false
     },
     {
       "id": "tangs-vivocity",

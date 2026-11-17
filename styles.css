@@ -333,3 +333,6 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .contact-form-note { margin: .35rem 0; color: #777; font-size: .9rem; }
 .contact-form button { justify-self: start; padding: .7rem 1rem; border: 1px solid #444; background: #444; color: #fff; font: inherit; }
 .contact-form button:disabled { border-color: #aaa; background: #aaa; cursor: not-allowed; }
+
+.article-category { margin: 0 0 .5rem; color: #777; font-size: .78rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.article-card[hidden] { display: none; }

@@ -86,12 +86,14 @@ function launchRow(item) {
     : "Date not recorded";
   return `<li class="launch-row${bannerImage ? " has-banner" : ""}">
     ${bannerImage ? `<img class="launch-banner" src="${bannerImage}" alt="${esc(name)} fragrance collection" loading="lazy">` : ""}
+    ${bannerImage ? '<div class="launch-row-content">' : ""}
     <div class="launch-name">${Array.isArray(item.perfumes) && item.perfumes.length
       ? `<ul class="discovery-perfumes">${item.perfumes.map(perfume => `<li><strong>${esc(perfume.name)}</strong>${perfume.description ? `<span class="launch-scent-notes">${esc(perfume.description)}</span>` : ""}</li>`).join("")}</ul>`
       : `<strong>${esc(item.perfume || "—")}</strong>${item.scentNotes ? `<span class="launch-scent-notes">${esc(item.scentNotes)}</span>` : ""}`}</div>
     <span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>
     <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
     <span class="launch-retailer">${esc(item.retailerLabel || (stores.length ? stores.join(", ") : "To be confirmed"))}</span>
+    ${bannerImage ? "</div>" : ""}
   </li>`;
 }
 function launchHeading() {

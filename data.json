@@ -1635,7 +1635,8 @@
       ],
       "assortmentSource": "https://scentbysix.com/pages/contact-stores-stockist",
       "availabilityCheckedAt": "2026-11-16",
-      "availabilityNote": ""
+      "availabilityNote": "",
+      "showInStockistDirectory": false
     },
     {
       "id": "postcard-orchard",
@@ -1654,7 +1655,8 @@
       ],
       "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
       "availabilityCheckedAt": "2026-11-16",
-      "availabilityNote": ""
+      "availabilityNote": "",
+      "showInStockistDirectory": false
     },
     {
       "id": "green-collective-funan",
@@ -1673,7 +1675,8 @@
       ],
       "assortmentSource": "https://www.wearepostcard.com/pages/where-to-find-postcard-products",
       "availabilityCheckedAt": "2026-11-16",
-      "availabilityNote": ""
+      "availabilityNote": "",
+      "showInStockistDirectory": false
     },
     {
       "id": "hideaway-new-bahru",

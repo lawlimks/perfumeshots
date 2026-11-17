@@ -1208,6 +1208,17 @@
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
       "featuredPerfumes": []
+    },
+    {
+      "id": "zegna",
+      "name": "ZEGNA",
+      "url": "",
+      "website": "",
+      "description": "",
+      "directoryCheckedAt": "",
+      "availabilityCheckedAt": "",
+      "assortmentOnly": false,
+      "featuredPerfumes": []
     }
   ],
   "stores": [
@@ -1328,7 +1339,8 @@
         "serge-lutens",
         "solferino-paris",
         "trudon",
-        "van-cleef-and-arpels"
+        "van-cleef-and-arpels",
+        "zegna"
       ],
       "directoryGroup": "Escentials",
       "directoryGroups": [
@@ -1884,6 +1896,42 @@
         {
           "name": "Pina Paraiso",
           "description": "Floral Fruity: Pineapple & Coconut"
+        }
+      ],
+      "stockists": [
+        "escentials"
+      ],
+      "retailerLabel": "Escentials"
+    },
+    {
+      "date": "2026-11-07",
+      "brandId": "zegna",
+      "perfume": "",
+      "discoveryType": "collection",
+      "perfumes": [
+        {
+          "name": "Il Calamaio",
+          "description": "Leathery Amber: Ink Accord, Turkish Rose Absolute & Oud Accord"
+        },
+        {
+          "name": "Il Lanificio",
+          "description": "Vanilla Suede: Tahitian Vanilla, Suede Accord & Sandalwood"
+        },
+        {
+          "name": "A Trivero",
+          "description": "Aromatic Fougère: Lavender, Rose Damascena & Myrrh"
+        },
+        {
+          "name": "Il Sottobosco",
+          "description": "Woody Spicy: Pink Pepper, Carrot Seeds & Patchouli"
+        },
+        {
+          "name": "La Panoramica",
+          "description": "Fresh Fougère: Pine Needles, Lavender & Vetiver"
+        },
+        {
+          "name": "Saga del Piemonte",
+          "description": "Woody Gourmand: Coffee Accord, Ratafia & Cedarwood Virginia"
         }
       ],
       "stockists": [

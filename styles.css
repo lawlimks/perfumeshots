@@ -127,7 +127,6 @@ input { min-width: min(100%, 18rem); }
 .featured-fragrance { padding: 1rem .75rem; border: 1px solid #ddd; border-radius: .3rem; text-align: center; }
 .featured-fragrance img { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: contain; margin-bottom: .65rem; background: #f1f1f1; }
 .featured-fragrance a { font-weight: 600; text-decoration: none; }
-.featured-fragrance-size { display: block; margin-top: .25rem; color: #777; font-size: .85rem; }
 @media (max-width: 48rem) { .featured-fragrance-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 36rem) { .featured-fragrance-list { grid-template-columns: 1fr; } }
 .muted { color: #555; }

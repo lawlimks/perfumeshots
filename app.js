@@ -105,6 +105,7 @@ function featuredCard(item, brand) {
   return `<li class="featured-fragrance">
     ${image ? `<img src="${image}" alt="${esc(item.name)} by ${esc(brand.name)}" loading="lazy">` : ""}
     ${url ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${esc(item.name)}</a>` : esc(item.name)}
+    ${item.size ? `<small class="featured-fragrance-size">${esc(item.size)}</small>` : ""}
   </li>`;
 }
 function empty(message) { return `<p class="notice">${esc(message)}</p>`; }
@@ -248,7 +249,7 @@ function renderBrand(id) {
     ${brandUrl ? `<p><a href="${brandUrl}" target="_blank" rel="noopener noreferrer">View brand collection at Amaris</a></p>` : ""}
     <h2>Find this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a>${store.locations?.length ? `<ul class="stockist-addresses">${store.locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}</li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
     ${launches.length ? `<h2>Recent discoveries</h2><ul class="launch-list brand-launch-list">${launches.map(item => launchRow(item)).join("")}</ul>` : ""}
-    ${featured.length ? `<h2>Featured fragrances</h2><ul class="featured-fragrance-list">${featured.map(item => featuredCard(item, brand)).join("")}</ul>` : ""}
+    ${featured.length ? `<h2>${esc(brand.featuredPerfumesHeading || "Featured fragrances")}</h2><ul class="featured-fragrance-list">${featured.map(item => featuredCard(item, brand)).join("")}</ul>` : ""}
     ${!launches.length && !featured.length ? `<h2>Recent discoveries</h2>${empty("No recent discoveries are listed for this brand yet.")}` : ""}`;
 }
 

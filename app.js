@@ -77,6 +77,7 @@ function launchRow(item) {
   const stores = stockistNames(item);
   const name = brandName(item);
   const brand = data.brands.find(entry => entry.id === item.brandId);
+  const bannerImage = safeExternalUrl(item.bannerImage);
   const date = item.date && /^\d{4}-\d{2}-\d{2}$/.test(item.date)
     ? new Date(`${item.date}T00:00:00`)
     : null;
@@ -84,6 +85,7 @@ function launchRow(item) {
     ? `${String(date.getDate()).padStart(2, "0")}/${String(date.getMonth() + 1).padStart(2, "0")}/${date.getFullYear()}`
     : "Date not recorded";
   return `<li class="launch-row">
+    ${bannerImage ? `<img class="launch-banner" src="${bannerImage}" alt="${esc(name)} fragrance collection" loading="lazy">` : ""}
     <div class="launch-name">${Array.isArray(item.perfumes) && item.perfumes.length
       ? `<ul class="discovery-perfumes">${item.perfumes.map(perfume => `<li><strong>${esc(perfume.name)}</strong>${perfume.description ? `<span class="launch-scent-notes">${esc(perfume.description)}</span>` : ""}</li>`).join("")}</ul>`
       : `<strong>${esc(item.perfume || "—")}</strong>${item.scentNotes ? `<span class="launch-scent-notes">${esc(item.scentNotes)}</span>` : ""}`}</div>

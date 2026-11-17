@@ -78,22 +78,30 @@ function launchRow(item) {
   const name = brandName(item);
   const brand = data.brands.find(entry => entry.id === item.brandId);
   const bannerImage = safeExternalUrl(item.bannerImage);
-  const date = item.date && /^\d{4}-\d{2}-\d{2}$/.test(item.date)
+  const date = item.date && /^\\d{4}-\\d{2}-\\d{2}$/.test(item.date)
     ? new Date(`${item.date}T00:00:00`)
     : null;
   const dateLabel = date && !Number.isNaN(date.getTime())
     ? `${String(date.getDate()).padStart(2, "0")}/${String(date.getMonth() + 1).padStart(2, "0")}/${date.getFullYear()}`
     : "Date not recorded";
-  return `<li class="launch-row${bannerImage ? " has-banner" : ""}">
-    ${bannerImage ? `<img class="launch-banner" src="${bannerImage}" alt="${esc(name)} fragrance collection" loading="lazy">` : ""}
-    ${bannerImage ? '<div class="launch-row-content">' : ""}
-    <div class="launch-name">${Array.isArray(item.perfumes) && item.perfumes.length
-      ? `<ul class="discovery-perfumes">${item.perfumes.map(perfume => `<li><strong>${esc(perfume.name)}</strong>${perfume.description ? `<span class="launch-scent-notes">${esc(perfume.description)}</span>` : ""}</li>`).join("")}</ul>`
-      : `<strong>${esc(item.perfume || "—")}</strong>${item.scentNotes ? `<span class="launch-scent-notes">${esc(item.scentNotes)}</span>` : ""}`}</div>
-    <span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>
-    <time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>
-    <span class="launch-retailer">${esc(item.retailerLabel || (stores.length ? stores.join(", ") : "To be confirmed"))}</span>
-    ${bannerImage ? "</div>" : ""}
+  const perfumeMarkup = Array.isArray(item.perfumes) && item.perfumes.length
+    ? `<ul class="discovery-perfumes">${item.perfumes.map(perfume => `<li><strong>${esc(perfume.name)}</strong>${perfume.description ? `<span class="launch-scent-notes">${esc(perfume.description)}</span>` : ""}</li>`).join("")}</ul>`
+    : `<strong>${esc(item.perfume || "—")}</strong>${item.scentNotes ? `<span class="launch-scent-notes">${esc(item.scentNotes)}</span>` : ""}`;
+  const brandMarkup = `<span class="launch-brand">${brand ? `<a href="${href("brands", brand.name)}">${esc(name)}</a>` : esc(name)}</span>`;
+  const dateMarkup = `<time class="launch-date"${date ? ` datetime="${esc(item.date)}"` : ""}>${dateLabel}</time>`;
+  const retailerMarkup = `<span class="launch-retailer">${esc(item.retailerLabel || (stores.length ? stores.join(", ") : "To be confirmed"))}</span>`;
+  if (bannerImage) {
+    return `<li class="launch-row has-banner">
+      <div class="launch-row-meta">${brandMarkup}${dateMarkup}${retailerMarkup}</div>
+      <img class="launch-banner" src="${bannerImage}" alt="${esc(name)} fragrance collection" loading="lazy">
+      <div class="launch-row-content"><div class="launch-name">${perfumeMarkup}</div></div>
+    </li>`;
+  }
+  return `<li class="launch-row">
+    <div class="launch-name">${perfumeMarkup}</div>
+    ${brandMarkup}
+    ${dateMarkup}
+    ${retailerMarkup}
   </li>`;
 }
 function launchHeading() {

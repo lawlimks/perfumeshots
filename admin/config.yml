@@ -51,6 +51,7 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Website, name: url, widget: string, required: false }
               - { label: Type, name: type, widget: string, required: false }
+              - { label: Show in stockist directory, name: showInStockistDirectory, widget: boolean, default: true, required: false, hint: "Turn off for general retailers that only carry an occasional Singapore fragrance brand." }
               - label: Location Addresses
                 name: locations
                 widget: list

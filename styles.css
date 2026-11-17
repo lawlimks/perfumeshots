@@ -168,12 +168,12 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .launch-row { display: grid; grid-template-columns: minmax(15rem, 1fr) 13rem 8.5rem 12rem; align-items: center; gap: 1rem; min-height: 3.4rem; padding: .7rem .5rem; border-bottom: 1px solid #ddd; }
 .launch-row[hidden] { display: none; }
 .launch-row.has-banner { display: grid; grid-template-columns: minmax(15rem, 1fr) 13rem 8.5rem 12rem; align-items: center; gap: 0 1rem; padding: 0; }
-.launch-banner { display: block; grid-column: 1 / -1; grid-row: 1; width: 100%; height: auto; object-fit: contain; object-position: center; }
+.launch-banner { display: block; grid-column: 1 / -1; grid-row: 2; width: 100%; height: auto; object-fit: contain; object-position: center; }
 .launch-row-meta { display: contents; }
-.launch-row.has-banner .launch-brand { grid-column: 2; grid-row: 2; }
-.launch-row.has-banner .launch-date { grid-column: 3; grid-row: 2; }
-.launch-row.has-banner .launch-retailer { grid-column: 4; grid-row: 2; }
-.launch-row-content { display: block; grid-column: 1; grid-row: 2; padding: .7rem .5rem; }
+.launch-row.has-banner .launch-brand { grid-column: 2; grid-row: 1; }
+.launch-row.has-banner .launch-date { grid-column: 3; grid-row: 1; }
+.launch-row.has-banner .launch-retailer { grid-column: 4; grid-row: 1; }
+.launch-row-content { display: block; grid-column: 1; grid-row: 1; padding: .7rem .5rem; }
 .launch-date { color: #777; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .launch-brand, .launch-name, .launch-retailer { overflow-wrap: anywhere; }
 .launch-name { line-height: 1.45; }

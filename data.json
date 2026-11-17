@@ -1205,41 +1205,9 @@
       "website": "",
       "description": "",
       "directoryCheckedAt": "",
-      "availabilityCheckedAt": "2026-11-17",
+      "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": [
-        {
-          "name": "Gambit Extrait",
-          "size": "100ml",
-          "image": "https://amarisbeauty.com/cdn/shop/files/NEW-GAMBIT_large.png?v=1792746113",
-          "url": "https://amarisbeauty.com/collections/mind-games/products/gambit-extrait"
-        },
-        {
-          "name": "Blockade Extrait",
-          "size": "100ml",
-          "image": "https://amarisbeauty.com/cdn/shop/files/NEW-BLOCKADE_large.png?v=1792147909",
-          "url": "https://amarisbeauty.com/collections/mind-games/products/blockade-extrait"
-        },
-        {
-          "name": "Counterplay Extrait",
-          "size": "100ml",
-          "image": "https://amarisbeauty.com/cdn/shop/files/COUNTERPLAY-NEW_large.png?v=1792147889",
-          "url": "https://amarisbeauty.com/collections/mind-games/products/counterplay-extrait"
-        },
-        {
-          "name": "Double Attack Extrait",
-          "size": "100ml",
-          "image": "https://amarisbeauty.com/cdn/shop/files/NEW-Double-Attack_large.png?v=1792147884",
-          "url": "https://amarisbeauty.com/collections/mind-games/products/double-attack-extrait"
-        },
-        {
-          "name": "The Forward Extrait",
-          "size": "100ml",
-          "image": "https://amarisbeauty.com/cdn/shop/files/NEW-THE-FORWARD_large.png?v=1792147820",
-          "url": "https://amarisbeauty.com/collections/mind-games/products/the-forward-extrait"
-        }
-      ],
-      "featuredPerfumesHeading": "100ml at Amaris"
+      "featuredPerfumes": []
     },
     {
       "id": "zegna",

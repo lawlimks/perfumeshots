@@ -14,6 +14,8 @@ body.home { position: relative; }
 body:not(.home) .site-header { margin-top: 12px; border-top-color: rgba(0, 0, 0, .15); }
 body:not(.home) .site-header .logo-default { opacity: 0; }
 body:not(.home) .site-header .logo-scrolled { opacity: 1; }
+body.home .site-header .logo-default { opacity: 0; }
+body.home .site-header .logo-scrolled { opacity: 1; }
 @media (min-width: 48.001rem) {
   body:not(.home) .site-header nav { transform: translateY(2rem); }
   body:not(.home) .site-header.is-scrolled nav { transform: none; }

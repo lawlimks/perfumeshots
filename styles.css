@@ -351,3 +351,5 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 
 .article-category { margin: 0 0 .5rem; color: #777; font-size: .78rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
 .article-card[hidden] { display: none; }
+
+.article-grid { grid-template-columns: 1fr; }

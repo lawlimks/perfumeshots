@@ -41,6 +41,17 @@ collections:
                   - { label: Perfume Name, name: name, widget: string }
                   - { label: Image, name: image, widget: image, choose_url: true, required: false }
                   - { label: Retailer URL, name: url, widget: string, required: false }
+              - label: Perfume Collection
+                name: perfumeCollection
+                widget: list
+                required: false
+                collapsed: true
+                fields:
+                  - { label: Perfume Name, name: name, widget: string }
+                  - { label: Release Year, name: year, widget: number, value_type: int }
+                  - { label: Genre, name: genre, widget: string }
+                  - { label: Prominent Notes, name: notes, widget: string }
+              - { label: Collection Notes / Caveat, name: perfumeCollectionNote, widget: text, required: false }
           - label: Stockists and Boutiques
             name: stores
             widget: list

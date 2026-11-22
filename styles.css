@@ -362,3 +362,11 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .perfume-collection-item strong, .perfume-collection-item span { display: block; }
 .perfume-collection-item > div > span { color: #666; }
 .perfume-collection-item .perfume-collection-notes { color: #777; font-size: .92em; }
+
+.collection-search-label { display: block; margin: 1rem 0 .4rem; font-weight: 600; }
+.collection-search { width: min(100%, 32rem); }
+.collection-search-count { margin: .5rem 0; color: #777; font-size: .9rem; }
+.perfume-collection-item[hidden] { display: none; }
+.perfume-collection-collection, .perfume-collection-versions { font-size: .9em; }
+.perfume-collection-collection { color: #777; }
+.perfume-collection-versions { color: #777; }

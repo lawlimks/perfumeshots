@@ -368,6 +368,5 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .collection-search-count { margin: .5rem 0; color: #777; font-size: .9rem; }
 .perfume-collection-item[hidden] { display: none; }
 .perfume-collection-collection, .perfume-collection-versions { font-size: .9em; }
-.perfume-collection-collection { color: #777; }
-.perfume-collection-essences { font-size: 12px; text-transform: uppercase; }
+.perfume-collection-collection { color: #777; font-size: 12px; text-transform: uppercase; }
 .perfume-collection-versions { color: #777; }

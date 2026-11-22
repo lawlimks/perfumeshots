@@ -742,7 +742,15 @@
           "collectionName": "Les Essences de Diptyque",
           "genre": "Woody Floral",
           "notes": "Rhubarb · Rose · Benzoin",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
+        },
+        {
+          "name": "Orphéon",
+          "year": 2026,
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Green mandarin · Yuzu · Cedar",
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Orphéon",
@@ -750,7 +758,15 @@
           "collectionName": "",
           "genre": "Woody Musky",
           "notes": "Juniper berry · Cedar · Tonka bean",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "concentration": "Eau de Parfum"
+        },
+        {
+          "name": "Fleur de Peau",
+          "year": 2025,
+          "collectionName": "",
+          "genre": "Floral Woody Musk",
+          "notes": "Iris · Magnolia · Musk",
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Fleur de Peau",
@@ -758,7 +774,7 @@
           "collectionName": "",
           "genre": "Powdery Musky",
           "notes": "Musk · Iris · Ambrette",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Rose Roche",
@@ -766,7 +782,7 @@
           "collectionName": "Les Essences de Diptyque",
           "genre": "Woody Floral",
           "notes": "Rose · Lemon · Patchouli",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Lunamaris",
@@ -774,7 +790,7 @@
           "collectionName": "Les Essences de Diptyque",
           "genre": "Amber Spicy",
           "notes": "Incense · Pink pepper · Labdanum",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Lilyphéa",
@@ -782,7 +798,7 @@
           "collectionName": "Les Essences de Diptyque",
           "genre": "Green Floral",
           "notes": "Violet leaf · Galbanum · Vanilla",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Corail Oscuro",
@@ -790,7 +806,7 @@
           "collectionName": "Les Essences de Diptyque",
           "genre": "Floral Woody",
           "notes": "Mandarin · Rose · Sandalwood",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Bois Corsé",
@@ -798,7 +814,7 @@
           "collectionName": "Les Essences de Diptyque",
           "genre": "Woody Gourmand",
           "notes": "Coffee · Sandalwood · Tonka bean",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "L'Eau Papier",
@@ -806,7 +822,7 @@
           "collectionName": "",
           "genre": "Woody Musky",
           "notes": "White musk · Sesame · Mimosa",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Eau Nabati",
@@ -814,7 +830,7 @@
           "collectionName": "",
           "genre": "Amber Woody",
           "notes": "Bergamot · Immortelle · Cedar",
-          "versions": "Eau de Parfum Intense"
+          "concentration": "Eau de Parfum Intense"
         },
         {
           "name": "Opsis",
@@ -822,15 +838,23 @@
           "collectionName": "",
           "genre": "Powdery Floral",
           "notes": "Iris · Incense · Musk",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Eau Rose",
           "year": 2012,
           "collectionName": "",
           "genre": "Floral",
-          "notes": "Rose · Litchi · Chamomile",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "notes": "Rose · Lychee · Blackcurrant",
+          "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "Eau Rose",
+          "year": 2022,
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Rose · Chamomile · Lychee",
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Venise",
@@ -838,7 +862,7 @@
           "collectionName": "The Grand Tour Collection",
           "genre": "Green Aromatic",
           "notes": "Tomato leaf · Basil · Vetiver",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Kyoto",
@@ -846,7 +870,7 @@
           "collectionName": "The Grand Tour Collection",
           "genre": "Woody Floral",
           "notes": "Incense · Rose · Vetiver",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Eau Rihla",
@@ -854,7 +878,7 @@
           "collectionName": "",
           "genre": "Leather Woody",
           "notes": "Leather · Raspberry · Saffron",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Ilio",
@@ -862,15 +886,14 @@
           "collectionName": "Summer Essentials",
           "genre": "Fresh Fruity",
           "notes": "Prickly pear · Bergamot · Iris",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Citronnelle & Géranium",
           "year": 2021,
           "collectionName": "Summer Essentials",
           "genre": "Citrus Aromatic",
-          "notes": "Lemongrass · Geranium · Neroli",
-          "versions": ""
+          "notes": "Lemongrass · Geranium · Neroli"
         },
         {
           "name": "Othoniel Rosa",
@@ -878,7 +901,7 @@
           "collectionName": "",
           "genre": "Spicy Floral",
           "notes": "Rose · Madagascar pepper · Vetiver",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Eau Capitale",
@@ -886,7 +909,7 @@
           "collectionName": "",
           "genre": "Chypre Floral",
           "notes": "Rose · Pink pepper · Patchouli",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Eau de Minthé",
@@ -894,7 +917,7 @@
           "collectionName": "Les Eaux",
           "genre": "Aromatic Fougere",
           "notes": "Mint · Geranium · Patchouli",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Tempo",
@@ -902,23 +925,39 @@
           "collectionName": "",
           "genre": "Woody Aromatic",
           "notes": "Patchouli · Mate · Violet leaf",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "34 Boulevard Saint Germain",
           "year": 2011,
           "collectionName": "La Collection 34",
           "genre": "Woody Spicy",
-          "notes": "Blackcurrant buds · Rose · Spices",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "notes": "Blackcurrant buds · Rose · Cinnamon",
+          "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "34 Boulevard Saint Germain",
+          "year": 2018,
+          "collectionName": "La Collection 34",
+          "genre": "Woody Spicy",
+          "notes": "Sandalwood · Vanilla · Clove",
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Eau Duelle",
           "year": 2010,
           "collectionName": "",
-          "genre": "Amber Spicy",
-          "notes": "Vanilla · Cardamom · Incense",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "genre": "Oriental Spicy",
+          "notes": "Vanilla · Cardamom · Black tea",
+          "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "Eau Duelle",
+          "year": 2013,
+          "collectionName": "",
+          "genre": "Oriental Spicy",
+          "notes": "Vanilla · Incense · Cypriol",
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Eau des Sens",
@@ -926,7 +965,7 @@
           "collectionName": "Les Eaux",
           "genre": "Citrus Aromatic",
           "notes": "Bitter orange · Orange blossom · Juniper",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Oud Palao",
@@ -934,7 +973,7 @@
           "collectionName": "",
           "genre": "Woody Amber",
           "notes": "Oud · Rose · Tobacco",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Florabellio",
@@ -942,15 +981,14 @@
           "collectionName": "Les Eaux",
           "genre": "Fresh Gourmand",
           "notes": "Sea salt · Apple blossom · Coffee",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Eau Plurielle",
           "year": 2015,
           "collectionName": "Les Eaux",
           "genre": "Fresh Floral",
-          "notes": "Ivy · Rose · Musk",
-          "versions": ""
+          "notes": "Ivy · Rose · Musk"
         },
         {
           "name": "Benjoin Bohème",
@@ -958,23 +996,30 @@
           "collectionName": "La Collection 34",
           "genre": "Amber Woody",
           "notes": "Benzoin · Peru balsam · Sandalwood",
-          "versions": "Eau de Parfum Intense"
+          "concentration": "Eau de Parfum Intense"
         },
         {
           "name": "Eau Mage",
           "year": 2011,
-          "collectionName": "Les Invités du 34 · La Collection 34",
-          "genre": "Amber Musky",
-          "notes": "Ambroxan · Mandarin · Cumin",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "collectionName": "Les Invités du 34",
+          "genre": "Floral Woody Musk",
+          "notes": "Tangerine · Rose · Ambergris",
+          "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "Eau Mage",
+          "year": 2015,
+          "collectionName": "La Collection 34",
+          "genre": "Oriental Floral",
+          "notes": "Mandarin · Rose · Amber",
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Ôponé",
           "year": 2001,
           "collectionName": "La Collection 34",
           "genre": "Woody Spicy",
-          "notes": "Rose · Saffron · Leather",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "notes": "Rose · Saffron · Leather"
         },
         {
           "name": "Kimonanthe",
@@ -982,15 +1027,14 @@
           "collectionName": "La Collection 34",
           "genre": "Amber Floral",
           "notes": "Osmanthus · Incense · Sandalwood",
-          "versions": "Eau de Parfum"
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Eau Dominotée",
           "year": 2017,
           "collectionName": "Les Eaux",
           "genre": "Floral Fruity",
-          "notes": "Bergamot · Rose · Violet",
-          "versions": ""
+          "notes": "Bergamot · Rose · Violet"
         },
         {
           "name": "Vetyverio",
@@ -998,7 +1042,15 @@
           "collectionName": "",
           "genre": "Woody Citrus",
           "notes": "Vetiver · Grapefruit · Rose",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "Vetyverio",
+          "year": 2017,
+          "collectionName": "",
+          "genre": "Woody",
+          "notes": "Haitian vetiver · Grapefruit · Patchouli",
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Tam Dao",
@@ -1006,31 +1058,63 @@
           "collectionName": "",
           "genre": "Woody",
           "notes": "Sandalwood · Cedar · Cypress",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "Tam Dao",
+          "year": 2013,
+          "collectionName": "",
+          "genre": "Woody",
+          "notes": "Sandalwood · Cedar · Amber",
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Do Son",
           "year": 2005,
           "collectionName": "",
           "genre": "White Floral",
-          "notes": "Tuberose · Jasmine · Orange blossom",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "notes": "Tuberose · Orange blossom · Jasmine",
+          "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "Do Son",
+          "year": 2013,
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Tuberose · Jasmine · Amberwood",
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "L'Ombre dans l'Eau",
           "year": 1983,
           "collectionName": "",
           "genre": "Green Floral",
-          "notes": "Rose · Blackcurrant leaf · Blackcurrant bud",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "notes": "Blackcurrant leaf · Rose · Blackcurrant bud",
+          "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "L'Ombre dans l'Eau",
+          "year": 2012,
+          "collectionName": "",
+          "genre": "Green Floral",
+          "notes": "Rose · Blackcurrant buds · Blackcurrant leaves",
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Philosykos",
           "year": 1996,
           "collectionName": "",
-          "genre": "Woody Green",
-          "notes": "Fig leaf · Fig tree sap · Fig wood",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "genre": "Aromatic Green",
+          "notes": "Fig leaf · Fig · Fig tree",
+          "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "Philosykos",
+          "year": 2012,
+          "collectionName": "",
+          "genre": "Aromatic Green",
+          "notes": "Fig leaf · Fig tree · Woody notes",
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "Volutes",
@@ -1038,7 +1122,15 @@
           "collectionName": "",
           "genre": "Amber Tobacco",
           "notes": "Tobacco · Honey · Iris",
-          "versions": "Eau de Toilette · Eau de Parfum"
+          "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "Volutes",
+          "year": 2012,
+          "collectionName": "",
+          "genre": "Amber Tobacco",
+          "notes": "Honey · Opoponax · Cinnamon",
+          "concentration": "Eau de Parfum"
         },
         {
           "name": "L'Eau du Trente-Quatre",
@@ -1046,7 +1138,7 @@
           "collectionName": "La Collection 34",
           "genre": "Citrus Aromatic",
           "notes": "Bitter orange · Verbena · Grapefruit",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Eau Mohéli",
@@ -1054,7 +1146,7 @@
           "collectionName": "Les Eaux",
           "genre": "Floral Woody",
           "notes": "Ylang-ylang · Ginger · Vetiver",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Geranium Odorata",
@@ -1062,7 +1154,7 @@
           "collectionName": "Les Eaux",
           "genre": "Aromatic Floral",
           "notes": "Geranium · Bergamot · Cardamom",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Eau de Lavande",
@@ -1070,7 +1162,7 @@
           "collectionName": "Les Eaux",
           "genre": "Aromatic",
           "notes": "Lavender · Coriander · Sandalwood",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Eau des Hespérides",
@@ -1078,7 +1170,7 @@
           "collectionName": "Les Eaux",
           "genre": "Citrus Aromatic",
           "notes": "Bitter orange · Peppermint · Rosemary",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "L'Eau de Néroli",
@@ -1086,7 +1178,7 @@
           "collectionName": "Les Eaux",
           "genre": "Citrus Floral",
           "notes": "Neroli · Orange blossom · Beeswax",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "L'Eau de L'Eau",
@@ -1094,7 +1186,7 @@
           "collectionName": "Les Eaux",
           "genre": "Citrus Spicy",
           "notes": "Mandarin · Clove · Cinnamon",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "L'Eau de Tarocco",
@@ -1102,7 +1194,7 @@
           "collectionName": "Les Eaux",
           "genre": "Citrus Spicy",
           "notes": "Blood orange · Saffron · Ginger",
-          "versions": "Eau de Cologne"
+          "concentration": "Eau de Cologne"
         },
         {
           "name": "Eau de Lierre",
@@ -1110,15 +1202,14 @@
           "collectionName": "",
           "genre": "Green Aromatic",
           "notes": "Ivy · Galbanum · Cyclamen",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Jardin Clos",
           "year": 2003,
           "collectionName": "",
           "genre": "Floral Green",
-          "notes": "Lilac · Hyacinth · Watermelon",
-          "versions": ""
+          "notes": "Lilac · Hyacinth · Watermelon"
         },
         {
           "name": "Oyédo",
@@ -1126,7 +1217,7 @@
           "collectionName": "Les Eaux",
           "genre": "Citrus Aromatic",
           "notes": "Yuzu · Lime · Raspberry",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Ôfrésia",
@@ -1134,15 +1225,14 @@
           "collectionName": "Les Eaux",
           "genre": "Floral Green",
           "notes": "Freesia · Carnation · Black pepper",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Virgilio",
           "year": 1990,
           "collectionName": "",
           "genre": "Green Aromatic",
-          "notes": "Basil · Thyme · Vetiver",
-          "versions": ""
+          "notes": "Basil · Thyme · Vetiver"
         },
         {
           "name": "Olène",
@@ -1150,15 +1240,14 @@
           "collectionName": "",
           "genre": "White Floral",
           "notes": "Wisteria · Jasmine · Honeysuckle",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Eau d'Élide",
           "year": 1988,
           "collectionName": "",
           "genre": "Citrus Aromatic",
-          "notes": "Bitter orange · Lavender · Thyme",
-          "versions": ""
+          "notes": "Bitter orange · Lavender · Thyme"
         },
         {
           "name": "Eau Lente",
@@ -1166,7 +1255,7 @@
           "collectionName": "",
           "genre": "Amber Spicy",
           "notes": "Opoponax · Cinnamon · Clove",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "L'Eau Trois",
@@ -1174,7 +1263,7 @@
           "collectionName": "",
           "genre": "Aromatic Woody",
           "notes": "Myrrh · Incense · Rosemary",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "L'Autre",
@@ -1182,7 +1271,7 @@
           "collectionName": "",
           "genre": "Spicy Woody",
           "notes": "Cumin · Nutmeg · Patchouli",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "L'Eau",
@@ -1190,10 +1279,10 @@
           "collectionName": "",
           "genre": "Aromatic Spicy",
           "notes": "Geranium · Clove · Cinnamon",
-          "versions": "Eau de Toilette"
+          "concentration": "Eau de Toilette"
         }
       ],
-      "perfumeCollectionNote": "EDT and EDP are grouped under the perfume name where both versions exist. Solid perfumes, limited editions and hair mists are omitted. Collection labels follow Diptyque's named collections."
+      "perfumeCollectionNote": "Distinct Eau de Toilette and Eau de Parfum versions are listed separately when they have their own release year. Solid perfumes, limited editions and hair mists are omitted."
     },
     {
       "id": "frederic-malle",

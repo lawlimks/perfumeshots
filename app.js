@@ -258,8 +258,24 @@ function renderBrand(id) {
     <h2>Find this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a>${store.locations?.length ? `<ul class="stockist-addresses">${store.locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}</li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
     ${launches.length ? `<h2>Recent discoveries</h2><ul class="launch-list brand-launch-list">${launches.map(item => launchRow(item)).join("")}</ul>` : ""}
     ${featured.length ? `<h2>Featured fragrances</h2><ul class="featured-fragrance-list">${featured.map(item => featuredCard(item, brand)).join("")}</ul>` : ""}
-    ${perfumeCollection.length ? `<section class="perfume-collection"><h2>Perfume collection</h2>${brand.perfumeCollectionNote ? `<p class="perfume-collection-note">${esc(brand.perfumeCollectionNote)}</p>` : ""}<ol class="perfume-collection-list">${perfumeCollection.map(item => `<li class="perfume-collection-item"><time>${esc(item.year)}</time><div><strong>${esc(item.name)}</strong><span>${esc(item.genre)}</span><span class="perfume-collection-notes">${esc(item.notes)}</span></div></li>`).join("")}</ol></section>` : ""}
+    ${perfumeCollection.length ? `<section class="perfume-collection"><h2>Perfume collection</h2>${brand.perfumeCollectionNote ? `<p class="perfume-collection-note">${esc(brand.perfumeCollectionNote)}</p>` : ""}<label class="collection-search-label" for="collection-search">Search perfume, collection, genre or notes</label><input class="collection-search" id="collection-search" type="search" autocomplete="off"><p class="collection-search-count" aria-live="polite">${perfumeCollection.length} perfumes</p><ol class="perfume-collection-list">${perfumeCollection.map(item => `<li class="perfume-collection-item" data-search="${esc([item.name,item.year,item.collectionName,item.versions,item.genre,item.notes].filter(Boolean).join(" "))}"><time>${esc(item.year)}</time><div><strong>${esc(item.name)}</strong>${item.collectionName ? `<span class="perfume-collection-collection">${esc(item.collectionName)}</span>` : ""}${item.versions ? `<span class="perfume-collection-versions">${esc(item.versions)}</span>` : ""}<span>${esc(item.genre)}</span><span class="perfume-collection-notes">${esc(item.notes)}</span></div></li>`).join("")}</ol></section>` : ""}
     ${!launches.length && !featured.length ? `<h2>Recent discoveries</h2>${empty("No recent discoveries are listed for this brand yet.")}` : ""}`;
+  const collectionSearch = document.querySelector("#collection-search");
+  if (collectionSearch) {
+    const collectionRows = [...document.querySelectorAll(".perfume-collection-item")];
+    const count = document.querySelector(".collection-search-count");
+    collectionSearch.addEventListener("input", () => {
+      const query = collectionSearch.value.trim().toLocaleLowerCase();
+      let visible = 0;
+      collectionRows.forEach(row => {
+        const matches = row.dataset.search.toLocaleLowerCase().includes(query);
+        row.hidden = !matches;
+        if (matches) visible++;
+      });
+      count.textContent = query ? `${visible} of ${collectionRows.length} perfumes` : `${collectionRows.length} perfumes`;
+    });
+  }
+
 }
 
 function renderArticles() {

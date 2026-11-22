@@ -246,6 +246,7 @@ function renderBrand(id) {
   const logo = safeExternalUrl(brand.logoImage);
   const hero = safeExternalUrl(brand.heroImage);
   const featured = brand.featuredPerfumes || [];
+  const perfumeCollection = [...(brand.perfumeCollection || [])].sort((a, b) => (Number(b.year) || 0) - (Number(a.year) || 0) || a.name.localeCompare(b.name));
   app.innerHTML = `<p><a href="/brands/">All brands</a></p>
     <section class="brand-heading">
       ${logo ? `<img class="brand-logo" src="${logo}" alt="${esc(brand.name)} logo">` : ""}
@@ -257,6 +258,7 @@ function renderBrand(id) {
     <h2>Find this brand</h2>${stores.length ? `<ul>${stores.map(store => `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a>${store.locations?.length ? `<ul class="stockist-addresses">${store.locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}</li>`).join("")}</ul>` : empty("No stores are listed for this brand yet.")}
     ${launches.length ? `<h2>Recent discoveries</h2><ul class="launch-list brand-launch-list">${launches.map(item => launchRow(item)).join("")}</ul>` : ""}
     ${featured.length ? `<h2>Featured fragrances</h2><ul class="featured-fragrance-list">${featured.map(item => featuredCard(item, brand)).join("")}</ul>` : ""}
+    ${perfumeCollection.length ? `<section class="perfume-collection"><h2>Perfume collection</h2>${brand.perfumeCollectionNote ? `<p class="perfume-collection-note">${esc(brand.perfumeCollectionNote)}</p>` : ""}<ol class="perfume-collection-list">${perfumeCollection.map(item => `<li class="perfume-collection-item"><time>${esc(item.year)}</time><div><strong>${esc(item.name)}</strong><span>${esc(item.genre)}</span><span class="perfume-collection-notes">${esc(item.notes)}</span></div></li>`).join("")}</ol></section>` : ""}
     ${!launches.length && !featured.length ? `<h2>Recent discoveries</h2>${empty("No recent discoveries are listed for this brand yet.")}` : ""}`;
 }
 

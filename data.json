@@ -917,7 +917,7 @@
           "collectionName": "Les Eaux",
           "genre": "Aromatic Fougere",
           "notes": "Mint · Geranium · Patchouli",
-          "concentration": "Eau de Parfum"
+          "concentration": "Eau de Toilette"
         },
         {
           "name": "Tempo",
@@ -1281,8 +1281,7 @@
           "notes": "Geranium · Clove · Cinnamon",
           "concentration": "Eau de Toilette"
         }
-      ],
-      "perfumeCollectionNote": "Distinct Eau de Toilette and Eau de Parfum versions are listed separately when they have their own release year. Solid perfumes, limited editions and hair mists are omitted."
+      ]
     },
     {
       "id": "frederic-malle",

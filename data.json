@@ -1009,7 +1009,100 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "name": "Micodelirio",
+          "year": 2026,
+          "genre": "Earthy Woody",
+          "notes": "Mushroom · Earthy notes · Sandalwood"
+        },
+        {
+          "name": "Sadonaso",
+          "year": 2023,
+          "genre": "Amber Musky",
+          "notes": "Coffee · Musk · Vanilla"
+        },
+        {
+          "name": "Fantomas",
+          "year": 2020,
+          "genre": "Woody Gourmand",
+          "notes": "Melon · Rubber · Smoke"
+        },
+        {
+          "name": "Nudiflorum",
+          "year": 2018,
+          "genre": "Floral Woody Musk",
+          "notes": "Rhubarb · Raspberry · Leather"
+        },
+        {
+          "name": "Baraonda",
+          "year": 2016,
+          "genre": "Woody Spicy",
+          "notes": "Whiskey · Rose · Ambrette"
+        },
+        {
+          "name": "Blamage",
+          "year": 2014,
+          "genre": "Woody Leather",
+          "notes": "Birch · Woods · Leather"
+        },
+        {
+          "name": "Pardon",
+          "year": 2011,
+          "genre": "Woody Spicy",
+          "notes": "Dark chocolate · Cinnamon · Oud"
+        },
+        {
+          "name": "Nuda",
+          "year": 2010,
+          "genre": "Floral Animalic",
+          "notes": "Jasmine · Spearmint · Leather"
+        },
+        {
+          "name": "Black Afgano",
+          "year": 2009,
+          "genre": "Woody Aromatic",
+          "notes": "Cannabis · Coffee · Oud"
+        },
+        {
+          "name": "Absinth",
+          "year": 2008,
+          "genre": "Green Aromatic",
+          "notes": "Wormwood · Vetiver · Woods"
+        },
+        {
+          "name": "China White",
+          "year": 2008,
+          "genre": "Chypre Floral",
+          "notes": "Patchouli · Floral notes · Leather"
+        },
+        {
+          "name": "Duro",
+          "year": 2008,
+          "genre": "Woody Chypre",
+          "notes": "Woods · Leather · Spices"
+        },
+        {
+          "name": "Hindu Grass",
+          "year": 2008,
+          "genre": "Green Aromatic",
+          "notes": "Patchouli · Rose · Hay"
+        },
+        {
+          "name": "Narcotic Venus",
+          "year": 2008,
+          "genre": "Floral",
+          "notes": "Tuberose · Jasmine · Lily"
+        },
+        {
+          "name": "Silver Musk",
+          "year": 2008,
+          "genre": "Citrus Musk",
+          "notes": "Citrus · Musk · Sandalwood"
+        }
+      ],
+      "perfumeCollectionNote": "Nasomatto does not publish note breakdowns; genre and notes are commonly reported interpretations. Nuda is discontinued."
     },
     {
       "id": "ordiolab",

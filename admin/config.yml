@@ -50,7 +50,7 @@ collections:
                   - { label: Perfume Name, name: name, widget: string }
                   - { label: Release Year, name: year, widget: number, value_type: int }
                   - { label: Collection Name, name: collectionName, widget: string, required: false }
-                  - { label: Concentrations / Versions, name: versions, widget: string, required: false }
+                  - { label: Concentration, name: concentration, widget: string, required: false }
                   - { label: Genre, name: genre, widget: string }
                   - { label: Prominent Notes, name: notes, widget: string }
               - { label: Collection Notes / Caveat, name: perfumeCollectionNote, widget: text, required: false }

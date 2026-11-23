@@ -396,3 +396,6 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .collection-search { display: block; width: min(100%, 32rem); min-height: 3rem; padding: .65rem .9rem; border: 1px solid #ddd; border-radius: 0; background: #f2f2f2; color: #333; font: inherit; }
 .collection-search::placeholder { color: #888; opacity: 1; }
 .perfume-collection > h2 { text-transform: uppercase; }
+
+.perfume-collection-note { margin: .8rem 0 .5rem; max-width: 48rem; color: #777; font-size: .92rem; font-style: italic; }
+.collection-disclaimer-divider { margin: 0 0 1rem; border: 0; border-top: 1px solid #ddd; }

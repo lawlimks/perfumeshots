@@ -244,7 +244,16 @@ function renderBrand(id) {
   const retailers = stores.filter(store => store.type !== "brand-boutique");
   const boutiques = stores.filter(store => store.type === "brand-boutique");
   const locationCount = entries => entries.reduce((count, store) => count + (store.locations || []).length, 0);
-  const renderStoreGroup = (label, entries) => entries.length ? `<details class="brand-location-group"><summary>${esc(label)} (${locationCount(entries)})</summary><div class="brand-location-stores">${entries.map(store => `<section><h3><a href="${href("stockists", store.name)}">${esc(store.name)}</a></h3>${store.locations?.length ? `<ul class="brand-location-addresses">${store.locations.map(location => `<li><a href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(`${store.name} ${location}`)}" target="_blank" rel="noopener noreferrer">${esc(location)}</a></li>`).join("")}</ul>` : ""}${store.availabilityNote ? `<p class="brand-location-note">${esc(store.availabilityNote)}</p>` : ""}</section>`).join("")}</div></details>` : "";
+  const parseLocation = location => {
+    const [building, ...addressParts] = String(location).split("|");
+    return addressParts.length ? { building: building.trim(), address: addressParts.join("|").trim() } : { building: "", address: String(location).trim() };
+  };
+  const renderLocation = (store, location) => {
+    const parsed = parseLocation(location);
+    const query = [store.name, parsed.building, parsed.address].filter(Boolean).join(" ");
+    return `<li class="brand-location-address">${parsed.building ? `<strong>${esc(parsed.building)}</strong>` : ""}<a href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer">${esc(parsed.address)}</a></li>`;
+  };
+  const renderStoreGroup = (label, entries) => entries.length ? `<details class="brand-location-group"><summary>${esc(label)} (${locationCount(entries)})</summary><div class="brand-location-stores">${entries.map(store => `<section>${store.type === "brand-boutique" && slug(store.name) === slug(brand.name) ? "" : `<h3 class="brand-location-store-name"><a href="${href("stockists", store.name)}">${esc(store.name)}</a></h3>`}${store.locations?.length ? `<ul class="brand-location-addresses">${store.locations.map(location => renderLocation(store, location)).join("")}</ul>` : ""}${store.availabilityNote ? `<p class="brand-location-note">${esc(store.availabilityNote)}</p>` : ""}</section>`).join("")}</div></details>` : "";
   const brandUrl = safeExternalUrl(brand.url);
   const officialWebsite = safeExternalUrl(brand.website);
   const officialWebsiteLabel = officialWebsite ? new URL(officialWebsite).hostname.replace(/^www\\./, "") : "";
@@ -263,7 +272,7 @@ function renderBrand(id) {
     </section>
     ${hero ? `<img class="brand-hero" src="${hero}" alt="${esc(brand.name)} campaign image" loading="lazy">` : ""}
     ${brandUrl ? `<p><a href="${brandUrl}" target="_blank" rel="noopener noreferrer">View brand collection at Amaris</a></p>` : ""}
-    ${stores.length ? `<section class="brand-location-groups" aria-label="Where to find ${esc(brand.name)}">${renderStoreGroup("Multi-brand retailers", retailers)}${renderStoreGroup("Brand boutiques", boutiques)}</section>` : `<h2>Find this brand</h2>${empty("No stores are listed for this brand yet.")}`}
+    ${stores.length ? `<section class="brand-location-groups" aria-label="Where to find ${esc(brand.name)}">${renderStoreGroup("Retailer", retailers)}${renderStoreGroup("Boutique", boutiques)}</section>` : `<h2>Find this brand</h2>${empty("No stores are listed for this brand yet.")}`}
     ${featured.length ? `<h2>Featured fragrances</h2><ul class="featured-fragrance-list">${featured.map(item => featuredCard(item, brand)).join("")}</ul>` : ""}
     ${perfumeCollection.length ? `<section class="perfume-collection"><h2>PERFUME COLLECTION</h2>${brand.perfumeCollectionNote ? `<p class="perfume-collection-note">${esc(brand.perfumeCollectionNote)}</p>` : ""}<input class="collection-search" id="collection-search" type="search" autocomplete="off" aria-label="Search perfume, collection, genre or notes" placeholder="Search perfume, collection, genre or notes"><p class="perfume-collection-note"><em>Collection information is a reference; availability and assortment vary by stockist and may change.</em></p><hr class="collection-disclaimer-divider"><p class="collection-search-count" aria-live="polite">${perfumeCollection.length} perfumes</p><ol class="perfume-collection-list">${perfumeCollection.map(item => `<li class="perfume-collection-item" data-search="${esc([item.name,item.year,item.collectionName,item.concentration,item.genre,item.notes].filter(Boolean).join(" "))}"><time>${esc(item.year)}</time><div><strong>${esc(item.name)}${item.concentration ? ` (${esc(item.concentration)})` : ""}</strong>${item.collectionName ? `<span class="perfume-collection-collection${item.collectionName === "Les Essences de Diptyque" ? " perfume-collection-essences" : ""}">${esc(item.collectionName)}</span>` : ""}<span>${esc(item.genre)}</span><span class="perfume-collection-notes">${esc(item.notes)}</span>${item.status ? `<span class="perfume-collection-status">${esc(item.status)}</span>` : ""}</div></li>`).join("")}</ol></section>` : ""}
 `;

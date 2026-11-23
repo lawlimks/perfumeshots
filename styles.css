@@ -386,3 +386,13 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .brand-location-addresses { list-style: none; margin: 0; padding: 0; }
 .brand-location-addresses li { margin: .35rem 0; }
 .brand-location-note { color: #777; font-size: .9rem; }
+
+.brand-identity-banner { width: 100vw; margin: 0 0 2rem calc(50% - 50vw); background: #000; color: #fff; }
+.brand-identity-inner { width: min(100% - 2rem, 64rem); margin-inline: auto; padding: 2rem 0; }
+.brand-identity-banner .brand-heading { margin: 0; color: #fff; }
+.brand-identity-banner .brand-heading h1 { color: #fff; }
+.brand-identity-banner .brand-description { color: #ddd; }
+.brand-identity-banner .brand-official-link { display: inline-block; margin-top: .25rem; color: #ddd; font-size: 1.1rem; }
+.collection-search { display: block; width: min(100%, 32rem); min-height: 3rem; padding: .65rem .9rem; border: 1px solid #ddd; border-radius: 0; background: #f2f2f2; color: #333; font: inherit; }
+.collection-search::placeholder { color: #888; opacity: 1; }
+.perfume-collection > h2 { text-transform: uppercase; }

@@ -399,3 +399,16 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 
 .perfume-collection-note { margin: .8rem 0 .5rem; max-width: 48rem; color: #777; font-size: .92rem; font-style: italic; }
 .collection-disclaimer-divider { margin: 0 0 1rem; border: 0; border-top: 1px solid #ddd; }
+
+.brand-location-stores { background: #f7f7f7; padding: 1.5rem 2.5rem; }
+.brand-location-store-name { margin: 0 0 .6rem; text-transform: uppercase; }
+.brand-location-addresses { list-style: none; margin: 0; padding: 0; }
+.brand-location-address { margin: 0 0 1.1rem; }
+.brand-location-address:last-child { margin-bottom: 0; }
+.brand-location-address strong, .brand-location-address a { display: block; }
+.brand-location-address strong { margin-bottom: .15rem; color: #222; }
+.brand-location-address a { color: #666; text-decoration: none; }
+.brand-location-address a:hover { color: #111; }
+@media (max-width: 48rem) {
+  .brand-location-stores { padding: 1.25rem 1rem; }
+}

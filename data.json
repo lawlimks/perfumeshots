@@ -862,7 +862,8 @@
           "collectionName": "The Grand Tour Collection",
           "genre": "Green Aromatic",
           "notes": "Tomato leaf · Basil · Vetiver",
-          "concentration": "Eau de Toilette"
+          "concentration": "Eau de Toilette",
+          "status": "Discontinued"
         },
         {
           "name": "Kyoto",
@@ -870,7 +871,8 @@
           "collectionName": "The Grand Tour Collection",
           "genre": "Woody Floral",
           "notes": "Incense · Rose · Vetiver",
-          "concentration": "Eau de Toilette"
+          "concentration": "Eau de Toilette",
+          "status": "Discontinued"
         },
         {
           "name": "Eau Rihla",
@@ -988,7 +990,8 @@
           "year": 2015,
           "collectionName": "Les Eaux",
           "genre": "Fresh Floral",
-          "notes": "Ivy · Rose · Musk"
+          "notes": "Ivy · Rose · Musk",
+          "status": "Discontinued"
         },
         {
           "name": "Benjoin Bohème",
@@ -996,7 +999,8 @@
           "collectionName": "La Collection 34",
           "genre": "Amber Woody",
           "notes": "Benzoin · Peru balsam · Sandalwood",
-          "concentration": "Eau de Parfum Intense"
+          "concentration": "Eau de Parfum Intense",
+          "status": "Discontinued"
         },
         {
           "name": "Eau Mage",
@@ -1019,7 +1023,8 @@
           "year": 2001,
           "collectionName": "La Collection 34",
           "genre": "Woody Spicy",
-          "notes": "Rose · Saffron · Leather"
+          "notes": "Rose · Saffron · Leather",
+          "status": "Discontinued"
         },
         {
           "name": "Kimonanthe",
@@ -1138,7 +1143,8 @@
           "collectionName": "La Collection 34",
           "genre": "Citrus Aromatic",
           "notes": "Bitter orange · Verbena · Grapefruit",
-          "concentration": "Eau de Toilette"
+          "concentration": "Eau de Toilette",
+          "status": "Discontinued"
         },
         {
           "name": "Eau Mohéli",
@@ -1209,7 +1215,8 @@
           "year": 2003,
           "collectionName": "",
           "genre": "Floral Green",
-          "notes": "Lilac · Hyacinth · Watermelon"
+          "notes": "Lilac · Hyacinth · Watermelon",
+          "status": "Discontinued"
         },
         {
           "name": "Oyédo",
@@ -1217,7 +1224,8 @@
           "collectionName": "Les Eaux",
           "genre": "Citrus Aromatic",
           "notes": "Yuzu · Lime · Raspberry",
-          "concentration": "Eau de Toilette"
+          "concentration": "Eau de Toilette",
+          "status": "Discontinued"
         },
         {
           "name": "Ôfrésia",
@@ -1225,14 +1233,16 @@
           "collectionName": "Les Eaux",
           "genre": "Floral Green",
           "notes": "Freesia · Carnation · Black pepper",
-          "concentration": "Eau de Toilette"
+          "concentration": "Eau de Toilette",
+          "status": "Discontinued"
         },
         {
           "name": "Virgilio",
           "year": 1990,
           "collectionName": "",
           "genre": "Green Aromatic",
-          "notes": "Basil · Thyme · Vetiver"
+          "notes": "Basil · Thyme · Vetiver",
+          "status": "Discontinued"
         },
         {
           "name": "Olène",
@@ -1255,7 +1265,8 @@
           "collectionName": "",
           "genre": "Amber Spicy",
           "notes": "Opoponax · Cinnamon · Clove",
-          "concentration": "Eau de Toilette"
+          "concentration": "Eau de Toilette",
+          "status": "Discontinued"
         },
         {
           "name": "L'Eau Trois",
@@ -1263,7 +1274,8 @@
           "collectionName": "",
           "genre": "Aromatic Woody",
           "notes": "Myrrh · Incense · Rosemary",
-          "concentration": "Eau de Toilette"
+          "concentration": "Eau de Toilette",
+          "status": "Discontinued"
         },
         {
           "name": "L'Autre",
@@ -1271,7 +1283,8 @@
           "collectionName": "",
           "genre": "Spicy Woody",
           "notes": "Cumin · Nutmeg · Patchouli",
-          "concentration": "Eau de Toilette"
+          "concentration": "Eau de Toilette",
+          "status": "Discontinued"
         },
         {
           "name": "L'Eau",
@@ -1280,6 +1293,15 @@
           "genre": "Aromatic Spicy",
           "notes": "Geranium · Clove · Cinnamon",
           "concentration": "Eau de Toilette"
+        },
+        {
+          "name": "Essences Insensées Tiaré",
+          "year": 2019,
+          "collectionName": "Essences Insensées",
+          "genre": "Floral",
+          "notes": "Tiaré flower · Pink pepper · Frangipani · Vanilla",
+          "concentration": "Eau de Parfum",
+          "status": "Discontinued"
         }
       ]
     },

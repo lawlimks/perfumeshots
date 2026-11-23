@@ -142,6 +142,9 @@ async function handleContact(request, env, url) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === "/stockists/diptyque" || url.pathname === "/stockists/diptyque/" || url.pathname === "/stockists/diptyque/index.html") {
+      return new Response(null, { status: 301, headers: { Location: "/brands/diptyque/", "Cache-Control": "public, max-age=3600" } });
+    }
     if (url.pathname === "/api/contact") return handleContact(request, env, url);
     if (url.pathname !== "/collection" && !url.pathname.startsWith("/collection/")) return env.ASSETS.fetch(request);
 

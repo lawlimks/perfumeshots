@@ -59,6 +59,10 @@ const esc = (value = "") => String(value).replace(/[&<>"']/g, ch => ({
 }[ch]));
 const slug = value => String(value || "").toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const href = (type, name) => name ? `/${type}/${encodeURIComponent(slug(name))}/` : `/${type}/`;
+const locationDisplay = location => {
+  const [building, ...addressParts] = String(location).split("|");
+  return addressParts.length ? `<strong>${esc(building.trim())}</strong><br>${esc(addressParts.join("|").trim())}` : esc(location);
+};
 const findBySlug = (items, key, value) => items.find(item => slug(item[key]) === value);
 const stockistNames = launch => [...new Set((launch.stockists || []).map(id => data.stores.find(store => store.id === id)).filter(Boolean).map(store => store.id.startsWith("amaris-") ? "Amaris" : store.name))];
 function safeExternalUrl(value) {
@@ -349,7 +353,7 @@ function renderStores() {
   const stores = data.stores.filter(store => store.showInStockistDirectory !== false).sort((a, b) => a.name.localeCompare(b.name));
   const group = (items, title) => items.length ? `<section class="stockist-group"><h2>${title}</h2><ul>${items.map(store => {
     const locations = store.locations || [];
-    return `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a>${locations.length ? `<ul class="stockist-addresses">${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}</li>`;
+    return `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a>${locations.length ? `<ul class="stockist-addresses">${locations.map(location => `<li>${locationDisplay(location)}</li>`).join("")}</ul>` : ""}</li>`;
   }).join("")}</ul></section>` : "";
   const boutiques = stores.filter(store => store.type === "brand-boutique");
   const multiBrand = stores.filter(store => store.type !== "brand-boutique");
@@ -364,7 +368,7 @@ function renderStore(id) {
   const locations = store.locations || [];
   app.innerHTML = `<p><a href="/stockists/">All stockists</a></p><h1>${esc(store.name)}</h1>
     ${storeUrl ? `<p><a href="${storeUrl}" target="_blank" rel="noopener noreferrer">Visit stockist website</a></p>` : ""}
-    ${locations.length ? `<h2>${locations.length === 1 ? "Address" : "Locations"}</h2><ul>${locations.map(location => `<li>${esc(location)}</li>`).join("")}</ul>` : ""}
+    ${locations.length ? `<h2>${locations.length === 1 ? "Address" : "Locations"}</h2><ul>${locations.map(location => `<li>${locationDisplay(location)}</li>`).join("")}</ul>` : ""}
     ${store.availabilityNote ? `<p class="notice">${esc(store.availabilityNote)}</p>` : ""}
     <h2>Brands carried</h2>${brands.length ? `<ul class="brand-list stockist-brand-list">${brands.map(brand => `<li><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("No brands are listed for this store yet.")}
     <h2>Recent discoveries</h2>${launches.length ? `<div class="launch-list-scroll"><ul class="launch-list">${launchHeading()}${launches.map(launchRow).join("")}</ul></div>` : empty("No recent discoveries are listed for this store yet.")}`;

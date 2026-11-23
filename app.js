@@ -360,7 +360,9 @@ function renderStores() {
   const stores = data.stores.filter(store => store.showInStockistDirectory !== false).sort((a, b) => a.name.localeCompare(b.name));
   const group = (items, title) => items.length ? `<section class="stockist-group"><h2>${title}</h2><ul>${items.map(store => {
     const locations = store.locations || [];
-    return `<li><a href="${href("stockists", store.name)}">${esc(store.name)}</a>${locations.length ? `<ul class="stockist-addresses">${locations.map(location => `<li>${locationDisplay(location)}</li>`).join("")}</ul>` : ""}</li>`;
+    const boutiqueBrand = store.type === "brand-boutique" ? data.brands.find(brand => (store.brands || []).includes(brand.id)) : null;
+    const destination = boutiqueBrand ? href("brands", boutiqueBrand.name) : href("stockists", store.name);
+    return `<li><a href="${destination}">${esc(store.name)}</a>${locations.length ? `<ul class="stockist-addresses">${locations.map(location => `<li>${locationDisplay(location)}</li>`).join("")}</ul>` : ""}</li>`;
   }).join("")}</ul></section>` : "";
   const boutiques = stores.filter(store => store.type === "brand-boutique");
   const multiBrand = stores.filter(store => store.type !== "brand-boutique");

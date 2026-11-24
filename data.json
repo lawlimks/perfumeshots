@@ -2018,7 +2018,7 @@
       "url": "https://thescentparlor.com/",
       "type": "",
       "locations": [
-        "67 Circular Road #03-01, Singapore 049421"
+        "|67 Circular Road #03-01, Singapore 049421"
       ],
       "brands": [
         "oddity",
@@ -2148,14 +2148,32 @@
     },
     {
       "id": "frederic-malle-boutique",
-      "name": "Frédéric Malle & Kilian Paris",
+      "name": "Frédéric Malle",
       "url": "https://www.fredericmalle.com/stores",
       "type": "brand-boutique",
       "locations": [
         "Raffles City Shopping Centre #01-23, 252 North Bridge Road, Singapore 179103"
       ],
       "brands": [
-        "frederic-malle",
+        "frederic-malle"
+      ],
+      "directoryGroup": "",
+      "directoryGroups": [
+        "Raffles City"
+      ],
+      "assortmentSource": "",
+      "availabilityCheckedAt": "",
+      "availabilityNote": ""
+    },
+    {
+      "id": "kilian-paris-boutique",
+      "name": "Kilian Paris",
+      "url": "https://www.bykilian.com/",
+      "type": "brand-boutique",
+      "locations": [
+        "Raffles City Shopping Centre #01-23, 252 North Bridge Road, Singapore 179103"
+      ],
+      "brands": [
         "kilian-paris"
       ],
       "directoryGroup": "",

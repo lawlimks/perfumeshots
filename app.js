@@ -59,16 +59,55 @@ const esc = (value = "") => String(value).replace(/[&<>"']/g, ch => ({
 }[ch]));
 const slug = value => String(value || "").toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const href = (type, name) => name ? `/${type}/${encodeURIComponent(slug(name))}/` : `/${type}/`;
-const locationDisplay = location => {
-  const [building, ...addressParts] = String(location).split("|");
-  return addressParts.length ? `<strong>${esc(building.trim())}</strong><br>${esc(addressParts.join("|").trim())}` : esc(location);
+const parseLocation = (location, storeName = "") => {
+  const raw = String(location).trim();
+  const normalizeAddress = address => address.replace(/\s+(#[^,\s]+)(?=,|$)/, ", $1");
+  if (raw.includes("|")) {
+    const [building, ...parts] = raw.split("|");
+    return { building: building.trim(), address: normalizeAddress(parts.join("|").trim()) };
+  }
+  const colon = raw.match(/^([^:]+):\s*(.+)$/);
+  if (colon) return { building: colon[1].trim(), address: normalizeAddress(colon[2].trim()) };
+  const tangs = raw.match(/^(TANGS Beauty Hall(?: counter)?(?:, Level 1)?),\s*(?:Tang Plaza,\s*)?(\d+ .+)$/i);
+  if (tangs) return { building: tangs[1].trim(), address: tangs[2].trim() + (raw.endsWith("Singapore 238864") ? ", Tang Plaza, Singapore 238864" : "") };
+  const unit = raw.match(/^(.+?)\s+#([^,]+),\s*(.+)$/);
+  if (unit) {
+    const prefix = unit[1].trim(), unitNo = "#" + unit[2].trim();
+    const tail = unit[3].split(",").map(part => part.trim()).filter(Boolean);
+    if (/^\d+\s/.test(prefix)) {
+      const possibleBuilding = tail[0] || "";
+      const hasBuilding = possibleBuilding && !/^Singapore\b/i.test(possibleBuilding) && !/^\d+\s/.test(possibleBuilding);
+      const building = hasBuilding ? possibleBuilding : prefix;
+      const addressTail = hasBuilding ? tail.slice(1) : tail;
+      return { building, address: [prefix, unitNo, ...addressTail].join(", ") };
+    }
+    const building = prefix;
+    if (tail[0]?.toLowerCase() === building.toLowerCase()) tail.shift();
+    const streetIndex = tail.findIndex(part => /^\d+\s/.test(part));
+    if (streetIndex >= 0) {
+      const street = tail.splice(streetIndex, 1)[0];
+      return { building, address: [street, unitNo, ...tail].join(", ") };
+    }
+    return { building, address: [unitNo, ...tail].join(", ") };
+  }
+  const commaParts = raw.split(",").map(part => part.trim()).filter(Boolean);
+  const roadIndex = commaParts.findIndex(part => /^\d+\s/.test(part));
+  if (roadIndex > 0) {
+    const building = commaParts[0].replace(/\s+counter$/i, "");
+    const extras = commaParts.slice(1, roadIndex);
+    const addressParts = commaParts.slice(roadIndex);
+    return { building, address: [...addressParts, ...extras].join(", ") };
+  }
+  return { building: storeName, address: raw };
+};
+const locationDisplay = (location, store = {}) => {
+  const { building, address } = parseLocation(location, store.name);
+  return `<strong>${esc(building)}</strong><br>${esc(address)}`;
 };
 const locationMapLink = (location, store) => {
-  const [building, ...addressParts] = String(location).split("|");
-  const place = addressParts.length ? addressParts.join("|").trim() : String(location).trim();
-  const buildingName = addressParts.length ? building.trim() : "";
-  const query = [store.name, buildingName, place].filter(Boolean).join(" ");
-  return `${buildingName ? `<strong>${esc(buildingName)}</strong>` : ""}<a href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer">${esc(place)}</a>`;
+  const { building, address } = parseLocation(location, store.name);
+  const query = [store.name, building, address].filter(Boolean).join(" ");
+  return `<strong>${esc(building)}</strong><a href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer">${esc(address)}</a>`;
 };
 const findBySlug = (items, key, value) => items.find(item => slug(item[key]) === value);
 const stockistNames = launch => [...new Set((launch.stockists || []).map(id => data.stores.find(store => store.id === id)).filter(Boolean).map(store => store.id.startsWith("amaris-") ? "Amaris" : store.name))];
@@ -362,15 +401,22 @@ function renderArticle(slugValue) {
 
 function renderStores() {
   const stores = data.stores.filter(store => store.showInStockistDirectory !== false).sort((a, b) => a.name.localeCompare(b.name));
-  const group = (items, title) => items.length ? `<section class="stockist-group"><h2>${title}</h2><ul>${items.map(store => {
+  const renderEntry = store => {
     const locations = store.locations || [];
-    const boutiqueBrand = store.type === "brand-boutique" ? data.brands.find(brand => (store.brands || []).includes(brand.id)) : null;
-    const destination = boutiqueBrand ? href("brands", boutiqueBrand.name) : href("stockists", store.name);
-    return `<li><a href="${destination}">${esc(store.name)}</a>${locations.length ? `<ul class="stockist-addresses">${locations.map(location => `<li>${locationDisplay(location)}</li>`).join("")}</ul>` : ""}</li>`;
-  }).join("")}</ul></section>` : "";
+    const brands = (store.brands || []).map(id => data.brands.find(brand => brand.id === id)).filter(Boolean).sort((a, b) => a.name.localeCompare(b.name));
+    const destination = store.type === "brand-boutique"
+      ? brands.map(brand => `<a href="${href("brands", brand.name)}">View ${esc(brand.name)} fragrance collection</a>`).join("")
+      : `<a href="${href("stockists", store.name)}">View ${esc(store.name)} stockist details and brands</a>`;
+    return `<details class="stockist-accordion"><summary>${esc(store.name)}</summary><div class="stockist-accordion-content">${locations.length ? `<ul class="stockist-accordion-addresses">${locations.map(location => `<li>${locationMapLink(location, store)}</li>`).join("")}</ul>` : ""}<div class="stockist-accordion-links">${destination}</div></div></details>`;
+  };
+  const group = (items, title) => items.length ? `<section class="stockist-group"><h2>${title}</h2><div class="stockist-accordion-list">${items.map(renderEntry).join("")}</div></section>` : "";
   const boutiques = stores.filter(store => store.type === "brand-boutique");
   const multiBrand = stores.filter(store => store.type !== "brand-boutique");
-  app.innerHTML = `<h1>Stockists</h1><p>Find multi-brand retailers and brand boutiques in Singapore.</p>${stores.length ? `${group(multiBrand, "Multi-brand stockists")}${group(boutiques, "Brand boutiques")}` : empty("Stockist listings will appear here as they are added.")}`;
+  app.innerHTML = `<section class="stockists-page-banner"><div class="stockists-page-banner-inner"><h1>Stockists</h1><p>Find multi-brand retailers and brand boutiques in Singapore.</p></div></section>${stores.length ? `${group(multiBrand, "Multi-brand retailers")}${group(boutiques, "Brand Boutiques")}` : empty("Stockist listings will appear here as they are added.")}`;
+  const accordions = [...document.querySelectorAll(".stockist-accordion")];
+  accordions.forEach(accordion => accordion.addEventListener("toggle", () => {
+    if (accordion.open) accordions.forEach(other => { if (other !== accordion) other.open = false; });
+  }));
 }
 function renderStore(id) {
   const store = findBySlug(data.stores, "name", id);

@@ -2173,7 +2173,8 @@
           "name": "Nuda",
           "year": 2010,
           "genre": "Floral Animalic",
-          "notes": "Jasmine · Spearmint · Leather"
+          "notes": "Jasmine · Spearmint · Leather",
+          "status": "Discontinued"
         },
         {
           "name": "Black Afgano",
@@ -2218,7 +2219,7 @@
           "notes": "Citrus · Musk · Sandalwood"
         }
       ],
-      "perfumeCollectionNote": "Nasomatto does not publish note breakdowns; genre and notes are commonly reported interpretations. Nuda is discontinued."
+      "perfumeCollectionNote": ""
     },
     {
       "id": "ordiolab",

@@ -414,3 +414,29 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 }
 
 .brand-location-group[open] .brand-location-count { display: none; }
+
+.stockists-page-banner { width: 100vw; margin: 0 0 2rem calc(50% - 50vw); background: #000; color: #fff; }
+.stockists-page-banner-inner { width: min(100% - 2rem, 64rem); margin-inline: auto; padding: 2rem 0 2.4rem; }
+.stockists-page-banner h1 { margin: 0; color: #fff; }
+.stockists-page-banner p { margin: .25rem 0 0; color: #eee; font-weight: 600; }
+.stockist-group { margin: 2rem 0 3rem; }
+.stockist-group > h2 { margin-bottom: 1.25rem; }
+.stockist-accordion { border: 1px solid #ccc; }
+.stockist-accordion + .stockist-accordion { border-top: 0; }
+.stockist-accordion summary { cursor: pointer; padding: .65rem .9rem; list-style: none; }
+.stockist-accordion summary::-webkit-details-marker { display: none; }
+.stockist-accordion summary::before { content: "+"; display: inline-grid; place-items: center; width: 1rem; height: 1rem; margin-right: .7rem; border: 1px solid #aaa; color: #888; font-weight: 700; line-height: 1; }
+.stockist-accordion[open] summary::before { content: "−"; }
+.stockist-accordion-content { padding: 1.25rem 2rem; background: #f7f7f7; border-top: 1px solid #ccc; }
+.stockist-accordion-addresses { margin: 0; padding: 0; list-style: none; }
+.stockist-accordion-addresses li { margin: 0 0 1rem; }
+.stockist-accordion-addresses li:last-child { margin-bottom: 0; }
+.stockist-accordion-addresses strong, .stockist-accordion-addresses a { display: block; }
+.stockist-accordion-addresses strong { color: #222; margin-bottom: .1rem; }
+.stockist-accordion-addresses a { color: #666; text-decoration: none; }
+.stockist-accordion-addresses a:hover { color: #111; }
+.stockist-accordion-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.25rem; }
+@media (max-width: 48rem) {
+  .stockists-page-banner-inner { padding: 1.5rem 0 1.8rem; }
+  .stockist-accordion-content { padding: 1rem; }
+}

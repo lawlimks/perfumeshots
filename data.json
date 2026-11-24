@@ -2429,6 +2429,342 @@
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
       "featuredPerfumes": []
+    },
+    {
+      "id": "le-labo",
+      "name": "Le Labo",
+      "url": "",
+      "website": "",
+      "description": "",
+      "directoryCheckedAt": "",
+      "availabilityCheckedAt": "",
+      "assortmentOnly": false,
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "name": "CAFÉ 32 Vienna",
+          "year": 2026,
+          "collectionName": "City Exclusive",
+          "genre": "Woody Amber",
+          "notes": "Coffee · Frankincense · Damask Rose"
+        },
+        {
+          "name": "Shiu 25 Beijing",
+          "year": 2026,
+          "collectionName": "City Exclusive",
+          "genre": "Woody Floral",
+          "notes": "Shiu · Iris · Olibanum · Warm Woods"
+        },
+        {
+          "name": "Violette 30",
+          "year": 2026,
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Violet · White Tea · Cedarwood · Guaiac Wood"
+        },
+        {
+          "name": "Eucalyptus 20",
+          "year": 2025,
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Eucalyptus · Cedarwood · Labdanum · Frankincense"
+        },
+        {
+          "name": "Coriandre 39 Mexico",
+          "year": 2024,
+          "collectionName": "City Exclusive",
+          "genre": "Citrus Green",
+          "notes": "Cilantro Leaf · Lime · Watery Notes · Musk"
+        },
+        {
+          "name": "Osmanthus 19 Kyoto",
+          "year": 2024,
+          "collectionName": "City Exclusive",
+          "genre": "Floral Woody",
+          "notes": "Osmanthus · Incense · Lavender · Resinous Woods"
+        },
+        {
+          "name": "Lavande 31",
+          "year": 2023,
+          "collectionName": "",
+          "genre": "Aromatic Fougère",
+          "notes": "Lavender · Bergamot · Neroli · Tonka Bean"
+        },
+        {
+          "name": "Myrrhe 55 Shanghai",
+          "year": 2023,
+          "collectionName": "City Exclusive",
+          "genre": "Chypre Amber",
+          "notes": "Myrrh · Jasmine · Patchouli · Oud"
+        },
+        {
+          "name": "The Matcha 26",
+          "year": 2021,
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Matcha Tea · Fig · Vetiver · Cedarwood"
+        },
+        {
+          "name": "Cedrat 37 Berlin",
+          "year": 2021,
+          "collectionName": "City Exclusive",
+          "genre": "Citrus Aromatic",
+          "notes": "Citron · Ginger · Musk · Ambergris"
+        },
+        {
+          "name": "Citron 28 Seoul",
+          "year": 2020,
+          "collectionName": "City Exclusive",
+          "genre": "Citrus Floral",
+          "notes": "Lemon · Ginger · Jasmine · Cedarwood"
+        },
+        {
+          "name": "Baie 19",
+          "year": 2019,
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Juniper Berry · Patchouli · Green Leaves · Ambroxan"
+        },
+        {
+          "name": "Bigarade 18 Hong Kong",
+          "year": 2019,
+          "collectionName": "City Exclusive",
+          "genre": "Citrus White Floral",
+          "notes": "Bitter Orange · Neroli · Lily · Cedarwood"
+        },
+        {
+          "name": "Tabac 28 Miami",
+          "year": 2019,
+          "collectionName": "City Exclusive",
+          "genre": "Woody Spicy",
+          "notes": "Tobacco Leaf · Oud · Rum · Guaiac Wood"
+        },
+        {
+          "name": "Tonka 25",
+          "year": 2018,
+          "collectionName": "",
+          "genre": "Woody Amber",
+          "notes": "Tonka Bean · Cedar · Styrax · Orange Blossom"
+        },
+        {
+          "name": "Colette 19",
+          "year": 2017,
+          "collectionName": "Limited Collaboration",
+          "genre": "Citrus Aromatic",
+          "notes": "Bitter Orange · Bergamot · Violet · Cedar"
+        },
+        {
+          "name": "Colette 25",
+          "year": 2017,
+          "collectionName": "Limited Collaboration",
+          "genre": "Floral Woody Musk",
+          "notes": "Bergamot · Black Pepper · Clove · Woody Musk"
+        },
+        {
+          "name": "Colette 34",
+          "year": 2017,
+          "collectionName": "Limited Collaboration",
+          "genre": "Floral Fruity Musk",
+          "notes": "Fig · Tea Leaf · Jasmine · Musk"
+        },
+        {
+          "name": "Mousse de Chene 30 Amsterdam",
+          "year": 2017,
+          "collectionName": "City Exclusive",
+          "genre": "Chypre Spicy",
+          "notes": "Oakmoss · Patchouli · Cinnamon · Pink Pepper"
+        },
+        {
+          "name": "The Noir 29",
+          "year": 2015,
+          "collectionName": "",
+          "genre": "Aromatic Woody",
+          "notes": "Black Tea · Fig · Bay Leaf · Vetiver"
+        },
+        {
+          "name": "Ylang 49",
+          "year": 2015,
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Ylang-Ylang · Gardenia · Patchouli · Oakmoss"
+        },
+        {
+          "name": "Geranium 30",
+          "year": 2014,
+          "collectionName": "",
+          "genre": "Aromatic Floral",
+          "notes": "Geranium · Iris · Vetiver · Musk"
+        },
+        {
+          "name": "Lys 41",
+          "year": 2013,
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Lily · Tuberose · Jasmine · Madagascar Vanilla"
+        },
+        {
+          "name": "Benjoin 19 Moscow",
+          "year": 2013,
+          "collectionName": "City Exclusive",
+          "genre": "Amber Woody",
+          "notes": "Benzoin · Olibanum · Amber · Cedarwood"
+        },
+        {
+          "name": "Cuir 28 Dubai",
+          "year": 2013,
+          "collectionName": "City Exclusive",
+          "genre": "Leather Woody",
+          "notes": "Leather · Wood Tar · Vetiver · Vanilla"
+        },
+        {
+          "name": "Limette 37 San Francisco",
+          "year": 2013,
+          "collectionName": "City Exclusive",
+          "genre": "Citrus Aromatic",
+          "notes": "Lime · Bergamot · Jasmine · Musk"
+        },
+        {
+          "name": "Santal 33",
+          "year": 2011,
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Sandalwood · Cardamom · Iris · Leather"
+        },
+        {
+          "name": "Baie Rose 26 Chicago",
+          "year": 2011,
+          "collectionName": "City Exclusive",
+          "genre": "Floral Spicy",
+          "notes": "Pink Pepper · Rose · Clove · Aldehydes"
+        },
+        {
+          "name": "Another 13",
+          "year": 2010,
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Ambroxan · Jasmine · Moss · Ambrette Seed"
+        },
+        {
+          "name": "Oud 27",
+          "year": 2009,
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Agarwood (Oud) · Cedar · Incense · Patchouli"
+        },
+        {
+          "name": "Gaiac 10 Tokyo",
+          "year": 2008,
+          "collectionName": "City Exclusive",
+          "genre": "Woody Musk",
+          "notes": "Guaiac Wood · Musk · Cedar · Olibanum"
+        },
+        {
+          "name": "Musc 25 Los Angeles",
+          "year": 2008,
+          "collectionName": "City Exclusive",
+          "genre": "Floral Woody Musk",
+          "notes": "White Musk · Aldehydes · Vetiver · Ambergris"
+        },
+        {
+          "name": "Poivre 23 London",
+          "year": 2008,
+          "collectionName": "City Exclusive",
+          "genre": "Amber Spicy",
+          "notes": "Bourbon Pepper · Labdanum · Incense · Vanilla"
+        },
+        {
+          "name": "Vanille 44 Paris",
+          "year": 2007,
+          "collectionName": "City Exclusive",
+          "genre": "Amber Woody",
+          "notes": "Bourbon Vanilla · Incense · Guaiac Wood · Aldehydes"
+        },
+        {
+          "name": "Ambrette 9",
+          "year": 2006,
+          "collectionName": "",
+          "genre": "Fresh Musk",
+          "notes": "Ambrette Seed · Pear · Aldehydes · Citrus"
+        },
+        {
+          "name": "Bergamote 22",
+          "year": 2006,
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Bergamot · Grapefruit · Petitgrain · Vetiver"
+        },
+        {
+          "name": "Fleur d'Oranger 27",
+          "year": 2006,
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Orange Blossom · Petitgrain · Bergamot · Lemon"
+        },
+        {
+          "name": "Iris 39",
+          "year": 2006,
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Iris · Patchouli · Violet · Ginger"
+        },
+        {
+          "name": "Jasmin 17",
+          "year": 2006,
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Jasmine · Neroli · Bitter Orange · Sandalwood"
+        },
+        {
+          "name": "Labdanum 18",
+          "year": 2006,
+          "collectionName": "",
+          "genre": "Amber Balsamic",
+          "notes": "French Labdanum · Castoreum · Vanilla · Civet"
+        },
+        {
+          "name": "Neroli 36",
+          "year": 2006,
+          "collectionName": "",
+          "genre": "Floral Aldehydic",
+          "notes": "Neroli · Orange Blossom · Aldehydes · Musk"
+        },
+        {
+          "name": "Patchouli 24",
+          "year": 2006,
+          "collectionName": "",
+          "genre": "Woody Leather",
+          "notes": "Patchouli · Birch Tar · Styrax · Vanilla"
+        },
+        {
+          "name": "Rose 31",
+          "year": 2006,
+          "collectionName": "",
+          "genre": "Floral Woody Spicy",
+          "notes": "Centifolia Rose · Cumin · Cedar · Vetiver"
+        },
+        {
+          "name": "Vetiver 46",
+          "year": 2006,
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Haitian Vetiver · Black Pepper · Guaiac Wood · Olibanum"
+        },
+        {
+          "name": "Aldehyde 44 Dallas",
+          "year": 2006,
+          "collectionName": "City Exclusive",
+          "genre": "Floral Aldehydic",
+          "notes": "Aldehydes · Narcissus · Jasmine · Tuberose"
+        },
+        {
+          "name": "Tubereuse 40 New York",
+          "year": 2006,
+          "collectionName": "City Exclusive",
+          "genre": "Citrus White Floral",
+          "notes": "Tuberose · Orange Blossom · Bergamot · Cedarwood"
+        }
+      ],
+      "perfumeCollectionNote": ""
     }
   ],
   "stores": [

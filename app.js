@@ -107,7 +107,7 @@ const locationDisplay = (location, store = {}) => {
 const locationMapLink = (location, store) => {
   const { building, address } = parseLocation(location, store.name);
   const query = [store.name, building, address].filter(Boolean).join(" ");
-  return `<strong>${esc(building)}</strong><a href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer">${esc(address)}</a>`;
+  return `${building ? `<strong>${esc(building)}</strong>` : ""}<a href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer">${esc(address)}</a>`;
 };
 const findBySlug = (items, key, value) => items.find(item => slug(item[key]) === value);
 const stockistNames = launch => [...new Set((launch.stockists || []).map(id => data.stores.find(store => store.id === id)).filter(Boolean).map(store => store.id.startsWith("amaris-") ? "Amaris" : store.name))];
@@ -407,12 +407,12 @@ function renderStores() {
     const destination = store.type === "brand-boutique"
       ? brands.map(brand => `<a href="${href("brands", brand.name)}">View ${esc(brand.name)} fragrance collection</a>`).join("")
       : `<a href="${href("stockists", store.name)}">View ${esc(store.name)} stockist details and brands</a>`;
-    return `<details class="stockist-accordion"><summary>${esc(store.name)}</summary><div class="stockist-accordion-content">${locations.length ? `<ul class="stockist-accordion-addresses">${locations.map(location => `<li>${locationMapLink(location, store)}</li>`).join("")}</ul>` : ""}<div class="stockist-accordion-links">${destination}</div></div></details>`;
+    return `<details class="stockist-accordion"><summary>${esc(store.name)}${locations.length > 1 ? ` (${locations.length})` : ""}</summary><div class="stockist-accordion-content">${locations.length ? `<ul class="stockist-accordion-addresses">${locations.map(location => `<li>${locationMapLink(location, store)}</li>`).join("")}</ul>` : ""}<div class="stockist-accordion-links">${destination}</div></div></details>`;
   };
   const group = (items, title) => items.length ? `<section class="stockist-group"><h2>${title}</h2><div class="stockist-accordion-list">${items.map(renderEntry).join("")}</div></section>` : "";
   const boutiques = stores.filter(store => store.type === "brand-boutique");
   const multiBrand = stores.filter(store => store.type !== "brand-boutique");
-  app.innerHTML = `<section class="stockists-page-banner"><div class="stockists-page-banner-inner"><h1>Stockists</h1><p>Find multi-brand retailers and brand boutiques in Singapore.</p></div></section>${stores.length ? `${group(multiBrand, "Multi-brand retailers")}${group(boutiques, "Brand Boutiques")}` : empty("Stockist listings will appear here as they are added.")}`;
+  app.innerHTML = `<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Stockists</li></ol></nav><section class="stockists-page-banner"><div class="stockists-page-banner-inner"><h1>Stockists</h1><p>Find multi-brand retailers and brand boutiques in Singapore.</p></div></section>${stores.length ? `${group(multiBrand, "Multi-brand retailers")}${group(boutiques, "Brand Boutiques")}` : empty("Stockist listings will appear here as they are added.")}`;
   const accordions = [...document.querySelectorAll(".stockist-accordion")];
   accordions.forEach(accordion => accordion.addEventListener("toggle", () => {
     if (accordion.open) accordions.forEach(other => { if (other !== accordion) other.open = false; });

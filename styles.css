@@ -412,3 +412,5 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 @media (max-width: 48rem) {
   .brand-location-stores { padding: 1.25rem 1rem; }
 }
+
+.brand-location-group[open] .brand-location-count { display: none; }

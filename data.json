@@ -2434,7 +2434,7 @@
       "id": "le-labo",
       "name": "Le Labo",
       "url": "",
-      "website": "",
+      "website": "https://www.lelabofragrances.com/",
       "description": "",
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
@@ -3375,6 +3375,27 @@
       "availabilityCheckedAt": "2026-11-16",
       "availabilityNote": "",
       "showInStockistDirectory": false
+    },
+    {
+      "id": "le-labo-boutiques",
+      "name": "Le Labo",
+      "url": "https://www.lelabofragrances.com/",
+      "type": "brand-boutique",
+      "locations": [
+        "Ngee Ann City|391 Orchard Road, #B1-31, Singapore 238872",
+        "The Shoppes at Marina Bay Sands|2 Bayfront Avenue, Bay Level, #01-36, Singapore 018956"
+      ],
+      "brands": [
+        "le-labo"
+      ],
+      "directoryGroup": "",
+      "directoryGroups": [
+        "Ngee Ann City",
+        "Marina Bay Sands"
+      ],
+      "assortmentSource": "",
+      "availabilityCheckedAt": "",
+      "availabilityNote": ""
     }
   ],
   "launches": [

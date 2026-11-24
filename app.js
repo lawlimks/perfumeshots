@@ -68,8 +68,8 @@ const parseLocation = (location, storeName = "") => {
   }
   const colon = raw.match(/^([^:]+):\s*(.+)$/);
   if (colon) return { building: colon[1].trim(), address: normalizeAddress(colon[2].trim()) };
-  const tangs = raw.match(/^(TANGS Beauty Hall(?: counter)?(?:, Level 1)?),\s*(?:Tang Plaza,\s*)?(\d+ .+)$/i);
-  if (tangs) return { building: tangs[1].trim(), address: tangs[2].trim() + (raw.endsWith("Singapore 238864") ? ", Tang Plaza, Singapore 238864" : "") };
+  const tangs = raw.match(/^(TANGS Beauty Hall(?: counter)?(?:, Level 1)?),\s*Tang Plaza,\s*(\d+ .+)$/i);
+  if (tangs) return { building: tangs[1].trim(), address: tangs[2].trim() };
   const unit = raw.match(/^(.+?)\s+#([^,]+),\s*(.+)$/);
   if (unit) {
     const prefix = unit[1].trim(), unitNo = "#" + unit[2].trim();

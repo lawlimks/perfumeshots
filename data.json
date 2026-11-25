@@ -1010,7 +1010,157 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Cologne One",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Juniper · Lime · Bergamot · Iso E Super"
+        },
+        {
+          "year": 2026,
+          "name": "Molecule 01 + Champaca",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Iso E Super · Champaca · Orange Blossom"
+        },
+        {
+          "year": 2026,
+          "name": "Molecule 01 + Clary Sage",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Iso E Super · Clary Sage"
+        },
+        {
+          "year": 2025,
+          "name": "Escentric 02 Extrait",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Ambroxan · Bergamot · Almdudler · Jasmine"
+        },
+        {
+          "year": 2025,
+          "name": "Molecule 01 + Cistus",
+          "collectionName": "",
+          "genre": "Woody Amber",
+          "notes": "Iso E Super · Cistus"
+        },
+        {
+          "year": 2023,
+          "name": "Molecule 01 + Black Tea",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Iso E Super · Black Tea"
+        },
+        {
+          "year": 2023,
+          "name": "Molecule 01 + Ginger",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Iso E Super · Ginger"
+        },
+        {
+          "year": 2023,
+          "name": "Molecule 01 + Guaiac Wood",
+          "collectionName": "",
+          "genre": "Woody Smoky",
+          "notes": "Iso E Super · Guaiac Wood"
+        },
+        {
+          "year": 2021,
+          "name": "Molecule 01 + Iris",
+          "collectionName": "",
+          "genre": "Woody Floral",
+          "notes": "Iso E Super · Iris"
+        },
+        {
+          "year": 2021,
+          "name": "Molecule 01 + Mandarin",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Iso E Super · Mandarin Orange"
+        },
+        {
+          "year": 2021,
+          "name": "Molecule 01 + Patchouli",
+          "collectionName": "",
+          "genre": "Woody Earthy",
+          "notes": "Iso E Super · Patchouli"
+        },
+        {
+          "year": 2020,
+          "name": "Escentric 05",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Cashmeran · Bergamot · Fig · Juniper"
+        },
+        {
+          "year": 2020,
+          "name": "Molecule 05",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Cashmeran"
+        },
+        {
+          "year": 2017,
+          "name": "Escentric 04",
+          "collectionName": "",
+          "genre": "Woody Floral",
+          "notes": "Javanol · Grapefruit · Juniper · Rose"
+        },
+        {
+          "year": 2017,
+          "name": "Molecule 04",
+          "collectionName": "",
+          "genre": "Woody",
+          "notes": "Javanol"
+        },
+        {
+          "year": 2010,
+          "name": "Escentric 03",
+          "collectionName": "",
+          "genre": "Woody Chypre",
+          "notes": "Vetiver · Ginger · Lime · Sandalwood"
+        },
+        {
+          "year": 2010,
+          "name": "Molecule 03",
+          "collectionName": "",
+          "genre": "Woody Earthy",
+          "notes": "Vetiver"
+        },
+        {
+          "year": 2008,
+          "name": "Escentric 02",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Ambroxan · Vetiver · Musk · Iris"
+        },
+        {
+          "year": 2008,
+          "name": "Molecule 02",
+          "collectionName": "",
+          "genre": "Amber Musk",
+          "notes": "Ambroxan"
+        },
+        {
+          "year": 2006,
+          "name": "Escentric 01",
+          "collectionName": "",
+          "genre": "Woody Floral Musk",
+          "notes": "Iso E Super · Lime Peel · Pink Pepper · Iris"
+        },
+        {
+          "year": 2006,
+          "name": "Molecule 01",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Iso E Super"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "ex-nihilo",

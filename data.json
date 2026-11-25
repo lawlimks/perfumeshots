@@ -9,7 +9,129 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Heat",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Red Chili Pepper · Lemon · Cardamom · Ambroxan"
+        },
+        {
+          "year": 2026,
+          "name": "Life",
+          "collectionName": "",
+          "genre": "Floral Aquatic",
+          "notes": "Bergamot · Peach · Sea Salt · Oakmoss"
+        },
+        {
+          "year": 2025,
+          "name": "Crush",
+          "collectionName": "",
+          "genre": "Floral Gourmand",
+          "notes": "Bulgarian Rose · Roasted Almond · Litchi · Praline"
+        },
+        {
+          "year": 2025,
+          "name": "Breathe",
+          "collectionName": "",
+          "genre": "Aromatic Aquatic",
+          "notes": "Watery Notes · Bergamot · Lavender · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Smile",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Raspberry · Bergamot · Clary Sage · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Glow",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Vanilla · Pink Pepper · Frankincense · Amber"
+        },
+        {
+          "year": 2024,
+          "name": "Infuse",
+          "collectionName": "",
+          "genre": "Aromatic Green",
+          "notes": "Oolong Tea · Mate · Bergamot · Osmanthus"
+        },
+        {
+          "year": 2023,
+          "name": "Rise",
+          "collectionName": "",
+          "genre": "Tropical Fruity",
+          "notes": "Piña Colada · Coconut Water · Pineapple · Sandalwood"
+        },
+        {
+          "year": 2023,
+          "name": "East",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Raspberry · Leather · Ambroxan"
+        },
+        {
+          "year": 2023,
+          "name": "Bake",
+          "collectionName": "",
+          "genre": "Gourmand Citrus",
+          "notes": "Lemon Zest · Whipped Cream · Rum · Vanilla"
+        },
+        {
+          "year": 2022,
+          "name": "Ink",
+          "collectionName": "",
+          "genre": "Leather Woody",
+          "notes": "Black Ink · Birch Tar · Vetiver · Jasmine"
+        },
+        {
+          "year": 2018,
+          "name": "Night",
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Bulgarian Rose · Cumin · Saffron · Oud"
+        },
+        {
+          "year": 2018,
+          "name": "Malt",
+          "collectionName": "",
+          "genre": "Woody Boozy",
+          "notes": "Whisky · Malt · Rum · Leather"
+        },
+        {
+          "year": 2018,
+          "name": "Dark",
+          "collectionName": "",
+          "genre": "Gourmand Spicy",
+          "notes": "Dark Chocolate · Hazelnut · Cacao · Cinnamon"
+        },
+        {
+          "year": 2018,
+          "name": "Smoke",
+          "collectionName": "",
+          "genre": "Aromatic Woody",
+          "notes": "Tobacco · Benzoin · Cade Oil · Tonka Bean"
+        },
+        {
+          "year": 2018,
+          "name": "Awake",
+          "collectionName": "",
+          "genre": "Gourmand Spicy",
+          "notes": "Roasted Coffee · Cardamom · Lemon · Vetiver"
+        },
+        {
+          "year": 2018,
+          "name": "Haze",
+          "collectionName": "",
+          "genre": "Aromatic Green",
+          "notes": "Cannabis · Absinthe · Eucalyptus · Mint"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "alexandre-j",

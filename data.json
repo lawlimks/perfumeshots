@@ -394,7 +394,322 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Banana Rush",
+          "collectionName": "",
+          "genre": "Gourmand",
+          "notes": "Banana · Maple Syrup · Coconut · Sandalwood"
+        },
+        {
+          "year": 2026,
+          "name": "Purple Trouble",
+          "collectionName": "",
+          "genre": "Fruity Spicy",
+          "notes": "Wild Blackberry · Red Chili Pepper · Woods · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Liquid Illusion",
+          "collectionName": "BOLD COLLECTION",
+          "genre": "Floral Amber",
+          "notes": "Iris · Heliotrope · Almond · Tonka Bean"
+        },
+        {
+          "year": 2026,
+          "name": "Oil Fiction",
+          "collectionName": "BOLD COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Iris · Amber · Labdanum"
+        },
+        {
+          "year": 2026,
+          "name": "White Spirit",
+          "collectionName": "BOLD COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Tuberose · Jasmine Sambac · Sandalwood · Ambroxan"
+        },
+        {
+          "year": 2025,
+          "name": "Miami Shake",
+          "collectionName": "",
+          "genre": "Fruity Gourmand",
+          "notes": "Wild Strawberry · Whipped Cream · Ice Cream Cone · Vanilla"
+        },
+        {
+          "year": 2025,
+          "name": "Powder Love",
+          "collectionName": "",
+          "genre": "Powdery Gourmand",
+          "notes": "Marshmallow · Cotton Candy · Orange Blossom · Tonka Bean"
+        },
+        {
+          "year": 2025,
+          "name": "X SKINS",
+          "collectionName": "",
+          "genre": "Woody Fruity",
+          "notes": "Lychee · Ginger · Akigalawood · Tonka Bean"
+        },
+        {
+          "year": 2025,
+          "name": "Madeleine Impériale",
+          "collectionName": "BOLD COLLECTION",
+          "genre": "Gourmand Woody",
+          "notes": "Blood Orange · Madeleine · Tonka Bean · Oud"
+        },
+        {
+          "year": 2024,
+          "name": "Ex Vetiver",
+          "collectionName": "",
+          "genre": "Woody Citrus",
+          "notes": "Vetiver · Lemon · Bergamot · Ambroxan"
+        },
+        {
+          "year": 2024,
+          "name": "Juliette",
+          "collectionName": "",
+          "genre": "Fruity Floral",
+          "notes": "Cherry · Pink Pepper · Jasmine · Cashmeran"
+        },
+        {
+          "year": 2023,
+          "name": "Lust for Sun",
+          "collectionName": "",
+          "genre": "Floral Solar",
+          "notes": "Ylang-Ylang · Coconut · Monoï Oil · Vanilla"
+        },
+        {
+          "year": 2023,
+          "name": "Ode To Dullness",
+          "collectionName": "",
+          "genre": "Floral Woody Musk",
+          "notes": "Star Anise · Freesia · Sandalwood · Cashmere Flower"
+        },
+        {
+          "year": 2022,
+          "name": "Ego Stratis",
+          "collectionName": "",
+          "genre": "Citrus Aquatic",
+          "notes": "Bergamot · Mandarin Orange · Sea Notes · Cedarwood"
+        },
+        {
+          "year": 2022,
+          "name": "Magnolia Bliss",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Magnolia · Nectarine · Ginger · Ambroxan"
+        },
+        {
+          "year": 2021,
+          "name": "Lili Fantasy",
+          "collectionName": "",
+          "genre": "Floral Gourmand",
+          "notes": "Bubblegum · Tuberose · Jasmine · Ambroxan"
+        },
+        {
+          "year": 2021,
+          "name": "Pear Inc",
+          "collectionName": "",
+          "genre": "Fruity Musk",
+          "notes": "Pear · Ambroxan · Musk · Ambrettolide"
+        },
+        {
+          "year": 2020,
+          "name": "Lipstick Fever",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Raspberry · Violet · Iris · Vanilla"
+        },
+        {
+          "year": 2020,
+          "name": "Musc Invisible",
+          "collectionName": "",
+          "genre": "Floral Musk",
+          "notes": "White Musk · Jasmine · Cotton Flower"
+        },
+        {
+          "year": 2019,
+          "name": "Not A Perfume Superdose",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Cetalox · Woody Notes"
+        },
+        {
+          "year": 2019,
+          "name": "Vanilla Vibes",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Salt · Vanilla · Orchid · Sandalwood"
+        },
+        {
+          "year": 2019,
+          "name": "In The Mood For Oud",
+          "collectionName": "LUXURY COLLECTION",
+          "genre": "Woody Oud",
+          "notes": "Oud · Bergamot · Raspberry · Saffron",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2018,
+          "name": "Liquid Illusion",
+          "collectionName": "LUXURY COLLECTION",
+          "genre": "Floral Amber",
+          "notes": "Iris · Heliotrope · Violet · Tonka Bean",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2017,
+          "name": "Moscow Mule",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Ginger · Lime · Bergamot · Ambroxan"
+        },
+        {
+          "year": 2017,
+          "name": "Sunny Side Up",
+          "collectionName": "",
+          "genre": "Woody Floral Musk",
+          "notes": "Sandalwood · Coconut Milk · Amyris · Vanilla"
+        },
+        {
+          "year": 2017,
+          "name": "Metal Chypre",
+          "collectionName": "LUXURY COLLECTION",
+          "genre": "Chypre Spicy",
+          "notes": "Bergamot · Pink Pepper · Iris · Patchouli",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2016,
+          "name": "Mmmm...",
+          "collectionName": "",
+          "genre": "Floral Gourmand",
+          "notes": "Raspberry · Vanilla · Caramel · Sandalwood"
+        },
+        {
+          "year": 2016,
+          "name": "Into The Void",
+          "collectionName": "LUXURY COLLECTION",
+          "genre": "Amber Woody",
+          "notes": "Licorice · Orchid · Guaiac Wood · Tonka Bean",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2015,
+          "name": "Another Oud",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Raspberry · Bergamot · Ambroxan"
+        },
+        {
+          "year": 2015,
+          "name": "Gentlewoman",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Neroli · Bitter Orange · Bergamot · Almond"
+        },
+        {
+          "year": 2015,
+          "name": "White Spirit",
+          "collectionName": "LUXURY COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Tuberose · Jasmine Sambac · Sandalwood · Ambroxan",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2014,
+          "name": "Moon Dance",
+          "collectionName": "LUXURY COLLECTION",
+          "genre": "Chypre Floral",
+          "notes": "Tuberose · Violet · Rose · Patchouli",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2013,
+          "name": "Anyway",
+          "collectionName": "",
+          "genre": "Floral Woody Musk",
+          "notes": "Neroli · Lime · Jasmine · Ambroxan"
+        },
+        {
+          "year": 2013,
+          "name": "Oil Fiction",
+          "collectionName": "LUXURY COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Iris · Tuberose · Amber",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2012,
+          "name": "Mad Madame",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Rose · Blackcurrant · Patchouli · Castoreum"
+        },
+        {
+          "year": 2011,
+          "name": "Romantina",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Rose · Iris · Orange Blossom · Patchouli",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2011,
+          "name": "Vengeance Extreme",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Patchouli · Bulgarian Rose · Vanilla · Labdanum",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2010,
+          "name": "Not A Perfume",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Cetalox"
+        },
+        {
+          "year": 2009,
+          "name": "Calamity J.",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Patchouli · Iris · Cinnamon · Amber",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2009,
+          "name": "Midnight Oud",
+          "collectionName": "",
+          "genre": "Amber Oud",
+          "notes": "Oud · Damask Rose · Saffron · Patchouli"
+        },
+        {
+          "year": 2008,
+          "name": "Citizen Queen",
+          "collectionName": "",
+          "genre": "Floral Woody Musk",
+          "notes": "Leather · Iris · Rose · Aldehydes",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2006,
+          "name": "Lady Vengeance",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Bulgarian Rose · Patchouli · Vanilla · Lavender"
+        },
+        {
+          "year": 2006,
+          "name": "Miss Charming",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Moroccan Rose · Wild Strawberry · Litchi · Musk"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "liquides-imaginaires",

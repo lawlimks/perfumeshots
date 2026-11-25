@@ -153,7 +153,73 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Kleopatra",
+          "collectionName": "",
+          "genre": "Floral Gourmand",
+          "notes": "Almond Milk · Jasmine · Vanilla · Sandalwood"
+        },
+        {
+          "year": 2026,
+          "name": "Plastic Love",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Synthetic Florals · Fruit · Musk · Amber"
+        },
+        {
+          "year": 2025,
+          "name": "Antinoüs",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Sage · White Pepper · Vetiver · Sandalwood"
+        },
+        {
+          "year": 2025,
+          "name": "Bast",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Frankincense · Cardamom · Saffron · Myrrh"
+        },
+        {
+          "year": 2025,
+          "name": "Dukes Carpet",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Lemon · Juniper · Cardamom · Cedarwood"
+        },
+        {
+          "year": 2025,
+          "name": "Le Jardinier",
+          "collectionName": "",
+          "genre": "Green Aromatic",
+          "notes": "Green Notes · Herbs · Woods · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Nashi Toro",
+          "collectionName": "",
+          "genre": "Fruity Fresh",
+          "notes": "Nashi Pear · Aquatic Notes · Musk · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Paura dell'Acqua",
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Spices · Florals · Woods · Amber"
+        },
+        {
+          "year": 2025,
+          "name": "Rosa Antiqua",
+          "collectionName": "",
+          "genre": "Floral Green",
+          "notes": "Rose · Green Notes · Woods · Musk"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "atelier-cologne",

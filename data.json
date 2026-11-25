@@ -1281,7 +1281,527 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Demon Dancer",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Rhubarb · Peppermint · Orange Blossom · Tonka Bean"
+        },
+        {
+          "year": 2026,
+          "name": "The Irreverents Extrait",
+          "collectionName": "HARRODS EXCLUSIVES",
+          "genre": "Amber Floral",
+          "notes": "Saffron · Pink Pepper · Jasmine · Vanilla"
+        },
+        {
+          "year": 2026,
+          "name": "Lust in Paradise Extrait",
+          "collectionName": "QUINTESSENCE COLLECTION",
+          "genre": "Floral Fruity",
+          "notes": "Blackcurrant · Pink Pepper · Rose · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Vendomania Extrait de Parfum",
+          "collectionName": "QUINTESSENCE COLLECTION",
+          "genre": "Amber Floral",
+          "notes": "Saffron · Iris · Praline · Oud"
+        },
+        {
+          "year": 2025,
+          "name": "Generation(s)",
+          "collectionName": "",
+          "genre": "Woody Fruity",
+          "notes": "Pear · Fig · Sandalwood · Tonka Bean"
+        },
+        {
+          "year": 2025,
+          "name": "Spiky Muse",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Strawberry · Rose · Pistachio · Cedarwood"
+        },
+        {
+          "year": 2025,
+          "name": "Blue Talisman Extrait de Parfum",
+          "collectionName": "QUINTESSENCE COLLECTION",
+          "genre": "Woody Fruity",
+          "notes": "Pear · Bergamot · Jasmine · Sandalwood"
+        },
+        {
+          "year": 2024,
+          "name": "Chandigarh Express",
+          "collectionName": "",
+          "genre": "Leather Spicy",
+          "notes": "Cardamom · Jasmine · Leather · Vetiver"
+        },
+        {
+          "year": 2024,
+          "name": "Scarlet Sands",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Rose · Oud · Amber"
+        },
+        {
+          "year": 2024,
+          "name": "Whiplash",
+          "collectionName": "",
+          "genre": "Leather Spicy",
+          "notes": "Black Pepper · Iris · Leather · Vetiver"
+        },
+        {
+          "year": 2024,
+          "name": "The Hedonist Extrait de Parfum",
+          "collectionName": "QUINTESSENCE COLLECTION",
+          "genre": "Woody Aromatic",
+          "notes": "Grapefruit · Ginger · Akigalawood · Vetiver"
+        },
+        {
+          "year": 2024,
+          "name": "Speed Legends Night Drive",
+          "collectionName": "SPEED LEGENDS",
+          "genre": "Woody Spicy",
+          "notes": "Bergamot · Pink Pepper · Iris · Tonka Bean"
+        },
+        {
+          "year": 2023,
+          "name": "Blue Talisman",
+          "collectionName": "",
+          "genre": "Woody Fruity",
+          "notes": "Pear · Bergamot · Ginger · Akigalawood"
+        },
+        {
+          "year": 2023,
+          "name": "My Sweetest Morphine",
+          "collectionName": "",
+          "genre": "Floral Powdery",
+          "notes": "Lilac · Mimosa · Rose · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Patchouli Memory",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Patchouli · Cardamom · Labdanum · Vanilla"
+        },
+        {
+          "year": 2023,
+          "name": "Sun Emperors",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Saffron · Rose · Amber · Oud"
+        },
+        {
+          "year": 2023,
+          "name": "Vesper Glitz",
+          "collectionName": "",
+          "genre": "Floral Amber",
+          "notes": "Neroli · Jasmine · Mimosa · Vanilla"
+        },
+        {
+          "year": 2023,
+          "name": "Brompton Immortals Extrait de Parfum",
+          "collectionName": "QUINTESSENCE COLLECTION",
+          "genre": "Floral Spicy",
+          "notes": "Saffron · Lily · Patchouli · Vanilla"
+        },
+        {
+          "year": 2023,
+          "name": "Gold Immortals Extrait de Parfum",
+          "collectionName": "QUINTESSENCE COLLECTION",
+          "genre": "Amber Floral",
+          "notes": "Pear · Peony · Tonka Bean · Amber"
+        },
+        {
+          "year": 2023,
+          "name": "Speed Legends Living on the edge",
+          "collectionName": "SPEED LEGENDS",
+          "genre": "Woody Aromatic",
+          "notes": "Bergamot · Pink Pepper · Blackcurrant · Vetiver"
+        },
+        {
+          "year": 2022,
+          "name": "Idle Hour",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Ylang-Ylang · Iris · Tonka Bean · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Iris Porcelana",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Iris · Violet Leaf · Sandalwood · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Paname Palace",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Rose · Leather · Oud · Vanilla"
+        },
+        {
+          "year": 2022,
+          "name": "Santal Calling",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Sandalwood · Iris · Milk · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Timeless Lovers",
+          "collectionName": "",
+          "genre": "Floral Amber",
+          "notes": "Rose · Iris · Benzoin · Vanilla"
+        },
+        {
+          "year": 2022,
+          "name": "Emerald Royals",
+          "collectionName": "HARRODS EXCLUSIVES",
+          "genre": "Woody Spicy",
+          "notes": "Cardamom · Rose · Oud · Sandalwood"
+        },
+        {
+          "year": 2022,
+          "name": "Sloane Ravers",
+          "collectionName": "HARVEY NICHOLS EXCLUSIVE",
+          "genre": "Floral Amber",
+          "notes": "Plum · Saffron · Rose · Tonka Bean"
+        },
+        {
+          "year": 2022,
+          "name": "Outcast Blue Edition Ambre",
+          "collectionName": "ICONOCLASTE COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Black Pepper · Amber · Oud"
+        },
+        {
+          "year": 2022,
+          "name": "Electra Gaze",
+          "collectionName": "LES INTERDITES",
+          "genre": "White Floral",
+          "notes": "Mandarin · Tuberose · Jasmine · Sandalwood"
+        },
+        {
+          "year": 2022,
+          "name": "In Paradise Riviera",
+          "collectionName": "LES INTERDITES",
+          "genre": "Floral Fruity",
+          "notes": "Bergamot · Peony · Tiare Flower · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Fleur Narcotique Extrait de Parfum",
+          "collectionName": "QUINTESSENCE COLLECTION",
+          "genre": "Floral Fruity",
+          "notes": "Lychee · Osmanthus · Peony · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Outcast Blue Extrait de Parfum",
+          "collectionName": "QUINTESSENCE COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Saffron · Black Pepper · Oud · Vetiver"
+        },
+        {
+          "year": 2022,
+          "name": "Fleur Narcotique Musc",
+          "collectionName": "SIGNATURE MUSC COLLECTION",
+          "genre": "Floral Musk",
+          "notes": "Bergamot · Peony · Orange Blossom · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Gold Immortals Musc",
+          "collectionName": "SIGNATURE MUSC COLLECTION",
+          "genre": "Amber Musk",
+          "notes": "Pear · Bergamot · Peony · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "The Hedonist Musc",
+          "collectionName": "SIGNATURE MUSC COLLECTION",
+          "genre": "Woody Musk",
+          "notes": "Ginger · Bergamot · Cedarwood · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Speed Legends Le Mans Classic",
+          "collectionName": "SPEED LEGENDS",
+          "genre": "Woody Aromatic",
+          "notes": "Bergamot · Clary Sage · Vetiver · Tonka Bean"
+        },
+        {
+          "year": 2021,
+          "name": "Fleur Narcotique Blossom",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Bergamot · Neroli · Peony · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "The Hedonist",
+          "collectionName": "ICONOCLASTE COLLECTION",
+          "genre": "Woody Aromatic",
+          "notes": "Ginger · Bergamot · Akigalawood · Cedarwood"
+        },
+        {
+          "year": 2021,
+          "name": "Amber Sky Signature Rose De Mai",
+          "collectionName": "SIGNATURE ROSE DE MAI",
+          "genre": "Amber Floral",
+          "notes": "Bergamot · May Rose · Tonka Bean · Vanilla"
+        },
+        {
+          "year": 2021,
+          "name": "Fleur Narcotique Signature Rose De Mai",
+          "collectionName": "SIGNATURE ROSE DE MAI",
+          "genre": "Floral Fruity",
+          "notes": "Lychee · May Rose · Peony · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Venenum Kiss Signature Rose de Mai",
+          "collectionName": "SIGNATURE ROSE DE MAI",
+          "genre": "Amber Floral",
+          "notes": "Saffron · May Rose · Vanilla · Sandalwood"
+        },
+        {
+          "year": 2020,
+          "name": "Gold Immortals",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Pear · Bergamot · Peony · Tonka Bean"
+        },
+        {
+          "year": 2020,
+          "name": "Golden Wanderers",
+          "collectionName": "HARRODS EXCLUSIVES",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Rose · Guaiac Wood · Vanilla"
+        },
+        {
+          "year": 2020,
+          "name": "The Irreverents",
+          "collectionName": "HARRODS EXCLUSIVES",
+          "genre": "Amber Floral",
+          "notes": "Saffron · Jasmine · Vanilla · Oud"
+        },
+        {
+          "year": 2020,
+          "name": "Explicite",
+          "collectionName": "LES INTERDITES",
+          "genre": "Amber Floral",
+          "notes": "Nutmeg · Pink Pepper · Peony · Vanilla"
+        },
+        {
+          "year": 2020,
+          "name": "Honoré Delights",
+          "collectionName": "LES INTERDITES",
+          "genre": "Floral Gourmand",
+          "notes": "Bergamot · Neroli · Iris · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Outcast Blue",
+          "collectionName": "ICONOCLASTE COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Saffron · Black Pepper · Cedarwood · Vetiver"
+        },
+        {
+          "year": 2019,
+          "name": "Lust in Paradise",
+          "collectionName": "LES INTERDITES",
+          "genre": "Floral Fruity",
+          "notes": "Pink Pepper · Peony · Lychee · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Lust In Paradise par Reine Paradis",
+          "collectionName": "LES INTERDITES",
+          "genre": "Floral Fruity",
+          "notes": "Pink Pepper · Peony · Lychee · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "10019 Wonders",
+          "collectionName": "THE GANGS OF NEW YORK COLLECTION",
+          "genre": "Amber Gourmand",
+          "notes": "Bergamot · Cocoa · Caramel · Vanilla"
+        },
+        {
+          "year": 2018,
+          "name": "Brompton Immortals",
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Saffron · Jasmine · Ylang-Ylang · Patchouli"
+        },
+        {
+          "year": 2018,
+          "name": "Nocturama",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Bergamot · Rose · Oud · Patchouli"
+        },
+        {
+          "year": 2018,
+          "name": "Cuir Celeste Par Mathieu Cesar",
+          "collectionName": "VISIONNAIRE",
+          "genre": "Leather Aromatic",
+          "notes": "Black Pepper · Violet Leaf · Galbanum · Leather"
+        },
+        {
+          "year": 2017,
+          "name": "Night Call",
+          "collectionName": "",
+          "genre": "Floral Powdery",
+          "notes": "Iris · Mimosa · Patchouli · Vanilla"
+        },
+        {
+          "year": 2017,
+          "name": "Atlas Fever",
+          "collectionName": "BABYLONE COLLECTION",
+          "genre": "Amber Woody",
+          "notes": "Pink Pepper · Tonka Bean · Sandalwood · Oak"
+        },
+        {
+          "year": 2017,
+          "name": "Midnight Special",
+          "collectionName": "BABYLONE COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Cinnamon · Saffron · Rose · Oud"
+        },
+        {
+          "year": 2017,
+          "name": "Citizen X",
+          "collectionName": "ICONOCLASTE COLLECTION",
+          "genre": "Woody Aromatic",
+          "notes": "Mastic · White Pepper · Iris · Frankincense"
+        },
+        {
+          "year": 2017,
+          "name": "French Affair",
+          "collectionName": "ICONOCLASTE COLLECTION",
+          "genre": "Woody Chypre",
+          "notes": "Bergamot · Violet Leaf · Rose · Oakmoss"
+        },
+        {
+          "year": 2017,
+          "name": "Viper Green",
+          "collectionName": "LES INTERDITES",
+          "genre": "Aromatic Green",
+          "notes": "Mandarin · Angelica · Galbanum · Vetiver"
+        },
+        {
+          "year": 2016,
+          "name": "Amber Sky",
+          "collectionName": "BABYLONE COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Bergamot · Coriander · Tonka Bean · Vanilla"
+        },
+        {
+          "year": 2016,
+          "name": "Devil Tender",
+          "collectionName": "LES INTERDITES",
+          "genre": "Floral Fruity",
+          "notes": "Pink Grapefruit · Peach · Rose · Suede"
+        },
+        {
+          "year": 2016,
+          "name": "Love Shot",
+          "collectionName": "LES INTERDITES",
+          "genre": "Chypre Fruity",
+          "notes": "Bergamot · Raspberry · Rose · Leather"
+        },
+        {
+          "year": 2015,
+          "name": "Venenum Kiss",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Nutmeg · Rose · Vanilla"
+        },
+        {
+          "year": 2015,
+          "name": "Sweet Morphine",
+          "collectionName": "LES INTERDITES",
+          "genre": "Floral Powdery",
+          "notes": "Lilac · Bergamot · Iris · Vanilla"
+        },
+        {
+          "year": 2014,
+          "name": "Bois d'Hiver",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Cardamom · Pink Pepper · Iris · Sandalwood"
+        },
+        {
+          "year": 2014,
+          "name": "Cologne 352",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Lemon · Juniper Berries · Orange Blossom · Cedarwood"
+        },
+        {
+          "year": 2014,
+          "name": "Fleur Narcotique",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Lychee · Bergamot · Peony · Musk"
+        },
+        {
+          "year": 2014,
+          "name": "Jasmin Fauve",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Jasmine · Tuberose · Lily · Orange Blossom"
+        },
+        {
+          "year": 2014,
+          "name": "Musc Infini",
+          "collectionName": "",
+          "genre": "Amber Musk",
+          "notes": "Bergamot · Rose · Benzoin · Musk"
+        },
+        {
+          "year": 2014,
+          "name": "Oud Vendome",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Saffron · Cinnamon · Cedarwood"
+        },
+        {
+          "year": 2014,
+          "name": "Rose Hubris",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "May Rose · Lychee · Fenugreek · Oakmoss"
+        },
+        {
+          "year": 2014,
+          "name": "Vetiver Moloko",
+          "collectionName": "",
+          "genre": "Woody Gourmand",
+          "notes": "Vetiver · Milk · Vanilla · Cypress"
+        },
+        {
+          "year": 0,
+          "name": "Stellar Dreamers",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Bergamot · Saffron · Oud · Amber"
+        },
+        {
+          "year": 0,
+          "name": "Vendomania",
+          "collectionName": "LES INTERDITES",
+          "genre": "Amber Floral",
+          "notes": "Bergamot · Saffron · Jasmine · Praline"
+        }
+      ]
     },
     {
       "id": "fabbrica-della-musa",

@@ -2415,24 +2415,24 @@
         {
           "year": 2018,
           "name": "Champ de Baies",
-          "collectionName": "",
-          "genre": "EAU DE COLOGNE",
+          "collectionName": "EAU DE COLOGNE",
+          "genre": "",
           "notes": "Blackcurrant · Blackberry · Mint · Musk",
           "status": "Discontinued"
         },
         {
           "year": 2018,
           "name": "Champ de Fleurs",
-          "collectionName": "",
-          "genre": "EAU DE COLOGNE",
+          "collectionName": "EAU DE COLOGNE",
+          "genre": "",
           "notes": "Pear · Jasmine · Ylang-Ylang · Musk",
           "status": "Discontinued"
         },
         {
           "year": 2018,
           "name": "L'Eau de L'Artisan Eau de Cologne",
-          "collectionName": "",
-          "genre": "EAU DE COLOGNE",
+          "collectionName": "EAU DE COLOGNE",
+          "genre": "",
           "notes": "Lemon · Basil · Rosemary · Musk",
           "status": "Discontinued"
         },
@@ -2461,15 +2461,15 @@
         {
           "year": 2017,
           "name": "Au Bord de L'eau",
-          "collectionName": "",
-          "genre": "EAU DE COLOGNE",
+          "collectionName": "EAU DE COLOGNE",
+          "genre": "",
           "notes": "Bergamot · Violet Leaf · Rosemary · White Musk"
         },
         {
           "year": 2017,
           "name": "Sur L'Herbe",
-          "collectionName": "",
-          "genre": "EAU DE COLOGNE",
+          "collectionName": "EAU DE COLOGNE",
+          "genre": "",
           "notes": "Cut Grass · Neroli · Petitgrain · White Musk"
         },
         {
@@ -2557,24 +2557,24 @@
         {
           "year": 2014,
           "name": "Haute Voltige",
-          "collectionName": "",
-          "genre": "EXPLOSIONS D'ÉMOTIONS",
+          "collectionName": "EXPLOSIONS D'ÉMOTIONS",
+          "genre": "",
           "notes": "Pomegranate · Incense · Pine · Moss",
           "status": "Discontinued"
         },
         {
           "year": 2014,
           "name": "Onde Sensuelle",
-          "collectionName": "",
-          "genre": "EXPLOSIONS D'ÉMOTIONS",
+          "collectionName": "EXPLOSIONS D'ÉMOTIONS",
+          "genre": "",
           "notes": "Ylang-Ylang · Jasmine · Leather · Musk",
           "status": "Discontinued"
         },
         {
           "year": 2014,
           "name": "Rappelle-Toi",
-          "collectionName": "",
-          "genre": "EXPLOSIONS D'ÉMOTIONS",
+          "collectionName": "EXPLOSIONS D'ÉMOTIONS",
+          "genre": "",
           "notes": "Bergamot · Heliotrope · Honey · Amber",
           "status": "Discontinued"
         },
@@ -2589,24 +2589,24 @@
         {
           "year": 2013,
           "name": "Amour Nocturne",
-          "collectionName": "",
-          "genre": "EXPLOSIONS D'ÉMOTIONS",
+          "collectionName": "EXPLOSIONS D'ÉMOTIONS",
+          "genre": "",
           "notes": "Caramel · Milk · Orchid · Woody Notes",
           "status": "Discontinued"
         },
         {
           "year": 2013,
           "name": "Deliria",
-          "collectionName": "",
-          "genre": "EXPLOSIONS D'ÉMOTIONS",
+          "collectionName": "EXPLOSIONS D'ÉMOTIONS",
+          "genre": "",
           "notes": "Pistachio · Metallic Notes · Leather · Incense",
           "status": "Discontinued"
         },
         {
           "year": 2013,
           "name": "Skin on Skin",
-          "collectionName": "",
-          "genre": "EXPLOSIONS D'ÉMOTIONS",
+          "collectionName": "EXPLOSIONS D'ÉMOTIONS",
+          "genre": "",
           "notes": "Iris · Leather · Saffron · Suede",
           "status": "Discontinued"
         },
@@ -2684,8 +2684,8 @@
         {
           "year": 2011,
           "name": "Mon Numero 9",
-          "collectionName": "",
-          "genre": "EAU DE COLOGNE",
+          "collectionName": "EAU DE COLOGNE",
+          "genre": "",
           "notes": "Neroli · Bergamot · Vetiver · Musk",
           "status": "Discontinued"
         },

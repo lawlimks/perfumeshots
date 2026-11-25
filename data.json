@@ -230,7 +230,381 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Pivoine Nue",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Peony · Rose · Bergamot · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Oolang Clair-Obscur",
+          "collectionName": "COLLECTION ABSOLUE",
+          "genre": "Woody Aromatic",
+          "notes": "Tea · Citrus · Woods · Amber"
+        },
+        {
+          "year": 2025,
+          "name": "Mandarine Fauve",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Mandarin Orange · Spices · Woods · Amber"
+        },
+        {
+          "year": 2025,
+          "name": "Oolang Monochrome",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Oolong Tea · Bergamot · Woods · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Philtre d’Été",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Mint · Fig · Cedarwood"
+        },
+        {
+          "year": 2023,
+          "name": "Eclat de Tubereuse",
+          "collectionName": "COLLECTION RARE",
+          "genre": "Floral Fruity",
+          "notes": "Tuberose · Blackcurrant · Bergamot · Ambroxan"
+        },
+        {
+          "year": 2022,
+          "name": "Bohemian Orange Blossom",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Neroli · Bitter Orange · Mandarin · Cedarwood"
+        },
+        {
+          "year": 2022,
+          "name": "Encens Céleste",
+          "collectionName": "COLLECTION RARE",
+          "genre": "Woody Incense",
+          "notes": "Frankincense · Myrrh · Rose · Cedarwood"
+        },
+        {
+          "year": 2022,
+          "name": "Rose Cuirée",
+          "collectionName": "COLLECTION RARE",
+          "genre": "Leather Floral",
+          "notes": "Rose · Leather · Suede · Patchouli"
+        },
+        {
+          "year": 2021,
+          "name": "Gaiac Eternel",
+          "collectionName": "COLLECTION RARE",
+          "genre": "Woody Smoky",
+          "notes": "Guaiac Wood · Bergamot · Leather · Papyrus"
+        },
+        {
+          "year": 2020,
+          "name": "Lemon Island",
+          "collectionName": "",
+          "genre": "Citrus Gourmand",
+          "notes": "Lemon · Vanilla · Jasmine · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Santal Carmin Cologne Absolute",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Sandalwood · Saffron · Guaiac Wood · Cardamom"
+        },
+        {
+          "year": 2019,
+          "name": "Rose Smoke",
+          "collectionName": "HARRODS EXCLUSIVE",
+          "genre": "Floral Woody",
+          "notes": "Damask Rose · Incense · Raspberry · Leather"
+        },
+        {
+          "year": 2019,
+          "name": "Love Osmanthus",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Osmanthus · Lemon · Jasmine · Cedarwood"
+        },
+        {
+          "year": 2018,
+          "name": "Iris Rebelle",
+          "collectionName": "CHIC ABSOLU",
+          "genre": "Floral Woody",
+          "notes": "Iris · Black Pepper · Lavender · Guaiac Wood"
+        },
+        {
+          "year": 2018,
+          "name": "Pacific Lime",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Lime · Mint · Coconut · Eucalyptus"
+        },
+        {
+          "year": 2017,
+          "name": "Café Tuberosa",
+          "collectionName": "AVANT GARDE",
+          "genre": "Floral Gourmand",
+          "notes": "Coffee · Tuberose · Cardamom · Vanilla"
+        },
+        {
+          "year": 2016,
+          "name": "Citron d'Erable",
+          "collectionName": "COLLECTION AZUR",
+          "genre": "Citrus Woody",
+          "notes": "Maple · Citron · Ginger · Cedarwood"
+        },
+        {
+          "year": 2016,
+          "name": "Camelia Intrepide",
+          "collectionName": "COLLECTION MÉTAL",
+          "genre": "Floral Leather",
+          "notes": "Camellia · Violet Leaf · Iris · Leather"
+        },
+        {
+          "year": 2016,
+          "name": "Emeraude Agar",
+          "collectionName": "COLLECTION MÉTAL",
+          "genre": "Woody Oud",
+          "notes": "Oud · Bergamot · Pink Pepper · Geranium"
+        },
+        {
+          "year": 2016,
+          "name": "Encens Jinhae",
+          "collectionName": "COLLECTION ORIENT",
+          "genre": "Woody Incense",
+          "notes": "Frankincense · Cardamom · Cedarwood · Pink Pepper"
+        },
+        {
+          "year": 2016,
+          "name": "Mimosa Indigo",
+          "collectionName": "COLLECTION ORIENT",
+          "genre": "Floral Amber",
+          "notes": "Mimosa · Saffron · Vanilla · Leather"
+        },
+        {
+          "year": 2016,
+          "name": "Philtre Ceylan",
+          "collectionName": "COLLECTION ORIENT",
+          "genre": "Woody Spicy",
+          "notes": "Bergamot · Black Tea · Cardamom · Patchouli"
+        },
+        {
+          "year": 2016,
+          "name": "Poivre Electrique",
+          "collectionName": "COLLECTION ORIENT",
+          "genre": "Woody Spicy",
+          "notes": "Black Pepper · Pink Pepper · Rose · Incense"
+        },
+        {
+          "year": 2016,
+          "name": "Tobacco Nuit",
+          "collectionName": "COLLECTION ORIENT",
+          "genre": "Amber Spicy",
+          "notes": "Tobacco Leaf · Cumin · Labdanum · Cedarwood"
+        },
+        {
+          "year": 2016,
+          "name": "Bergamote Soleil",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Lavender · Cardamom · Vetiver"
+        },
+        {
+          "year": 2016,
+          "name": "Clémentine California",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Clementine · Mandarin · Juniper Berries · Cypress"
+        },
+        {
+          "year": 2015,
+          "name": "Jasmin Angélique",
+          "collectionName": "AVANT GARDE",
+          "genre": "Floral Green",
+          "notes": "Jasmine · Angelica · Fig · Galbanum"
+        },
+        {
+          "year": 2015,
+          "name": "Musc Impérial",
+          "collectionName": "AVANT GARDE",
+          "genre": "Woody Musk",
+          "notes": "Bergamot · Fig Leaf · Ambrette · Cedarwood"
+        },
+        {
+          "year": 2015,
+          "name": "Cedre Atlas",
+          "collectionName": "COLLECTION AZUR",
+          "genre": "Woody",
+          "notes": "Atlas Cedar · Lemon · Cardamom · Amber"
+        },
+        {
+          "year": 2015,
+          "name": "Figuier Ardent",
+          "collectionName": "COLLECTION AZUR",
+          "genre": "Woody Aromatic",
+          "notes": "Fig Leaf · Fig · Cedarwood · Tonka Bean"
+        },
+        {
+          "year": 2015,
+          "name": "Mandarine Glaciale",
+          "collectionName": "COLLECTION AZUR",
+          "genre": "Citrus",
+          "notes": "Mandarin Orange · Bergamot · Ginger · Vetiver"
+        },
+        {
+          "year": 2015,
+          "name": "Sud Magnolia",
+          "collectionName": "COLLECTION AZUR",
+          "genre": "Citrus Floral",
+          "notes": "Magnolia · Bitter Orange · Pomelo · Suede"
+        },
+        {
+          "year": 2015,
+          "name": "Oud Saphir",
+          "collectionName": "COLLECTION RARE",
+          "genre": "Leather Oud",
+          "notes": "Oud · Birch · Ambrette · Pink Pepper"
+        },
+        {
+          "year": 2015,
+          "name": "Pomelo Paradis",
+          "collectionName": "",
+          "genre": "Citrus",
+          "notes": "Pink Grapefruit · Mandarin · Vetiver · Amber"
+        },
+        {
+          "year": 2014,
+          "name": "Rendez-Vous",
+          "collectionName": "COLLECTION LES EXCLUSIVES",
+          "genre": "Leather Spicy",
+          "notes": "Black Pepper · Osmanthus · Suede · Patchouli"
+        },
+        {
+          "year": 2014,
+          "name": "Blanche Immortelle",
+          "collectionName": "COLLECTION MÉTAL",
+          "genre": "Floral Spicy",
+          "notes": "Immortelle · Mimosa · Mandarin · Sandalwood"
+        },
+        {
+          "year": 2014,
+          "name": "Santal Carmin",
+          "collectionName": "COLLECTION RARE",
+          "genre": "Woody Spicy",
+          "notes": "Sandalwood · Saffron · Lime · Guaiac Wood"
+        },
+        {
+          "year": 2013,
+          "name": "Mistral Patchouli",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Patchouli · Anise · Black Pepper · Iris"
+        },
+        {
+          "year": 2013,
+          "name": "Patchouli Riviera",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Patchouli · Neroli · Fig Leaf · Cedarwood"
+        },
+        {
+          "year": 2013,
+          "name": "Silver Iris",
+          "collectionName": "COLLECTION MÉTAL",
+          "genre": "Floral Woody",
+          "notes": "Iris · Mandarin · Pink Pepper · Galbanum"
+        },
+        {
+          "year": 2013,
+          "name": "Gold Leather",
+          "collectionName": "COLLECTION RARE",
+          "genre": "Leather",
+          "notes": "Leather · Rum · Plum · Saffron"
+        },
+        {
+          "year": 2013,
+          "name": "Cedrat Enivrant",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Citron · Lime · Mint · Juniper"
+        },
+        {
+          "year": 2012,
+          "name": "Ambre Nue",
+          "collectionName": "AVANT GARDE",
+          "genre": "Amber Spicy",
+          "notes": "Mandarin · Cinnamon · Benzoin · Tonka Bean"
+        },
+        {
+          "year": 2012,
+          "name": "Rose Anonyme",
+          "collectionName": "AVANT GARDE",
+          "genre": "Floral Woody",
+          "notes": "Turkish Rose · Oud · Ginger · Benzoin"
+        },
+        {
+          "year": 2012,
+          "name": "Sous le toit de Paris",
+          "collectionName": "AVANT GARDE",
+          "genre": "Floral Woody Musk",
+          "notes": "Violet · Heliotrope · Musk · Iris"
+        },
+        {
+          "year": 2012,
+          "name": "Vetiver Fatal",
+          "collectionName": "AVANT GARDE",
+          "genre": "Woody Aromatic",
+          "notes": "Haitian Vetiver · Bergamot · Plum · Violet"
+        },
+        {
+          "year": 2011,
+          "name": "Vanille Insensée",
+          "collectionName": "AVANT GARDE",
+          "genre": "Amber Vanilla",
+          "notes": "Madagascar Vanilla · Lime · Coriander · Oakmoss"
+        },
+        {
+          "year": 2011,
+          "name": "Grand Neroli",
+          "collectionName": "CHIC ABSOLU",
+          "genre": "Citrus Floral",
+          "notes": "Neroli · Bergamot · Petitgrain · White Musk"
+        },
+        {
+          "year": 2011,
+          "name": "Oolang Infini",
+          "collectionName": "CHIC ABSOLU",
+          "genre": "Woody Aromatic",
+          "notes": "Black Tea · Bergamot · Guaiac Wood · Vetiver"
+        },
+        {
+          "year": 2011,
+          "name": "Trefle Pur",
+          "collectionName": "CHIC ABSOLU",
+          "genre": "Aromatic Green",
+          "notes": "Bitter Orange · Clover · Basil · Patchouli"
+        },
+        {
+          "year": 2011,
+          "name": "Orange Sanguine",
+          "collectionName": "",
+          "genre": "Citrus",
+          "notes": "Blood Orange · Bitter Orange · Geranium · Amber"
+        },
+        {
+          "year": "",
+          "name": "Bois Blonds",
+          "collectionName": "CHIC ABSOLU",
+          "genre": "Woody Floral",
+          "notes": "Neroli · Orange Blossom · Cedarwood · Incense"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "atelier-des-ors",

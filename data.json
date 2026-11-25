@@ -3178,7 +3178,323 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Anguish & Awe",
+          "collectionName": "SCENTSORIUM",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Incense · Amber"
+        },
+        {
+          "year": 2026,
+          "name": "Blaze of Stillness",
+          "collectionName": "SCENTSORIUM",
+          "genre": "Woody Aromatic",
+          "notes": "Herbal Notes · Woods · Musk · Resin"
+        },
+        {
+          "year": 2026,
+          "name": "Chasing Sunsets",
+          "collectionName": "REPLICA",
+          "genre": "Woody Fruity",
+          "notes": "Mango · Cardamom · Tuberose · Sandalwood"
+        },
+        {
+          "year": 2026,
+          "name": "Delight in Despair",
+          "collectionName": "SCENTSORIUM",
+          "genre": "Amber Woody",
+          "notes": "Dark Amber · Woods · Smoke · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Fit of Folly",
+          "collectionName": "SCENTSORIUM",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Pepper · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Greenwood Getaway",
+          "collectionName": "",
+          "genre": "Woody Green",
+          "notes": "Green Notes · Woods · Moss · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Letter Never Sent",
+          "collectionName": "REPLICA",
+          "genre": "Woody",
+          "notes": "Cedarwood · Musk · Woods · Amber"
+        },
+        {
+          "year": 2026,
+          "name": "Lost Eden",
+          "collectionName": "REPLICA FANTASIES",
+          "genre": "Woody Fruity",
+          "notes": "Apple · Woods · Moss · Amber"
+        },
+        {
+          "year": 2026,
+          "name": "Silent Fury",
+          "collectionName": "SCENTSORIUM",
+          "genre": "Woody Leather",
+          "notes": "Leather · Smoke · Woods · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Tender Defiance",
+          "collectionName": "SCENTSORIUM",
+          "genre": "Floral Woody",
+          "notes": "Rose · Woods · Musk · Amber"
+        },
+        {
+          "year": 2025,
+          "name": "Celestial Whispers",
+          "collectionName": "REPLICA FANTASIES",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Incense · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Ideal One",
+          "collectionName": "REPLICA FANTASIES",
+          "genre": "Aromatic Fougère",
+          "notes": "Elemi · Orange · Bergamot · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Never-ending Summer",
+          "collectionName": "REPLICA",
+          "genre": "Citrus Spicy",
+          "notes": "Bitter Orange · Pepper · Vetiver · Spritz Accord"
+        },
+        {
+          "year": 2025,
+          "name": "Up At Dawn",
+          "collectionName": "REPLICA",
+          "genre": "Floral",
+          "notes": "Pink Pepper · Florals · Musk · Woods"
+        },
+        {
+          "year": 2024,
+          "name": "Afternoon Delight",
+          "collectionName": "REPLICA",
+          "genre": "Amber Gourmand",
+          "notes": "Bitter Almond · Angelica · Vanilla · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "From the Garden",
+          "collectionName": "REPLICA",
+          "genre": "Woody Green",
+          "notes": "Tomato Leaf · Geranium · Patchouli · Vetiver"
+        },
+        {
+          "year": 2023,
+          "name": "Under the Stars",
+          "collectionName": "REPLICA",
+          "genre": "Woody Spicy",
+          "notes": "Black Pepper · Cinnamon · Labdanum · Oud"
+        },
+        {
+          "year": 2022,
+          "name": "On A Date",
+          "collectionName": "REPLICA",
+          "genre": "Floral Fruity",
+          "notes": "Blackcurrant · Rose · Patchouli · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Autumn Vibes",
+          "collectionName": "REPLICA",
+          "genre": "Woody Spicy",
+          "notes": "Cardamom · Pink Pepper · Maple · Cedarwood"
+        },
+        {
+          "year": 2021,
+          "name": "Matcha Meditation",
+          "collectionName": "REPLICA",
+          "genre": "Woody Green",
+          "notes": "Matcha Tea · Bergamot · White Chocolate · Moss",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2021,
+          "name": "When the Rain Stops",
+          "collectionName": "REPLICA",
+          "genre": "Aromatic Aquatic",
+          "notes": "Rain Accord · Bergamot · Pink Pepper · Patchouli"
+        },
+        {
+          "year": 2020,
+          "name": "Bubble Bath",
+          "collectionName": "REPLICA",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Pink Pepper · Soap Accord · White Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Coffee Break",
+          "collectionName": "REPLICA",
+          "genre": "Woody Aromatic",
+          "notes": "Coffee · Lavender · Milk Accord · Vanilla"
+        },
+        {
+          "year": 2019,
+          "name": "Springtime in a Park",
+          "collectionName": "REPLICA",
+          "genre": "Floral Fruity",
+          "notes": "Pear · Lily of the Valley · Jasmine · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Whispers in the Library",
+          "collectionName": "REPLICA",
+          "genre": "Woody Spicy",
+          "notes": "Pepper · Cedarwood · Benzoin · Vanilla",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2018,
+          "name": "Mutiny",
+          "collectionName": "",
+          "genre": "Floral Leather",
+          "notes": "Tuberose · Saffron · Leather · Oud"
+        },
+        {
+          "year": 2018,
+          "name": "Under The Lemon Tree",
+          "collectionName": "REPLICA",
+          "genre": "Citrus Aromatic",
+          "notes": "Lemon · Petitgrain · Mate · Cedarwood"
+        },
+        {
+          "year": 2017,
+          "name": "Sailing Day",
+          "collectionName": "REPLICA",
+          "genre": "Aromatic Aquatic",
+          "notes": "Sea Notes · Coriander · Red Seaweed · Ambergris"
+        },
+        {
+          "year": 2017,
+          "name": "Wicked Love",
+          "collectionName": "REPLICA FANTASIES",
+          "genre": "Floral Green",
+          "notes": "Green Notes · Hyacinth · Vetiver · Cedarwood",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2016,
+          "name": "Across Sands",
+          "collectionName": "REPLICA FANTASIES",
+          "genre": "Amber Woody",
+          "notes": "Dates · Osmanthus · Oud · Incense",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2016,
+          "name": "Dancing On The Moon",
+          "collectionName": "REPLICA FANTASIES",
+          "genre": "Floral Aldehydic",
+          "notes": "Aldehydes · Jasmine · Cashmeran · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2016,
+          "name": "Flying",
+          "collectionName": "REPLICA FANTASIES",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Ylang-Ylang · Moss · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2016,
+          "name": "Soul Of The Forest",
+          "collectionName": "REPLICA FANTASIES",
+          "genre": "Woody Chypre",
+          "notes": "Pine · Frankincense · Patchouli · Oud",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2015,
+          "name": "By the Fireplace",
+          "collectionName": "REPLICA",
+          "genre": "Woody Spicy",
+          "notes": "Clove · Chestnut · Guaiac Wood · Vanilla"
+        },
+        {
+          "year": 2015,
+          "name": "Lipstick On",
+          "collectionName": "REPLICA",
+          "genre": "Floral Woody",
+          "notes": "Iris · Violet · Heliotrope · Vanilla",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2014,
+          "name": "At The Barber's",
+          "collectionName": "REPLICA",
+          "genre": "Aromatic Fougère",
+          "notes": "Lavender · Rosemary · Tonka Bean · White Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2014,
+          "name": "Tea Escape",
+          "collectionName": "REPLICA",
+          "genre": "Woody Floral",
+          "notes": "Green Tea · Jasmine · Osmanthus · Milk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2013,
+          "name": "Jazz Club",
+          "collectionName": "REPLICA",
+          "genre": "Woody Spicy",
+          "notes": "Rum · Tobacco Leaf · Pink Pepper · Vanilla"
+        },
+        {
+          "year": 2013,
+          "name": "Lazy Sunday Morning",
+          "collectionName": "REPLICA",
+          "genre": "Floral Musk",
+          "notes": "Aldehydes · Pear · Lily of the Valley · White Musk"
+        },
+        {
+          "year": 2013,
+          "name": "Promenade In The Gardens",
+          "collectionName": "REPLICA",
+          "genre": "Chypre Floral",
+          "notes": "Rose · Peony · Patchouli · Vetiver",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2012,
+          "name": "Beach Walk",
+          "collectionName": "REPLICA",
+          "genre": "Floral Fruity",
+          "notes": "Bergamot · Coconut Milk · Ylang-Ylang · Musk"
+        },
+        {
+          "year": 2012,
+          "name": "Flower Market",
+          "collectionName": "REPLICA",
+          "genre": "Floral Green",
+          "notes": "Rose · Jasmine · Tuberose · Cedarwood",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2012,
+          "name": "Funfair Evening",
+          "collectionName": "REPLICA",
+          "genre": "Amber Gourmand",
+          "notes": "Apple · Candy Accord · Tonka Bean · Vanilla",
+          "status": "Discontinued"
+        }
+      ]
     },
     {
       "id": "mancera",
@@ -3982,7 +4298,675 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Bijou Zafran",
+          "collectionName": "FOUR CORNERS REIMAGINED",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Pear · Iris · Benzoin"
+        },
+        {
+          "year": 2026,
+          "name": "Musc Rogue",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Musk · Woods · Spices · Amber"
+        },
+        {
+          "year": 2026,
+          "name": "Ormonde Parfum Limited Edition",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Black Hemlock · Cardamom · Oud · Sandalwood"
+        },
+        {
+          "year": 2026,
+          "name": "Oud Liaisons",
+          "collectionName": "FOUR CORNERS REIMAGINED",
+          "genre": "Woody Oud",
+          "notes": "Rose · Pink Pepper · Oud · Suede"
+        },
+        {
+          "year": 2026,
+          "name": "Patchouli d’Atlas",
+          "collectionName": "FOUR CORNERS REIMAGINED",
+          "genre": "Woody Earthy",
+          "notes": "Pink Pepper · Saffron · Patchouli · Sandalwood"
+        },
+        {
+          "year": 2026,
+          "name": "Royal Nawaf",
+          "collectionName": "SELFRIDGES EXCLUSIVES",
+          "genre": "Fruity Chypre",
+          "notes": "Blood Orange · Damson · Iris · Patchouli"
+        },
+        {
+          "year": 2026,
+          "name": "Suede Silhouette",
+          "collectionName": "",
+          "genre": "Woody Leather",
+          "notes": "Bergamot · Timur Pepper · Saffron · Suede"
+        },
+        {
+          "year": 2026,
+          "name": "Vanilla Aube",
+          "collectionName": "FOUR CORNERS REIMAGINED",
+          "genre": "Woody Gourmand",
+          "notes": "Pistachio · Cardamom · Iris · Sandalwood"
+        },
+        {
+          "year": 2025,
+          "name": "Gold Leaf",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Jardin Botanique",
+          "collectionName": "JARDIN COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Blackcurrant · Saffron · Rose · Oud"
+        },
+        {
+          "year": 2025,
+          "name": "Jardin D'Ombre",
+          "collectionName": "JARDIN COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Florals · Woods · Amber · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Jardin Secret",
+          "collectionName": "JARDIN COLLECTION",
+          "genre": "Floral Gourmand",
+          "notes": "Blackcurrant · Tuberose · Iris · Sandalwood"
+        },
+        {
+          "year": 2025,
+          "name": "Jardin Tropic",
+          "collectionName": "JARDIN COLLECTION",
+          "genre": "Woody Floral",
+          "notes": "Tropical Florals · Woods · Amber · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Montabaco Aruba 2025",
+          "collectionName": "MONTABACO SERIES 2025",
+          "genre": "Woody Aromatic",
+          "notes": "Tobacco · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Montabaco Cuba 2025",
+          "collectionName": "MONTABACO SERIES 2025",
+          "genre": "Woody Aromatic",
+          "notes": "Tobacco · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Montabaco Rio 2025",
+          "collectionName": "MONTABACO SERIES 2025",
+          "genre": "Woody Aromatic",
+          "notes": "Tobacco · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Nawaf Zaffran",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Spices · Amber · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Sybarite",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Hazelnut · Pepper · Woods · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Verano",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Citrus · Woods · Amber · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Vetiveria",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Vetiver · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Belle de Jour",
+          "collectionName": "HARVEY NICHOLS EXCLUSIVES",
+          "genre": "Floral",
+          "notes": "White Flowers · Rose · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Belle de Nuit",
+          "collectionName": "HARVEY NICHOLS EXCLUSIVES",
+          "genre": "Floral Amber",
+          "notes": "Florals · Amber · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Bukhara",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Fruity Floral",
+          "notes": "Fruity Notes · Florals · Oud · Woods"
+        },
+        {
+          "year": 2024,
+          "name": "Kashmir",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Woody",
+          "notes": "Woods · Spices · Amber · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Montabaco Cuba",
+          "collectionName": "MONTABACO COLLECTION",
+          "genre": "Woody Aromatic",
+          "notes": "Tobacco · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Montabaco Flor",
+          "collectionName": "MONTABACO COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Tobacco · Florals · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Montabaco Rio",
+          "collectionName": "MONTABACO COLLECTION",
+          "genre": "Woody Aromatic",
+          "notes": "Tobacco · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Oud Nawaf",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Spices · Amber · Woods"
+        },
+        {
+          "year": 2024,
+          "name": "Vanille des Afriques Intensivo",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Vanilla · Tonka Bean · Woods · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "1909",
+          "collectionName": "SELFRIDGES EXCLUSIVES",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "1984",
+          "collectionName": "SELFRIDGES EXCLUSIVES",
+          "genre": "Woody Aromatic",
+          "notes": "Woods · Herbs · Amber · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "2019",
+          "collectionName": "SELFRIDGES EXCLUSIVES",
+          "genre": "Woody Floral",
+          "notes": "Florals · Woods · Amber · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Arabesque",
+          "collectionName": "",
+          "genre": "Amber Oud",
+          "notes": "Oud · Spices · Amber · Gourmand Notes"
+        },
+        {
+          "year": 2023,
+          "name": "Cambodian Oudh",
+          "collectionName": "HARRODS EXCLUSIVES",
+          "genre": "Woody Oud",
+          "notes": "Oud · Woods · Amber · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Fearless",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Levant Extraordinaire",
+          "collectionName": "HARRODS EXCLUSIVES",
+          "genre": "Floral Woody",
+          "notes": "Florals · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Yong Rose",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Rose · Woods · Spices · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Babylonia",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Floral Woody",
+          "notes": "Florals · Spices · Woods · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Formosa",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Woody Aromatic",
+          "notes": "Woods · Tea · Spices · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Gatsby 22",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Woods · Spices · Amber · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Montabaco Cuba",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Tobacco · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Montabaco Ivoire",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Tobacco · Iris · Woods · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Montabaco Verano",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Tobacco · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Oudh Flor Parfum",
+          "collectionName": "HARRODS EXCLUSIVES",
+          "genre": "Floral Oud",
+          "notes": "Oud · Florals · Woods · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Sakura",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Cherry Blossom · Green Notes · Woods · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Evernia",
+          "collectionName": "SIGNATURE",
+          "genre": "Chypre Floral",
+          "notes": "Oakmoss · Florals · Woods · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Montabaco Flor (Fortnum & Mason Exclusive)",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Tobacco · Florals · Woods · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Muscat",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Amber Oud",
+          "notes": "Oud · Amber · Spices · Woods"
+        },
+        {
+          "year": 2020,
+          "name": "Byzance",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Amber Spicy",
+          "notes": "Spices · Amber · Woods · Musk"
+        },
+        {
+          "year": 2020,
+          "name": "Damask",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Floral Gourmand",
+          "notes": "Rose · Gourmand Notes · Woods · Musk"
+        },
+        {
+          "year": 2020,
+          "name": "Indus",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Woody Floral",
+          "notes": "Woods · Florals · Musk · Amber"
+        },
+        {
+          "year": 2020,
+          "name": "Levant",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Floral Citrus",
+          "notes": "Citrus · Florals · Woods · Musk"
+        },
+        {
+          "year": 2020,
+          "name": "Tanger",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Citrus Spicy",
+          "notes": "Citrus · Spices · Woods · Musk"
+        },
+        {
+          "year": 2020,
+          "name": "Xandria",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2020,
+          "name": "Xian",
+          "collectionName": "LA ROUTE DE SOIE",
+          "genre": "Woody Spicy",
+          "notes": "Woods · Spices · Incense · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Isfarkand Elixir",
+          "collectionName": "ELIXIR COLLECTION",
+          "genre": "Citrus Woody",
+          "notes": "Bergamot · Vetiver · Woods · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Ormonde Elixir",
+          "collectionName": "ELIXIR COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Black Hemlock · Cardamom · Oud · Woods"
+        },
+        {
+          "year": 2019,
+          "name": "Osmanthus Elixir",
+          "collectionName": "ELIXIR COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Osmanthus · Tea · Woods · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Royal Elixir",
+          "collectionName": "ELIXIR COLLECTION",
+          "genre": "Woody Amber",
+          "notes": "Woods · Amber · Spices · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Ta'if Elixir",
+          "collectionName": "ELIXIR COLLECTION",
+          "genre": "Floral Spicy",
+          "notes": "Rose · Saffron · Woods · Musk"
+        },
+        {
+          "year": 2018,
+          "name": "Cuir Imperial",
+          "collectionName": "BESPOKE PARFUM COLLECTION",
+          "genre": "Woody Leather",
+          "notes": "Leather · Spices · Woods · Musk"
+        },
+        {
+          "year": 2018,
+          "name": "Privé",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Mandarin · Neroli · Iris · Sandalwood",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2017,
+          "name": "Ambroisé",
+          "collectionName": "BESPOKE PARFUM COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2017,
+          "name": "Jardin D'Ange (Fortnum & Mason Exclusive)",
+          "collectionName": "JARDIN COLLECTION",
+          "genre": "Floral",
+          "notes": "Florals · Woods · Musk · Amber"
+        },
+        {
+          "year": 2017,
+          "name": "One.5 Parfum",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Florals · Woods · Amber · Musk"
+        },
+        {
+          "year": 2017,
+          "name": "True Love",
+          "collectionName": "BESPOKE PARFUM COLLECTION",
+          "genre": "Floral",
+          "notes": "Rose · Florals · Musk · Woods"
+        },
+        {
+          "year": 2017,
+          "name": "White Gold",
+          "collectionName": "GOLD COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Florals · Woods · Musk · Amber"
+        },
+        {
+          "year": 2016,
+          "name": "Ambre Royal",
+          "collectionName": "SIGNATURE",
+          "genre": "Amber Spicy",
+          "notes": "Amber · Spices · Woods · Musk"
+        },
+        {
+          "year": 2016,
+          "name": "Jardin d'Ombre (Fortnum & Mason Exclusive)",
+          "collectionName": "JARDIN COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Florals · Woods · Musk · Amber"
+        },
+        {
+          "year": 2016,
+          "name": "One",
+          "collectionName": "BESPOKE PARFUM COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Florals · Woods · Musk · Amber"
+        },
+        {
+          "year": 2016,
+          "name": "One Parfum",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Florals · Woods · Musk · Amber"
+        },
+        {
+          "year": 2016,
+          "name": "Passionate Love",
+          "collectionName": "BESPOKE PARFUM COLLECTION",
+          "genre": "Floral Amber",
+          "notes": "Florals · Amber · Musk · Woods"
+        },
+        {
+          "year": 2016,
+          "name": "Rose Gold",
+          "collectionName": "GOLD COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Rose · Woods · Musk · Amber"
+        },
+        {
+          "year": 2016,
+          "name": "Sensual Love",
+          "collectionName": "BESPOKE PARFUM COLLECTION",
+          "genre": "Floral Musk",
+          "notes": "Florals · Musk · Woods · Amber"
+        },
+        {
+          "year": 2015,
+          "name": "Tsarina Intensivo",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "Vanille d'Iris",
+          "collectionName": "",
+          "genre": "Floral Vanilla",
+          "notes": "Iris · Vanilla · Woods · Musk"
+        },
+        {
+          "year": 2014,
+          "name": "Black Gold",
+          "collectionName": "GOLD COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2013,
+          "name": "4. Montabaco Intensivo",
+          "collectionName": "THE FOUR CORNERS OF THE EARTH",
+          "genre": "Woody Aromatic",
+          "notes": "Tobacco · Citrus · Suede · Amber"
+        },
+        {
+          "year": 2013,
+          "name": "Iniquite - Limited Edition",
+          "collectionName": "LIMITED EDITIONS",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2012,
+          "name": "Montabaco",
+          "collectionName": "THE FOUR CORNERS OF THE EARTH",
+          "genre": "Woody Aromatic",
+          "notes": "Tobacco · Citrus · Suede · Amber"
+        },
+        {
+          "year": 2012,
+          "name": "Nawab of Oudh",
+          "collectionName": "THE FOUR CORNERS OF THE EARTH",
+          "genre": "Woody Oud",
+          "notes": "Oud · Rose · Spices · Amber"
+        },
+        {
+          "year": 2012,
+          "name": "Qi",
+          "collectionName": "THE FOUR CORNERS OF THE EARTH",
+          "genre": "Citrus Floral",
+          "notes": "Tea · Osmanthus · Neroli · Musk"
+        },
+        {
+          "year": 2012,
+          "name": "Tsarina",
+          "collectionName": "THE FOUR CORNERS OF THE EARTH",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2009,
+          "name": "Tiare",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Tiare Flower · Florals · Woods · Musk"
+        },
+        {
+          "year": 2008,
+          "name": "Zizan",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Vetiver · Citrus · Spices · Musk"
+        },
+        {
+          "year": 2006,
+          "name": "Orris Noir",
+          "collectionName": "",
+          "genre": "Woody Floral",
+          "notes": "Iris · Woods · Musk · Amber"
+        },
+        {
+          "year": 2006,
+          "name": "Osmanthus",
+          "collectionName": "SIGNATURE",
+          "genre": "Floral Woody",
+          "notes": "Osmanthus · Tea · Woods · Musk"
+        },
+        {
+          "year": 2005,
+          "name": "Isfarkand",
+          "collectionName": "SIGNATURE",
+          "genre": "Citrus Woody",
+          "notes": "Bergamot · Vetiver · Woods · Musk"
+        },
+        {
+          "year": 2004,
+          "name": "Ormonde Man",
+          "collectionName": "SIGNATURE",
+          "genre": "Woody Oud",
+          "notes": "Black Hemlock · Oud · Juniper · Vetiver"
+        },
+        {
+          "year": 2004,
+          "name": "Sampaquita",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Jasmine · Florals · Woods · Musk"
+        },
+        {
+          "year": 2004,
+          "name": "Ta'if",
+          "collectionName": "SIGNATURE",
+          "genre": "Floral Spicy",
+          "notes": "Rose · Saffron · Woods · Musk"
+        },
+        {
+          "year": 2003,
+          "name": "Frangipani",
+          "collectionName": "SIGNATURE",
+          "genre": "Floral",
+          "notes": "Frangipani · Florals · Woods · Musk"
+        },
+        {
+          "year": 2002,
+          "name": "Champaca",
+          "collectionName": "SIGNATURE",
+          "genre": "Floral Gourmand",
+          "notes": "Champaca · Florals · Woods · Musk"
+        },
+        {
+          "year": 2002,
+          "name": "Ormonde Woman",
+          "collectionName": "SIGNATURE",
+          "genre": "Woody Chypre",
+          "notes": "Black Hemlock · Cardamom · Violet · Vetiver"
+        },
+        {
+          "year": 2002,
+          "name": "Tolu",
+          "collectionName": "SIGNATURE",
+          "genre": "Amber Balsamic",
+          "notes": "Tolu Balsam · Amber · Woods · Musk"
+        }
+      ]
     },
     {
       "id": "pana-dora",
@@ -4026,7 +5010,65 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Nomadic Jasmine",
+          "collectionName": "EXCLUSIVES",
+          "genre": "Floral Spicy",
+          "notes": "Mineral Accord · Jasmine · Green Chilli · Mysore Sandalwood"
+        },
+        {
+          "year": 2025,
+          "name": "Chai Addiction",
+          "collectionName": "MAGIZHCHI COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Tea · Cardamom · Ginger · Mysore Sandalwood"
+        },
+        {
+          "year": 2025,
+          "name": "Hill Station",
+          "collectionName": "MAGIZHCHI COLLECTION",
+          "genre": "Woody Green",
+          "notes": "Rain Accord · Black Tea · Petrichor · Vetiver"
+        },
+        {
+          "year": 2025,
+          "name": "Rickshaw Rhythms",
+          "collectionName": "MAGIZHCHI COLLECTION",
+          "genre": "Woody Aquatic",
+          "notes": "Fig · Coconut Water · Champaca · Suede"
+        },
+        {
+          "year": 2024,
+          "name": "Chapter One",
+          "collectionName": "DEBUT COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Cardamom · Spices · Sandalwood · Chai"
+        },
+        {
+          "year": 2024,
+          "name": "Cutting Rain",
+          "collectionName": "DEBUT COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Grapefruit · Rose · Saffron · Mysore Sandalwood"
+        },
+        {
+          "year": 2024,
+          "name": "Love Marriage",
+          "collectionName": "DEBUT COLLECTION",
+          "genre": "Amber Floral",
+          "notes": "Rum · Cinnamon · Rose · Woods"
+        },
+        {
+          "year": 2024,
+          "name": "Oud Mangifera",
+          "collectionName": "DEBUT COLLECTION",
+          "genre": "Woody Oud",
+          "notes": "Mango Skin · Oud · Patchouli · Sandalwood"
+        }
+      ]
     },
     {
       "id": "ramon-monegal",
@@ -9252,7 +10294,170 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Musc Nurāsana",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Bergamot · Damask Rose · Olibanum · Tonka Bean"
+        },
+        {
+          "year": 2026,
+          "name": "Tobacco Carnaval",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Tobacco Leaf · Rum · Spices · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Safran Secret",
+          "collectionName": "MYSTÈRES OLFACTIFS",
+          "genre": "Woody Spicy",
+          "notes": "Saffron · Spices · Woods · Tonka Bean"
+        },
+        {
+          "year": 2024,
+          "name": "Cuir InfraRouge",
+          "collectionName": "",
+          "genre": "Leather Fruity",
+          "notes": "Raspberry · Osmanthus · Cedarwood · Leather"
+        },
+        {
+          "year": 2024,
+          "name": "Oud Cadenza",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Cinnamon · Saffron · Vanilla"
+        },
+        {
+          "year": 2024,
+          "name": "Tubéreuse Astrale",
+          "collectionName": "",
+          "genre": "Floral Leather",
+          "notes": "Cinnamon Bark · Tuberose · Osmanthus · Leather"
+        },
+        {
+          "year": 2023,
+          "name": "Neroli Nasimba",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Neroli · Bergamot · Vetiver · Leather"
+        },
+        {
+          "year": 2023,
+          "name": "Oud Maracujá",
+          "collectionName": "",
+          "genre": "Woody Fruity",
+          "notes": "Passionfruit · Saffron · Oud · Benzoin"
+        },
+        {
+          "year": 2023,
+          "name": "Oud Stallion",
+          "collectionName": "",
+          "genre": "Woody Leather",
+          "notes": "Oud · Cardamom · Tonka Bean · Leather"
+        },
+        {
+          "year": 2022,
+          "name": "Ambre Chromatique",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Incense · Osmanthus · Benzoin · Amber"
+        },
+        {
+          "year": 2022,
+          "name": "Ingredients 07-2012",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Saffron · Spices · Woods · Tonka Bean"
+        },
+        {
+          "year": 2022,
+          "name": "Patchouli Magnetik",
+          "collectionName": "",
+          "genre": "Woody Earthy",
+          "notes": "Patchouli · White Peach · Cedarwood · Vanilla"
+        },
+        {
+          "year": 2021,
+          "name": "Hibiscus Mahajád",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Hibiscus · Blackcurrant · Rose · Vanilla"
+        },
+        {
+          "year": 2021,
+          "name": "Lys Sølaberg",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Lily · Pear · Cedarwood · Tobacco"
+        },
+        {
+          "year": 2021,
+          "name": "Osmanthe Kodoshan",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Osmanthus · Tea · Leather · Patchouli"
+        },
+        {
+          "year": 2020,
+          "name": "Iris Malikhân",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Iris · Galbanum · Cypress · Vanilla"
+        },
+        {
+          "year": 2020,
+          "name": "Papyrus Moleculaire",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Papyrus · Carrot Seed · Tonka Bean · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Absinthe Boréale",
+          "collectionName": "",
+          "genre": "Aromatic Green",
+          "notes": "Absinthe · Artemisia · Lavender · Pine"
+        },
+        {
+          "year": 2019,
+          "name": "Citrus Batikanga",
+          "collectionName": "",
+          "genre": "Citrus Spicy",
+          "notes": "Citron · Pomelo · Curry Leaf · Myrrh"
+        },
+        {
+          "year": 2018,
+          "name": "Bois Datchaï",
+          "collectionName": "",
+          "genre": "Woody Fruity",
+          "notes": "Black Tea · Lychee · Oakmoss · Leather"
+        },
+        {
+          "year": 2018,
+          "name": "Fleur Diamantine",
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Neroli · Immortelle · Moss · Musk"
+        },
+        {
+          "year": 2018,
+          "name": "Rose SaltifOlia",
+          "collectionName": "",
+          "genre": "Floral Marine",
+          "notes": "Rose · Sea Salt · Grapefruit · Geranium"
+        },
+        {
+          "year": 2018,
+          "name": "Santal Volcanique",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Sandalwood · Ginger · Coffee · Cardamom"
+        }
+      ]
     },
     {
       "id": "maison-de-lasie",
@@ -9854,7 +11059,654 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Adare",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Woody Green",
+          "notes": "Green Notes · Woods · Moss · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Cap Camarat",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Floral",
+          "notes": "Apple · Ylang-Ylang · Vanilla · Benzoin"
+        },
+        {
+          "year": 2026,
+          "name": "Cardamom",
+          "collectionName": "ESSENCES FILAGES",
+          "genre": "Woody Spicy",
+          "notes": "Cardamom · Mandarin · Woods · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Cosmos",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Passionfruit · White Rose · Vanilla · Woods"
+        },
+        {
+          "year": 2026,
+          "name": "Darling Point",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Fruity Gourmand",
+          "notes": "Apple · Pear · Praline · Cashmere Wood"
+        },
+        {
+          "year": 2026,
+          "name": "Leather",
+          "collectionName": "ESSENCES FILAGES",
+          "genre": "Woody Leather",
+          "notes": "Leather · Woods · Spices · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Menorca",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Floral Aquatic",
+          "notes": "Bergamot · Neroli · Iris · Sea Salt"
+        },
+        {
+          "year": 2026,
+          "name": "Odéon Rosebud",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Floral Woody",
+          "notes": "Rose · Woods · Patchouli · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Odéon Sunset",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Amber Woody",
+          "notes": "Woods · Warm Spices · Amber · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Omnia Omnibus Ubique",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Chypre Floral",
+          "notes": "Rose · Patchouli · Tonka Bean · Woods"
+        },
+        {
+          "year": 2026,
+          "name": "Patchouli",
+          "collectionName": "ESSENCES FILAGES",
+          "genre": "Woody Earthy",
+          "notes": "Patchouli · Woods · Spices · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Rose",
+          "collectionName": "ESSENCES FILAGES",
+          "genre": "Floral Woody",
+          "notes": "Rose · Woods · Spices · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Sandalwood",
+          "collectionName": "ESSENCES FILAGES",
+          "genre": "Woody",
+          "notes": "Sandalwood · Woods · Spices · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Sky Paris Sky",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Woody Aromatic",
+          "notes": "Woods · Musk · Citrus · Resin"
+        },
+        {
+          "year": 2026,
+          "name": "Tonka Bean",
+          "collectionName": "ESSENCES FILAGES",
+          "genre": "Amber Gourmand",
+          "notes": "Tonka Bean · Vanilla · Woods · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Vetiver",
+          "collectionName": "ESSENCES FILAGES",
+          "genre": "Woody Earthy",
+          "notes": "Vetiver · Woods · Citrus · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "West 34",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Leather",
+          "collectionName": "EXTRAITS CARDINAUX",
+          "genre": "Woody Leather",
+          "notes": "Leather · Incense · Woods · Oud"
+        },
+        {
+          "year": 2025,
+          "name": "Odéon x Jean Jullien",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Woody Floral",
+          "notes": "Rose · Patchouli · Cedarwood · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Portobello Road",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Woody Spicy",
+          "notes": "Juniper · Spices · Woods · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Red Island",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Amber Spicy",
+          "notes": "Pink Pepper · Spices · Vanilla · Woods"
+        },
+        {
+          "year": 2024,
+          "name": "Abu Dhabi",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Amber Fruity",
+          "notes": "Date · Cardamom · Vanilla · Incense"
+        },
+        {
+          "year": 2024,
+          "name": "Cassiopeia Rose",
+          "collectionName": "ÉTOILES FILANTES",
+          "genre": "Floral",
+          "notes": "Rose · Spices · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Indian Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Woody Leather",
+          "notes": "Leather · Cardamom · Cedarwood · Patchouli"
+        },
+        {
+          "year": 2024,
+          "name": "Palais Bourbon",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Woody Spicy",
+          "notes": "Patchouli · Nutmeg · Woods · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Honey Dragon",
+          "collectionName": "ÉTOILES FILANTES",
+          "genre": "Amber Gourmand",
+          "notes": "Honey · Benzoin · Spices · Woods"
+        },
+        {
+          "year": 2023,
+          "name": "Inverness",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Woody Aromatic",
+          "notes": "Lavender · Woods · Spices · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Ithaque",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Incense · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Lyra Peach",
+          "collectionName": "ÉTOILES FILANTES",
+          "genre": "Fruity Floral",
+          "notes": "Peach · Osmanthus · Woods · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Madurai (Bloomingdale's 150th Anniversary Exclusive)",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Floral Spicy",
+          "notes": "Tuberose · Spices · Sandalwood · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Marfa Oud",
+          "collectionName": "ESCALES EXTRAORDINAIRES",
+          "genre": "Woody Oud",
+          "notes": "Tuberose · Orange Blossom · Oud · Sandalwood"
+        },
+        {
+          "year": 2023,
+          "name": "Zante",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Mandarin · Neroli · Rosemary"
+        },
+        {
+          "year": 2022,
+          "name": "Iberian Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Woody Leather",
+          "notes": "Leather · Cedarwood · Patchouli · Oud"
+        },
+        {
+          "year": 2022,
+          "name": "Kotor",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Leather · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Madurai",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Floral Spicy",
+          "notes": "Tuberose · Jasmine · Sandalwood · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Sherwood",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Woody Spicy",
+          "notes": "Nutmeg · Carrot Seed · Sandalwood · Oud"
+        },
+        {
+          "year": 2021,
+          "name": "Argentina",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Floral Woody",
+          "notes": "Rose · Spices · Cedarwood · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Corfu",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Chypre Floral",
+          "notes": "Rhubarb · Bergamot · Patchouli · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Flam",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Floral Woody",
+          "notes": "Jasmine · Woods · Spices · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Mallorcan Almond Oud",
+          "collectionName": "THE FLYING COLLECTION",
+          "genre": "Woody Oud",
+          "notes": "Almond · Oud · Woods · Amber"
+        },
+        {
+          "year": 2021,
+          "name": "Sicilian Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Leather Fruity",
+          "notes": "Leather · Bitter Orange · Cedarwood · Musk"
+        },
+        {
+          "year": 2020,
+          "name": "Jamal's Desert",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Spices · Woods · Incense · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2020,
+          "name": "Jamal's Palace",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2020,
+          "name": "Ocean Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Woody Leather",
+          "notes": "Leather · Basil · Violet Leaf · Vetiver"
+        },
+        {
+          "year": 2020,
+          "name": "Odéon",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Woody Floral",
+          "notes": "Rose · Patchouli · Cedarwood · Musk"
+        },
+        {
+          "year": 2020,
+          "name": "Retba",
+          "collectionName": "",
+          "genre": "Aromatic Aquatic",
+          "notes": "Sea Notes · Citrus · Musk · Woods",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2020,
+          "name": "Sintra",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Floral Gourmand",
+          "notes": "Neroli · Petitgrain · Caramel · Vanilla"
+        },
+        {
+          "year": 2019,
+          "name": "African Rose",
+          "collectionName": "ESCALES EXTRAORDINAIRES",
+          "genre": "Floral Woody",
+          "notes": "Rose · Geranium · Oud · Patchouli"
+        },
+        {
+          "year": 2019,
+          "name": "Desert Orange Blossom",
+          "collectionName": "THE FLYING COLLECTION",
+          "genre": "Citrus Floral",
+          "notes": "Orange Blossom · Spices · Woods · Amber"
+        },
+        {
+          "year": 2019,
+          "name": "London Tweed",
+          "collectionName": "THE FLYING COLLECTION",
+          "genre": "Woody Aromatic",
+          "notes": "Tweed · Herbs · Cedarwood · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Oriental Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Leather Spicy",
+          "notes": "Leather · Saffron · Amber · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Rose Paris Rose",
+          "collectionName": "THE FLYING COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Rose · Woods · Spices · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Siberian Golden Woods",
+          "collectionName": "THE FLYING COLLECTION",
+          "genre": "Woody Amber",
+          "notes": "Pine · Cedarwood · Amber · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Vaadhoo",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2019,
+          "name": "Winter Palace",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Amber Spicy",
+          "notes": "Red Tea · Benzoin · Labdanum · Vanilla"
+        },
+        {
+          "year": 2018,
+          "name": "Marfa Spices",
+          "collectionName": "ESCALES EXTRAORDINAIRES",
+          "genre": "Floral Spicy",
+          "notes": "Tuberose · Spices · Orange Blossom · Musk"
+        },
+        {
+          "year": 2018,
+          "name": "Moroccan Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Woody Leather",
+          "notes": "Leather · Iris · Cypress · Vetiver"
+        },
+        {
+          "year": 2018,
+          "name": "Tamarindo",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Woody Fruity",
+          "notes": "Pineapple · Cardamom · Patchouli · Vanilla"
+        },
+        {
+          "year": 2018,
+          "name": "Tiger's Nest",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Woody Incense",
+          "notes": "Incense · Olibanum · Cypress · Oud"
+        },
+        {
+          "year": 2017,
+          "name": "Eau de Memo",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Citrus Leather",
+          "notes": "Leather · Green Tea · Saffron · Suede"
+        },
+        {
+          "year": 2017,
+          "name": "Kedu Sesame",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Sesame · Citrus · Vetiver · Cedarwood",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2016,
+          "name": "French Leather Rose",
+          "collectionName": "",
+          "genre": "Floral Leather",
+          "notes": "Rose · Lime · Suede · Juniper",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2016,
+          "name": "Inle Iris",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Osmanthus · Iris · Tea · Amber",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2016,
+          "name": "Marfa",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "White Floral",
+          "notes": "Tuberose · Orange Blossom · Sandalwood · Vanilla"
+        },
+        {
+          "year": 2016,
+          "name": "Moon Leather",
+          "collectionName": "",
+          "genre": "Woody Leather",
+          "notes": "Leather · Citrus · Vetiver · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2016,
+          "name": "Russian Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Woody Aromatic",
+          "notes": "Leather · Rosemary · Pine · Patchouli"
+        },
+        {
+          "year": 2015,
+          "name": "African Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Leather Spicy",
+          "notes": "Leather · Cardamom · Cumin · Oud"
+        },
+        {
+          "year": 2015,
+          "name": "Ilha do Mel",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Floral Aquatic",
+          "notes": "Hyacinth · Orange Blossom · Vetiver · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "Irish Oud",
+          "collectionName": "ESCALES EXTRAORDINAIRES",
+          "genre": "Woody Oud",
+          "notes": "Oud · Juniper · Mate · Leather"
+        },
+        {
+          "year": 2014,
+          "name": "French Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Floral Leather",
+          "notes": "Rose · Lime · Suede · Juniper"
+        },
+        {
+          "year": 2014,
+          "name": "Kedu",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Woody Aromatic",
+          "notes": "Grapefruit · Sesame · Vetiver · Cedarwood"
+        },
+        {
+          "year": 2014,
+          "name": "Shams Narcissus",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Narcissus · Spices · Amber · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2013,
+          "name": "Irish Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Woody Aromatic",
+          "notes": "Leather · Juniper · Mate · Amber"
+        },
+        {
+          "year": 2013,
+          "name": "Italian Leather",
+          "collectionName": "CUIRS NOMADES",
+          "genre": "Woody Leather",
+          "notes": "Leather · Tomato Leaf · Vanilla · Benzoin"
+        },
+        {
+          "year": 2013,
+          "name": "Lalibela Oud",
+          "collectionName": "ESCALES EXTRAORDINAIRES",
+          "genre": "Woody Oud",
+          "notes": "Oud · Rose · Frankincense · Vanilla"
+        },
+        {
+          "year": 2012,
+          "name": "Luxor Oud",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Woody Oud",
+          "notes": "Oud · Rose · Cumin · Labdanum"
+        },
+        {
+          "year": 2012,
+          "name": "Moon Fever",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Woody Leather",
+          "notes": "Leather · Tea · Grapefruit · Vetiver"
+        },
+        {
+          "year": 2012,
+          "name": "Quartier Latin",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Woody Spicy",
+          "notes": "Clove · Cedarwood · Patchouli · Amber"
+        },
+        {
+          "year": 2011,
+          "name": "Granada",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Floral Woody",
+          "notes": "Jasmine · Orange Blossom · Vanilla · Musk"
+        },
+        {
+          "year": 2011,
+          "name": "Shams Oud",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Amber Oud",
+          "notes": "Oud · Rose · Spices · Amber"
+        },
+        {
+          "year": 2010,
+          "name": "Manoa",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Tropical Florals · Woods · Amber · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2009,
+          "name": "Moon Safari",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Spices · Woods · Citrus · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2008,
+          "name": "Jannat",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Floral Musk",
+          "notes": "Neroli · Bergamot · Musk · Amber"
+        },
+        {
+          "year": 2008,
+          "name": "Jannat Baby Eau Fraiche",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Neroli · Bergamot · Musk · Soft Florals",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2008,
+          "name": "Voyages Naturels - Grapefruit From Argentina",
+          "collectionName": "",
+          "genre": "Citrus",
+          "notes": "Grapefruit · Woods · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2008,
+          "name": "Voyages Naturels - Orange Blossom From Italy",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Orange Blossom · Woods · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2007,
+          "name": "Inlé",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Floral Fruity",
+          "notes": "Osmanthus · Jasmine · Tea · Amber"
+        },
+        {
+          "year": 2007,
+          "name": "Lalibela",
+          "collectionName": "FLEURS BOHÈMES",
+          "genre": "Floral Chypre",
+          "notes": "Rose · Peony · Vanilla · Patchouli"
+        },
+        {
+          "year": 2007,
+          "name": "Siwa",
+          "collectionName": "GRAINES VAGABONDES",
+          "genre": "Floral Woody",
+          "notes": "Iris · Vanilla · Incense · Musk"
+        },
+        {
+          "year": 2007,
+          "name": "Sundance",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Floral Notes · Amber · Spices · Musk",
+          "status": "Discontinued"
+        }
+      ]
     },
     {
       "id": "ormaie",
@@ -10976,7 +12828,37 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2025,
+          "name": "Delulu",
+          "collectionName": "",
+          "genre": "Fruity Floral",
+          "notes": "Bergamot · Mandarin · Rhubarb · Raspberry"
+        },
+        {
+          "year": 2022,
+          "name": "Dead Air",
+          "collectionName": "",
+          "genre": "Woody Aquatic",
+          "notes": "Sea Notes · Resins · Woods · Smoke"
+        },
+        {
+          "year": 2022,
+          "name": "Resonant",
+          "collectionName": "",
+          "genre": "Citrus Spicy",
+          "notes": "Yuzu · Mandarin · Bergamot · Ginger"
+        },
+        {
+          "year": 2021,
+          "name": "Naked Dance",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Orange Blossom · Bergamot · Green Tea · Musk"
+        }
+      ]
     },
     {
       "id": "epilogue",
@@ -11843,7 +13725,128 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2025,
+          "name": "Bain de Minuit",
+          "collectionName": "NIGHT FEVER COLLECTION",
+          "genre": "Floral Aquatic",
+          "notes": "Cherry · Strawberry · Tiare Flower · Vanilla"
+        },
+        {
+          "year": 2025,
+          "name": "Disco Inferno",
+          "collectionName": "NIGHT FEVER COLLECTION",
+          "genre": "Woody Fruity",
+          "notes": "Pineapple · Frangipani · Patchouli · Cashmeran"
+        },
+        {
+          "year": 2025,
+          "name": "Faire Le Mur",
+          "collectionName": "NIGHT FEVER COLLECTION",
+          "genre": "Floral Green",
+          "notes": "Orange · Pear · Laurel · Patchouli"
+        },
+        {
+          "year": 2025,
+          "name": "Shifumi",
+          "collectionName": "NIGHT FEVER COLLECTION",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Grapefruit · Cardamom · Vetiver"
+        },
+        {
+          "year": 2025,
+          "name": "Ukhu Pacha",
+          "collectionName": "",
+          "genre": "Amber Fruity",
+          "notes": "Bergamot · Coconut · Tonka Bean · Praline"
+        },
+        {
+          "year": 2025,
+          "name": "Un Jour Sans Fin",
+          "collectionName": "NIGHT FEVER COLLECTION",
+          "genre": "Woody Musk",
+          "notes": "Cashmeran · Leather · Vanilla · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Arashi No Umi",
+          "collectionName": "",
+          "genre": "Aromatic Aquatic",
+          "notes": "Sea Notes · Yuzu · Hinoki · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Tu Te Calmes",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Cardamom · Black Pepper · Cedarwood · Vetiver"
+        },
+        {
+          "year": 2021,
+          "name": "Lost In Translation",
+          "collectionName": "REFRESH COLLECTION",
+          "genre": "Woody Aromatic",
+          "notes": "Fig · Ginger · Cedarwood · Vetiver"
+        },
+        {
+          "year": 2021,
+          "name": "Nature Insolente",
+          "collectionName": "REFRESH COLLECTION",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Rose · Patchouli · Oakmoss"
+        },
+        {
+          "year": 2021,
+          "name": "Poom Poom",
+          "collectionName": "REFRESH COLLECTION",
+          "genre": "Floral Fruity",
+          "notes": "Peach · Rose · Cedarwood · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Avant l’Orage",
+          "collectionName": "",
+          "genre": "Woody Amber",
+          "notes": "Benzoin · Tonka Bean · Vanilla · Sandalwood"
+        },
+        {
+          "year": 2019,
+          "name": "Bain De Midi",
+          "collectionName": "",
+          "genre": "Floral Aquatic",
+          "notes": "Coconut · Frangipani · Tiare Flower · Solar Notes"
+        },
+        {
+          "year": 2019,
+          "name": "Esprit De Contradiction",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Lemon · Ginger · Mint · Cedarwood"
+        },
+        {
+          "year": 2019,
+          "name": "Hasard Bazar",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Pepper · Cardamom · Amberwood · Patchouli"
+        },
+        {
+          "year": 2019,
+          "name": "Into The Wild",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Juniper Berry · Cardamom · Dark Chocolate · Patchouli"
+        },
+        {
+          "year": 2019,
+          "name": "Warni Warni",
+          "collectionName": "",
+          "genre": "Citrus Fruity",
+          "notes": "Grapefruit · Mandarin · Neroli · White Musk"
+        }
+      ]
     },
     {
       "id": "jo-malone",

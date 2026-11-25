@@ -4048,7 +4048,1106 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Elysium Absolue Pour Femme",
+          "collectionName": "ELYSIUM UNIVERSE",
+          "genre": "Floral Amber",
+          "notes": "Raspberry · Cassis · Ylang-Ylang · Ambergris"
+        },
+        {
+          "year": 2026,
+          "name": "Espresso Aoud",
+          "collectionName": "AOUD COLLECTION",
+          "genre": "Woody Gourmand",
+          "notes": "Roasted Coffee · Caramelized Nuts · Oud · Woods"
+        },
+        {
+          "year": 2026,
+          "name": "Nüwa 2026 Edition",
+          "collectionName": "ART COLLECTION",
+          "genre": "Amber Floral",
+          "notes": "Florals · Amber · Spices · Woods"
+        },
+        {
+          "year": 2026,
+          "name": "Semi Bespoke Royale",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Serenity Blend",
+          "collectionName": "ART COLLECTION",
+          "genre": "Woody Aromatic",
+          "notes": "Woods · Herbs · Amber · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "The Exclusive Parfum",
+          "collectionName": "",
+          "genre": "Woody Amber",
+          "notes": "Amber · Woods · Florals · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Apex Eau Intense",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Citrus · Pineapple · Cypress · Patchouli"
+        },
+        {
+          "year": 2025,
+          "name": "Bisous Bisous",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Floral Gourmand",
+          "notes": "Florals · Sweet Accord · Woods · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Champagne At BG",
+          "collectionName": "BERGDORF GOODMAN EXCLUSIVE",
+          "genre": "Citrus Floral",
+          "notes": "Citrus · Florals · Woods · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Elysium Noir",
+          "collectionName": "ELYSIUM UNIVERSE",
+          "genre": "Woody Spicy",
+          "notes": "Citrus · Spices · Woods · Leather"
+        },
+        {
+          "year": 2025,
+          "name": "Gryffindor",
+          "collectionName": "HARRY POTTER",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Harry Potter Burlington 1819 Limited Edition",
+          "collectionName": "HARRY POTTER",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Lime · Spices · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Hufflepuff",
+          "collectionName": "HARRY POTTER",
+          "genre": "Amber Gourmand",
+          "notes": "Honey · Vanilla · Spices · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Isola Snow",
+          "collectionName": "ISOLA COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Citrus · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Isola Verde",
+          "collectionName": "ISOLA COLLECTION",
+          "genre": "Woody Aromatic",
+          "notes": "Green Notes · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Nawaf Zaffran",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Spices · Amber · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Oceania Parfum",
+          "collectionName": "ISOLA COLLECTION",
+          "genre": "Citrus Aquatic",
+          "notes": "Citrus · Sea Notes · Woods · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Parfum De La Nuit",
+          "collectionName": "HAUTE LUXE COLLECTION",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Incense · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "RDP21 Limited Edition",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Ravenclaw",
+          "collectionName": "HARRY POTTER",
+          "genre": "Woody Aromatic",
+          "notes": "Woods · Herbs · Citrus · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Roja Neiman Marcus",
+          "collectionName": "",
+          "genre": "Woody Amber",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Semi-Bespoke No. 21 Eid Mubarak Edition",
+          "collectionName": "SEMI-BESPOKE COLLECTION",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Slytherin",
+          "collectionName": "HARRY POTTER",
+          "genre": "Woody Green",
+          "notes": "Green Notes · Woods · Leather · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Sybarite",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Vetiveria",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Vetiver · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Abu Dhabi",
+          "collectionName": "",
+          "genre": "Amber Fruity",
+          "notes": "Date · Cardamom · Vanilla · Incense"
+        },
+        {
+          "year": 2024,
+          "name": "Aoud Extraordinaire",
+          "collectionName": "AOUD COLLECTION",
+          "genre": "Woody Oud",
+          "notes": "Oud · Woods · Spices · Amber"
+        },
+        {
+          "year": 2024,
+          "name": "Bukhara",
+          "collectionName": "",
+          "genre": "Fruity Floral",
+          "notes": "Fruity Notes · Florals · Oud · Woods"
+        },
+        {
+          "year": 2024,
+          "name": "Chou Chou",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Floral Fruity",
+          "notes": "Florals · Fruity Notes · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Elysium Pour Femme",
+          "collectionName": "ELYSIUM UNIVERSE",
+          "genre": "Floral Fruity",
+          "notes": "Peach · Bergamot · Jasmine · Vanilla"
+        },
+        {
+          "year": 2024,
+          "name": "Elysium Pour Femme Parfum",
+          "collectionName": "ELYSIUM UNIVERSE",
+          "genre": "Floral Fruity",
+          "notes": "Peach · Bergamot · Jasmine · Vanilla"
+        },
+        {
+          "year": 2024,
+          "name": "Isola Sol",
+          "collectionName": "ISOLA COLLECTION",
+          "genre": "Citrus Floral",
+          "notes": "Citrus · Florals · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Kashmir",
+          "collectionName": "",
+          "genre": "Woody",
+          "notes": "Woods · Spices · Amber · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Lost In Paris",
+          "collectionName": "HAUTE LUXE COLLECTION",
+          "genre": "Floral Chypre",
+          "notes": "Rose · Florals · Oakmoss · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Roja Dove Haute Parfumerie 20th Anniversary",
+          "collectionName": "ROJA DOVE HAUTE PARFUMERIE EXCLUSIVES",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Tea at BG",
+          "collectionName": "BERGDORF GOODMAN EXCLUSIVE",
+          "genre": "Woody Aromatic",
+          "notes": "Tea · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Elysium Pour Homme Eau Intense",
+          "collectionName": "ELYSIUM UNIVERSE",
+          "genre": "Citrus Aromatic",
+          "notes": "Grapefruit · Lime · Juniper · Vetiver"
+        },
+        {
+          "year": 2023,
+          "name": "Isola Blu",
+          "collectionName": "ISOLA COLLECTION",
+          "genre": "Citrus Aromatic",
+          "notes": "Citrus · Herbs · Woods · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Taif Aoud",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Taif Rose · Oud · Spices · Amber"
+        },
+        {
+          "year": 2023,
+          "name": "The Oud",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Woody Oud",
+          "notes": "Oud · Woods · Spices · Amber"
+        },
+        {
+          "year": 2022,
+          "name": "Apex",
+          "collectionName": "",
+          "genre": "Woody Chypre",
+          "notes": "Mandarin · Pineapple · Cypress · Patchouli"
+        },
+        {
+          "year": 2022,
+          "name": "Apex Parfum",
+          "collectionName": "",
+          "genre": "Woody Chypre",
+          "notes": "Mandarin · Pineapple · Cypress · Patchouli"
+        },
+        {
+          "year": 2022,
+          "name": "Manhattan Eau de Parfum",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Cinnamon · Tobacco · Vanilla · Benzoin"
+        },
+        {
+          "year": 2022,
+          "name": "SEMI BESPOKE NO. 26",
+          "collectionName": "SEMI-BESPOKE COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Turandot",
+          "collectionName": "THE ROYAL OPERA HOUSE MUSCAT",
+          "genre": "Amber Floral",
+          "notes": "Florals · Amber · Spices · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "51 Pour Femme Essence De Parfum",
+          "collectionName": "51",
+          "genre": "Floral Fruity",
+          "notes": "Raspberry · Rose · Jasmine · Vanilla"
+        },
+        {
+          "year": 2021,
+          "name": "Creation-E Essence de Parfum",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Neroli · Peach · Vanilla · Ambergris"
+        },
+        {
+          "year": 2021,
+          "name": "Creation-R Essence de Parfum",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Florals · Rose · Woods · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Danger Pour Femme Essence De Parfum",
+          "collectionName": "",
+          "genre": "Floral Amber",
+          "notes": "Bergamot · Jasmine · Tonka Bean · Vanilla"
+        },
+        {
+          "year": 2021,
+          "name": "Enigma Pour Femme Essence De Parfum",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Peach · Rose · Ylang-Ylang · Vanilla"
+        },
+        {
+          "year": 2021,
+          "name": "Manhattan",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Cinnamon · Tobacco · Vanilla · Benzoin"
+        },
+        {
+          "year": 2021,
+          "name": "Pierre de Velay Amour",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Floral",
+          "notes": "Rose · Florals · Musk · Woods"
+        },
+        {
+          "year": 2021,
+          "name": "Reckless Pour Femme Essence De Parfum",
+          "collectionName": "",
+          "genre": "Floral Chypre",
+          "notes": "Peach · Neroli · Rose · Oakmoss"
+        },
+        {
+          "year": 2021,
+          "name": "Risque Pour Femme Essence De Parfum",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Peach · Rose · Oakmoss"
+        },
+        {
+          "year": 2021,
+          "name": "Scandal Pour Femme Essence De Parfum",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Rose · Jasmine · Oakmoss"
+        },
+        {
+          "year": 2020,
+          "name": "Burlington 1819",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Grapefruit · Mint · Ginger · Ambergris"
+        },
+        {
+          "year": 2020,
+          "name": "Essence Rare",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Amber Floral",
+          "notes": "Florals · Amber · Woods · Musk"
+        },
+        {
+          "year": 2020,
+          "name": "Pierre de Velay No. 16",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Floral",
+          "notes": "Florals · Musk · Woods · Amber"
+        },
+        {
+          "year": 2019,
+          "name": "Creation-E Parfum Cologne",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Neroli · Bergamot · Ginger · Ambergris"
+        },
+        {
+          "year": 2019,
+          "name": "Danger Pour Homme Parfum Cologne",
+          "collectionName": "",
+          "genre": "Aromatic Fougère",
+          "notes": "Lemon · Lavender · Tonka Bean · Vetiver"
+        },
+        {
+          "year": 2019,
+          "name": "Elixir Pour Femme Essence De Parfum",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Raspberry · Rose · Vanilla · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Elixir Pour Femme Parfum",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Raspberry · Rose · Vanilla · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Enigma Pour Homme Parfum Cologne",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Bergamot · Cognac · Tobacco · Ginger"
+        },
+        {
+          "year": 2019,
+          "name": "Pierre de Velay No. 11",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Florals · Woods · Musk · Amber"
+        },
+        {
+          "year": 2019,
+          "name": "Pierre de Velay No. 23",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Spices · Amber · Woods · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Pierre de Velay No. 25",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Woody Floral",
+          "notes": "Woods · Florals · Musk · Amber"
+        },
+        {
+          "year": 2019,
+          "name": "Pierre de Velay No. 4",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Floral",
+          "notes": "Florals · Musk · Woods · Amber"
+        },
+        {
+          "year": 2019,
+          "name": "Pierre de Velay No. 6",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Chypre Floral",
+          "notes": "Florals · Oakmoss · Musk · Amber"
+        },
+        {
+          "year": 2019,
+          "name": "Pierre de Velay No. 9",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Musk · Amber"
+        },
+        {
+          "year": 2019,
+          "name": "Roja Dove Haute Parfumerie 15th Anniversary",
+          "collectionName": "ROJA DOVE HAUTE PARFUMERIE EXCLUSIVES",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Roja Love",
+          "collectionName": "BERGDORF GOODMAN EXCLUSIVE",
+          "genre": "Floral",
+          "notes": "Florals · Musk · Woods · Amber"
+        },
+        {
+          "year": 2019,
+          "name": "Scandal Pour Homme Parfum Cologne",
+          "collectionName": "",
+          "genre": "Aromatic Fougère",
+          "notes": "Lemon · Lavender · Clary Sage · Vetiver"
+        },
+        {
+          "year": 2019,
+          "name": "Vetiver Pour Homme Parfum Cologne",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Lemon · Vetiver · Oakmoss · Cedarwood"
+        },
+        {
+          "year": 2018,
+          "name": "Ahlam",
+          "collectionName": "",
+          "genre": "Floral Amber",
+          "notes": "Florals · Amber · Spices · Woods"
+        },
+        {
+          "year": 2018,
+          "name": "Chypré Extraordinaire",
+          "collectionName": "HAUTE LUXE COLLECTION",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Rose · Oakmoss · Patchouli"
+        },
+        {
+          "year": 2018,
+          "name": "Cuir Imperial",
+          "collectionName": "",
+          "genre": "Woody Leather",
+          "notes": "Leather · Spices · Woods · Musk"
+        },
+        {
+          "year": 2018,
+          "name": "Enigma Aoud",
+          "collectionName": "",
+          "genre": "Amber Oud",
+          "notes": "Oud · Cognac · Tobacco · Rose"
+        },
+        {
+          "year": 2018,
+          "name": "L'Oscar Pour Homme",
+          "collectionName": "",
+          "genre": "Aromatic Fougère",
+          "notes": "Lavender · Geranium · Tonka Bean · Vetiver"
+        },
+        {
+          "year": 2018,
+          "name": "Majestic Aoud",
+          "collectionName": "HAUTE LUXE COLLECTION",
+          "genre": "Woody Oud",
+          "notes": "Oud · Woods · Spices · Amber"
+        },
+        {
+          "year": 2017,
+          "name": "Elysium Pour Homme Parfum",
+          "collectionName": "ELYSIUM UNIVERSE",
+          "genre": "Citrus Aromatic",
+          "notes": "Grapefruit · Lime · Juniper · Vetiver"
+        },
+        {
+          "year": 2017,
+          "name": "Elysium Pour Homme Parfum Cologne",
+          "collectionName": "ELYSIUM UNIVERSE",
+          "genre": "Citrus Aromatic",
+          "notes": "Grapefruit · Lime · Juniper · Vetiver"
+        },
+        {
+          "year": 2017,
+          "name": "Kingdom of Bahrain",
+          "collectionName": "GULF COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Spices · Amber · Woods · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2017,
+          "name": "Kingdom of Saudi Arabia",
+          "collectionName": "GULF COLLECTION",
+          "genre": "Amber Oud",
+          "notes": "Oud · Spices · Amber · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2017,
+          "name": "Kuwait",
+          "collectionName": "GULF COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2017,
+          "name": "London",
+          "collectionName": "SELFRIDGES EXCLUSIVE",
+          "genre": "Woody Leather",
+          "notes": "Leather · Rose · Spices · Oud"
+        },
+        {
+          "year": 2017,
+          "name": "Madison Pour Femme",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Florals · Musk · Woods · Amber"
+        },
+        {
+          "year": 2017,
+          "name": "Madison Pour Homme",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Woods · Herbs · Citrus · Musk"
+        },
+        {
+          "year": 2017,
+          "name": "Pierre de Velay No. 1",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Floral",
+          "notes": "Florals · Musk · Woods · Amber"
+        },
+        {
+          "year": 2017,
+          "name": "Pierre de Velay No. 47",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Chypre Floral",
+          "notes": "Florals · Oakmoss · Musk · Amber"
+        },
+        {
+          "year": 2017,
+          "name": "Pierre de Velay No. 56",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2017,
+          "name": "Qatar",
+          "collectionName": "GULF COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Spices · Amber · Woods · Musk"
+        },
+        {
+          "year": 2017,
+          "name": "Roja Dove Parfum Royale #4",
+          "collectionName": "ROJA DOVE HAUTE PARFUMERIE EXCLUSIVES",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2017,
+          "name": "Roja Dove Parfum Royale #5",
+          "collectionName": "ROJA DOVE HAUTE PARFUMERIE EXCLUSIVES",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2017,
+          "name": "Sultanate Of Oman",
+          "collectionName": "GULF COLLECTION",
+          "genre": "Amber Incense",
+          "notes": "Incense · Amber · Spices · Woods"
+        },
+        {
+          "year": 2017,
+          "name": "United Arab Emirates",
+          "collectionName": "GULF COLLECTION",
+          "genre": "Woody Oud",
+          "notes": "Oud · Spices · Amber · Musk"
+        },
+        {
+          "year": 2016,
+          "name": "A Midsummer Dream",
+          "collectionName": "SELFRIDGES EXCLUSIVE",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Neroli · Oakmoss · Patchouli"
+        },
+        {
+          "year": 2016,
+          "name": "Britannia",
+          "collectionName": "IMPERIAL SCENTS",
+          "genre": "Chypre Floral",
+          "notes": "Rose · Jasmine · Oakmoss · Patchouli",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2016,
+          "name": "H The Exclusive Black Tier",
+          "collectionName": "HARRODS EXCLUSIVE",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2016,
+          "name": "Karenina",
+          "collectionName": "RUSSIAN COLLECTION",
+          "genre": "Floral Chypre",
+          "notes": "Rose · Jasmine · Oakmoss · Patchouli"
+        },
+        {
+          "year": 2016,
+          "name": "Les Clochettes Du Bonheur",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Floral",
+          "notes": "Lily of the Valley · Florals · Musk · Woods"
+        },
+        {
+          "year": 2016,
+          "name": "O The Exclusive Parfum",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2016,
+          "name": "Oligarch",
+          "collectionName": "RUSSIAN COLLECTION",
+          "genre": "Woody Chypre",
+          "notes": "Bergamot · Neroli · Oakmoss · Patchouli"
+        },
+        {
+          "year": 2016,
+          "name": "Roja Dove Parfum Royale #1",
+          "collectionName": "ROJA DOVE HAUTE PARFUMERIE EXCLUSIVES",
+          "genre": "Amber Floral",
+          "notes": "Florals · Amber · Woods · Musk"
+        },
+        {
+          "year": 2016,
+          "name": "Roja Dove Parfum Royale #2",
+          "collectionName": "ROJA DOVE HAUTE PARFUMERIE EXCLUSIVES",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2016,
+          "name": "Roja Dove Parfum Royale #3",
+          "collectionName": "ROJA DOVE HAUTE PARFUMERIE EXCLUSIVES",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2016,
+          "name": "Rose",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Rose · Florals · Musk · Woods"
+        },
+        {
+          "year": 2016,
+          "name": "Sultanate of Oman",
+          "collectionName": "",
+          "genre": "Amber Incense",
+          "notes": "Incense · Amber · Spices · Woods"
+        },
+        {
+          "year": 2016,
+          "name": "Tuberose pour Femme",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Tuberose · Jasmine · Ylang-Ylang · Sandalwood"
+        },
+        {
+          "year": 2015,
+          "name": "A Goodnight Kiss",
+          "collectionName": "HAUTE LUXE COLLECTION",
+          "genre": "Floral Amber",
+          "notes": "Rose · Florals · Amber · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "Beguiled",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Peach · Bergamot · Rose · Vanilla"
+        },
+        {
+          "year": 2015,
+          "name": "Candy Aoud",
+          "collectionName": "TUTTI FRUTTI COLLECTION",
+          "genre": "Woody Fruity",
+          "notes": "Fruity Notes · Oud · Woods · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "Fruity Aoud",
+          "collectionName": "TUTTI FRUTTI COLLECTION",
+          "genre": "Woody Fruity",
+          "notes": "Fruity Notes · Oud · Woods · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "Great Britain",
+          "collectionName": "HAUTE LUXE COLLECTION",
+          "genre": "Woody Chypre",
+          "notes": "Woods · Oakmoss · Spices · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "H The Exclusive Parfum",
+          "collectionName": "HARRODS EXCLUSIVE",
+          "genre": "Floral Amber",
+          "notes": "Florals · Amber · Musk · Woods"
+        },
+        {
+          "year": 2015,
+          "name": "H The Exclusive Parfum Pour Homme",
+          "collectionName": "HARRODS EXCLUSIVE",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "NüWa 2015 Edition",
+          "collectionName": "IMPERIAL SCENTS",
+          "genre": "Amber Floral",
+          "notes": "Florals · Amber · Spices · Woods"
+        },
+        {
+          "year": 2015,
+          "name": "Parfum De La Nuit No 1",
+          "collectionName": "PARFEM DE LA NUIT",
+          "genre": "Amber Woody",
+          "notes": "Amber · Woods · Spices · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "Parfum De La Nuit No 2",
+          "collectionName": "PARFEM DE LA NUIT",
+          "genre": "Amber Spicy",
+          "notes": "Spices · Amber · Woods · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "Parfum De La Nuit No 3",
+          "collectionName": "PARFEM DE LA NUIT",
+          "genre": "Woody Leather",
+          "notes": "Leather · Woods · Spices · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "Sweetie Aoud",
+          "collectionName": "TUTTI FRUTTI COLLECTION",
+          "genre": "Woody Gourmand",
+          "notes": "Fruity Notes · Oud · Woods · Musk"
+        },
+        {
+          "year": 2014,
+          "name": "Amber",
+          "collectionName": "EXTRAITS",
+          "genre": "Amber",
+          "notes": "Amber · Benzoin · Labdanum · Vanilla"
+        },
+        {
+          "year": 2014,
+          "name": "Black Gold",
+          "collectionName": "GOLD COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2014,
+          "name": "H Aoud",
+          "collectionName": "HARRODS EXCLUSIVE",
+          "genre": "Woody Oud",
+          "notes": "Oud · Woods · Spices · Amber"
+        },
+        {
+          "year": 2014,
+          "name": "Lily",
+          "collectionName": "EXTRAITS",
+          "genre": "White Floral",
+          "notes": "Lily · Florals · Musk · Woods"
+        },
+        {
+          "year": 2014,
+          "name": "Nüwa",
+          "collectionName": "IMPERIAL SCENTS",
+          "genre": "Amber Floral",
+          "notes": "Florals · Amber · Spices · Musk"
+        },
+        {
+          "year": 2014,
+          "name": "Reckless Pour Homme",
+          "collectionName": "",
+          "genre": "Aromatic Fougère",
+          "notes": "Bergamot · Lavender · Tonka Bean · Vetiver"
+        },
+        {
+          "year": 2014,
+          "name": "United Arab Emirates Spirit Of The Union",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Spices · Amber · Musk"
+        },
+        {
+          "year": 2013,
+          "name": "Enigma",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Peach · Rose · Ylang-Ylang · Vanilla"
+        },
+        {
+          "year": 2013,
+          "name": "Enigma Pour Homme",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Bergamot · Cognac · Tobacco · Ginger"
+        },
+        {
+          "year": 2013,
+          "name": "Pierre de Velay Extrait No. 11",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Floral Woody",
+          "notes": "Florals · Woods · Musk · Amber"
+        },
+        {
+          "year": 2013,
+          "name": "Pierre de Velay Extrait No. 23",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Spices · Amber · Woods · Musk"
+        },
+        {
+          "year": 2013,
+          "name": "Pierre de Velay Extrait No. 6",
+          "collectionName": "PIERRE DE VELAY COLLECTION",
+          "genre": "Chypre Floral",
+          "notes": "Florals · Oakmoss · Musk · Amber"
+        },
+        {
+          "year": 2013,
+          "name": "Roja Haute Luxe",
+          "collectionName": "HAUTE LUXE COLLECTION",
+          "genre": "Amber Floral",
+          "notes": "Rose · Jasmine · Amber · Musk"
+        },
+        {
+          "year": 2012,
+          "name": "Amber Aoud",
+          "collectionName": "AOUD COLLECTION",
+          "genre": "Amber Oud",
+          "notes": "Oud · Rose · Amber · Woods"
+        },
+        {
+          "year": 2012,
+          "name": "Amber Aoud Absolue Precieux",
+          "collectionName": "AOUD COLLECTION",
+          "genre": "Amber Oud",
+          "notes": "Oud · Rose · Amber · Woods"
+        },
+        {
+          "year": 2012,
+          "name": "Britannia Jubilee Limited Edition",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Rose · Jasmine · Oakmoss · Patchouli",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2012,
+          "name": "Fetish",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Neroli · Rose · Oakmoss"
+        },
+        {
+          "year": 2012,
+          "name": "Fetish Pour Homme",
+          "collectionName": "",
+          "genre": "Woody Leather",
+          "notes": "Leather · Spices · Woods · Musk"
+        },
+        {
+          "year": 2012,
+          "name": "Gardenia",
+          "collectionName": "EXTRAITS",
+          "genre": "White Floral",
+          "notes": "Gardenia · Florals · Musk · Woods"
+        },
+        {
+          "year": 2012,
+          "name": "Innuendo",
+          "collectionName": "",
+          "genre": "Floral Chypre",
+          "notes": "Florals · Oakmoss · Musk · Amber"
+        },
+        {
+          "year": 2012,
+          "name": "Mischief",
+          "collectionName": "",
+          "genre": "Floral Amber",
+          "notes": "Florals · Amber · Spices · Woods"
+        },
+        {
+          "year": 2012,
+          "name": "Neroli",
+          "collectionName": "EXTRAITS",
+          "genre": "Citrus Floral",
+          "notes": "Neroli · Citrus · Woods · Musk"
+        },
+        {
+          "year": 2012,
+          "name": "Risque",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Peach · Rose · Oakmoss"
+        },
+        {
+          "year": 2012,
+          "name": "Vetiver",
+          "collectionName": "EXTRAITS",
+          "genre": "Woody Earthy",
+          "notes": "Vetiver · Woods · Citrus · Musk"
+        },
+        {
+          "year": 2012,
+          "name": "Vetiver Pour Homme",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Lemon · Vetiver · Oakmoss · Cedarwood"
+        },
+        {
+          "year": 2011,
+          "name": "Danger",
+          "collectionName": "",
+          "genre": "Floral Amber",
+          "notes": "Bergamot · Jasmine · Tonka Bean · Vanilla"
+        },
+        {
+          "year": 2011,
+          "name": "Danger Pour Homme",
+          "collectionName": "",
+          "genre": "Aromatic Fougère",
+          "notes": "Lemon · Lavender · Tonka Bean · Vetiver"
+        },
+        {
+          "year": 2011,
+          "name": "Reckless",
+          "collectionName": "",
+          "genre": "Floral Chypre",
+          "notes": "Peach · Neroli · Rose · Oakmoss"
+        },
+        {
+          "year": 2011,
+          "name": "Scandal",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Rose · Jasmine · Oakmoss"
+        },
+        {
+          "year": 2011,
+          "name": "Scandal Pour Homme",
+          "collectionName": "",
+          "genre": "Aromatic Fougère",
+          "notes": "Lemon · Lavender · Clary Sage · Vetiver"
+        },
+        {
+          "year": 2010,
+          "name": "Aoud",
+          "collectionName": "AOUD COLLECTION",
+          "genre": "Woody Oud",
+          "notes": "Oud · Woods · Spices · Amber"
+        },
+        {
+          "year": 2010,
+          "name": "Aoud Absolue Precieux",
+          "collectionName": "AOUD COLLECTION",
+          "genre": "Woody Oud",
+          "notes": "Oud · Woods · Spices · Amber"
+        },
+        {
+          "year": 2010,
+          "name": "Buzz Entertainment Bottled",
+          "collectionName": "ROJA DOVE FOR \"THE SUN\"",
+          "genre": "Floral Fruity",
+          "notes": "Fruity Notes · Florals · Musk · Woods"
+        },
+        {
+          "year": 2007,
+          "name": "Enslaved",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Rose · Oakmoss · Patchouli"
+        },
+        {
+          "year": 2007,
+          "name": "Scandal",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Rose · Jasmine · Oakmoss"
+        },
+        {
+          "year": 2007,
+          "name": "Unspoken",
+          "collectionName": "",
+          "genre": "Floral Chypre",
+          "notes": "Rose · Jasmine · Oakmoss · Musk"
+        }
+      ]
     },
     {
       "id": "tiziana-terenzi",

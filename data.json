@@ -2304,7 +2304,122 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Ambre Latte",
+          "collectionName": "",
+          "genre": "Gourmand Woody",
+          "notes": "Almond Milk · Dulce de Leche · Vanilla · Akigalawood"
+        },
+        {
+          "year": 2026,
+          "name": "Osmanthus Absolu",
+          "collectionName": "",
+          "genre": "Leather Fruity",
+          "notes": "Osmanthus · Peach · Black Tea · Leather"
+        },
+        {
+          "year": 2025,
+          "name": "Velvet Iris",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Iris · Pink Pepper · Galbanum · Suede"
+        },
+        {
+          "year": 2025,
+          "name": "Nice Bergamote Extrait",
+          "collectionName": "",
+          "genre": "Citrus Gourmand",
+          "notes": "Bergamot · Jasmine Sambac · Tonka Bean · Patchouli"
+        },
+        {
+          "year": 2025,
+          "name": "The Musc Extrait",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Cinnamon · Beeswax · Australian Sandalwood · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Néroli Botanica",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Neroli · Orange Blossom · Ginger · Sandalwood"
+        },
+        {
+          "year": 2024,
+          "name": "Bois Impérial Extrait",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Black Pepper · Akigalawood · Atlas Cedar · Fir Balsam"
+        },
+        {
+          "year": 2023,
+          "name": "Patchouli Mania",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Patchouli · Cacao · Hazelnut · Vetiver"
+        },
+        {
+          "year": 2022,
+          "name": "Fig Infusion",
+          "collectionName": "",
+          "genre": "Woody Fruity",
+          "notes": "Fig · Black Tea · Iris · Sandalwood"
+        },
+        {
+          "year": 2020,
+          "name": "Bois Impérial",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Basil · Akigalawood · Vetiver · Ambroxan"
+        },
+        {
+          "year": 2019,
+          "name": "Divine Vanille",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Madagascar Vanilla · Cinnamon · Tonka Bean · Benzoin"
+        },
+        {
+          "year": 2018,
+          "name": "Mon Vetiver",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Haitian Vetiver · Gin · Lime · Gentian"
+        },
+        {
+          "year": 2018,
+          "name": "Nice Bergamote",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Calabrian Bergamot · Jasmine · Ylang-Ylang · Cedarwood"
+        },
+        {
+          "year": 2018,
+          "name": "Orange X Santal",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Bitter Orange · Australian Sandalwood · Basil · Oakmoss"
+        },
+        {
+          "year": 2018,
+          "name": "Rose Magnetic",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Turkish Rose · Lychee · Vanilla · Cedarwood"
+        },
+        {
+          "year": 2018,
+          "name": "The Musc",
+          "collectionName": "",
+          "genre": "Woody Floral Musk",
+          "notes": "Beeswax · Sandalwood · Ginger · White Musk"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "hermes",

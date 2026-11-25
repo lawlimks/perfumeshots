@@ -758,7 +758,157 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Pacific Rock Swell",
+          "collectionName": "",
+          "genre": "Woody Aquatic",
+          "notes": "Bergamot · Cardamom · Seaweed · Australian Sandalwood"
+        },
+        {
+          "year": 2026,
+          "name": "Sunset Hour Dark Peach",
+          "collectionName": "",
+          "genre": "Fruity Amber",
+          "notes": "Desert Peach · Rum · Vanilla · Sandalwood"
+        },
+        {
+          "year": 2026,
+          "name": "Rose Magnitude",
+          "collectionName": "BOTANICAL SERIES",
+          "genre": "Floral Woody",
+          "notes": "Damask Rose · Raspberry · Cumin · Sandalwood"
+        },
+        {
+          "year": 2025,
+          "name": "Pacific Rock Flower",
+          "collectionName": "",
+          "genre": "Floral Aquatic",
+          "notes": "Coastal Florals · Sea Salt · Driftwood · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Tales of Amber",
+          "collectionName": "BOTANICAL SERIES",
+          "genre": "Amber Woody",
+          "notes": "Ambergris · Labdanum · Iris · Oud"
+        },
+        {
+          "year": 2024,
+          "name": "Mystic Bliss",
+          "collectionName": "",
+          "genre": "Woody Fruity",
+          "notes": "Fig · Bergamot · Jasmine · Sandalwood"
+        },
+        {
+          "year": 2024,
+          "name": "Silky Woods Harrods Exclusive",
+          "collectionName": "BOTANICAL SERIES",
+          "genre": "Woody Spicy",
+          "notes": "Oud · Spices · Vanilla · Woods"
+        },
+        {
+          "year": 2023,
+          "name": "Ingenious Ginger",
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Ginger · Mandarin Orange · Magnolia · Amber"
+        },
+        {
+          "year": 2023,
+          "name": "Island Lush",
+          "collectionName": "BOTANICAL SERIES",
+          "genre": "Floral Fruity",
+          "notes": "Frangipani · Passionfruit · Jasmine · Sandalwood"
+        },
+        {
+          "year": 2023,
+          "name": "Silky Woods Elixir",
+          "collectionName": "BOTANICAL SERIES",
+          "genre": "Amber Oud",
+          "notes": "Oud · Vanilla · Saffron · Incense"
+        },
+        {
+          "year": 2022,
+          "name": "Purple Suede",
+          "collectionName": "BOTANICAL SERIES",
+          "genre": "Leather Floral",
+          "notes": "Suede · Lavender · Rose · Vanilla"
+        },
+        {
+          "year": 2021,
+          "name": "Sunset Hour",
+          "collectionName": "",
+          "genre": "Fruity Floral",
+          "notes": "Desert Peach · Ginger · Jasmine · Sandalwood"
+        },
+        {
+          "year": 2021,
+          "name": "Silky Woods",
+          "collectionName": "BOTANICAL SERIES",
+          "genre": "Woody Vanilla",
+          "notes": "Oud · Vanilla · Cinnamon · Tobacco Leaf"
+        },
+        {
+          "year": 2020,
+          "name": "Bohemian Lime",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Finger Lime · Vetiver · Cedarwood · Coriander"
+        },
+        {
+          "year": 2019,
+          "name": "Velvet Splendour",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Wattle Flower · Jasmine · Neroli · Sandalwood"
+        },
+        {
+          "year": 2018,
+          "name": "Southern Bloom",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Boronia · Jasmine · Ylang-Ylang · Sandalwood"
+        },
+        {
+          "year": 2016,
+          "name": "Blue Cypress",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Blue Cypress · Eucalyptus · Camphor · Patchouli"
+        },
+        {
+          "year": 2016,
+          "name": "Desert Rosewood",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Rosewood · Cardamom · Patchouli · Vanilla"
+        },
+        {
+          "year": 2016,
+          "name": "Pacific Rock Moss",
+          "collectionName": "",
+          "genre": "Woody Aquatic",
+          "notes": "Coastal Moss · Lemon · Sage · Cedarwood"
+        },
+        {
+          "year": 2016,
+          "name": "White Sandalwood",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Australian Sandalwood · Cardamom · Pepper · Myrrh"
+        },
+        {
+          "year": 2016,
+          "name": "Wood Infusion",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Agarwood · Cedarwood · Vetiver · Musk"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "histoires-de-parfums",

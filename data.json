@@ -3531,17 +3531,6 @@
       "featuredPerfumes": []
     },
     {
-      "id": "zegna",
-      "name": "ZEGNA",
-      "url": "",
-      "website": "https://www.zegna.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "",
-      "assortmentOnly": false,
-      "featuredPerfumes": []
-    },
-    {
       "id": "le-labo",
       "name": "Le Labo",
       "url": "",
@@ -3996,8 +3985,7 @@
         "serge-lutens",
         "solferino-paris",
         "trudon",
-        "van-cleef-and-arpels",
-        "zegna"
+        "van-cleef-and-arpels"
       ],
       "directoryGroup": "Escentials",
       "directoryGroups": [
@@ -4605,43 +4593,6 @@
       "bannerImage": "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/kilian_paris_cocktails.jpg"
     },
     {
-      "date": "2026-11-07",
-      "brandId": "zegna",
-      "perfume": "",
-      "discoveryType": "collection",
-      "perfumes": [
-        {
-          "name": "Il Calamaio",
-          "description": "Leathery Amber: Ink Accord, Turkish Rose Absolute & Oud Accord"
-        },
-        {
-          "name": "Il Lanificio",
-          "description": "Vanilla Suede: Tahitian Vanilla, Suede Accord & Sandalwood"
-        },
-        {
-          "name": "A Trivero",
-          "description": "Aromatic Fougère: Lavender, Rose Damascena & Myrrh"
-        },
-        {
-          "name": "Il Sottobosco",
-          "description": "Woody Spicy: Pink Pepper, Carrot Seeds & Patchouli"
-        },
-        {
-          "name": "La Panoramica",
-          "description": "Fresh Fougère: Pine Needles, Lavender & Vetiver"
-        },
-        {
-          "name": "Saga del Piemonte",
-          "description": "Woody Gourmand: Coffee Accord, Ratafia & Cedarwood Virginia"
-        }
-      ],
-      "stockists": [
-        "escentials"
-      ],
-      "retailerLabel": "Escentials",
-      "bannerImage": "https://pub-437a56093e434d13b968029d18f3bbf8.r2.dev/assets/zegna.webp"
-    },
-    {
       "date": "2026-11-06",
       "brandId": "pana-dora",
       "perfume": "Nordhaven",
@@ -4885,108 +4836,6 @@
         "Piña Paraíso builds its profile around the familiar idea of a Piña Colada. Kilian Paris describes pineapple and rum in the opening, a creamy heart of coconut and frangipani, and a warm finish of bourbon vanilla and tonka bean.",
         "The contrast is what gives the concept shape: bright fruit at the start, then a softer, more floral creaminess. Coconut and vanilla push it toward gourmand territory, while frangipani gives the composition a floral thread rather than leaving it as a literal drink accord.",
         "This looks like the most sunlit and openly playful of the trio. It may appeal to anyone who enjoys creamy fruit fragrances and wants a clear coconut presence; those looking for a dry, tart pineapple or a restrained skin scent may find the richer cocktail direction more prominent."
-      ],
-      "category": "Perfume Reviews"
-    },
-    {
-      "id": "il-calamaio-zegna-review",
-      "slug": "il-calamaio-zegna-review",
-      "title": "Il Calamaio by ZEGNA",
-      "excerpt": "An inky, leathery amber profile brings Turkish rose and oud together in ZEGNA’s portrait of a writing desk and fine materials.",
-      "brandId": "zegna",
-      "perfume": "Il Calamaio",
-      "storeIds": [
-        "escentials"
-      ],
-      "body": [
-        "Il Calamaio takes its name and character from the world of writing: ink, paper and the tactile pleasure of well-made objects. Its Leathery Amber profile pairs an ink accord with Turkish rose absolute and oud, setting up a contrast between a dark, abstract opening and richer floral woods.",
-        "The rose keeps the composition from becoming purely smoky or austere. Against oud and leather, it can read as polished rather than opulent, while the ink accord gives the fragrance its distinctive idea. This is a more atmospheric direction than a straightforward rose or amber scent.",
-        "On paper, Il Calamaio should appeal to those who enjoy dry, textured fragrances with a dark floral centre. The ink and leather concept may feel deliberately serious, while the rose offers a softer counterpoint."
-      ],
-      "category": "Perfume Reviews"
-    },
-    {
-      "id": "il-lanificio-zegna-review",
-      "slug": "il-lanificio-zegna-review",
-      "title": "Il Lanificio by ZEGNA",
-      "excerpt": "Tahitian vanilla, suede and sandalwood shape a soft, textured gourmand that leans into fabric rather than dessert.",
-      "brandId": "zegna",
-      "perfume": "Il Lanificio",
-      "storeIds": [
-        "escentials"
-      ],
-      "body": [
-        "Il Lanificio translates the feel of a textile mill into fragrance. Tahitian vanilla is paired with suede and sandalwood, giving this Vanilla Suede composition a warmer, more tactile character than a simple vanilla perfume.",
-        "Suede suggests a supple, slightly dry surface; sandalwood adds a creamy woodiness, and vanilla supplies the softness. Together, the notes point toward a smooth, close-knit impression rather than a sugary pastry accord.",
-        "This is the collection’s gentler, more enveloping idea: a good direction for someone who likes vanilla but wants texture and wood around it. The suede and sandalwood should keep the sweetness measured and give the fragrance a dressed, understated finish."
-      ],
-      "category": "Perfume Reviews"
-    },
-    {
-      "id": "a-trivero-zegna-review",
-      "slug": "a-trivero-zegna-review",
-      "title": "A Trivero by ZEGNA",
-      "excerpt": "Aromatic lavender meets Damascena rose and myrrh in a fougère that connects fresh herbs with a resinous base.",
-      "brandId": "zegna",
-      "perfume": "A Trivero",
-      "storeIds": [
-        "escentials"
-      ],
-      "body": [
-        "A Trivero is the most recognisably aromatic composition in the Studio Collection. Lavender gives its fougère structure, while Damascena rose and myrrh draw it toward a more nuanced floral-resinous heart.",
-        "That pairing can move the profile beyond the crisp, barbershop side of lavender. Rose adds depth and softness; myrrh contributes a darker, balsamic finish. The result, as described by its materials, balances familiar aromatic freshness with a more contemplative base.",
-        "A Trivero may suit someone looking for a composed, classic shape with a richer edge. It has the clearest bridge between traditional fougère structure and the collection’s focus on material and texture."
-      ],
-      "category": "Perfume Reviews"
-    },
-    {
-      "id": "il-sottobosco-zegna-review",
-      "slug": "il-sottobosco-zegna-review",
-      "title": "Il Sottobosco by ZEGNA",
-      "excerpt": "Pink pepper and carrot seed bring a dry, earthy lift to patchouli in this woody-spicy forest-inspired profile.",
-      "brandId": "zegna",
-      "perfume": "Il Sottobosco",
-      "storeIds": [
-        "escentials"
-      ],
-      "body": [
-        "Il Sottobosco takes a woody-spicy route, pairing pink pepper and carrot seeds with patchouli. The ingredients suggest a fragrance interested in the forest floor as much as the woods above it: pepper for a bright, lightly sparkling edge, carrot seed for an earthy nuance, and patchouli for depth.",
-        "Carrot seed is the unusual detail here. It can lend a dry, root-like quality that makes the familiar patchouli feel more textured, while pink pepper keeps the opening from turning too heavy.",
-        "This looks like the most grounded and earthy member of the collection. It should be worth exploring for fans of patchouli who prefer a drier, more aromatic treatment over a sweet or chocolatey one."
-      ],
-      "category": "Perfume Reviews"
-    },
-    {
-      "id": "la-panoramica-zegna-review",
-      "slug": "la-panoramica-zegna-review",
-      "title": "La Panoramica by ZEGNA",
-      "excerpt": "Pine needles, lavender and vetiver create a fresh fougère with a green, woody landscape in view.",
-      "brandId": "zegna",
-      "perfume": "La Panoramica",
-      "storeIds": [
-        "escentials"
-      ],
-      "body": [
-        "La Panoramica is built around a fresh fougère palette: pine needles, lavender and vetiver. The combination suggests cool greenery and aromatic woods, with lavender providing structure between the bright evergreen opening and the drier base.",
-        "Pine gives the composition its sense of place, while vetiver can bring a grassy, earthy finish. Together, they point toward freshness with more natural texture than a simple citrus splash.",
-        "For anyone drawn to crisp, outdoorsy fragrances, La Panoramica sounds like one of the collection’s clearest choices. Its appeal rests on the contrast between aromatic lavender and the sharper, resinous character of pine."
-      ],
-      "category": "Perfume Reviews"
-    },
-    {
-      "id": "saga-del-piemonte-zegna-review",
-      "slug": "saga-del-piemonte-zegna-review",
-      "title": "Saga del Piemonte by ZEGNA",
-      "excerpt": "A coffee accord and Italian ratafia meet Virginia cedarwood in a woody gourmand with a regional, after-dinner character.",
-      "brandId": "zegna",
-      "perfume": "Saga del Piemonte",
-      "storeIds": [
-        "escentials"
-      ],
-      "body": [
-        "Saga del Piemonte closes the collection with a woody gourmand built around coffee, ratafia and Virginia cedarwood. The ingredients create a compelling tension: roasted warmth and a liqueur-like sweetness set against the drier, structured character of cedar.",
-        "Ratafia gives the profile a regional cue and suggests fruit, spice and a rounded after-dinner quality. Coffee deepens that impression, while cedarwood helps keep the composition from becoming purely edible.",
-        "This is the collection’s most overtly gourmand idea, but the wood should give it a more tailored outline than a straightforward coffee dessert scent. It may appeal to those who like warm, boozy notes with a dry backbone."
       ],
       "category": "Perfume Reviews"
     },

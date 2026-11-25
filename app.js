@@ -315,7 +315,7 @@ function renderBrand(id) {
       <div class="brand-identity-inner">
         <section class="brand-heading">
           ${logo ? `<img class="brand-logo" src="${logo}" alt="${esc(brand.name)} logo">` : ""}
-          <div><h1>${esc(brand.name)}</h1>${brand.description ? `<p class="brand-description">${esc(brand.description)}</p>` : ""}${officialWebsite ? `<a class="brand-official-link" href="${officialWebsite}" target="_blank" rel="noopener noreferrer">${esc(officialWebsiteLabel)}</a>` : ""}</div>
+          <div><h1>${esc(brand.name)}</h1>${officialWebsite ? `<a class="brand-official-link" href="${officialWebsite}" target="_blank" rel="noopener noreferrer">${esc(officialWebsiteLabel)}</a>` : ""}${brand.description ? `<p class="brand-description">${esc(brand.description)}</p>` : ""}</div>
         </section>
       </div>
     </section>

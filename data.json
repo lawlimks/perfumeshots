@@ -626,7 +626,136 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Rose Palezia",
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Rose · Saffron · Leather · Oud"
+        },
+        {
+          "year": 2026,
+          "name": "Tonka Kumaru",
+          "collectionName": "",
+          "genre": "Amber Gourmand",
+          "notes": "Tonka Bean · Bitter Almond · Roasted Barley · Vanilla"
+        },
+        {
+          "year": 2025,
+          "name": "Black Oregano",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Oregano · Cardamom · Vetiver · Oud"
+        },
+        {
+          "year": 2025,
+          "name": "Vanille Carbone",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Vanilla · Frankincense · Labdanum · Cedarwood"
+        },
+        {
+          "year": 2024,
+          "name": "Cèdre Figalia",
+          "collectionName": "",
+          "genre": "Woody Fruity",
+          "notes": "Cedarwood · Fig · Davana · Patchouli"
+        },
+        {
+          "year": 2024,
+          "name": "Ambre Papier",
+          "collectionName": "LES EXTRAITS DE PARFUM",
+          "genre": "Amber Spicy",
+          "notes": "Immortelle · Cinnamon · Labdanum · Vanilla"
+        },
+        {
+          "year": 2024,
+          "name": "Burgundy Oud",
+          "collectionName": "LES EXTRAITS DE PARFUM",
+          "genre": "Woody Fruity",
+          "notes": "Oud · Blackcurrant · Geranium · Leather"
+        },
+        {
+          "year": 2024,
+          "name": "Néroli Hasbaya",
+          "collectionName": "LES EXTRAITS DE PARFUM",
+          "genre": "Citrus Floral",
+          "notes": "Neroli · Bergamot · Petitgrain · Cedarwood"
+        },
+        {
+          "year": 2023,
+          "name": "Cuir Nilam",
+          "collectionName": "",
+          "genre": "Leather Woody",
+          "notes": "Patchouli · Leather · Clary Sage · Vetiver"
+        },
+        {
+          "year": 2022,
+          "name": "Rose Ardoise",
+          "collectionName": "",
+          "genre": "Floral Mineral",
+          "notes": "Rose · Pink Pepper · Frankincense · Patchouli"
+        },
+        {
+          "year": 2021,
+          "name": "Narcisse Taiji",
+          "collectionName": "",
+          "genre": "Floral Green",
+          "notes": "Narcissus · Mate · Bergamot · Vetiver"
+        },
+        {
+          "year": 2019,
+          "name": "Bois d'Ambrette",
+          "collectionName": "",
+          "genre": "Woody Floral Musk",
+          "notes": "Ambrette · Iris · Cedarwood · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Cacao Porcelana",
+          "collectionName": "",
+          "genre": "Amber Gourmand",
+          "notes": "Cacao · Tonka Bean · Tobacco Leaf · Rum"
+        },
+        {
+          "year": 2019,
+          "name": "Cuir D'Iris",
+          "collectionName": "",
+          "genre": "Leather Floral",
+          "notes": "Iris · Leather · Violet Leaf · Suede"
+        },
+        {
+          "year": 2019,
+          "name": "Iris Ebène",
+          "collectionName": "",
+          "genre": "Woody Floral",
+          "notes": "Iris · Ebony Wood · Pink Pepper · Patchouli"
+        },
+        {
+          "year": 2019,
+          "name": "Peau D'Ambrette",
+          "collectionName": "",
+          "genre": "Floral Woody Musk",
+          "notes": "Ambrette · Iris · Heliotrope · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Poivre Pomelo",
+          "collectionName": "",
+          "genre": "Citrus Spicy",
+          "notes": "Grapefruit · Pink Pepper · Vetiver · Frankincense"
+        },
+        {
+          "year": 2019,
+          "name": "Santal Blond",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Sandalwood · Cardamom · Heliotrope · Ambroxan"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "bdk-parfums",

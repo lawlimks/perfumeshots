@@ -2387,7 +2387,7 @@
           "collectionName": "Trade Routes Collection",
           "genre": "Woody Spicy",
           "notes": "Nutmeg · Saffron · Coriander",
-          "status": ""
+          "status": "Discontinued"
         },
         {
           "name": "Racquets",
@@ -2403,7 +2403,7 @@
           "collectionName": "Trade Routes Collection",
           "genre": "Woody Oriental",
           "notes": "Rum · Saffron · Cedar",
-          "status": "Rumored Discontinued"
+          "status": "Discontinued"
         },
         {
           "name": "The Inimitable William Penhaligon",
@@ -2475,7 +2475,7 @@
           "collectionName": "Portraits Collection",
           "genre": "Citrus Musk",
           "notes": "Citruses · Musk · Ambroxan",
-          "status": ""
+          "status": "Discontinued"
         },
         {
           "name": "The Impudent Cousin Matthew",
@@ -2483,7 +2483,7 @@
           "collectionName": "Portraits Collection",
           "genre": "Citrus Woody",
           "notes": "Mandarin · Petitgrain · Patchouli",
-          "status": ""
+          "status": "Discontinued"
         },
         {
           "name": "Changing Constance",
@@ -2563,7 +2563,7 @@
           "collectionName": "Portraits Collection",
           "genre": "Oriental Woody",
           "notes": "Rose · Saffron · Oud",
-          "status": ""
+          "status": "Discontinued"
         },
         {
           "name": "Monsieur Beauregard",
@@ -2619,7 +2619,7 @@
           "collectionName": "British Tales",
           "genre": "Aromatic",
           "notes": "Notes TBD",
-          "status": ""
+          "status": "Discontinued"
         },
         {
           "name": "Roaring Radcliff",
@@ -2747,7 +2747,7 @@
           "collectionName": "Trade Routes Collection",
           "genre": "Floral",
           "notes": "Notes TBD",
-          "status": ""
+          "status": "Discontinued"
         }
       ],
       "perfumeCollectionNote": ""

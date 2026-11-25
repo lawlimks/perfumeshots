@@ -1446,17 +1446,6 @@
       "featuredPerfumes": []
     },
     {
-      "id": "ginori-1735",
-      "name": "Ginori 1735",
-      "url": "",
-      "website": "https://www.ginori1735.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "",
-      "assortmentOnly": false,
-      "featuredPerfumes": []
-    },
-    {
       "id": "hermes",
       "name": "HERMÈS",
       "url": "",
@@ -4725,7 +4714,6 @@
         "diptyque",
         "frederic-malle",
         "essential-parfums",
-        "ginori-1735",
         "hermes",
         "kilian-paris",
         "lartisan-parfumeur",

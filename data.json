@@ -3997,7 +3997,108 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Frozen Pineapple",
+          "collectionName": "",
+          "genre": "Tropical Fruity",
+          "notes": "Pineapple · Passion Fruit · Spearmint · Cedarwood"
+        },
+        {
+          "year": 2026,
+          "name": "Earl Grey Tea",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Yuzu · Black Tea · Cedarwood"
+        },
+        {
+          "year": 2026,
+          "name": "Champagne Rose",
+          "collectionName": "",
+          "genre": "Fruity Floral",
+          "notes": "Champagne · White Rose · Raspberry · White Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Knight Sandal",
+          "collectionName": "",
+          "genre": "Woody Leather",
+          "notes": "Sandalwood · Leather · Frankincense · Bay Leaf"
+        },
+        {
+          "year": 2025,
+          "name": "Espresso Ash",
+          "collectionName": "",
+          "genre": "Gourmand Spicy",
+          "notes": "Black Coffee · Saffron · Cherry · Tobacco"
+        },
+        {
+          "year": 2024,
+          "name": "White Iris",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Iris · Lavender · Violet Leaf · Frankincense"
+        },
+        {
+          "year": 2024,
+          "name": "Black Oud",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Whisky · Tobacco · Saffron"
+        },
+        {
+          "year": 2024,
+          "name": "Rose Scepter",
+          "collectionName": "",
+          "genre": "Floral Resinous",
+          "notes": "Damask Rose · Pink Pepper · Frankincense · Labdanum"
+        },
+        {
+          "year": 2024,
+          "name": "Cedar Throne",
+          "collectionName": "",
+          "genre": "Woody Green",
+          "notes": "Cedarwood · Galbanum · Frankincense · Elemi"
+        },
+        {
+          "year": 2024,
+          "name": "Wild Jasmine",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Jasmine · Fig Leaf · Grass · Lily-of-the-Valley"
+        },
+        {
+          "year": 2024,
+          "name": "Sage and Camomile Wise Tea",
+          "collectionName": "",
+          "genre": "Aromatic Herbal",
+          "notes": "Chamomile · Black Tea · Sage · Lavender"
+        },
+        {
+          "year": 2024,
+          "name": "Black Cherry",
+          "collectionName": "",
+          "genre": "Fruity Gourmand",
+          "notes": "Cherry · Red Wine · Almond · Rose"
+        },
+        {
+          "year": 2024,
+          "name": "Mint Rose",
+          "collectionName": "",
+          "genre": "Floral Green",
+          "notes": "Spearmint · White Rose · Fig Leaf · White Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Irish Cream Liqueur",
+          "collectionName": "",
+          "genre": "Gourmand Boozy",
+          "notes": "Whiskey · Coffee · Cocoa · Cream"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "scent-chant",

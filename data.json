@@ -2007,7 +2007,293 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Contre-Jour",
+          "collectionName": "",
+          "genre": "Aromatic Spicy",
+          "notes": "Immortelle · Rose · Sandalwood · Spices"
+        },
+        {
+          "year": 2026,
+          "name": "Northern Love",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Sandalwood · Cinnamon · Vanilla · Spices"
+        },
+        {
+          "year": 2024,
+          "name": "Acne Studios",
+          "collectionName": "",
+          "genre": "Floral Aldehydic",
+          "notes": "Aldehydes · Rose · Peach · Sandalwood"
+        },
+        {
+          "year": 2024,
+          "name": "Synthetic Nature",
+          "collectionName": "",
+          "genre": "Green Floral",
+          "notes": "Galbanum · Basil · Blackcurrant · Jasmine"
+        },
+        {
+          "year": 2024,
+          "name": "Hope",
+          "collectionName": "DESERT GEMS",
+          "genre": "Amber Oud",
+          "notes": "Oud · Incense · Pink Pepper · Cypress"
+        },
+        {
+          "year": 2023,
+          "name": "Heaven Can Wait",
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Clove · Iris · Plum · Vetiver"
+        },
+        {
+          "year": 2022,
+          "name": "Uncut Gem",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Ginger · Bergamot · Leather · Vetiver"
+        },
+        {
+          "year": 2021,
+          "name": "Synthetic Jungle",
+          "collectionName": "",
+          "genre": "Green Floral",
+          "notes": "Galbanum · Basil · Lily-of-the-Valley · Oakmoss",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2019,
+          "name": "Rose & Cuir",
+          "collectionName": "",
+          "genre": "Leather Floral",
+          "notes": "Rose · Leather · Geranium · Blackcurrant"
+        },
+        {
+          "year": 2019,
+          "name": "The Moon",
+          "collectionName": "DESERT GEMS",
+          "genre": "Amber Oud",
+          "notes": "Raspberry · Oud · Rose · Frankincense"
+        },
+        {
+          "year": 2018,
+          "name": "Music For a While",
+          "collectionName": "",
+          "genre": "Amber Fruity",
+          "notes": "Pineapple · Lavender · Patchouli · Vanilla"
+        },
+        {
+          "year": 2018,
+          "name": "Dawn",
+          "collectionName": "DESERT GEMS",
+          "genre": "Amber Oud",
+          "notes": "Oud · Rose · Frankincense · Pink Pepper"
+        },
+        {
+          "year": 2017,
+          "name": "Sale Gosse by Fanny Bal",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Neroli · Petitgrain · Violet · Bubblegum"
+        },
+        {
+          "year": 2017,
+          "name": "Promise",
+          "collectionName": "DESERT GEMS",
+          "genre": "Amber Floral",
+          "notes": "Apple · Rose · Cypriol · Patchouli"
+        },
+        {
+          "year": 2016,
+          "name": "Superstitious",
+          "collectionName": "",
+          "genre": "Floral Aldehydic",
+          "notes": "Aldehydes · Rose · Jasmine · Incense",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2015,
+          "name": "Cologne Indélébile",
+          "collectionName": "",
+          "genre": "Citrus Musk",
+          "notes": "White Musk · Neroli · Lemon · Bergamot"
+        },
+        {
+          "year": 2015,
+          "name": "Monsieur",
+          "collectionName": "",
+          "genre": "Woody Chypre",
+          "notes": "Patchouli · Rum · Tangerine · Incense"
+        },
+        {
+          "year": 2014,
+          "name": "Eau De Magnolia",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Magnolia · Bergamot · Vetiver · Cedarwood"
+        },
+        {
+          "year": 2014,
+          "name": "The Night",
+          "collectionName": "DESERT GEMS",
+          "genre": "Amber Oud",
+          "notes": "Oud · Turkish Rose · Saffron · Amber"
+        },
+        {
+          "year": 2013,
+          "name": "Dries Van Noten par Frederic Malle",
+          "collectionName": "",
+          "genre": "Woody Gourmand",
+          "notes": "Sandalwood · Vanilla · Saffron · Clove",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2010,
+          "name": "Portrait of a Lady",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Turkish Rose · Patchouli · Incense · Raspberry"
+        },
+        {
+          "year": 2009,
+          "name": "Geranium Pour Monsieur",
+          "collectionName": "",
+          "genre": "Aromatic Fougère",
+          "notes": "Mint · Geranium · Clove · Sandalwood"
+        },
+        {
+          "year": 2008,
+          "name": "Dans Tes Bras",
+          "collectionName": "",
+          "genre": "Floral Woody Musk",
+          "notes": "Violet · Cashmeran · Heliotrope · Incense"
+        },
+        {
+          "year": 2007,
+          "name": "French Lover",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Galbanum · Angelica · Cedarwood · Incense"
+        },
+        {
+          "year": 2007,
+          "name": "Outrageous!",
+          "collectionName": "",
+          "genre": "Citrus Fresh",
+          "notes": "Lime · Tangerine · Green Apple · Cinnamon"
+        },
+        {
+          "year": 2005,
+          "name": "Carnal Flower",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Tuberose · Eucalyptus · Coconut · Orange Blossom"
+        },
+        {
+          "year": 2003,
+          "name": "L'Eau d'Hiver",
+          "collectionName": "",
+          "genre": "Floral Woody Musk",
+          "notes": "Iris · Heliotrope · Honey · White Musk"
+        },
+        {
+          "year": 2003,
+          "name": "Rose Tonnerre",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Rose · Truffle · Red Wine · Patchouli"
+        },
+        {
+          "year": 2002,
+          "name": "Bigarade Concentree",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Bitter Orange · Cardamom · Pink Pepper · Cedarwood"
+        },
+        {
+          "year": 2002,
+          "name": "Vetiver Extraordinaire",
+          "collectionName": "",
+          "genre": "Woody",
+          "notes": "Vetiver · Bitter Orange · Pink Pepper · Sandalwood"
+        },
+        {
+          "year": 2001,
+          "name": "Cologne Bigarade",
+          "collectionName": "",
+          "genre": "Citrus",
+          "notes": "Bitter Orange · Bergamot · Pink Pepper · Cedarwood"
+        },
+        {
+          "year": 2000,
+          "name": "Angéliques Sous La Pluie",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Angelica · Juniper Berries · Coriander · Cedarwood"
+        },
+        {
+          "year": 2000,
+          "name": "En Passant",
+          "collectionName": "",
+          "genre": "Floral Green",
+          "notes": "Lilac · Cucumber · Wheat · White Musk"
+        },
+        {
+          "year": 2000,
+          "name": "Iris Poudre",
+          "collectionName": "",
+          "genre": "Floral Aldehydic",
+          "notes": "Iris · Aldehydes · Violet · Sandalwood"
+        },
+        {
+          "year": 2000,
+          "name": "Le Parfum de Therese",
+          "collectionName": "",
+          "genre": "Chypre Fruity",
+          "notes": "Melon · Plum · Rose · Leather"
+        },
+        {
+          "year": 2000,
+          "name": "Lipstick Rose",
+          "collectionName": "",
+          "genre": "Floral Powdery",
+          "notes": "Rose · Violet · Raspberry · Vanilla"
+        },
+        {
+          "year": 2000,
+          "name": "Lys Mediterranee",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Lily · Sea Water · Ginger · Angelica"
+        },
+        {
+          "year": 2000,
+          "name": "Musc Ravageur",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Vanilla · Cinnamon · Clove · Musk"
+        },
+        {
+          "year": 2000,
+          "name": "Noir Epices",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Orange · Clove · Cinnamon · Patchouli"
+        },
+        {
+          "year": 2000,
+          "name": "Une Fleur de Cassie",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Mimosa · Cassie · Jasmine · Sandalwood"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "essential-parfums",

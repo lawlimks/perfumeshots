@@ -1540,7 +1540,249 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2025,
+          "name": "Ha Long Bay",
+          "collectionName": "",
+          "genre": "Fruity Woody",
+          "notes": "Mango · Cardamom · Leather · Patchouli"
+        },
+        {
+          "year": 2024,
+          "name": "Aqua Memorabilis",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Clementine · Grapefruit · Cedarwood · Sandalwood"
+        },
+        {
+          "year": 2023,
+          "name": "Musc Pallas",
+          "collectionName": "",
+          "genre": "Floral Woody Musk",
+          "notes": "Musk · Iris · Peach · Tonka Bean"
+        },
+        {
+          "year": 2021,
+          "name": "Fire At Will",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Vanilla · Mimosa · Brown Sugar · Vetiver"
+        },
+        {
+          "year": 2020,
+          "name": "21 Conduit St",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Rhubarb · Lavender · Tonka Bean · Fir Balsam"
+        },
+        {
+          "year": 2019,
+          "name": "Touche Finale",
+          "collectionName": "",
+          "genre": "Floral Powdery",
+          "notes": "Mimosa · Heliotrope · Violet · Sandalwood"
+        },
+        {
+          "year": 2018,
+          "name": "Pavillon Rouge",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Rum · Whiskey · Tobacco · Vanilla"
+        },
+        {
+          "year": 2018,
+          "name": "Remember Me",
+          "collectionName": "",
+          "genre": "Amber Gourmand",
+          "notes": "Cardamom · Black Tea · Milk · Vanilla"
+        },
+        {
+          "year": 2017,
+          "name": "Incident Diplomatique",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Vetiver · Patchouli · Nutmeg · Sandalwood"
+        },
+        {
+          "year": 2017,
+          "name": "Rose Millesimee",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Damask Rose · Rose Hip · Apple · Musk"
+        },
+        {
+          "year": 2017,
+          "name": "What Matters is Inside - Italy",
+          "collectionName": "WHAT MATTERS IS INSIDE PROJECT",
+          "genre": "Woody Musk",
+          "notes": "Ambergris · Woody Notes · Musk · Ambrocenide"
+        },
+        {
+          "year": 2015,
+          "name": "Jus Interdit",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Oud · Leather · Rose · Patchouli"
+        },
+        {
+          "year": 2015,
+          "name": "Sans un Mot",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Iris · Blackcurrant · Rose · Vanilla"
+        },
+        {
+          "year": 2015,
+          "name": "Sombres Dessins",
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Rum · Rose · Patchouli · Saffron"
+        },
+        {
+          "year": 2014,
+          "name": "L'Art de la Guerre",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Immortelle · Rhubarb · Lavender · Oakmoss"
+        },
+        {
+          "year": 2013,
+          "name": "Gardez Moi",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Gardenia · Lily · Jasmine · Ylang-Ylang"
+        },
+        {
+          "year": 2013,
+          "name": "Lys Epona",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Lily · Iris · Guaiac Wood · Vanilla"
+        },
+        {
+          "year": 2012,
+          "name": "Les Jeux sont Faits",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Rum · Tobacco · Dried Fruits · Sandalwood"
+        },
+        {
+          "year": 2012,
+          "name": "Rouge Assassin",
+          "collectionName": "",
+          "genre": "Floral Woody Musk",
+          "notes": "Iris · Rice · Rose · White Musk"
+        },
+        {
+          "year": 2011,
+          "name": "Ambre Premier",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Vanilla · Candied Orange · Patchouli · Rose"
+        },
+        {
+          "year": 2011,
+          "name": "L’Arbre de la Connaissance",
+          "collectionName": "",
+          "genre": "Woody Fruity",
+          "notes": "Fig · Fig Leaf · Sandalwood · Patchouli"
+        },
+        {
+          "year": 2011,
+          "name": "La Liturgie des Heures",
+          "collectionName": "",
+          "genre": "Woody Incense",
+          "notes": "Frankincense · Cypress · Myrrh · Musk"
+        },
+        {
+          "year": 2011,
+          "name": "Private Label",
+          "collectionName": "",
+          "genre": "Woody Leather",
+          "notes": "Papyrus · Patchouli · Vetiver · Leather"
+        },
+        {
+          "year": 2011,
+          "name": "Psychedelique",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Patchouli · Labdanum · Amber · Vanilla"
+        },
+        {
+          "year": 2011,
+          "name": "Quand?",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Raspberry · Plum · Cassia · Rose"
+        },
+        {
+          "year": 2011,
+          "name": "L’Enfant Terrible",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Dates · Spices · Sandalwood · Cedarwood",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2008,
+          "name": "Terra Incognita",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Patchouli · Vetiver · Black Pepper · Oud"
+        },
+        {
+          "year": 2007,
+          "name": "Boise",
+          "collectionName": "LES 7 PARFUMS CAPITAUX",
+          "genre": "Woody Spicy",
+          "notes": "Cedarwood · Patchouli · Vetiver · Pepper"
+        },
+        {
+          "year": 2007,
+          "name": "Chypre",
+          "collectionName": "LES 7 PARFUMS CAPITAUX",
+          "genre": "Chypre Floral",
+          "notes": "Oakmoss · Patchouli · Bergamot · Rose"
+        },
+        {
+          "year": 2007,
+          "name": "Fougere",
+          "collectionName": "LES 7 PARFUMS CAPITAUX",
+          "genre": "Aromatic Fougere",
+          "notes": "Lavender · Oakmoss · Bergamot · Tonka Bean"
+        },
+        {
+          "year": 2007,
+          "name": "Hesperide",
+          "collectionName": "LES 7 PARFUMS CAPITAUX",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Lemon · Mandarin · Neroli"
+        },
+        {
+          "year": 2007,
+          "name": "Marine",
+          "collectionName": "LES 7 PARFUMS CAPITAUX",
+          "genre": "Aromatic Aquatic",
+          "notes": "Sea Notes · Driftwood · Citrus · Musk"
+        },
+        {
+          "year": 2007,
+          "name": "Oriental",
+          "collectionName": "LES 7 PARFUMS CAPITAUX",
+          "genre": "Amber Spicy",
+          "notes": "Vanilla · Amber · Spices · Benzoin"
+        },
+        {
+          "year": 2007,
+          "name": "Poudre",
+          "collectionName": "LES 7 PARFUMS CAPITAUX",
+          "genre": "Floral Powdery",
+          "notes": "Iris · Violet · Heliotrope · Musk"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "juliette-has-a-gun",

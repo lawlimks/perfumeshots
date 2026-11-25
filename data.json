@@ -816,7 +816,593 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Cedro Virtuoso",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Woody Spicy",
+          "notes": "Cedarwood · Hazelnut · Bergamot · Sandalwood"
+        },
+        {
+          "year": 2026,
+          "name": "Buongiorno Al Bacio",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Lemon · Bergamot · Herbs · Cedarwood"
+        },
+        {
+          "year": 2026,
+          "name": "Buongiorno Amore Mio",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Citrus · Neroli · Jasmine · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Buongiorno Buonanotte",
+          "collectionName": "",
+          "genre": "Aromatic Woody",
+          "notes": "Lavender · Bergamot · Sage · Cedarwood"
+        },
+        {
+          "year": 2026,
+          "name": "Buongiorno Dolce Far Niente",
+          "collectionName": "",
+          "genre": "Citrus Gourmand",
+          "notes": "Bergamot · Fig · Almond · Vanilla"
+        },
+        {
+          "year": 2026,
+          "name": "Buongiorno Gioco del Destino",
+          "collectionName": "",
+          "genre": "Citrus Spicy",
+          "notes": "Grapefruit · Pink Pepper · Rosemary · Amber"
+        },
+        {
+          "year": 2026,
+          "name": "Oud Ambrosia",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Woody Oud",
+          "notes": "Oud · Blood Orange · Saffron · Leather"
+        },
+        {
+          "year": 2026,
+          "name": "Zafferano Ambrosia",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Amber · Spices · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Colonia Il Profumo",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Bergamot · Ylang-Ylang · Patchouli · Vetiver"
+        },
+        {
+          "year": 2025,
+          "name": "Arancia di Capri La Riserva",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Citrus Woody",
+          "notes": "Blood Orange · Rosemary · Cedarwood · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Fico di Amalfi La Riserva",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Woody Fruity",
+          "notes": "Fig · Bergamot · Iris · Sandalwood"
+        },
+        {
+          "year": 2025,
+          "name": "Mirto di Panarea La Riserva",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Aromatic Citrus",
+          "notes": "Myrtle · Lemon · Cypress · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Buongiorno",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Petitgrain · Lemon · Rosemary · Cedarwood"
+        },
+        {
+          "year": 2025,
+          "name": "Gelsomino A Freddo",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Floral",
+          "notes": "Jasmine · Bergamot · Tea · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Gelsomino a Freddo Ambrosia",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Floral Amber",
+          "notes": "Jasmine · Amber · Bergamot · Vanilla"
+        },
+        {
+          "year": 2024,
+          "name": "Mandarino di Sicilia",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Citrus Green",
+          "notes": "Green Mandarin · Bergamot · Petitgrain · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Crystal Incense",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Woody Incense",
+          "notes": "Frankincense · Bergamot · Cedarwood · Amber"
+        },
+        {
+          "year": 2024,
+          "name": "Luce di Rosa",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Floral Woody",
+          "notes": "Rose · Bergamot · Geranium · Vetiver"
+        },
+        {
+          "year": 2024,
+          "name": "Oud and Zagara",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Woody Floral",
+          "notes": "Oud · Orange Blossom · Bergamot · Patchouli"
+        },
+        {
+          "year": 2023,
+          "name": "Arancia La Spugnatura",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Citrus",
+          "notes": "Blood Orange · Mandarin · Bitter Orange · Cedarwood"
+        },
+        {
+          "year": 2022,
+          "name": "Colonia C.L.U.B.",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Pink Pepper · Rosemary · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Magnolia Infinita",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Floral",
+          "notes": "Magnolia · Bergamot · Jasmine · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Zafferano",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Bergamot · Orange · Tonka Bean"
+        },
+        {
+          "year": 2021,
+          "name": "Bergamotto di Calabria La Spugnatura",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Citrus",
+          "notes": "Bergamot · Mandarin · Bitter Orange · Vetiver"
+        },
+        {
+          "year": 2021,
+          "name": "Lily of the Valley",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Floral Green",
+          "notes": "Lily-of-the-Valley · Bergamot · Grapefruit · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Oud & Spice",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Woody Spicy",
+          "notes": "Oud · Clove · Cinnamon · Bergamot"
+        },
+        {
+          "year": 2020,
+          "name": "Colonia Futura",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Bergamot · Grapefruit · Sage · Vetiver"
+        },
+        {
+          "year": 2020,
+          "name": "Note di Colonia V",
+          "collectionName": "",
+          "genre": "Citrus Spicy",
+          "notes": "Bergamot · Cardamom · Neroli · Vetiver"
+        },
+        {
+          "year": 2019,
+          "name": "Ambra",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Amber",
+          "notes": "Amber · Bergamot · Orange · Patchouli"
+        },
+        {
+          "year": 2019,
+          "name": "Camelia",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Floral Woody",
+          "notes": "Camellia · Bergamot · Jasmine · Cedarwood"
+        },
+        {
+          "year": 2019,
+          "name": "Leather",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Leather Woody",
+          "notes": "Leather · Bergamot · Rose · Birch"
+        },
+        {
+          "year": 2019,
+          "name": "Osmanthus",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Floral Fruity",
+          "notes": "Osmanthus · Mandarin · Peony · Patchouli"
+        },
+        {
+          "year": 2019,
+          "name": "Oud",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Woody Oud",
+          "notes": "Oud · Bergamot · Coriander · Leather"
+        },
+        {
+          "year": 2019,
+          "name": "Quercia",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Woody Chypre",
+          "notes": "Oakmoss · Bergamot · Geranium · Tonka Bean"
+        },
+        {
+          "year": 2019,
+          "name": "Sakura",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Floral",
+          "notes": "Cherry Blossom · Mandarin · Pink Pepper · Jasmine"
+        },
+        {
+          "year": 2019,
+          "name": "Sandalo",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Woody Spicy",
+          "notes": "Sandalwood · Bergamot · Cardamom · Amber"
+        },
+        {
+          "year": 2019,
+          "name": "Vaniglia",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Amber Vanilla",
+          "notes": "Vanilla · Bergamot · Heliotrope · Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Yuzu",
+          "collectionName": "SIGNATURES OF THE SUN",
+          "genre": "Citrus Woody",
+          "notes": "Yuzu · Bergamot · Lotus · Mimosa"
+        },
+        {
+          "year": 2018,
+          "name": "Chinotto di Liguria",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Citrus Aromatic",
+          "notes": "Chinotto · Mandarin · Rosemary · Patchouli"
+        },
+        {
+          "year": 2018,
+          "name": "Colonia Vaniglia",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Vanilla · Bergamot · Jasmine · Cedarwood"
+        },
+        {
+          "year": 2017,
+          "name": "Colonia Pura",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Bergamot · Orange · Jasmine · White Musk"
+        },
+        {
+          "year": 2017,
+          "name": "Colonia Ebano",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Ebony · Bergamot · Pink Pepper · Patchouli"
+        },
+        {
+          "year": 2017,
+          "name": "Colonia Mirra",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Myrrh · Bergamot · Orange Blossom · Sandalwood"
+        },
+        {
+          "year": 2017,
+          "name": "Note di Colonia IV",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Bergamot · Iris · Patchouli · Musk"
+        },
+        {
+          "year": 2016,
+          "name": "Peonia Nobile",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Peony · Raspberry · Black Pepper · Patchouli"
+        },
+        {
+          "year": 2016,
+          "name": "Cedro di Taormina",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Woody Aromatic",
+          "notes": "Citron · Petitgrain · Rosemary · Labdanum"
+        },
+        {
+          "year": 2016,
+          "name": "Colonia Quercia",
+          "collectionName": "",
+          "genre": "Woody Chypre",
+          "notes": "Oakmoss · Bergamot · Cardamom · Tonka Bean"
+        },
+        {
+          "year": 2016,
+          "name": "Colonia Sandalo",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Sandalwood · Bergamot · Cardamom · Amber"
+        },
+        {
+          "year": 2016,
+          "name": "Note di Colonia I",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Neroli · Lavender · Cedarwood"
+        },
+        {
+          "year": 2016,
+          "name": "Note di Colonia II",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Bergamot · Neroli · Vetiver · Musk"
+        },
+        {
+          "year": 2016,
+          "name": "Note di Colonia III",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Bergamot · Rose · Frankincense · Oud"
+        },
+        {
+          "year": 2015,
+          "name": "Colonia Club",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Mint · Bergamot · Lavender · Ambergris"
+        },
+        {
+          "year": 2015,
+          "name": "Aqua Nobile Rosa",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Rose · Bergamot · Neroli · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "Colonia Ambra",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Amber · Bergamot · Rose · Sandalwood"
+        },
+        {
+          "year": 2014,
+          "name": "Rosa Nobile",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Rose · Bergamot · Peony · Musk"
+        },
+        {
+          "year": 2014,
+          "name": "Ginepro di Sardegna",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Woody Spicy",
+          "notes": "Juniper Berries · Nutmeg · Black Pepper · Cedarwood"
+        },
+        {
+          "year": 2014,
+          "name": "Colonia Leather",
+          "collectionName": "",
+          "genre": "Leather Woody",
+          "notes": "Leather · Bergamot · Rose · Cedarwood"
+        },
+        {
+          "year": 2013,
+          "name": "Aqua Nobile Gelsomino",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Jasmine · Bergamot · Mandarin Orange · Musk"
+        },
+        {
+          "year": 2013,
+          "name": "Aqua Nobile Iris",
+          "collectionName": "",
+          "genre": "Floral Powdery",
+          "notes": "Iris · Bergamot · Mandarin Orange · Musk"
+        },
+        {
+          "year": 2013,
+          "name": "Aqua Nobile Magnolia",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Magnolia · Bergamot · Neroli · Musk"
+        },
+        {
+          "year": 2012,
+          "name": "Iris Nobile Sublime",
+          "collectionName": "",
+          "genre": "Floral Powdery",
+          "notes": "Iris · Neroli · Mandarin Orange · Amber"
+        },
+        {
+          "year": 2012,
+          "name": "Colonia Intensa Oud",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Bergamot · Cedarwood · Coriander"
+        },
+        {
+          "year": 2012,
+          "name": "Colonia Oud",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Bergamot · Cedarwood · Amber"
+        },
+        {
+          "year": 2011,
+          "name": "Colonia Designer Edition",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Lemon · Neroli · Lavender"
+        },
+        {
+          "year": 2011,
+          "name": "Gelsomino Nobile",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Jasmine · Neroli · Mandarin Orange · Cedarwood"
+        },
+        {
+          "year": 2010,
+          "name": "Essenza di Colonia",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Bergamot · Neroli · Vetiver · Musk"
+        },
+        {
+          "year": 2010,
+          "name": "Bergamotto di Calabria",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Citrus Woody",
+          "notes": "Bergamot · Citron · Ginger · Vetiver"
+        },
+        {
+          "year": 2009,
+          "name": "Magnolia Nobile",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Magnolia · Bergamot · Jasmine · Vanilla"
+        },
+        {
+          "year": 2009,
+          "name": "Colonia Assoluta In Villa",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Bergamot · Orange · Patchouli · Cedarwood"
+        },
+        {
+          "year": 2009,
+          "name": "Profumo Eau de Parfum",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Rose · Jasmine · Amber"
+        },
+        {
+          "year": 2008,
+          "name": "Mirto di Panarea",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Aromatic Citrus",
+          "notes": "Myrtle · Lemon · Bergamot · Cedarwood"
+        },
+        {
+          "year": 2007,
+          "name": "Colonia Intensa",
+          "collectionName": "",
+          "genre": "Woody Leather",
+          "notes": "Bergamot · Ginger · Leather · Cedarwood"
+        },
+        {
+          "year": 2006,
+          "name": "Iris Nobile",
+          "collectionName": "",
+          "genre": "Floral Powdery",
+          "notes": "Iris · Star Anise · Ylang-Ylang · Patchouli"
+        },
+        {
+          "year": 2006,
+          "name": "Fico di Amalfi",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Woody Fruity",
+          "notes": "Fig · Bergamot · Grapefruit · Cedarwood"
+        },
+        {
+          "year": 2005,
+          "name": "Cipresso di Toscana",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Woody Aromatic",
+          "notes": "Cypress · Pine · Basil · Sage"
+        },
+        {
+          "year": 2003,
+          "name": "Colonia Assoluta",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Bergamot · Bitter Orange · Jasmine · Cedarwood"
+        },
+        {
+          "year": 1999,
+          "name": "Mandorlo di Sicilia",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Floral Gourmand",
+          "notes": "Almond · Star Anise · Peach · Vanilla"
+        },
+        {
+          "year": 1999,
+          "name": "Arancia di Capri",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Citrus",
+          "notes": "Orange · Mandarin · Bergamot · Caramel"
+        },
+        {
+          "year": 1999,
+          "name": "Foglie di Basilico",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Aromatic Green",
+          "notes": "Basil · Bergamot · Mint · Cedarwood",
+          "status": "Discontinued"
+        },
+        {
+          "year": 1999,
+          "name": "Quercia Marina",
+          "collectionName": "BLU MEDITERRANEO",
+          "genre": "Woody Aquatic",
+          "notes": "Oakmoss · Sea Notes · Bergamot · Cedarwood",
+          "status": "Discontinued"
+        },
+        {
+          "year": 1930,
+          "name": "Profumo",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Bergamot · Rose · Jasmine · Oakmoss"
+        },
+        {
+          "year": 1916,
+          "name": "Colonia",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Lemon · Bergamot · Lavender · Rosemary"
+        },
+        {
+          "year": "",
+          "name": "Colonia Essenza",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Neroli · Bergamot · Vetiver · White Musk"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "amouage",

@@ -615,7 +615,185 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2025,
+          "name": "Novae Vanilla",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Vanilla · Mimosa · Mineral Accord · Amber Woods"
+        },
+        {
+          "year": 2024,
+          "name": "Cocoa Kimiya",
+          "collectionName": "ABSTRACTION COLLECTION",
+          "genre": "Gourmand Woody",
+          "notes": "Cacao · Cardamom · Walnut · Vanilla"
+        },
+        {
+          "year": 2024,
+          "name": "Kawa Karda",
+          "collectionName": "ABSTRACTION COLLECTION",
+          "genre": "Spicy Gourmand",
+          "notes": "Coffee · Cardamom · Rose · Vetiver"
+        },
+        {
+          "year": 2024,
+          "name": "Blue Madeleine",
+          "collectionName": "MEMORY LANE",
+          "genre": "Gourmand Oriental",
+          "notes": "Black Tea · Praline · Cinnamon · Sandalwood"
+        },
+        {
+          "year": 2024,
+          "name": "Villa Primerose",
+          "collectionName": "MEMORY LANE",
+          "genre": "Floral Woody",
+          "notes": "Pear · Rose · Leather · Cedarwood"
+        },
+        {
+          "year": 2023,
+          "name": "Lune Feline Extrait",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Vanilla · Cinnamon · Cardamom · Cedarwood"
+        },
+        {
+          "year": 2022,
+          "name": "Noir by Night",
+          "collectionName": "LES FRIVOLITÉS",
+          "genre": "Amber Woody",
+          "notes": "Mandarin · Cardamom · Osmanthus · Sandalwood"
+        },
+        {
+          "year": 2022,
+          "name": "Pink Me Up",
+          "collectionName": "LES FRIVOLITÉS",
+          "genre": "Floral Fruity",
+          "notes": "Bergamot · Orange Blossom · Blackberry · Vanilla"
+        },
+        {
+          "year": 2022,
+          "name": "Riviera Sunrise",
+          "collectionName": "RIVIERA COLLECTION",
+          "genre": "Citrus Floral",
+          "notes": "Bergamot · Mandarin · Orange Blossom · Fig"
+        },
+        {
+          "year": 2020,
+          "name": "Rouge Sarây",
+          "collectionName": "THE BLACK COLLECTION",
+          "genre": "Amber Spicy",
+          "notes": "Plum · Cinnamon · Cumin · Patchouli"
+        },
+        {
+          "year": 2020,
+          "name": "Blanc Polychrome",
+          "collectionName": "THE WHITE COLLECTION",
+          "genre": "Citrus Musk",
+          "notes": "Bergamot · Rhubarb · Fig · White Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Pomelo Riviera",
+          "collectionName": "RIVIERA COLLECTION",
+          "genre": "Citrus Woody",
+          "notes": "Pomelo · Jasmine · Vetiver · Patchouli"
+        },
+        {
+          "year": 2019,
+          "name": "Riviera Drive",
+          "collectionName": "RIVIERA COLLECTION",
+          "genre": "Citrus Aromatic",
+          "notes": "Lemon · Cypress · Rosemary · Amber"
+        },
+        {
+          "year": 2019,
+          "name": "Riviera Lazuli",
+          "collectionName": "RIVIERA COLLECTION",
+          "genre": "Woody Aromatic",
+          "notes": "Bergamot · Cypress · Vetiver · Guaiac Wood"
+        },
+        {
+          "year": 2018,
+          "name": "Bois Sikar",
+          "collectionName": "",
+          "genre": "Woody Smoky",
+          "notes": "Cedarwood · Guaiac Wood · Smoke · Nutmeg"
+        },
+        {
+          "year": 2018,
+          "name": "Choeur Des Anges",
+          "collectionName": "THE WHITE COLLECTION",
+          "genre": "Citrus Floral",
+          "notes": "Orange Blossom · Bergamot · Mandarin · Cedarwood"
+        },
+        {
+          "year": 2018,
+          "name": "Crépuscule Des Âmes",
+          "collectionName": "THE WHITE COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Cardamom · Clary Sage · Vetiver · Frankincense"
+        },
+        {
+          "year": 2018,
+          "name": "Nuda Veritas",
+          "collectionName": "THE WHITE COLLECTION",
+          "genre": "Floral Musk",
+          "notes": "Bergamot · Jasmine · Iris · Ambroxan"
+        },
+        {
+          "year": 2017,
+          "name": "Iris Fauve",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Iris · Cinnamon · Myrrh · Vetiver"
+        },
+        {
+          "year": 2017,
+          "name": "Musc Immortel",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Immortelle · Iris · Patchouli · Musk"
+        },
+        {
+          "year": 2015,
+          "name": "Aube Rubis",
+          "collectionName": "",
+          "genre": "Fruity Woody",
+          "notes": "Blackberry · Grapefruit · Patchouli · Vanilla"
+        },
+        {
+          "year": 2015,
+          "name": "Cuir Sacré",
+          "collectionName": "",
+          "genre": "Leather Woody",
+          "notes": "Leather · Cade · Saffron · Cedarwood"
+        },
+        {
+          "year": 2015,
+          "name": "Larmes du Désert",
+          "collectionName": "",
+          "genre": "Woody Incense",
+          "notes": "Frankincense · Myrrh · Cypress · Cedarwood"
+        },
+        {
+          "year": 2015,
+          "name": "Lune Feline",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Vanilla · Cinnamon · Cardamom · Peru Balsam"
+        },
+        {
+          "year": 2015,
+          "name": "Rose Omeyyade",
+          "collectionName": "",
+          "genre": "Floral Amber",
+          "notes": "Damask Rose · Raspberry · Patchouli · Oud"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "atelier-materi",

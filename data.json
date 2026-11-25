@@ -2270,7 +2270,423 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Cologne Pour le Soir",
+          "collectionName": "MY VERY INTIMATE PERFUMES",
+          "genre": "Amber Spicy",
+          "notes": "Benzoin · Honey · Cumin · Labdanum"
+        },
+        {
+          "year": 2026,
+          "name": "Cologne Pour le Matin",
+          "collectionName": "MY VERY INTIMATE PERFUMES",
+          "genre": "Citrus Floral",
+          "notes": "Bergamot · Neroli · Orange Blossom · Violet"
+        },
+        {
+          "year": 2026,
+          "name": "Kurky Eau Parfumée",
+          "collectionName": "",
+          "genre": "Fruity Gourmand",
+          "notes": "Peach · Raspberry · White Musk · Vanilla"
+        },
+        {
+          "year": 2026,
+          "name": "Oud Velvet Mood Extrait de Parfum",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Peach · Suede · Saffron"
+        },
+        {
+          "year": 2025,
+          "name": "Le Beau Parfum",
+          "collectionName": "MY VERY INTIMATE PERFUMES",
+          "genre": "White Floral",
+          "notes": "Tuberose · Jasmine · Ylang-Ylang · Orange Blossom"
+        },
+        {
+          "year": 2025,
+          "name": "Kurky",
+          "collectionName": "",
+          "genre": "Fruity Gourmand",
+          "notes": "Peach · Raspberry · Gummy Candies · White Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Absolue Pour Le Matin",
+          "collectionName": "MY VERY INTIMATE PERFUMES",
+          "genre": "Floral Woody Musk",
+          "notes": "Lemon · Thyme · Powdery Notes · Woody Notes"
+        },
+        {
+          "year": 2024,
+          "name": "Absolue Pour Le Soir",
+          "collectionName": "MY VERY INTIMATE PERFUMES",
+          "genre": "Amber Spicy",
+          "notes": "Honey · Incense · Cumin · Benzoin"
+        },
+        {
+          "year": 2024,
+          "name": "APOM",
+          "collectionName": "",
+          "genre": "Floral Amber",
+          "notes": "Orange Blossom · Lavender · Ylang-Ylang · White Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Reflets d'Ambre",
+          "collectionName": "MY VERY INTIMATE PERFUMES",
+          "genre": "Amber Spicy",
+          "notes": "Pink Pepper · Jasmine · Hedione · Amber"
+        },
+        {
+          "year": 2023,
+          "name": "Aqua Media Cologne Forte",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Verbena · Bergamot · Fennel · Matcha Tea"
+        },
+        {
+          "year": 2022,
+          "name": "724",
+          "collectionName": "",
+          "genre": "Floral Aldehydic",
+          "notes": "Aldehydes · Bergamot · Jasmine · White Musk"
+        },
+        {
+          "year": 2021,
+          "name": "Aqua Universalis Cologne Forte",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Bergamot · White Musk · Mock Orange · Sweet Pea"
+        },
+        {
+          "year": 2021,
+          "name": "Aqua Vitae Cologne Forte",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Mandarin Orange · Bergamot · Solar Notes · Sandalwood"
+        },
+        {
+          "year": 2021,
+          "name": "Aqua Celestia Cologne Forte",
+          "collectionName": "",
+          "genre": "Citrus Fruity",
+          "notes": "Bergamot · Blackcurrant · Mimosa · Jasmine"
+        },
+        {
+          "year": 2020,
+          "name": "L'Homme À la Rose",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Damask Rose · Grapefruit · Sage · Amberwood"
+        },
+        {
+          "year": 2019,
+          "name": "Amyris Femme Extrait de Parfum",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Iris · Amyris · Pear · Jasmine"
+        },
+        {
+          "year": 2019,
+          "name": "Amyris Homme Extrait de Parfum",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Tonka Bean · Amyris · Cinnamon · Vanilla"
+        },
+        {
+          "year": 2019,
+          "name": "L'eau À la Rose",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Damask Rose · Litchi · Peony · White Musk"
+        },
+        {
+          "year": 2019,
+          "name": "Gentle Fluidity Gold",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Vanilla · Amber · Musk · Juniper Berries"
+        },
+        {
+          "year": 2019,
+          "name": "Gentle Fluidity Silver",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Juniper Berries · Gin · Nutmeg · Amberwood"
+        },
+        {
+          "year": 2018,
+          "name": "Aqua Celestia Forte",
+          "collectionName": "",
+          "genre": "Citrus Green",
+          "notes": "Lime · Mint · Blackcurrant · Petitgrain"
+        },
+        {
+          "year": 2018,
+          "name": "Oud Extrait de Parfum",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Saffron · Elemi · Cedarwood"
+        },
+        {
+          "year": 2018,
+          "name": "Oud Silk Mood",
+          "collectionName": "",
+          "genre": "Floral Oud",
+          "notes": "Bulgarian Rose · Oud · Chamomile · Papyrus"
+        },
+        {
+          "year": 2017,
+          "name": "Oud Satin Mood Extrait de Parfum",
+          "collectionName": "",
+          "genre": "Amber Oud",
+          "notes": "Damask Rose · Oud · Violet · Vanilla"
+        },
+        {
+          "year": 2017,
+          "name": "Baccarat Rouge 540 Extrait de Parfum",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Bitter Almond · Saffron · Ambergris · Cedarwood"
+        },
+        {
+          "year": 2017,
+          "name": "Aqua Celestia",
+          "collectionName": "",
+          "genre": "Floral Green",
+          "notes": "Lime · Mint · Blackcurrant · Mimosa"
+        },
+        {
+          "year": 2016,
+          "name": "Petit Matin",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Litsea Cubeba · Lemon · Orange Blossom · Lavender"
+        },
+        {
+          "year": 2016,
+          "name": "Grand Soir",
+          "collectionName": "",
+          "genre": "Amber",
+          "notes": "Amber · Benzoin · Tonka Bean · Vanilla"
+        },
+        {
+          "year": 2015,
+          "name": "Le Beau Parfum",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Tuberose · Jasmine · Ylang-Ylang · Orange Blossom"
+        },
+        {
+          "year": 2015,
+          "name": "Baccarat Rouge 540",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Saffron · Jasmine · Amberwood · Fir Resin"
+        },
+        {
+          "year": 2015,
+          "name": "Aqua Vitae Forte",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Cinnamon · Cardamom · Mandarin Orange · Sandalwood"
+        },
+        {
+          "year": 2015,
+          "name": "Oud Satin Mood",
+          "collectionName": "",
+          "genre": "Amber Oud",
+          "notes": "Turkish Rose · Oud · Vanilla · Violet"
+        },
+        {
+          "year": 2014,
+          "name": "A La Rose",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Damask Rose · Centifolia Rose · Bergamot · Violet"
+        },
+        {
+          "year": 2014,
+          "name": "Feminin Pluriel",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Iris · Violet · Rose · Jasmine"
+        },
+        {
+          "year": 2014,
+          "name": "Masculin Pluriel",
+          "collectionName": "",
+          "genre": "Woody Fougère",
+          "notes": "Lavender · Leather · Cedarwood · Vetiver"
+        },
+        {
+          "year": 2013,
+          "name": "Allegria",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Bergamot · Neroli · Orange Blossom · Musk"
+        },
+        {
+          "year": 2013,
+          "name": "Ciel de Gum",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Pink Pepper · Cinnamon · Rose · Amber"
+        },
+        {
+          "year": 2013,
+          "name": "Aqua Vitae",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Lemon · Mandarin Orange · Tonka Bean · Guaiac Wood"
+        },
+        {
+          "year": 2013,
+          "name": "Oud Cashmere Mood",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Benzoin · Labdanum · Vanilla"
+        },
+        {
+          "year": 2013,
+          "name": "Oud Velvet Mood",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Saffron · Cinnamon · Copaiba Balm"
+        },
+        {
+          "year": 2013,
+          "name": "Oud Silk Mood Extrait de Parfum",
+          "collectionName": "",
+          "genre": "Floral Oud",
+          "notes": "Bulgarian Rose · Oud · Chamomile · Papyrus"
+        },
+        {
+          "year": 2012,
+          "name": "754",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Lemon · Lily-of-the-Valley · Freesia · Sandalwood"
+        },
+        {
+          "year": 2012,
+          "name": "Coloratura",
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Pink Pepper · Rose · Iris · White Musk"
+        },
+        {
+          "year": 2012,
+          "name": "Amyris Homme",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Rosemary · Mandarin Orange · Amyris · Tonka Bean"
+        },
+        {
+          "year": 2012,
+          "name": "Amyris Femme",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Lemon Blossom · Amyris · Iris · Vetiver"
+        },
+        {
+          "year": 2012,
+          "name": "Oud",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Saffron · Elemi · Patchouli"
+        },
+        {
+          "year": 2011,
+          "name": "Floralia",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "White Flowers · Green Notes · White Musk"
+        },
+        {
+          "year": 2011,
+          "name": "Aqua Universalis Forte",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Bergamot · Lemon · Jasmine · White Musk"
+        },
+        {
+          "year": 2010,
+          "name": "Absolue Pour le Matin",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Lemon · Thyme · Lavender · Iris"
+        },
+        {
+          "year": 2010,
+          "name": "Absolue Pour le Soir",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Honey · Incense · Cumin · Benzoin"
+        },
+        {
+          "year": 2009,
+          "name": "APOM Pour Femme Elixir",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Orange Blossom · Ylang-Ylang · Cedarwood · Amber"
+        },
+        {
+          "year": 2009,
+          "name": "Cologne Pour Le Soir",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Benzoin · Honey · Incense · Rose"
+        },
+        {
+          "year": 2009,
+          "name": "Cologne Pour Le Matin",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Bergamot · Lemon · Neroli · Lavender"
+        },
+        {
+          "year": 2009,
+          "name": "Lumière Noire Pour Homme",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Rose · Patchouli · Cumin · Artemisia"
+        },
+        {
+          "year": 2009,
+          "name": "Lumière Noire Pour Femme",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Rose · Patchouli · Narcissus · Pimento"
+        },
+        {
+          "year": 2009,
+          "name": "APOM Pour Homme",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Orange Blossom · Cedarwood · Amber"
+        },
+        {
+          "year": 2009,
+          "name": "APOM Pour Femme",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Orange Blossom · Ylang-Ylang · Cedarwood"
+        },
+        {
+          "year": 2009,
+          "name": "Aqua Universalis",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Bergamot · Amalfi Lemon · Orange · White Musk"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "matiere-premiere",

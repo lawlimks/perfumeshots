@@ -988,7 +988,117 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Malik The Sovereign",
+          "collectionName": "",
+          "genre": "Leather Spicy",
+          "notes": "Passionfruit · Saffron · Leather · Oud"
+        },
+        {
+          "year": 2024,
+          "name": "Black Butterfly",
+          "collectionName": "LIMITED SERIES",
+          "genre": "Woody Leather",
+          "notes": "Suede · Iris · Patchouli · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "La French",
+          "collectionName": "NARCOTIQUE COLLECTION",
+          "genre": "Floral Powdery",
+          "notes": "Almond · Iris · Vanilla · Ambergris"
+        },
+        {
+          "year": 2024,
+          "name": "Barba Rossa",
+          "collectionName": "PIRATES COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Spices · Woods · Amber · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Daï Quiri",
+          "collectionName": "ROUGE EXTRÊME COLLECTION",
+          "genre": "Citrus Fruity",
+          "notes": "Lime · Melon · Pineapple · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Mula Mula Double Caramel",
+          "collectionName": "LIMITED SERIES",
+          "genre": "Gourmand Fruity",
+          "notes": "Caramel · Peach · Ginger · Vanilla"
+        },
+        {
+          "year": 2022,
+          "name": "Green Butterfly",
+          "collectionName": "LIMITED SERIES",
+          "genre": "Floral Leather",
+          "notes": "Iris · Leather · Vanilla · Musk"
+        },
+        {
+          "year": 2021,
+          "name": "The Chronic Rouge Extreme",
+          "collectionName": "ROUGE EXTRÊME COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Cannabis · Spices · Amber · Woods"
+        },
+        {
+          "year": 2020,
+          "name": "Black Dragon",
+          "collectionName": "PIRATES COLLECTION",
+          "genre": "Woody Gourmand",
+          "notes": "Honey · Mango · Pineapple · Woods"
+        },
+        {
+          "year": 2020,
+          "name": "Mula Mula Rouge Extrême",
+          "collectionName": "ROUGE EXTRÊME COLLECTION",
+          "genre": "Amber Gourmand",
+          "notes": "Caramel · Red Fruits · Amber · Vanilla"
+        },
+        {
+          "year": 2019,
+          "name": "The Chronic",
+          "collectionName": "NARCOTIQUE COLLECTION",
+          "genre": "Woody Spicy",
+          "notes": "Cannabis · Spices · Patchouli · Woods"
+        },
+        {
+          "year": 2019,
+          "name": "Oud Bourbon",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Bourbon · Vanilla · Leather",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2018,
+          "name": "Mula Mula",
+          "collectionName": "NARCOTIQUE COLLECTION",
+          "genre": "Fruity Gourmand",
+          "notes": "Pear · Caramel · Vanilla · Musk"
+        },
+        {
+          "year": 2018,
+          "name": "Pirates 2.0",
+          "collectionName": "PIRATES COLLECTION",
+          "genre": "Floral Spicy",
+          "notes": "Bergamot · Lily-of-the-Valley · Tuberose · Pear"
+        },
+        {
+          "year": 2018,
+          "name": "0.9",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Bergamot · Lavender · Cedarwood · Musk",
+          "status": "Discontinued"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "casamorati",

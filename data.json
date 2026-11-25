@@ -4263,7 +4263,220 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Arabian Mate",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Cardamom · Spiced Pear · Rose · Oud"
+        },
+        {
+          "year": 2026,
+          "name": "Knight's Tour",
+          "collectionName": "",
+          "genre": "Aromatic Woody",
+          "notes": "Cedrat · Nutmeg · Saffron · Vetiver"
+        },
+        {
+          "year": 2025,
+          "name": "Playmate",
+          "collectionName": "",
+          "genre": "Floral Gourmand",
+          "notes": "Lemon · Coconut Milk · Water Lily · Vanilla"
+        },
+        {
+          "year": 2025,
+          "name": "Check Please",
+          "collectionName": "",
+          "genre": "Gourmand Spicy",
+          "notes": "Green Apple · Hazelnut · Black Plum · Bourbon Vanilla"
+        },
+        {
+          "year": 2025,
+          "name": "Kingside",
+          "collectionName": "",
+          "genre": "Nutty Gourmand",
+          "notes": "Pistachio · Hazelnut · Amber · Peru Balsam"
+        },
+        {
+          "year": 2025,
+          "name": "Queenside",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Blackcurrant · Geranium · Musk · Woody Notes"
+        },
+        {
+          "year": 2024,
+          "name": "Counterplay",
+          "collectionName": "",
+          "genre": "Tropical Fruity",
+          "notes": "Melon · Guava · Osmanthus · Patchouli"
+        },
+        {
+          "year": 2024,
+          "name": "Opera Mate",
+          "collectionName": "",
+          "genre": "Gourmand Woody",
+          "notes": "Chestnut · Caramel · Suede · Woody Notes"
+        },
+        {
+          "year": 2024,
+          "name": "Mentor",
+          "collectionName": "",
+          "genre": "Gourmand Oud",
+          "notes": "Salted Caramel · Roasted Coffee · Oud · Sandalwood"
+        },
+        {
+          "year": 2024,
+          "name": "Prodigy",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Rose · Patchouli · Wood · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Lionora",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Apricot · Passion Fruit · Freesia · Sandalwood"
+        },
+        {
+          "year": 2023,
+          "name": "En Prise",
+          "collectionName": "",
+          "genre": "Aromatic Green",
+          "notes": "Saffron · Ginger · Bergamot · Vetiver"
+        },
+        {
+          "year": 2023,
+          "name": "Vieri",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Lemon · Camellia · Pink Pepper · Incense"
+        },
+        {
+          "year": 2023,
+          "name": "Queening",
+          "collectionName": "",
+          "genre": "Powdery Floral",
+          "notes": "Cotton · Iris · Coconut · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "The Forward",
+          "collectionName": "",
+          "genre": "Floral Aquatic",
+          "notes": "Salt · Jasmine · Cashmeran · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Gambit",
+          "collectionName": "",
+          "genre": "Aromatic Woody",
+          "notes": "Petitgrain · Geranium · Patchouli · Woody Notes"
+        },
+        {
+          "year": 2023,
+          "name": "Sans Voir",
+          "collectionName": "",
+          "genre": "Woody Aquatic",
+          "notes": "Salt · Grapefruit · Rose · Palo Santo"
+        },
+        {
+          "year": 2023,
+          "name": "Ruy Lopez",
+          "collectionName": "",
+          "genre": "Chypre Fruity",
+          "notes": "Cherry · Leather · Rose · Patchouli"
+        },
+        {
+          "year": 2023,
+          "name": "Sissa",
+          "collectionName": "",
+          "genre": "Amber Gourmand",
+          "notes": "Sesame · Tonka Bean · Cistus · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "French Defense",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Cherry · Violet Leaf · Rose · Cedarwood"
+        },
+        {
+          "year": 2022,
+          "name": "Checkmate",
+          "collectionName": "",
+          "genre": "Chypre Floral",
+          "notes": "Champagne · Rose · Tobacco · Moss"
+        },
+        {
+          "year": 2022,
+          "name": "Caissa",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Liquorice · Ylang-Ylang · Musk · Amber"
+        },
+        {
+          "year": 2022,
+          "name": "Blockade",
+          "collectionName": "",
+          "genre": "Fruity Woody",
+          "notes": "Mango · Tomato Leaf · Leather · Cedarwood"
+        },
+        {
+          "year": 2022,
+          "name": "Castling",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Fig · Cardamom · Cedarwood · Sandalwood"
+        },
+        {
+          "year": 2022,
+          "name": "As-Suli’s Diamond",
+          "collectionName": "",
+          "genre": "Amber Woody",
+          "notes": "Saffron · Amber · Oud · Woody Notes"
+        },
+        {
+          "year": 2022,
+          "name": "Scholar’s Mate",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Cinnamon · Iris · Sandalwood · Spicy Notes"
+        },
+        {
+          "year": 2022,
+          "name": "J'adoube",
+          "collectionName": "",
+          "genre": "Fruity Floral",
+          "notes": "Pomegranate · Rose · Jasmine · Amber"
+        },
+        {
+          "year": 2022,
+          "name": "Double Attack",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Bitter Orange · Geranium · Sandalwood · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Gardez",
+          "collectionName": "",
+          "genre": "Leather Woody",
+          "notes": "Bergamot · Leather · Vetiver · Woody Notes"
+        },
+        {
+          "year": 2022,
+          "name": "Grand Master",
+          "collectionName": "",
+          "genre": "Woody Floral",
+          "notes": "Rose · Tuberose · Patchouli · Sandalwood"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "le-labo",

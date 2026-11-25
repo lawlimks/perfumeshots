@@ -1863,17 +1863,6 @@
       "featuredPerfumes": []
     },
     {
-      "id": "carven",
-      "name": "Carven",
-      "url": "",
-      "website": "https://www.carven.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "2026-09-26",
-      "assortmentOnly": true,
-      "featuredPerfumes": []
-    },
-    {
       "id": "czech-speake",
       "name": "Czech & Speake",
       "url": "",
@@ -2596,17 +2585,6 @@
       "name": "BYREDO",
       "url": "",
       "website": "https://www.byredo.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "",
-      "assortmentOnly": false,
-      "featuredPerfumes": []
-    },
-    {
-      "id": "chopard",
-      "name": "Chopard",
-      "url": "",
-      "website": "https://www.chopard.com",
       "description": "",
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
@@ -5833,17 +5811,6 @@
       "featuredPerfumes": []
     },
     {
-      "id": "moncler",
-      "name": "MONCLER",
-      "url": "",
-      "website": "https://www.moncler.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "",
-      "assortmentOnly": false,
-      "featuredPerfumes": []
-    },
-    {
       "id": "ormaie",
       "name": "ORMAIE",
       "url": "",
@@ -8556,7 +8523,6 @@
         "bdk-parfums",
         "bon-parfumeur",
         "bond-no-9",
-        "carven",
         "czech-speake",
         "eight-bob",
         "ex-nihilo",
@@ -8630,7 +8596,6 @@
         "bjork-and-berries",
         "bvlgari",
         "byredo",
-        "chopard",
         "creed",
         "ds-durga",
         "diptyque",
@@ -8646,7 +8611,6 @@
         "matiere-premiere",
         "memo-paris",
         "miller-harris",
-        "moncler",
         "ormaie",
         "penhaligons",
         "serge-lutens",

@@ -449,7 +449,66 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "B87.135",
+          "collectionName": "Harrods Exclusive",
+          "genre": "Leather Woody",
+          "notes": "Pink Pepper · Ambrette Seed · Saffron · Orris Butter"
+        },
+        {
+          "year": 2025,
+          "name": "Aldebaran",
+          "collectionName": "",
+          "genre": "Floral Spicy",
+          "notes": "Tuberose · Paprika · Mate · Tonka Bean"
+        },
+        {
+          "year": 2024,
+          "name": "Tilia",
+          "collectionName": "",
+          "genre": "Floral Woody Musk",
+          "notes": "Linden Blossom · Broom · Jasmine Sambac · Vetiver"
+        },
+        {
+          "year": 2023,
+          "name": "Ganymede Extrait",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Immortelle · Incense · Myrrh · Akigalawood"
+        },
+        {
+          "year": 2022,
+          "name": "Encelade",
+          "collectionName": "",
+          "genre": "Woody Green",
+          "notes": "Rhubarb · Vetiver · Cedarwood · Leather"
+        },
+        {
+          "year": 2020,
+          "name": "B683 Extrait",
+          "collectionName": "",
+          "genre": "Leather Spicy",
+          "notes": "Leather · Saffron · Incense · Patchouli"
+        },
+        {
+          "year": 2019,
+          "name": "Ganymede",
+          "collectionName": "",
+          "genre": "Woody Mineral",
+          "notes": "Mandarin · Saffron · Immortelle · Akigalawood"
+        },
+        {
+          "year": 2016,
+          "name": "B683",
+          "collectionName": "",
+          "genre": "Leather Woody",
+          "notes": "Leather · Saffron · Pink Pepper · Patchouli"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "montale",

@@ -8501,6 +8501,153 @@
         }
       ],
       "perfumeCollectionNote": ""
+    },
+    {
+      "id": "dusita",
+      "name": "Dusita",
+      "url": "",
+      "website": "https://www.parfumsdusita.com/",
+      "description": "Order directly from the brand; worldwide shipping is available.",
+      "directoryCheckedAt": "",
+      "availabilityCheckedAt": "",
+      "assortmentOnly": false,
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Light of Bangkok",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Lemongrass · Bergamot · Clary Sage · Sandalwood"
+        },
+        {
+          "year": 2026,
+          "name": "Mocha Absolu",
+          "collectionName": "",
+          "genre": "Gourmand Woody",
+          "notes": "Coffee · Dark Chocolate · Thai Tea · Vanilla"
+        },
+        {
+          "year": 2025,
+          "name": "Tonka Latte",
+          "collectionName": "",
+          "genre": "Gourmand",
+          "notes": "Tonka Bean · Milk · Honey · Vanilla"
+        },
+        {
+          "year": 2024,
+          "name": "Pelagos",
+          "collectionName": "",
+          "genre": "Woody Aquatic",
+          "notes": "Sea Notes · Iris · Cypress · Sandalwood"
+        },
+        {
+          "year": 2023,
+          "name": "Rosarine",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Rose · Patchouli · Cacao · Sandalwood"
+        },
+        {
+          "year": 2022,
+          "name": "La Rhapsodie Noire",
+          "collectionName": "",
+          "genre": "Amber Gourmand",
+          "notes": "Tonka Bean · Rum · Caramel · Sandalwood"
+        },
+        {
+          "year": 2022,
+          "name": "Montri",
+          "collectionName": "",
+          "genre": "Leather Spicy",
+          "notes": "Oud · Rose · Patchouli · Leather"
+        },
+        {
+          "year": 2021,
+          "name": "Anamcara",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Peach · Tuberose · Orange Blossom · Honey"
+        },
+        {
+          "year": 2021,
+          "name": "Cavatina",
+          "collectionName": "",
+          "genre": "Floral Green",
+          "notes": "Lily-of-the-Valley · Ylang-Ylang · Jasmine · Oakmoss"
+        },
+        {
+          "year": 2020,
+          "name": "Moonlight in Chiangmai",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Yuzu · Nutmeg · Benzoin · Patchouli"
+        },
+        {
+          "year": 2019,
+          "name": "Le Pavillon D'Or",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Jasmine · Heliotrope · Cedarwood · Mate"
+        },
+        {
+          "year": 2019,
+          "name": "Splendiris",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Iris · Cedarwood · Violet · Vanilla"
+        },
+        {
+          "year": 2018,
+          "name": "Erawan",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Vetiver · Clary Sage · Hay · Vanilla"
+        },
+        {
+          "year": 2018,
+          "name": "Fleur de Lalita",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Tuberose · Jasmine · Ylang-Ylang · Sandalwood"
+        },
+        {
+          "year": 2017,
+          "name": "La Douceur de Siam",
+          "collectionName": "",
+          "genre": "Floral Gourmand",
+          "notes": "Rose · Ylang-Ylang · Vanilla · Benzoin"
+        },
+        {
+          "year": 2017,
+          "name": "Le Sillage Blanc",
+          "collectionName": "",
+          "genre": "Woody Green",
+          "notes": "Galbanum · Iris · Tobacco · Vetiver"
+        },
+        {
+          "year": 2016,
+          "name": "Issara",
+          "collectionName": "",
+          "genre": "Woody Green",
+          "notes": "Hay · Coumarin · Vetiver · Oakmoss"
+        },
+        {
+          "year": 2016,
+          "name": "Melodie de L'Amour",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Honey · Tuberose · Jasmine · Beeswax"
+        },
+        {
+          "year": 2016,
+          "name": "Oudh Infini",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Rose · Vanilla · Benzoin"
+        }
+      ],
+      "perfumeCollectionNote": ""
     }
   ],
   "stores": [

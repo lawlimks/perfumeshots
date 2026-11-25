@@ -2874,7 +2874,129 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Nomad",
+          "collectionName": "",
+          "genre": "Leather Spicy",
+          "notes": "Saffron · Suede · Hay · Wool"
+        },
+        {
+          "year": 2026,
+          "name": "Shady Garden",
+          "collectionName": "",
+          "genre": "Floral Fruity",
+          "notes": "Peony · Arctic Bramble · Rose · Patchouli"
+        },
+        {
+          "year": 2025,
+          "name": "Faluröd",
+          "collectionName": "",
+          "genre": "Woody Mineral",
+          "notes": "Black Pepper · Iron · Cedarwood · Amber"
+        },
+        {
+          "year": 2025,
+          "name": "Vanilla Veil",
+          "collectionName": "",
+          "genre": "Gourmand",
+          "notes": "Vanilla · Musk · Amber · Soft Woods"
+        },
+        {
+          "year": 2024,
+          "name": "Ros",
+          "collectionName": "",
+          "genre": "Floral",
+          "notes": "Swedish Rose · Bergamot · Pink Pepper · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Synchrony",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Birch · Iris · Ambroxan · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Violet Sky",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Violet · Blackcurrant · Sandalwood · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Botanist",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Birch · Vetiver · Cedarwood · Herbs"
+        },
+        {
+          "year": 2021,
+          "name": "Mareld",
+          "collectionName": "",
+          "genre": "Woody Aquatic",
+          "notes": "Sea Notes · Driftwood · Sage · Musk"
+        },
+        {
+          "year": 2020,
+          "name": "Fjällsjö",
+          "collectionName": "",
+          "genre": "Floral Aquatic",
+          "notes": "Water Lily · Bergamot · Vetiver · Musk"
+        },
+        {
+          "year": 2020,
+          "name": "Riddergatan",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Cypress · Bergamot · Vetiver · Cedarwood"
+        },
+        {
+          "year": 2020,
+          "name": "September",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Cardamom · Black Pepper · Cedarwood · Amber"
+        },
+        {
+          "year": 2018,
+          "name": "Moonflower",
+          "collectionName": "",
+          "genre": "Floral Woody",
+          "notes": "Night-Blooming Jasmine · Bergamot · Sandalwood · Musk"
+        },
+        {
+          "year": 2017,
+          "name": "Solstice",
+          "collectionName": "",
+          "genre": "Citrus Woody",
+          "notes": "Blood Orange · Bergamot · Pine · Cedarwood"
+        },
+        {
+          "year": 2016,
+          "name": "Dark Rain",
+          "collectionName": "",
+          "genre": "Woody Aquatic",
+          "notes": "Rain Accord · Black Pepper · Birch · Patchouli"
+        },
+        {
+          "year": 2016,
+          "name": "Never Spring",
+          "collectionName": "",
+          "genre": "Floral Green",
+          "notes": "Lily-of-the-Valley · Green Leaves · Galbanum · White Musk"
+        },
+        {
+          "year": 2016,
+          "name": "White Forest",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Pine · Birch · Amber · Vetiver"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "bvlgari",

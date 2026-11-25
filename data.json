@@ -5716,7 +5716,192 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Bubble Tea",
+          "collectionName": "",
+          "genre": "Gourmand",
+          "notes": "Black Tea · Brown Sugar · Tapioca · Milk"
+        },
+        {
+          "year": 2026,
+          "name": "Mango Sticky Rice",
+          "collectionName": "",
+          "genre": "Gourmand Fruity",
+          "notes": "Ripe Mango · Sticky Rice · Coconut Milk"
+        },
+        {
+          "year": 2025,
+          "name": "Chinese Calligraphy",
+          "collectionName": "CHAPTER THREE: MAJESTIC CHINA",
+          "genre": "Woody Smoky",
+          "notes": "Ink · Black Lacquer · Paper · Coffee"
+        },
+        {
+          "year": 2025,
+          "name": "Mooncake",
+          "collectionName": "CHAPTER THREE: MAJESTIC CHINA",
+          "genre": "Gourmand",
+          "notes": "Honey · Golden Syrup · Salted Egg Yolk · Lotus Seed"
+        },
+        {
+          "year": 2025,
+          "name": "Pomelo Oolong",
+          "collectionName": "CHAPTER THREE: MAJESTIC CHINA",
+          "genre": "Citrus Aromatic",
+          "notes": "Pomelo · Oolong Tea · Green Tea · Orange Blossom"
+        },
+        {
+          "year": 2025,
+          "name": "Princess of China",
+          "collectionName": "CHAPTER THREE: MAJESTIC CHINA",
+          "genre": "Floral Fruity",
+          "notes": "Peony · White Lotus · Lychee · Pear"
+        },
+        {
+          "year": 2025,
+          "name": "Spring Festival",
+          "collectionName": "CHAPTER THREE: MAJESTIC CHINA",
+          "genre": "Floral Fruity",
+          "notes": "Plum Blossom · Mandarin · Tanghulu · Jujube"
+        },
+        {
+          "year": 2025,
+          "name": "The Silk Road",
+          "collectionName": "CHAPTER THREE: MAJESTIC CHINA",
+          "genre": "Leather Spicy",
+          "notes": "Ginseng · Tobacco Leaf · Leather · Spices"
+        },
+        {
+          "year": 2025,
+          "name": "Japanese Whiskey",
+          "collectionName": "CHAPTER TWO: MEMORIES OF JAPAN",
+          "genre": "Woody Boozy",
+          "notes": "Whiskey · Mizunara Oak · Malted Barley · Chestnut"
+        },
+        {
+          "year": 2024,
+          "name": "Arashiyama",
+          "collectionName": "CHAPTER TWO: MEMORIES OF JAPAN",
+          "genre": "Woody Green",
+          "notes": "Bamboo · Rain Accord · Violet Leaf · Hinoki"
+        },
+        {
+          "year": 2024,
+          "name": "Hinoki Meditation",
+          "collectionName": "CHAPTER TWO: MEMORIES OF JAPAN",
+          "genre": "Woody Incense",
+          "notes": "Hinoki · Cypress · Frankincense · Cedarwood"
+        },
+        {
+          "year": 2024,
+          "name": "Kimono",
+          "collectionName": "CHAPTER TWO: MEMORIES OF JAPAN",
+          "genre": "Floral Powdery",
+          "notes": "Silk · Plum Blossom · Iris · Lipstick Accord"
+        },
+        {
+          "year": 2024,
+          "name": "Matcha Soft Serve",
+          "collectionName": "CHAPTER TWO: MEMORIES OF JAPAN",
+          "genre": "Gourmand",
+          "notes": "Matcha Tea · Milk · Vanilla · Waffle Cone"
+        },
+        {
+          "year": 2024,
+          "name": "Moonlight Samurai",
+          "collectionName": "CHAPTER TWO: MEMORIES OF JAPAN",
+          "genre": "Leather Woody",
+          "notes": "Yuzu · Sake · Leather · Cedarwood"
+        },
+        {
+          "year": 2024,
+          "name": "Sakura Snow",
+          "collectionName": "CHAPTER TWO: MEMORIES OF JAPAN",
+          "genre": "Floral Fresh",
+          "notes": "Cherry Blossom · Snow Accord · Juniper Berries · White Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Strawberry Mochi",
+          "collectionName": "CHAPTER TWO: MEMORIES OF JAPAN",
+          "genre": "Gourmand",
+          "notes": "Strawberry · Red Bean Paste · Rice Powder · Brown Sugar"
+        },
+        {
+          "year": 2024,
+          "name": "Tokyo Nights",
+          "collectionName": "CHAPTER TWO: MEMORIES OF JAPAN",
+          "genre": "Amber Boozy",
+          "notes": "Umeshu Plum Wine · Tobacco · Amber · Osmanthus"
+        },
+        {
+          "year": 2023,
+          "name": "Da Lat",
+          "collectionName": "CHAPTER ONE: ENCHANTING VIETNAM",
+          "genre": "Floral Woody",
+          "notes": "Rose · Red Wine · Juniper Berries · Cypress"
+        },
+        {
+          "year": 2023,
+          "name": "Harvest Season",
+          "collectionName": "CHAPTER ONE: ENCHANTING VIETNAM",
+          "genre": "Aromatic Green",
+          "notes": "Rice Straw · Sun-Dried Grass · Vetiver · Cedarwood"
+        },
+        {
+          "year": 2023,
+          "name": "In The Garden",
+          "collectionName": "CHAPTER ONE: ENCHANTING VIETNAM",
+          "genre": "Floral Fruity",
+          "notes": "Pear · Jasmine · Tuberose · Sandalwood"
+        },
+        {
+          "year": 2023,
+          "name": "Monsoon Tea",
+          "collectionName": "CHAPTER ONE: ENCHANTING VIETNAM",
+          "genre": "Citrus Aromatic",
+          "notes": "Green Tea · Bergamot · Lemongrass · Lily-of-the-Valley"
+        },
+        {
+          "year": 2023,
+          "name": "Pho Breakfast",
+          "collectionName": "CHAPTER ONE: ENCHANTING VIETNAM",
+          "genre": "Aromatic Spicy",
+          "notes": "Star Anise · Coriander · Cardamom · Ginger"
+        },
+        {
+          "year": 2023,
+          "name": "Phu Quoc",
+          "collectionName": "CHAPTER ONE: ENCHANTING VIETNAM",
+          "genre": "Aquatic Woody",
+          "notes": "Sea Salt · Green Peppercorn · Cedarwood · Oud"
+        },
+        {
+          "year": 2023,
+          "name": "Through The Forest",
+          "collectionName": "CHAPTER ONE: ENCHANTING VIETNAM",
+          "genre": "Woody Oud",
+          "notes": "Oud · Cardamom · Saffron · Sandalwood"
+        },
+        {
+          "year": 2023,
+          "name": "Vietnamese Coffee",
+          "collectionName": "CHAPTER ONE: ENCHANTING VIETNAM",
+          "genre": "Gourmand",
+          "notes": "Roasted Coffee · Condensed Milk · Dark Chocolate · Cedarwood"
+        },
+        {
+          "year": 2023,
+          "name": "White Rice",
+          "collectionName": "CHAPTER ONE: ENCHANTING VIETNAM",
+          "genre": "Woody Musk",
+          "notes": "Steamed Rice · Pandan · Orris · White Musk"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "mad-et-len",

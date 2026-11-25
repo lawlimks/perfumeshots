@@ -2789,7 +2789,129 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Rose Mosaïque",
+          "collectionName": "LES FACETTES",
+          "genre": "Floral Woody",
+          "notes": "Blackcurrant · Rose · Frankincense · Leather"
+        },
+        {
+          "year": 2026,
+          "name": "Bois Océan",
+          "collectionName": "LES FACETTES",
+          "genre": "Woody Aquatic",
+          "notes": "Bergamot · Juniper Berries · Driftwood · Vetiver"
+        },
+        {
+          "year": 2026,
+          "name": "Musc Miroir",
+          "collectionName": "LES FACETTES",
+          "genre": "Woody Musk",
+          "notes": "Musk · Saffron · Orange Blossom · Sandalwood"
+        },
+        {
+          "year": 2026,
+          "name": "L'Ivrée Nuit Extrait",
+          "collectionName": "",
+          "genre": "Gourmand Woody",
+          "notes": "Mango · Vanilla · Cashmere Wood · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "32° Extrait",
+          "collectionName": "",
+          "genre": "Floral Musk",
+          "notes": "Pear · Tuberose · Solar Accord · Palo Santo"
+        },
+        {
+          "year": 2025,
+          "name": "Toi Toi Toi Extrait",
+          "collectionName": "",
+          "genre": "Woody Amber Spicy",
+          "notes": "Ginger · Incense · Leather · Sandalwood"
+        },
+        {
+          "year": 2024,
+          "name": "Yvonne Extrait",
+          "collectionName": "",
+          "genre": "Chypre Floral Fruity",
+          "notes": "Damascus Plum · Turkish Rose · Patchouli · Tonka Bean"
+        },
+        {
+          "year": 2024,
+          "name": "18 - 12",
+          "collectionName": "",
+          "genre": "Floral Woody Gourmand",
+          "notes": "Rose · Cherry · Almond · Vanilla"
+        },
+        {
+          "year": 2023,
+          "name": "Tableau Parisien",
+          "collectionName": "",
+          "genre": "White Floral",
+          "notes": "Ginger · Tuberose · Tobacco · Tonka Bean"
+        },
+        {
+          "year": 2022,
+          "name": "Marque-Page",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Incense · Leather · Oud · Patchouli"
+        },
+        {
+          "year": 2021,
+          "name": "Toi Toi Toi",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Incense · Black Pepper · Cedarwood · Sandalwood"
+        },
+        {
+          "year": 2018,
+          "name": "L'ivree Bleue",
+          "collectionName": "",
+          "genre": "Amber Vanilla",
+          "notes": "Rum · Violet · Iris · Vanilla"
+        },
+        {
+          "year": 2018,
+          "name": "Le Passant",
+          "collectionName": "",
+          "genre": "Aromatic",
+          "notes": "Bergamot · Lavender · Tonka Bean · Vanilla"
+        },
+        {
+          "year": 2018,
+          "name": "Yvonne",
+          "collectionName": "",
+          "genre": "Chypre Floral Fruity",
+          "notes": "Blackcurrant · Rose · Patchouli · Benzoin"
+        },
+        {
+          "year": 2018,
+          "name": "Papier Carbone",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Star Anise · Licorice · Paper · Woody Notes"
+        },
+        {
+          "year": 2018,
+          "name": "28°",
+          "collectionName": "",
+          "genre": "Solar Floral",
+          "notes": "Lemon · Tuberose · Jasmine Sambac · Sandalwood"
+        },
+        {
+          "year": 2018,
+          "name": "Les Brumes",
+          "collectionName": "",
+          "genre": "Citrus Spicy",
+          "notes": "Ginger · Lemon · Sage · Mate"
+        }
+      ],
+      "perfumeCollectionNote": ""
     },
     {
       "id": "penhaligons",

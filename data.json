@@ -4098,7 +4098,395 @@
       "directoryCheckedAt": "",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": []
+      "featuredPerfumes": [],
+      "perfumeCollection": [
+        {
+          "year": 2026,
+          "name": "Corn Porn",
+          "collectionName": "",
+          "genre": "Gourmand Spicy",
+          "notes": "Sweet Corn · Butter · Caramel · Spices"
+        },
+        {
+          "year": 2026,
+          "name": "Saint Petal",
+          "collectionName": "EXTRAIT EXTRÊME",
+          "genre": "Floral Musk",
+          "notes": "Rose · Petals · Musk · Soft Woods"
+        },
+        {
+          "year": 2026,
+          "name": "Melon Malo",
+          "collectionName": "EXTRAIT EXTRÊME",
+          "genre": "Fruity Fresh",
+          "notes": "Melon · Citrus · Green Notes · Musk"
+        },
+        {
+          "year": 2026,
+          "name": "Drunk Lovers",
+          "collectionName": "EXTRAIT EXTRÊME",
+          "genre": "Amber Boozy",
+          "notes": "Cognac · Spices · Oud · Amber"
+        },
+        {
+          "year": 2026,
+          "name": "Cola Addict",
+          "collectionName": "",
+          "genre": "Gourmand Spicy",
+          "notes": "Cola · Lemon · Cinnamon · Vanilla"
+        },
+        {
+          "year": 2026,
+          "name": "Golden Milk",
+          "collectionName": "",
+          "genre": "Gourmand Spicy",
+          "notes": "Turmeric · Milk · Spices · Vanilla"
+        },
+        {
+          "year": 2026,
+          "name": "No Labels",
+          "collectionName": "EAU INTIMITE",
+          "genre": "Woody Musk",
+          "notes": "Woods · Musk · Ambery Notes · Spices"
+        },
+        {
+          "year": 2025,
+          "name": "Choco Loco",
+          "collectionName": "",
+          "genre": "Gourmand",
+          "notes": "Chocolate · Hazelnut · Praline · Vanilla"
+        },
+        {
+          "year": 2025,
+          "name": "Dirty Milk",
+          "collectionName": "",
+          "genre": "Gourmand Musk",
+          "notes": "Milk · Caramel · Musk · Woody Notes"
+        },
+        {
+          "year": 2025,
+          "name": "Black Creme",
+          "collectionName": "EXTRAIT EXTRÊME",
+          "genre": "Gourmand",
+          "notes": "Milk · Candle Wax · Leather · Oud"
+        },
+        {
+          "year": 2025,
+          "name": "Black Karak",
+          "collectionName": "EXTRAIT EXTRÊME",
+          "genre": "Gourmand Spicy",
+          "notes": "Black Tea · Cardamom · Milk · Oud"
+        },
+        {
+          "year": 2025,
+          "name": "A Corps Secret",
+          "collectionName": "EXTRAIT EXTRÊME",
+          "genre": "Skin Musk",
+          "notes": "Skin Accord · Musk · Amber · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Free Coco",
+          "collectionName": "",
+          "genre": "Tropical Gourmand",
+          "notes": "Coconut · Vanilla · Cream · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Warm Air",
+          "collectionName": "EAU INTIMITE",
+          "genre": "Woody Musk",
+          "notes": "Warm Air Accord · Musk · Cedarwood · Amber"
+        },
+        {
+          "year": 2025,
+          "name": "Gold Juice",
+          "collectionName": "EAU INTIMITE",
+          "genre": "Amber Fruity",
+          "notes": "Golden Fruit · Honey · Amber · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Cuvee Skin",
+          "collectionName": "EAU INTIMITE",
+          "genre": "Floral Musk",
+          "notes": "White Florals · Musk · Skin Accord · Amber"
+        },
+        {
+          "year": 2025,
+          "name": "Musc X",
+          "collectionName": "EAU INTIMITE",
+          "genre": "Woody Musk",
+          "notes": "Musk · Cedarwood · Ambroxan · Soft Spices"
+        },
+        {
+          "year": 2025,
+          "name": "Candy Dust",
+          "collectionName": "EAU INTIMITE",
+          "genre": "Gourmand",
+          "notes": "Candy Accord · Sugar · Vanilla · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Purple Stain",
+          "collectionName": "EXTRAIT EXTRÊME",
+          "genre": "Fruity Leather",
+          "notes": "Red Wine · Plum · Leather · Woods"
+        },
+        {
+          "year": 2025,
+          "name": "Oud Candy",
+          "collectionName": "EXTRAIT EXTRÊME",
+          "genre": "Gourmand Oud",
+          "notes": "Candy Accord · Oud · Vanilla · Amber"
+        },
+        {
+          "year": 2025,
+          "name": "Black Mango",
+          "collectionName": "EXTRAIT EXTRÊME",
+          "genre": "Fruity Woody",
+          "notes": "Mango · Bergamot · Woods · Leather"
+        },
+        {
+          "year": 2025,
+          "name": "Black Guava",
+          "collectionName": "EXTRAIT EXTRÊME",
+          "genre": "Fruity Woody",
+          "notes": "Guava · Woods · Spices · Musk"
+        },
+        {
+          "year": 2025,
+          "name": "Be My Cookie",
+          "collectionName": "",
+          "genre": "Gourmand",
+          "notes": "Cookie Dough · Vanilla · Sugar · Butter"
+        },
+        {
+          "year": 2024,
+          "name": "FUGAZZI by BORNTOSTANDOUT",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Milk · Grapefruit · Cumin · Incense"
+        },
+        {
+          "year": 2024,
+          "name": "Naked Laundry",
+          "collectionName": "RAW SEDUCTION",
+          "genre": "Clean Musk",
+          "notes": "Clean Linen · Aldehydes · Musk · Cedarwood"
+        },
+        {
+          "year": 2024,
+          "name": "Filthy Musk",
+          "collectionName": "RAW SEDUCTION",
+          "genre": "Animalic Amber",
+          "notes": "Musk · Honey · Civet · Caramel"
+        },
+        {
+          "year": 2024,
+          "name": "L'Animal",
+          "collectionName": "RAW SEDUCTION",
+          "genre": "Animalic Leather",
+          "notes": "Leather · Animalic Notes · Oud · Amber"
+        },
+        {
+          "year": 2024,
+          "name": "Dirty Rainbow",
+          "collectionName": "",
+          "genre": "Fruity Floral",
+          "notes": "Fruity Notes · Florals · Musk · Woods"
+        },
+        {
+          "year": 2024,
+          "name": "Angels' Powder",
+          "collectionName": "",
+          "genre": "Powdery Floral",
+          "notes": "Heliotrope · Powdery Notes · Iris · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Drunk Maple",
+          "collectionName": "",
+          "genre": "Gourmand Boozy",
+          "notes": "Maple Syrup · Rum · Coffee · Suede"
+        },
+        {
+          "year": 2024,
+          "name": "Mary Jane",
+          "collectionName": "",
+          "genre": "Aromatic Green",
+          "notes": "Cannabis · Green Notes · Woods · Musk"
+        },
+        {
+          "year": 2024,
+          "name": "Wabi-Sabi",
+          "collectionName": "",
+          "genre": "Woody Aromatic",
+          "notes": "Hinoki · Green Tea · Moss · Woods"
+        },
+        {
+          "year": 2024,
+          "name": "Nuts",
+          "collectionName": "",
+          "genre": "Nutty Gourmand",
+          "notes": "Roasted Nuts · Hazelnut · Vanilla · Amber"
+        },
+        {
+          "year": 2023,
+          "name": "Mad Honey",
+          "collectionName": "",
+          "genre": "Amber Gourmand",
+          "notes": "Honey · Beeswax · Spices · Amber"
+        },
+        {
+          "year": 2023,
+          "name": "Nanatopia",
+          "collectionName": "",
+          "genre": "Fruity Gourmand",
+          "notes": "Banana · Caramel · Vanilla · Woods"
+        },
+        {
+          "year": 2023,
+          "name": "Sin & Pleasure",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "White Florals · Almond · Caramel · Oud"
+        },
+        {
+          "year": 2023,
+          "name": "Sugar Addict",
+          "collectionName": "",
+          "genre": "Gourmand",
+          "notes": "Sugar · Caramel · Vanilla · Musk"
+        },
+        {
+          "year": 2023,
+          "name": "Dirty Heaven",
+          "collectionName": "",
+          "genre": "Woody Musk",
+          "notes": "Musk · Woods · Amber · Soft Spices"
+        },
+        {
+          "year": 2023,
+          "name": "Drunk Lovers",
+          "collectionName": "",
+          "genre": "Amber Boozy",
+          "notes": "Cognac · Spices · Woods · Amber"
+        },
+        {
+          "year": 2023,
+          "name": "DGAF",
+          "collectionName": "",
+          "genre": "Woody Spicy",
+          "notes": "Pepper · Spices · Woods · Amber"
+        },
+        {
+          "year": 2023,
+          "name": "Burnt Roses",
+          "collectionName": "",
+          "genre": "Floral Smoky",
+          "notes": "Rose · Smoke · Ash · Oud",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2022,
+          "name": "NSFW",
+          "collectionName": "",
+          "genre": "Amber Floral",
+          "notes": "Rose · Leather · Amber · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2022,
+          "name": "Indecent Cherry",
+          "collectionName": "",
+          "genre": "Fruity Floral",
+          "notes": "Cherry · Rose · Almond · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Unholy Oud",
+          "collectionName": "",
+          "genre": "Woody Oud",
+          "notes": "Oud · Leather · Incense · Patchouli",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2022,
+          "name": "Fig Porn",
+          "collectionName": "",
+          "genre": "Fruity Floral",
+          "notes": "Fig · Pear · Turkish Rose · Sandalwood"
+        },
+        {
+          "year": 2022,
+          "name": "Not Vanilla",
+          "collectionName": "",
+          "genre": "Woody Vanilla",
+          "notes": "Vanilla · Woody Notes · Musk · Amber",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2022,
+          "name": "Mud",
+          "collectionName": "",
+          "genre": "Earthy Woody",
+          "notes": "Wet Earth · Patchouli · Vetiver · Oud"
+        },
+        {
+          "year": 2022,
+          "name": "Naked Neroli",
+          "collectionName": "",
+          "genre": "Citrus Floral",
+          "notes": "Neroli · Orange Blossom · Musk · Woods",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2022,
+          "name": "Dirty Rice",
+          "collectionName": "",
+          "genre": "Woody Gourmand",
+          "notes": "Steamed Rice · Milk · Sandalwood · Musk"
+        },
+        {
+          "year": 2022,
+          "name": "Hinoki Shower",
+          "collectionName": "",
+          "genre": "Woody Fresh",
+          "notes": "Hinoki · Cypress · Watery Notes · Musk",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2022,
+          "name": "Zest Z&T",
+          "collectionName": "",
+          "genre": "Citrus Aromatic",
+          "notes": "Citrus Zest · Tea · Ginger · Woods",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2022,
+          "name": "Smokin' Gun",
+          "collectionName": "",
+          "genre": "Woody Smoky",
+          "notes": "Smoke · Gunpowder · Tobacco · Woods"
+        },
+        {
+          "year": 2022,
+          "name": "Sex & Cognac",
+          "collectionName": "",
+          "genre": "Amber Boozy",
+          "notes": "Cognac · Caramel · Amber · Woods",
+          "status": "Discontinued"
+        },
+        {
+          "year": 2022,
+          "name": "Drunk Saffron",
+          "collectionName": "",
+          "genre": "Amber Spicy",
+          "notes": "Saffron · Cognac · Spices · Amber"
+        }
+      ]
     },
     {
       "id": "maison-matine",

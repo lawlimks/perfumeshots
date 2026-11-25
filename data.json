@@ -1442,7 +1442,8 @@
           "name": "Born to be Unforgettable",
           "collectionName": "THE LIQUORS",
           "genre": "Citrus Spicy",
-          "notes": "Cola Accord · Lime · Cinnamon · Cedarwood"
+          "notes": "Cola Accord · Lime · Cinnamon · Cedarwood",
+          "status": "Discontinued"
         },
         {
           "year": 2023,
@@ -1470,7 +1471,8 @@
           "name": "Blue Moon Ginger Dash",
           "collectionName": "THE LIQUORS",
           "genre": "Citrus Aquatic",
-          "notes": "Lemon · Calone · Vodka Accord · Ginger"
+          "notes": "Lemon · Calone · Vodka Accord · Ginger",
+          "status": "Discontinued"
         },
         {
           "year": 2023,
@@ -1526,7 +1528,8 @@
           "name": "L'Heure Verte",
           "collectionName": "THE LIQUORS",
           "genre": "Aromatic Woody",
-          "notes": "Absinthe · Violet Leaf · Licorice · Sandalwood"
+          "notes": "Absinthe · Violet Leaf · Licorice · Sandalwood",
+          "status": "Discontinued"
         },
         {
           "year": 2021,
@@ -1708,7 +1711,8 @@
           "name": "Straight to Heaven Extreme",
           "collectionName": "THE CELLARS",
           "genre": "Woody Spicy",
-          "notes": "Rum · Dried Fruits · Patchouli · Vanilla"
+          "notes": "Rum · Dried Fruits · Patchouli · Vanilla",
+          "status": "Discontinued"
         },
         {
           "year": 2017,
@@ -1799,7 +1803,8 @@
           "name": "Single Malt",
           "collectionName": "EXCLUSIVE EDITION",
           "genre": "Woody Boozy",
-          "notes": "Plum · Wheat · Cedarwood · Tolu Balsam"
+          "notes": "Plum · Wheat · Cedarwood · Tolu Balsam",
+          "status": "Discontinued"
         },
         {
           "year": 2015,
@@ -1841,14 +1846,16 @@
           "name": "Smoke for the Soul",
           "collectionName": "ADDICTIVE STATE OF MIND",
           "genre": "Aromatic Woody",
-          "notes": "Cannabis · Eucalyptus · Tobacco · Birch"
+          "notes": "Cannabis · Eucalyptus · Tobacco · Birch",
+          "status": "Discontinued"
         },
         {
           "year": 2014,
           "name": "Light My Fire",
           "collectionName": "ADDICTIVE STATE OF MIND",
           "genre": "Amber Woody",
-          "notes": "Tobacco · Honey · Hay · Patchouli"
+          "notes": "Tobacco · Honey · Hay · Patchouli",
+          "status": "Discontinued"
         },
         {
           "year": 2014,
@@ -1995,7 +2002,8 @@
           "name": "Sweet Redemption",
           "collectionName": "L'OEUVRE NOIRE",
           "genre": "Amber Floral",
-          "notes": "Orange Blossom · Vanilla · Benzoin · Myrrh"
+          "notes": "Orange Blossom · Vanilla · Benzoin · Myrrh",
+          "status": "Discontinued"
         },
         {
           "year": 2011,
@@ -2023,7 +2031,8 @@
           "name": "Pure Oud",
           "collectionName": "ARABIAN NIGHTS",
           "genre": "Woody Oud",
-          "notes": "Agarwood (Oud) · Guaiac Wood · Cypriol Oil · Saffron"
+          "notes": "Agarwood (Oud) · Guaiac Wood · Cypriol Oil · Saffron",
+          "status": "Discontinued"
         },
         {
           "year": 2009,
@@ -2065,7 +2074,8 @@
           "name": "Cruel Intentions",
           "collectionName": "L'OEUVRE NOIRE",
           "genre": "Amber Woody",
-          "notes": "Agarwood (Oud) · Rose · Papyrus · Vetiver"
+          "notes": "Agarwood (Oud) · Rose · Papyrus · Vetiver",
+          "status": "Discontinued"
         },
         {
           "year": 2007,
@@ -2079,7 +2089,8 @@
           "name": "A Taste of Heaven",
           "collectionName": "L'OEUVRE NOIRE",
           "genre": "Aromatic Fougère",
-          "notes": "Absinthe · Lavender · Orange Blossom · Oakmoss"
+          "notes": "Absinthe · Lavender · Orange Blossom · Oakmoss",
+          "status": "Discontinued"
         }
       ],
       "perfumeCollectionNote": ""

@@ -753,17 +753,6 @@
       "featuredPerfumes": []
     },
     {
-      "id": "graff",
-      "name": "Graff",
-      "url": "",
-      "website": "https://www.graff.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "2026-09-26",
-      "assortmentOnly": true,
-      "featuredPerfumes": []
-    },
-    {
       "id": "les-eaux-primordiales",
       "name": "Les Eaux Primordiales",
       "url": "",
@@ -4638,7 +4627,6 @@
         "eight-bob",
         "ex-nihilo",
         "floris",
-        "graff",
         "histoires-de-parfums",
         "juliette-has-a-gun",
         "les-eaux-primordiales",

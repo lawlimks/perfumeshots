@@ -61,7 +61,7 @@ const slug = value => String(value || "").toLowerCase().trim().replace(/[^a-z0-9
 const href = (type, name) => name ? `/${type}/${encodeURIComponent(slug(name))}/` : `/${type}/`;
 const parseLocation = (location, storeName = "") => {
   const raw = String(location).trim();
-  const normalizeAddress = address => address.replace(/\s+(#[^,\s]+)(?=,|$)/, ", $1");
+  const normalizeAddress = address => address.replace(/([^,])\s+(#[^,\s]+)(?=,|$)/, "$1, $2").replace(/,\s*,/g, ",");
   if (raw.includes("|")) {
     const [building, ...parts] = raw.split("|");
     return { building: building.trim(), address: normalizeAddress(parts.join("|").trim()) };
@@ -405,7 +405,7 @@ function renderStores() {
     const destination = store.type === "brand-boutique"
       ? brands.map(brand => `<a href="${href("brands", brand.name)}">View ${esc(brand.name)} fragrance collection</a>`).join("")
       : `<a href="${href("stockists", store.name)}">View ${esc(store.name)} stockist details and brands</a>`;
-    return `<details class="stockist-accordion"><summary>${esc(store.name)}${locations.length > 1 ? ` (${locations.length})` : ""}</summary><div class="stockist-accordion-content">${locations.length ? `<ul class="stockist-accordion-addresses">${locations.map(location => `<li>${locationMapLink(location, store)}</li>`).join("")}</ul>` : ""}<div class="stockist-accordion-links">${destination}</div></div></details>`;
+    return `<details class="stockist-accordion"><summary>${esc(store.name)}${locations.length > 1 ? ` <span class="stockist-accordion-count">(${locations.length})</span>` : ""}</summary><div class="stockist-accordion-content">${locations.length ? `<ul class="stockist-accordion-addresses">${locations.map(location => `<li>${locationMapLink(location, store)}</li>`).join("")}</ul>` : ""}<div class="stockist-accordion-links">${destination}</div></div></details>`;
   };
   const group = (items, title) => items.length ? `<section class="stockist-group"><h2>${title}</h2><div class="stockist-accordion-list">${items.map(renderEntry).join("")}</div></section>` : "";
   const boutiques = stores.filter(store => store.type === "brand-boutique");

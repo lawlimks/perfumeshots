@@ -4804,28 +4804,7 @@
       "directoryCheckedAt": "2026-09-26",
       "availabilityCheckedAt": "",
       "assortmentOnly": false,
-      "featuredPerfumes": [
-        {
-          "name": "Oud for Greatness",
-          "image": "https://amarisbeauty.com/cdn/shop/products/Initio_OudforG_1_large.jpg?v=1670585804",
-          "url": "https://amarisbeauty.com/products/oud-for-greatness"
-        },
-        {
-          "name": "Atomic Rose",
-          "image": "https://amarisbeauty.com/cdn/shop/products/Initio_AtomicRose_1_800x.jpg?v=1681875916",
-          "url": "https://amarisbeauty.com/products/atomic-rose"
-        },
-        {
-          "name": "Paragon",
-          "image": "https://amarisbeauty.com/cdn/shop/products/SHOPIFY-RESIZE-TEMPLATE--6_800x.png?v=1710493840",
-          "url": "https://amarisbeauty.com/products/paragon-extrait-de-parfum"
-        },
-        {
-          "name": "Narcotic Delight",
-          "image": "https://amarisbeauty.com/cdn/shop/files/SHOPIFY-RESIZE-TEMPLATE--12_ffe3ec8f-c39f-46d1-9c41-bd9ca4622d6d_800x.png?v=1725436689",
-          "url": "https://amarisbeauty.com/products/narcotic-delight"
-        }
-      ],
+      "featuredPerfumes": [],
       "perfumeCollection": [
         {
           "year": 2026,
@@ -10269,17 +10248,6 @@
         }
       ],
       "perfumeCollectionNote": ""
-    },
-    {
-      "id": "olibanum",
-      "name": "Olibanum",
-      "url": "https://amarisbeauty.com/collections/olibanum",
-      "website": "https://www.olibanum.com",
-      "description": "",
-      "directoryCheckedAt": "2026-09-26",
-      "availabilityCheckedAt": "",
-      "assortmentOnly": false,
-      "featuredPerfumes": []
     },
     {
       "id": "ormonde-jayne",
@@ -15948,39 +15916,6 @@
       ]
     },
     {
-      "id": "czech-speake",
-      "name": "Czech & Speake",
-      "url": "",
-      "website": "https://www.czechandspeake.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "2026-09-26",
-      "assortmentOnly": true,
-      "featuredPerfumes": []
-    },
-    {
-      "id": "eight-bob",
-      "name": "Eight & Bob",
-      "url": "",
-      "website": "https://eightandbob.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "2026-09-26",
-      "assortmentOnly": true,
-      "featuredPerfumes": []
-    },
-    {
-      "id": "floris",
-      "name": "Floris",
-      "url": "",
-      "website": "https://www.florislondon.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "2026-09-26",
-      "assortmentOnly": true,
-      "featuredPerfumes": []
-    },
-    {
       "id": "les-eaux-primordiales",
       "name": "Les Eaux Primordiales",
       "url": "",
@@ -16379,17 +16314,6 @@
           "notes": "Grapefruit · Coconut Milk · Cedarwood · Sandalwood"
         }
       ]
-    },
-    {
-      "id": "micallef",
-      "name": "Micallef",
-      "url": "",
-      "website": "https://www.parfumsmicallef.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "2026-09-26",
-      "assortmentOnly": true,
-      "featuredPerfumes": []
     },
     {
       "id": "miller-harris",
@@ -17344,17 +17268,6 @@
       ]
     },
     {
-      "id": "state-of-mind",
-      "name": "State of Mind",
-      "url": "",
-      "website": "https://stateofmind.fr",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "2026-09-26",
-      "assortmentOnly": true,
-      "featuredPerfumes": []
-    },
-    {
       "id": "acqua-di-parma",
       "name": "Acqua di Parma",
       "url": "",
@@ -18094,17 +18007,6 @@
         }
       ],
       "perfumeCollectionNote": ""
-    },
-    {
-      "id": "bvlgari",
-      "name": "BVLGARI",
-      "url": "",
-      "website": "https://www.bulgari.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "",
-      "assortmentOnly": false,
-      "featuredPerfumes": []
     },
     {
       "id": "byredo",
@@ -23089,17 +22991,6 @@
       "perfumeCollectionNote": ""
     },
     {
-      "id": "loewe",
-      "name": "LOEWE",
-      "url": "",
-      "website": "https://www.perfumesloewe.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "",
-      "assortmentOnly": false,
-      "featuredPerfumes": []
-    },
-    {
       "id": "maison-crivelli",
       "name": "Maison Crivelli",
       "url": "",
@@ -26737,17 +26628,6 @@
       ]
     },
     {
-      "id": "van-cleef-and-arpels",
-      "name": "Van Cleef & Arpels",
-      "url": "",
-      "website": "https://www.vancleefarpels.com",
-      "description": "",
-      "directoryCheckedAt": "",
-      "availabilityCheckedAt": "",
-      "assortmentOnly": false,
-      "featuredPerfumes": []
-    },
-    {
       "id": "oddity",
       "name": "ODDITY",
       "url": "",
@@ -28625,16 +28505,12 @@
         "bdk-parfums",
         "bon-parfumeur",
         "bond-no-9",
-        "czech-speake",
-        "eight-bob",
         "ex-nihilo",
-        "floris",
         "histoires-de-parfums",
         "juliette-has-a-gun",
         "les-eaux-primordiales",
         "liquides-imaginaires",
         "maison-margiela",
-        "micallef",
         "miller-harris",
         "molinard",
         "nishane",
@@ -28642,7 +28518,6 @@
         "parfums-de-marly",
         "perris-monte-carlo",
         "roja",
-        "state-of-mind",
         "tiziana-terenzi",
         "une-nuit-nomade",
         "alexandre-j",
@@ -28666,7 +28541,6 @@
         "montale",
         "nicolai",
         "ojar",
-        "olibanum",
         "pana-dora",
         "rahasya",
         "ramon-monegal",
@@ -28696,7 +28570,6 @@
         "acqua-di-parma",
         "amouage",
         "bjork-and-berries",
-        "bvlgari",
         "byredo",
         "creed",
         "ds-durga",
@@ -28706,7 +28579,6 @@
         "hermes",
         "kilian-paris",
         "lartisan-parfumeur",
-        "loewe",
         "maison-crivelli",
         "maison-de-lasie",
         "maison-francis-kurkdjian",
@@ -28717,8 +28589,7 @@
         "penhaligons",
         "serge-lutens",
         "solferino-paris",
-        "trudon",
-        "van-cleef-and-arpels"
+        "trudon"
       ],
       "directoryGroup": "Escentials",
       "directoryGroups": [

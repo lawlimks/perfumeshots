@@ -427,6 +427,7 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .stockist-accordion summary::-webkit-details-marker { display: none; }
 .stockist-accordion summary::before { content: "+"; display: inline-grid; place-items: center; width: 1rem; height: 1rem; margin-right: .7rem; border: 1px solid #aaa; color: #888; font-weight: 700; line-height: 1; }
 .stockist-accordion[open] summary::before { content: "−"; }
+.stockist-accordion[open] .stockist-accordion-count { display: none; }
 .stockist-accordion-content { padding: 1.25rem 2rem; background: #f7f7f7; border-top: 1px solid #ccc; }
 .stockist-accordion-addresses { margin: 0; padding: 0; list-style: none; }
 .stockist-accordion-addresses li { margin: 0 0 1rem; }

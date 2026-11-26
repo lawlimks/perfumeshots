@@ -33420,10 +33420,10 @@
       "url": "https://amarisbeauty.com/",
       "type": "",
       "locations": [
-        "Paragon: 290 Orchard Road #03-11, Paragon Shopping Centre, Singapore 238859",
-        "VivoCity: 1 HarbourFront Walk #01-02, VivoCity, Singapore 098585",
-        "Jewel Changi Airport: 78 Airport Boulevard #01-257, Singapore 819666",
-        "Takashimaya Niche Fragrance Multi-Concept Store: 391 Orchard Road #B1-12, Singapore 238872"
+        "Paragon|290 Orchard Road, #03-11, Paragon Shopping Centre, Singapore 238859",
+        "VivoCity|1 HarbourFront Walk, #01-02, VivoCity, Singapore 098585",
+        "Jewel Changi Airport|78 Airport Boulevard, #01-257, Singapore 819666",
+        "Takashimaya Niche Fragrance Multi-Concept Store|391 Orchard Road, #B1-12, Singapore 238872"
       ],
       "brands": [
         "aesop",
@@ -33490,9 +33490,9 @@
       "url": "https://escentials.com/",
       "type": "",
       "locations": [
-        "Paragon | 290 Orchard Road #03-02/05, Singapore 238859",
-        "ION Orchard | 2 Orchard Turn #B2-29, Singapore 238801",
-        "TANGS Beauty Hall, Level 1 | 310 & 320 Orchard Road, Singapore 238864"
+        "Paragon|290 Orchard Road, #03-02/05, Singapore 238859",
+        "ION Orchard|2 Orchard Turn, #B2-29, Singapore 238801",
+        "TANGS Beauty Hall, Level 1|310 & 320 Orchard Road, Singapore 238864"
       ],
       "brands": [
         "acqua-di-parma",
@@ -33533,7 +33533,7 @@
       "url": "https://thescentparlor.com/",
       "type": "",
       "locations": [
-        "|67 Circular Road #03-01, Singapore 049421"
+        "|67 Circular Road, #03-01, Singapore 049421"
       ],
       "brands": [
         "oddity",
@@ -33562,10 +33562,10 @@
       "url": "https://www.jomalone.com/store-locator",
       "type": "brand-boutique",
       "locations": [
-        "Raffles City Shopping Centre #01-44, 252 North Bridge Road, Singapore 179103",
-        "ION Orchard #B2-31, 2 Orchard Turn, Singapore 238801",
-        "The Shoppes at Marina Bay Sands #B2-61, 10 Bayfront Avenue, Singapore 018956",
-        "TANGS Beauty Hall, Tang Plaza, 310 Orchard Road, Singapore 238864"
+        "Raffles City Shopping Centre|252 North Bridge Road, #01-44, Singapore 179103",
+        "ION Orchard|2 Orchard Turn, #B2-31, Singapore 238801",
+        "The Shoppes at Marina Bay Sands|10 Bayfront Avenue, #B2-61, Singapore 018956",
+        "TANGS Beauty Hall|310 Orchard Road, Singapore 238864"
       ],
       "brands": [
         "jo-malone"
@@ -33584,8 +33584,8 @@
       "url": "https://www.franciskurkdjian.com/eu-fr/storelocator",
       "type": "brand-boutique",
       "locations": [
-        "Raffles City Shopping Centre #01-39B, 252 North Bridge Road, Singapore 179103",
-        "Takashimaya Shopping Centre #B1-35, 391 Orchard Road, Singapore 238872 · +65 6235 0593"
+        "Raffles City Shopping Centre|252 North Bridge Road, #01-39B, Singapore 179103",
+        "Takashimaya Shopping Centre|391 Orchard Road, #B1-35, Singapore 238872 · +65 6235 0593"
       ],
       "brands": [
         "maison-francis-kurkdjian"
@@ -33605,7 +33605,7 @@
       "url": "https://www.capitaland.com/sg/malls/rafflescity/en/stores/creed.html",
       "type": "brand-boutique",
       "locations": [
-        "Raffles City Shopping Centre #01-39C, 252 North Bridge Road, Singapore 179103"
+        "Raffles City Shopping Centre|252 North Bridge Road, #01-39C, Singapore 179103"
       ],
       "brands": [
         "creed"
@@ -33624,7 +33624,7 @@
       "url": "https://www.acquadiparma.com/",
       "type": "brand-boutique",
       "locations": [
-        "Raffles City Shopping Centre #01-07, 252 North Bridge Road, Singapore 179103"
+        "Raffles City Shopping Centre|252 North Bridge Road, #01-07, Singapore 179103"
       ],
       "brands": [
         "acqua-di-parma"
@@ -33643,7 +33643,7 @@
       "url": "https://www.fredericmalle.com/stores",
       "type": "brand-boutique",
       "locations": [
-        "Raffles City Shopping Centre #01-23, 252 North Bridge Road, Singapore 179103"
+        "Raffles City Shopping Centre|252 North Bridge Road, #01-23, Singapore 179103"
       ],
       "brands": [
         "frederic-malle"
@@ -33662,7 +33662,7 @@
       "url": "https://www.bykilian.com/",
       "type": "brand-boutique",
       "locations": [
-        "Raffles City Shopping Centre #01-23, 252 North Bridge Road, Singapore 179103"
+        "Raffles City Shopping Centre|252 North Bridge Road, #01-23, Singapore 179103"
       ],
       "brands": [
         "kilian-paris"
@@ -33681,7 +33681,7 @@
       "url": "https://www.artisanparfumeur.com/",
       "type": "brand-boutique",
       "locations": [
-        "Ngee Ann City #B1-33A, 391 Orchard Road, Singapore 238872"
+        "Ngee Ann City|391 Orchard Road, #B1-33A, Singapore 238872"
       ],
       "brands": [
         "lartisan-parfumeur"
@@ -33700,7 +33700,7 @@
       "url": "https://stores.byredo.com/en/byredo-singapore-ngee-ann-city",
       "type": "brand-boutique",
       "locations": [
-        "Ngee Ann City #B1-34, 391 Orchard Road, Singapore 238873"
+        "Ngee Ann City|391 Orchard Road, #B1-34, Singapore 238873"
       ],
       "brands": [
         "byredo"
@@ -33719,7 +33719,7 @@
       "url": "https://panpuri.com/about-us/our-stores/discover-our-stores/",
       "type": "brand-boutique",
       "locations": [
-        "Ngee Ann City #B1-51, 391 Orchard Road, Singapore 238872"
+        "Ngee Ann City|391 Orchard Road, #B1-51, Singapore 238872"
       ],
       "brands": [
         "panpuri"
@@ -33738,10 +33738,10 @@
       "url": "https://stores.diptyqueparis.com/en_eu/asia/sg",
       "type": "brand-boutique",
       "locations": [
-        "ION Orchard | 2 Orchard Turn, #B2-30, Singapore 238801",
-        "The Shoppes at Marina Bay Sands | 10 Bayfront Avenue, #01-35, Singapore 018956",
-        "Ngee Ann City | 391 Orchard Road, #B1-32, Singapore 238872",
-        "Raffles City Shopping Centre | 252 North Bridge Road, #01-05, Singapore 179103"
+        "ION Orchard|2 Orchard Turn, #B2-30, Singapore 238801",
+        "The Shoppes at Marina Bay Sands|10 Bayfront Avenue, #01-35, Singapore 018956",
+        "Ngee Ann City|391 Orchard Road, #B1-32, Singapore 238872",
+        "Raffles City Shopping Centre|252 North Bridge Road, #01-05, Singapore 179103"
       ],
       "brands": [
         "diptyque"
@@ -33761,10 +33761,10 @@
       "url": "https://www.aesop.com.sg/pages/stores",
       "type": "brand-boutique",
       "locations": [
-        "ION Orchard #B1-22, 2 Orchard Turn, Singapore 238801",
-        "The Shoppes at Marina Bay Sands #B2-90A, 2 Bayfront Avenue, Singapore 018972",
-        "Raffles City #01-44A, 252 North Bridge Road, Singapore 179103",
-        "Ngee Ann City #B1-54/55, Ngee Ann City, 391 Orchard Road, Singapore 238872"
+        "ION Orchard|2 Orchard Turn, #B1-22, Singapore 238801",
+        "The Shoppes at Marina Bay Sands|2 Bayfront Avenue, #B2-90A, Singapore 018972",
+        "Raffles City|252 North Bridge Road, #01-44A, Singapore 179103",
+        "Ngee Ann City|391 Orchard Road, #B1-54/55, Singapore 238872"
       ],
       "brands": [
         "aesop"
@@ -33784,10 +33784,10 @@
       "url": "",
       "type": "brand-boutique",
       "locations": [
-        "Raffles City Shopping Centre #01-08A, 252 North Bridge Road, Singapore 179103",
-        "Ngee Ann City #B1-31A, 391 Orchard Road, Singapore 238872",
-        "The Shoppes at Marina Bay Sands #01-33, 10 Bayfront Avenue, Singapore 018956",
-        "TANGS Beauty Hall counter, Level 1, Tang Plaza, 310 Orchard Road, Singapore 238864"
+        "Raffles City Shopping Centre|252 North Bridge Road, #01-08A, Singapore 179103",
+        "Ngee Ann City|391 Orchard Road, #B1-31A, Singapore 238872",
+        "The Shoppes at Marina Bay Sands|10 Bayfront Avenue, #01-33, Singapore 018956",
+        "TANGS Beauty Hall counter, Level 1|310 Orchard Road, Singapore 238864"
       ],
       "brands": [
         "penhaligons"
@@ -33815,8 +33815,7 @@
       ],
       "directoryGroup": "",
       "directoryGroups": [
-        "Ngee Ann City",
-        "Marina Bay Sands"
+        "Ngee Ann City"
       ],
       "assortmentSource": "",
       "availabilityCheckedAt": "",

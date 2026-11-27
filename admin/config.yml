@@ -113,7 +113,7 @@ collections:
                   - { label: Perfume Name, name: name, widget: string }
                   - { label: Scent description, name: description, widget: string, required: false }
               - { label: Retailer Display Name, name: retailerLabel, widget: string, required: false }
-              - { label: Date spotted, name: date, widget: datetime, type: date, format: "YYYY-MM-DD", required: false, hint: "Enter the date you first spotted or heard about this in Singapore." }
+              - { label: Date spotted, name: date, widget: date, format: "YYYY-MM-DD", required: false, hint: "Enter the date you first spotted or heard about this in Singapore." }
               - { label: Retailer Product URL, name: productUrl, widget: string, required: false }
               - label: Stockist IDs
                 name: stockists

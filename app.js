@@ -435,6 +435,26 @@ window.addEventListener("popstate", render);
 fetch("/data.json", { cache: "no-cache" }).then(response => {
   if (!response.ok) throw new Error("Unable to load site data");
   return response.json();
-}).then(siteData => { data = siteData; render(); }).catch(() => {
+}).then(async siteData => {
+  siteData.launches = (siteData.launches || []).filter(item =>
+    !(item.brandId === "pana-dora" && String(item.perfume || "").trim().toLowerCase() === "aswan")
+  );
+  try {
+    const response = await fetch("/aswan-brand.json", { cache: "no-cache" });
+    if (response.ok) {
+      const aswan = await response.json();
+      if (!siteData.brands.some(brand => brand.id === aswan.id)) siteData.brands.push(aswan);
+      const amaris = siteData.stores.find(store => store.id === "amaris");
+      if (amaris) {
+        amaris.brands = amaris.brands || [];
+        if (!amaris.brands.includes(aswan.id)) amaris.brands.push(aswan.id);
+      }
+    }
+  } catch (error) {
+    console.error("Unable to load Aswan directory data", error);
+  }
+  data = siteData;
+  render();
+}).catch(() => {
   app.innerHTML = "<h1>Site data could not be loaded</h1><p>Please refresh the page later.</p>";
 });

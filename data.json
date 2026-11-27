@@ -41524,7 +41524,6 @@
       ],
       "directoryGroup": "",
       "directoryGroups": [
-        "Paragon",
         "Ngee Ann City"
       ],
       "assortmentSource": "",
@@ -41586,7 +41585,9 @@
         "l-erbolario"
       ],
       "directoryGroup": "",
-      "directoryGroups": [],
+      "directoryGroups": [
+        ""
+      ],
       "assortmentSource": "",
       "availabilityCheckedAt": "",
       "availabilityNote": ""

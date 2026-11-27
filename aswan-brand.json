@@ -1,0 +1,98 @@
+{
+  "id": "aswan",
+  "name": "Aswan",
+  "url": "",
+  "website": "https://www.aswan.se/",
+  "description": "",
+  "directoryCheckedAt": "",
+  "availabilityCheckedAt": "",
+  "assortmentOnly": false,
+  "featuredPerfumes": [],
+  "perfumeCollection": [
+    {
+      "year": 2025,
+      "name": "Anubis",
+      "collectionName": "",
+      "genre": "Woody Aromatic",
+      "notes": "Juniper Berries · Cypress · Ambergris · Cashmeran"
+    },
+    {
+      "year": 2025,
+      "name": "Aset",
+      "collectionName": "",
+      "genre": "Floral Oriental",
+      "notes": "Aldehydes · Orange Blossom · Ylang-Ylang · Benzoin"
+    },
+    {
+      "year": 2025,
+      "name": "Atum",
+      "collectionName": "",
+      "genre": "Woody Amber",
+      "notes": "Mandarin · Fig · Cypress · Ambroxan"
+    },
+    {
+      "year": 2025,
+      "name": "Geb",
+      "collectionName": "",
+      "genre": "Woody Leather",
+      "notes": "Incense · Cedarwood · Leather · Amber"
+    },
+    {
+      "year": 2025,
+      "name": "Horus",
+      "collectionName": "",
+      "genre": "Amber Spicy",
+      "notes": "Cardamom · Incense · Sandalwood · Haitian Vetiver"
+    },
+    {
+      "year": 2025,
+      "name": "Nefertem",
+      "collectionName": "",
+      "genre": "Floral Oriental",
+      "notes": "Truffle · Blackberry · Iris · Guaiac Wood"
+    },
+    {
+      "year": 2025,
+      "name": "Nephthys",
+      "collectionName": "",
+      "genre": "Floral Powdery",
+      "notes": "Magnolia · Iris · Tuberose · Vanilla"
+    },
+    {
+      "year": 2025,
+      "name": "Nut",
+      "collectionName": "",
+      "genre": "Floral Amber",
+      "notes": "Pear · Aldehydes · Olibanum · Orris Root"
+    },
+    {
+      "year": 2025,
+      "name": "Osiris",
+      "collectionName": "",
+      "genre": "Amber Woody",
+      "notes": "Clary Sage · Praline · Oud · Tonka Bean"
+    },
+    {
+      "year": 2025,
+      "name": "Set",
+      "collectionName": "",
+      "genre": "Amber Woody",
+      "notes": "Ylang-Ylang · Labdanum · Tobacco · Patchouli"
+    },
+    {
+      "year": 2025,
+      "name": "Shu",
+      "collectionName": "",
+      "genre": "Woody Aquatic",
+      "notes": "Ozonic Notes · Fig · Sea Notes · Ambroxan"
+    },
+    {
+      "year": 2025,
+      "name": "Tefnut",
+      "collectionName": "",
+      "genre": "Amber Floral",
+      "notes": "Cognac · Plum · Leather · Praline"
+    }
+  ],
+  "perfumeCollectionNote": ""
+}

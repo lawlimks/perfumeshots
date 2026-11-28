@@ -270,8 +270,8 @@ function renderBrands() {
       </div>
     </section>` : ""}
     ${brands.length ? `<div class="brand-search">
-      <label for="brand-search-input">Search brands</label>
-      <input id="brand-search-input" type="search" placeholder="Search brands" autocomplete="off">
+      <svg class="brand-search-icon" aria-hidden="true" viewBox="0 0 24 24" focusable="false"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.2 4.2"></path></svg>
+      <input id="brand-search-input" type="search" aria-label="Search brands" placeholder="Search brands..." autocomplete="off">
     </div>
     <ul id="brand-results" class="brand-list">${brands.map(brand => `<li data-brand-id="${esc(brand.id)}"><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>
     <p id="brand-search-empty" class="notice" role="status" hidden>No brands found.</p>` : empty("Brand listings will appear here as they are added.")}`;

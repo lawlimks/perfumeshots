@@ -269,22 +269,41 @@ function renderBrands() {
         ${filters.map(([label]) => `<button type="button" class="brand-filter" data-filter="${esc(label)}" aria-pressed="false">${esc(label)}</button>`).join("")}
       </div>
     </section>` : ""}
-    ${brands.length ? `<ul id="brand-results" class="brand-list">${brands.map(brand => `<li data-brand-id="${esc(brand.id)}"><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>` : empty("Brand listings will appear here as they are added.")}`;
+    ${brands.length ? `<div class="brand-search">
+      <label for="brand-search-input">Search brands</label>
+      <input id="brand-search-input" type="search" placeholder="Search brands" autocomplete="off">
+    </div>
+    <ul id="brand-results" class="brand-list">${brands.map(brand => `<li data-brand-id="${esc(brand.id)}"><a href="${href("brands", brand.name)}">${esc(brand.name)}</a></li>`).join("")}</ul>
+    <p id="brand-search-empty" class="notice" role="status" hidden>No brands found.</p>` : empty("Brand listings will appear here as they are added.")}`;
   const buttons = [...document.querySelectorAll(".brand-filter")];
   const list = document.querySelector("#brand-results");
-  if (!list || !buttons.length) return;
-  const setFilter = label => {
-    const allowed = label === "all" ? null : groups.get(label);
+  if (!list) return;
+  const search = document.querySelector("#brand-search-input");
+  const emptyState = document.querySelector("#brand-search-empty");
+  let activeFilter = "all";
+  const applyFilters = () => {
+    const allowed = activeFilter === "all" ? null : groups.get(activeFilter);
+    const query = (search?.value || "").trim().toLocaleLowerCase();
+    let visibleCount = 0;
     list.querySelectorAll("[data-brand-id]").forEach(row => {
-      row.hidden = allowed ? !allowed.has(row.dataset.brandId) : false;
+      const matchesFilter = !allowed || allowed.has(row.dataset.brandId);
+      const matchesSearch = !query || row.textContent.trim().toLocaleLowerCase().includes(query);
+      row.hidden = !(matchesFilter && matchesSearch);
+      if (!row.hidden) visibleCount++;
     });
+    if (emptyState) emptyState.hidden = visibleCount !== 0;
+  };
+  const setFilter = label => {
+    activeFilter = label;
     buttons.forEach(button => {
       const active = button.dataset.filter === label;
       button.classList.toggle("is-active", active);
       button.setAttribute("aria-pressed", String(active));
     });
+    applyFilters();
   };
   buttons.forEach(button => button.addEventListener("click", () => setFilter(button.dataset.filter)));
+  search?.addEventListener("input", applyFilters);
 }
 function renderBrand(id) {
   const brand = findBySlug(data.brands, "name", id);

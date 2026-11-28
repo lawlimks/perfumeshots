@@ -196,6 +196,10 @@ footer { padding-block: 5.5rem; border-top: 1px solid #ddd; color: #555; font-si
 .brand-filters { display: flex; flex-wrap: wrap; gap: .5rem; }
 .brand-filter { padding: .45rem .75rem; border: 1px solid #bbb; border-radius: 999px; background: #fff; color: inherit; font: inherit; cursor: pointer; }
 .brand-filter:hover, .brand-filter.is-active { border-color: #444; background: #444; color: #fff; }
+.brand-search { max-width: 32rem; margin: 1.25rem 0 1rem; }
+.brand-search label { display: block; margin-bottom: .35rem; color: #666; }
+.brand-search input { width: 100%; padding: .7rem .85rem; border: 1px solid #bbb; border-radius: 2px; background: #f7f7f7; color: inherit; font: inherit; }
+.brand-search input:focus { outline: 2px solid #777; outline-offset: 2px; }
 .brand-list { columns: 3; column-gap: 2rem; }
 .brand-list li { break-inside: avoid; padding-block: .15rem; }
 .brand-list li[hidden] { display: none; }
